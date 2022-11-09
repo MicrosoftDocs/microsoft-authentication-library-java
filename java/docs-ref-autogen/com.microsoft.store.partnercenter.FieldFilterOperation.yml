@@ -1,0 +1,43 @@
+### YamlMime:JavaEnum
+artifact: com.microsoft.store:partnercenter:1.15.3
+fields:
+- fullName: com.microsoft.store.partnercenter.FieldFilterOperation.AND
+  name: AND
+  nameWithType: FieldFilterOperation.AND
+  summary: And filter.
+  uid: com.microsoft.store.partnercenter.FieldFilterOperation.AND
+- fullName: com.microsoft.store.partnercenter.FieldFilterOperation.EQUALS
+  name: EQUALS
+  nameWithType: FieldFilterOperation.EQUALS
+  summary: Enumerates supported filter operations. Equals filter.
+  uid: com.microsoft.store.partnercenter.FieldFilterOperation.EQUALS
+fullName: com.microsoft.store.partnercenter.FieldFilterOperation
+inheritances:
+- <xref href="java.lang.Object?alt=java.lang.Object&text=Object" data-throw-if-not-resolved="False"/>
+- <xref href="java.lang.Enum?alt=java.lang.Enum&text=Enum" data-throw-if-not-resolved="False"/>
+inheritedMembers:
+- java.lang.Enum.clone()
+- java.lang.Enum.<T>valueOf(java.lang.Class<T>,java.lang.String)
+metadata: {}
+methods: 
+- fullName: com.microsoft.store.partnercenter.FieldFilterOperation.valueOf(String name)
+  name: valueOf(String name)
+  nameWithType: FieldFilterOperation.valueOf(String name)
+  parameters:
+  - name: name
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False"/>
+  returns:
+    description: The return of a method.
+    type: <xref href="com.microsoft.store.partnercenter.FieldFilterOperation?alt=com.microsoft.store.partnercenter.FieldFilterOperation&text=FieldFilterOperation" data-throw-if-not-resolved="True"/>
+  exceptions:
+  - description: with reason message
+    type: <xref href="com.microsoft.store.partnercenter.CustomException" data-throw-if-not-resolved="False" />
+  summary: Summary of method valueOf
+  syntax: public static FieldFilterOperation valueOf(String name)
+  uid: com.microsoft.store.partnercenter.FieldFilterOperation.valueOf(java.lang.String)
+name: FieldFilterOperation
+nameWithType: FieldFilterOperation
+package: com.microsoft.store.partnercenter
+summary: Summary of enum.
+syntax: public enum FieldFilterOperation extends Enum<FieldFilterOperation>
+uid: com.microsoft.store.partnercenter.FieldFilterOperation
