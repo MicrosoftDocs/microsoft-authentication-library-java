@@ -1,5 +1,36 @@
 {
-  "docsets_to_publish": [],
+  "docsets_to_publish": [
+    {
+      "docset_name": "dotnet",
+      "build_source_folder": "microsoft-authentication-library-node",
+      "build_output_subfolder": "dotnet",
+      "locale": "en-us",
+      "monikers": [],
+      "moniker_ranges": [],
+      "open_to_public_contributors": false,
+      "type_mapping": {
+        "Conceptual": "Content",
+        "RestApi": "Content",
+        "JavaMember": "Content",
+        "JavaType": "Content",
+        "JavaPackage": "Content",
+        "JavaEnum": "Content",
+        "ReferenceContainer": "Content"
+      },
+      "build_entry_point": "docs",
+      "template_folder": "_themes",
+      "base_path": "java",
+      "site_name": "Docs",
+      "customized_tasks": {
+        "docset_prebuild": [
+          "_dependentPackages/CommonPlugins/tools/SplitTOC.ps1"
+        ]
+      },
+      "SplitTOC": [
+        "java/docs-ref-autogen/toc.yml"
+      ]
+    }
+  ],
   "notification_subscribers": [],
   "sync_notification_subscribers": [],
   "branches_to_filter": [],

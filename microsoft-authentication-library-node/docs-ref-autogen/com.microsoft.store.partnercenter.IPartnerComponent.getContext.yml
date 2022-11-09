@@ -1,0 +1,21 @@
+### YamlMime:JavaMember
+type: method
+artifact: com.microsoft.store:partnercenter:1.15.3
+fullName: com.microsoft.store.partnercenter.IPartnerComponent<TContext>.getContext()
+members:
+- fullName: com.microsoft.store.partnercenter.IPartnerComponent<TContext>.getContext()
+  name: getContext()
+  nameWithType: IPartnerComponent<TContext>.getContext()
+  returns:
+    type: <xref href="TContext?alt=TContext&text=TContext" data-throw-if-not-resolved="False"/>
+    description: The component context object.
+  summary: Gets the component context object.
+  syntax: public abstract TContext getContext()
+  uid: com.microsoft.store.partnercenter.IPartnerComponent.getContext()
+  name: getContext()
+  nameWithType: IPartnerComponent<TContext>.getContext()
+metadata: {}
+name: getContext()
+nameWithType: IPartnerComponent<TContext>.getContext()
+package: com.microsoft.store.partnercenter
+uid: com.microsoft.store.partnercenter.IPartnerComponent.getContext*

@@ -1,0 +1,15 @@
+### YamlMime:JavaType
+type: interface
+artifact: com.microsoft.store:partnercenter:1.15.3
+fullName: com.microsoft.store.partnercenter.IPartnerComponent<TContext>
+metadata: {}
+methods:
+- com.microsoft.store.partnercenter.IPartnerComponent.getContext()
+name: IPartnerComponent<TContext>
+nameWithType: IPartnerComponent<TContext>
+package: com.microsoft.store.partnercenter
+summary: Represents a partner SDK component. The type of the component's context object.
+syntax: public interface IPartnerComponent<TContext>
+typeParameters:
+- name: TContext
+uid: com.microsoft.store.partnercenter.IPartnerComponent
