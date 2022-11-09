@@ -21,6 +21,9 @@
       "template_folder": "_themes",
       "base_path": "java",
       "site_name": "Docs",
+      "customized_template_paths": [
+        "_dependentPackages/memberpage.plugins/content"
+      ],
       "customized_tasks": {
         "docset_prebuild": [
           "_dependentPackages/CommonPlugins/tools/SplitTOC.ps1"
