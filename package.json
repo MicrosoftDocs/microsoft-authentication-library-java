@@ -9,8 +9,7 @@
                 "packageArtifactId": "msal4j",
                 "packageVersion": "1.13.3",
                 "inputPath": [],
-                "excludePath": [],
-                "excludepackages": ""
+                "excludePath": []
             }
         ]
     }
