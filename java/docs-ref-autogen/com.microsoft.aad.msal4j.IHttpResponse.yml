@@ -1,0 +1,43 @@
+### YamlMime:JavaType
+uid: "com.microsoft.aad.msal4j.IHttpResponse"
+fullName: "com.microsoft.aad.msal4j.IHttpResponse"
+name: "IHttpResponse"
+nameWithType: "IHttpResponse"
+summary: "HTTP response from execution of <xref uid=\"com.microsoft.aad.msal4j.HttpRequest\" data-throw-if-not-resolved=\"false\" data-raw-source=\"HttpRequest\"></xref> in <xref uid=\"com.microsoft.aad.msal4j.IHttpClient\" data-throw-if-not-resolved=\"false\" data-raw-source=\"IHttpClient\"></xref>"
+syntax: "public interface **IHttpResponse**"
+methods:
+- uid: "com.microsoft.aad.msal4j.IHttpResponse.body()"
+  fullName: "com.microsoft.aad.msal4j.IHttpResponse.body()"
+  name: "body()"
+  nameWithType: "IHttpResponse.body()"
+  modifiers:
+  - "abstract"
+  syntax: "public abstract String body()"
+  returns:
+    description: "HTTP response body"
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.aad.msal4j.IHttpResponse.headers()"
+  fullName: "com.microsoft.aad.msal4j.IHttpResponse.headers()"
+  name: "headers()"
+  nameWithType: "IHttpResponse.headers()"
+  modifiers:
+  - "abstract"
+  syntax: "public abstract Map<String,List<String>> headers()"
+  returns:
+    description: "HTTP response headers"
+    type: "<xref href=\"java.util.Map?alt=java.util.Map&text=Map\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />,<xref href=\"java.util.List?alt=java.util.List&text=List\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />&gt;&gt;"
+- uid: "com.microsoft.aad.msal4j.IHttpResponse.statusCode()"
+  fullName: "com.microsoft.aad.msal4j.IHttpResponse.statusCode()"
+  name: "statusCode()"
+  nameWithType: "IHttpResponse.statusCode()"
+  modifiers:
+  - "abstract"
+  syntax: "public abstract int statusCode()"
+  returns:
+    description: "HTTP response status code."
+    type: "<xref href=\"int?alt=int&text=int\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "HTTP response from execution of <xref uid=\"com.microsoft.aad.msal4j.HttpRequest\" data-throw-if-not-resolved=\"false\" data-raw-source=\"HttpRequest\"></xref> in <xref uid=\"com.microsoft.aad.msal4j.IHttpClient\" data-throw-if-not-resolved=\"false\" data-raw-source=\"IHttpClient\"></xref>"
+metadata: {}
+package: "com.microsoft.aad.msal4j"
+artifact: com.microsoft.azure:msal4j:1.13.3

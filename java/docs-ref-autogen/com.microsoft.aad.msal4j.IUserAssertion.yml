@@ -1,0 +1,35 @@
+### YamlMime:JavaType
+uid: "com.microsoft.aad.msal4j.IUserAssertion"
+fullName: "com.microsoft.aad.msal4j.IUserAssertion"
+name: "IUserAssertion"
+nameWithType: "IUserAssertion"
+summary: "Interface representing a delegated user identity used by downstream applications in On-Behalf-Of flow"
+syntax: "public interface **IUserAssertion**"
+methods:
+- uid: "com.microsoft.aad.msal4j.IUserAssertion.getAssertion()"
+  fullName: "com.microsoft.aad.msal4j.IUserAssertion.getAssertion()"
+  name: "getAssertion()"
+  nameWithType: "IUserAssertion.getAssertion()"
+  summary: "Gets the assertion."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract String getAssertion()"
+  desc: "Gets the assertion."
+  returns:
+    description: "string value"
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.aad.msal4j.IUserAssertion.getAssertionHash()"
+  fullName: "com.microsoft.aad.msal4j.IUserAssertion.getAssertionHash()"
+  name: "getAssertionHash()"
+  nameWithType: "IUserAssertion.getAssertionHash()"
+  modifiers:
+  - "abstract"
+  syntax: "public abstract String getAssertionHash()"
+  returns:
+    description: "Base64 encoded SHA256 hash of the assertion"
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "Interface representing a delegated user identity used by downstream applications in On-Behalf-Of flow"
+metadata: {}
+package: "com.microsoft.aad.msal4j"
+artifact: com.microsoft.azure:msal4j:1.13.3

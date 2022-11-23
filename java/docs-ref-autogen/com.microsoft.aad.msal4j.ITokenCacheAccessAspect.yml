@@ -1,0 +1,33 @@
+### YamlMime:JavaType
+uid: "com.microsoft.aad.msal4j.ITokenCacheAccessAspect"
+fullName: "com.microsoft.aad.msal4j.ITokenCacheAccessAspect"
+name: "ITokenCacheAccessAspect"
+nameWithType: "ITokenCacheAccessAspect"
+summary: "Interface representing operation of executing code before and after cache access."
+syntax: "public interface **ITokenCacheAccessAspect**"
+methods:
+- uid: "com.microsoft.aad.msal4j.ITokenCacheAccessAspect.afterCacheAccess(com.microsoft.aad.msal4j.ITokenCacheAccessContext)"
+  fullName: "com.microsoft.aad.msal4j.ITokenCacheAccessAspect.afterCacheAccess(ITokenCacheAccessContext iTokenCacheAccessContext)"
+  name: "afterCacheAccess(ITokenCacheAccessContext iTokenCacheAccessContext)"
+  nameWithType: "ITokenCacheAccessAspect.afterCacheAccess(ITokenCacheAccessContext iTokenCacheAccessContext)"
+  modifiers:
+  - "abstract"
+  parameters:
+  - name: "iTokenCacheAccessContext"
+    type: "<xref href=\"com.microsoft.aad.msal4j.ITokenCacheAccessContext?alt=com.microsoft.aad.msal4j.ITokenCacheAccessContext&text=ITokenCacheAccessContext\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract void afterCacheAccess(ITokenCacheAccessContext iTokenCacheAccessContext)"
+- uid: "com.microsoft.aad.msal4j.ITokenCacheAccessAspect.beforeCacheAccess(com.microsoft.aad.msal4j.ITokenCacheAccessContext)"
+  fullName: "com.microsoft.aad.msal4j.ITokenCacheAccessAspect.beforeCacheAccess(ITokenCacheAccessContext iTokenCacheAccessContext)"
+  name: "beforeCacheAccess(ITokenCacheAccessContext iTokenCacheAccessContext)"
+  nameWithType: "ITokenCacheAccessAspect.beforeCacheAccess(ITokenCacheAccessContext iTokenCacheAccessContext)"
+  modifiers:
+  - "abstract"
+  parameters:
+  - name: "iTokenCacheAccessContext"
+    type: "<xref href=\"com.microsoft.aad.msal4j.ITokenCacheAccessContext?alt=com.microsoft.aad.msal4j.ITokenCacheAccessContext&text=ITokenCacheAccessContext\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract void beforeCacheAccess(ITokenCacheAccessContext iTokenCacheAccessContext)"
+type: "interface"
+desc: "Interface representing operation of executing code before and after cache access.\n\nFor more details, see https://aka.ms/msal4j-token-cache"
+metadata: {}
+package: "com.microsoft.aad.msal4j"
+artifact: com.microsoft.azure:msal4j:1.13.3

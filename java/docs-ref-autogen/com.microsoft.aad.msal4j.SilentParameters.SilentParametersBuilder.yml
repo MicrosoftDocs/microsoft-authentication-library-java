@@ -1,0 +1,112 @@
+### YamlMime:JavaType
+uid: "com.microsoft.aad.msal4j.SilentParameters.SilentParametersBuilder"
+fullName: "com.microsoft.aad.msal4j.SilentParameters.SilentParametersBuilder"
+name: "SilentParameters.SilentParametersBuilder"
+nameWithType: "SilentParameters.SilentParametersBuilder"
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "<xref href=\"java.lang.Object?alt=java.lang.Object&text=Object\" data-throw-if-not-resolved=\"False\" />"
+  methodsRef:
+  - "<xref href=\"java.lang.Object.clone()?alt=java.lang.Object.clone&text=clone\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"java.lang.Object.equals(java.lang.Object)?alt=java.lang.Object.equals&text=equals\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"java.lang.Object.finalize()?alt=java.lang.Object.finalize&text=finalize\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"java.lang.Object.getClass()?alt=java.lang.Object.getClass&text=getClass\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"java.lang.Object.hashCode()?alt=java.lang.Object.hashCode&text=hashCode\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"java.lang.Object.notify()?alt=java.lang.Object.notify&text=notify\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"java.lang.Object.notifyAll()?alt=java.lang.Object.notifyAll&text=notifyAll\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"java.lang.Object.toString()?alt=java.lang.Object.toString&text=toString\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"java.lang.Object.wait()?alt=java.lang.Object.wait&text=wait\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"java.lang.Object.wait(long)?alt=java.lang.Object.wait&text=wait\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"java.lang.Object.wait(long,int)?alt=java.lang.Object.wait&text=wait\" data-throw-if-not-resolved=\"False\" />"
+syntax: "public static class **SilentParameters.SilentParametersBuilder**"
+methods:
+- uid: "com.microsoft.aad.msal4j.SilentParameters.SilentParametersBuilder.account(com.microsoft.aad.msal4j.IAccount)"
+  fullName: "com.microsoft.aad.msal4j.SilentParameters.SilentParametersBuilder.account(IAccount account)"
+  name: "account(IAccount account)"
+  nameWithType: "SilentParameters.SilentParametersBuilder.account(IAccount account)"
+  parameters:
+  - name: "account"
+    type: "<xref href=\"com.microsoft.aad.msal4j.IAccount?alt=com.microsoft.aad.msal4j.IAccount&text=IAccount\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public SilentParameters.SilentParametersBuilder account(IAccount account)"
+  returns:
+    type: "<xref href=\"com.microsoft.aad.msal4j.SilentParameters.SilentParametersBuilder?alt=com.microsoft.aad.msal4j.SilentParameters.SilentParametersBuilder&text=SilentParametersBuilder\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.aad.msal4j.SilentParameters.SilentParametersBuilder.authorityUrl(java.lang.String)"
+  fullName: "com.microsoft.aad.msal4j.SilentParameters.SilentParametersBuilder.authorityUrl(String authorityUrl)"
+  name: "authorityUrl(String authorityUrl)"
+  nameWithType: "SilentParameters.SilentParametersBuilder.authorityUrl(String authorityUrl)"
+  parameters:
+  - name: "authorityUrl"
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public SilentParameters.SilentParametersBuilder authorityUrl(String authorityUrl)"
+  returns:
+    type: "<xref href=\"com.microsoft.aad.msal4j.SilentParameters.SilentParametersBuilder?alt=com.microsoft.aad.msal4j.SilentParameters.SilentParametersBuilder&text=SilentParametersBuilder\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.aad.msal4j.SilentParameters.SilentParametersBuilder.build()"
+  fullName: "com.microsoft.aad.msal4j.SilentParameters.SilentParametersBuilder.build()"
+  name: "build()"
+  nameWithType: "SilentParameters.SilentParametersBuilder.build()"
+  syntax: "public SilentParameters build()"
+  returns:
+    type: "<xref href=\"com.microsoft.aad.msal4j.SilentParameters?alt=com.microsoft.aad.msal4j.SilentParameters&text=SilentParameters\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.aad.msal4j.SilentParameters.SilentParametersBuilder.claims(com.microsoft.aad.msal4j.ClaimsRequest)"
+  fullName: "com.microsoft.aad.msal4j.SilentParameters.SilentParametersBuilder.claims(ClaimsRequest claims)"
+  name: "claims(ClaimsRequest claims)"
+  nameWithType: "SilentParameters.SilentParametersBuilder.claims(ClaimsRequest claims)"
+  parameters:
+  - name: "claims"
+    type: "<xref href=\"com.microsoft.aad.msal4j.ClaimsRequest?alt=com.microsoft.aad.msal4j.ClaimsRequest&text=ClaimsRequest\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public SilentParameters.SilentParametersBuilder claims(ClaimsRequest claims)"
+  returns:
+    type: "<xref href=\"com.microsoft.aad.msal4j.SilentParameters.SilentParametersBuilder?alt=com.microsoft.aad.msal4j.SilentParameters.SilentParametersBuilder&text=SilentParametersBuilder\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.aad.msal4j.SilentParameters.SilentParametersBuilder.extraHttpHeaders(java.util.Map<java.lang.String,java.lang.String>)"
+  fullName: "com.microsoft.aad.msal4j.SilentParameters.SilentParametersBuilder.extraHttpHeaders(Map<String,String> extraHttpHeaders)"
+  name: "extraHttpHeaders(Map<String,String> extraHttpHeaders)"
+  nameWithType: "SilentParameters.SilentParametersBuilder.extraHttpHeaders(Map<String,String> extraHttpHeaders)"
+  parameters:
+  - name: "extraHttpHeaders"
+    type: "<xref href=\"java.util.Map?alt=java.util.Map&text=Map\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />,<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />&gt;"
+  syntax: "public SilentParameters.SilentParametersBuilder extraHttpHeaders(Map<String,String> extraHttpHeaders)"
+  returns:
+    type: "<xref href=\"com.microsoft.aad.msal4j.SilentParameters.SilentParametersBuilder?alt=com.microsoft.aad.msal4j.SilentParameters.SilentParametersBuilder&text=SilentParametersBuilder\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.aad.msal4j.SilentParameters.SilentParametersBuilder.forceRefresh(boolean)"
+  fullName: "com.microsoft.aad.msal4j.SilentParameters.SilentParametersBuilder.forceRefresh(boolean forceRefresh)"
+  name: "forceRefresh(boolean forceRefresh)"
+  nameWithType: "SilentParameters.SilentParametersBuilder.forceRefresh(boolean forceRefresh)"
+  parameters:
+  - name: "forceRefresh"
+    type: "<xref href=\"boolean?alt=boolean&text=boolean\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public SilentParameters.SilentParametersBuilder forceRefresh(boolean forceRefresh)"
+  returns:
+    type: "<xref href=\"com.microsoft.aad.msal4j.SilentParameters.SilentParametersBuilder?alt=com.microsoft.aad.msal4j.SilentParameters.SilentParametersBuilder&text=SilentParametersBuilder\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.aad.msal4j.SilentParameters.SilentParametersBuilder.scopes(java.util.Set<java.lang.String>)"
+  fullName: "com.microsoft.aad.msal4j.SilentParameters.SilentParametersBuilder.scopes(Set<String> scopes)"
+  name: "scopes(Set<String> scopes)"
+  nameWithType: "SilentParameters.SilentParametersBuilder.scopes(Set<String> scopes)"
+  parameters:
+  - name: "scopes"
+    type: "<xref href=\"java.util.Set?alt=java.util.Set&text=Set\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />&gt;"
+  syntax: "public SilentParameters.SilentParametersBuilder scopes(Set<String> scopes)"
+  returns:
+    type: "<xref href=\"com.microsoft.aad.msal4j.SilentParameters.SilentParametersBuilder?alt=com.microsoft.aad.msal4j.SilentParameters.SilentParametersBuilder&text=SilentParametersBuilder\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.aad.msal4j.SilentParameters.SilentParametersBuilder.tenant(java.lang.String)"
+  fullName: "com.microsoft.aad.msal4j.SilentParameters.SilentParametersBuilder.tenant(String tenant)"
+  name: "tenant(String tenant)"
+  nameWithType: "SilentParameters.SilentParametersBuilder.tenant(String tenant)"
+  parameters:
+  - name: "tenant"
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public SilentParameters.SilentParametersBuilder tenant(String tenant)"
+  returns:
+    type: "<xref href=\"com.microsoft.aad.msal4j.SilentParameters.SilentParametersBuilder?alt=com.microsoft.aad.msal4j.SilentParameters.SilentParametersBuilder&text=SilentParametersBuilder\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.aad.msal4j.SilentParameters.SilentParametersBuilder.toString()"
+  fullName: "com.microsoft.aad.msal4j.SilentParameters.SilentParametersBuilder.toString()"
+  name: "toString()"
+  nameWithType: "SilentParameters.SilentParametersBuilder.toString()"
+  overridden: "java.lang.Object.toString()"
+  syntax: "public String toString()"
+  returns:
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+type: "class"
+metadata: {}
+package: "com.microsoft.aad.msal4j"
+artifact: com.microsoft.azure:msal4j:1.13.3

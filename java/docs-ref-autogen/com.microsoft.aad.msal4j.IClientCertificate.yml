@@ -1,0 +1,59 @@
+### YamlMime:JavaType
+uid: "com.microsoft.aad.msal4j.IClientCertificate"
+fullName: "com.microsoft.aad.msal4j.IClientCertificate"
+name: "IClientCertificate"
+nameWithType: "IClientCertificate"
+summary: "Credential type containing X509 public certificate and RSA private key."
+syntax: "public interface **IClientCertificate**</br> extends <xref href=\"com.microsoft.aad.msal4j.IClientCredential?alt=com.microsoft.aad.msal4j.IClientCredential&text=IClientCredential\" data-throw-if-not-resolved=\"False\" />"
+methods:
+- uid: "com.microsoft.aad.msal4j.IClientCertificate.getEncodedPublicKeyCertificateChain()"
+  fullName: "com.microsoft.aad.msal4j.IClientCertificate.getEncodedPublicKeyCertificateChain()"
+  name: "getEncodedPublicKeyCertificateChain()"
+  nameWithType: "IClientCertificate.getEncodedPublicKeyCertificateChain()"
+  summary: "Base64 encoded public certificate."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract List<String> getEncodedPublicKeyCertificateChain()"
+  exceptions:
+  - description: "if an encoding error occurs"
+    type: "<xref href=\"java.security.cert.CertificateEncodingException?alt=java.security.cert.CertificateEncodingException&text=CertificateEncodingException\" data-throw-if-not-resolved=\"False\" />"
+  desc: "Base64 encoded public certificate."
+  returns:
+    description: "base64 encoded string"
+    type: "<xref href=\"java.util.List?alt=java.util.List&text=List\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />&gt;"
+- uid: "com.microsoft.aad.msal4j.IClientCertificate.privateKey()"
+  fullName: "com.microsoft.aad.msal4j.IClientCertificate.privateKey()"
+  name: "privateKey()"
+  nameWithType: "IClientCertificate.privateKey()"
+  summary: "Returns private key of the credential."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract PrivateKey privateKey()"
+  desc: "Returns private key of the credential."
+  returns:
+    description: "private key."
+    type: "<xref href=\"java.security.PrivateKey?alt=java.security.PrivateKey&text=PrivateKey\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.aad.msal4j.IClientCertificate.publicCertificateHash()"
+  fullName: "com.microsoft.aad.msal4j.IClientCertificate.publicCertificateHash()"
+  name: "publicCertificateHash()"
+  nameWithType: "IClientCertificate.publicCertificateHash()"
+  summary: "Base64 encoded hash of the the public certificate."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract String publicCertificateHash()"
+  exceptions:
+  - description: "if an encoding error occurs"
+    type: "<xref href=\"java.security.cert.CertificateEncodingException?alt=java.security.cert.CertificateEncodingException&text=CertificateEncodingException\" data-throw-if-not-resolved=\"False\" />"
+  - description: "if an encoding error occurs"
+    type: "<xref href=\"java.security.NoSuchAlgorithmException?alt=java.security.NoSuchAlgorithmException&text=NoSuchAlgorithmException\" data-throw-if-not-resolved=\"False\" />"
+  desc: "Base64 encoded hash of the the public certificate."
+  returns:
+    description: "base64 encoded string"
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "Credential type containing X509 public certificate and RSA private key.\n\nFor more details, see https://aka.ms/msal4j-client-credentials"
+implements:
+- "<xref href=\"com.microsoft.aad.msal4j.IClientCredential?alt=com.microsoft.aad.msal4j.IClientCredential&text=IClientCredential\" data-throw-if-not-resolved=\"False\" />"
+metadata: {}
+package: "com.microsoft.aad.msal4j"
+artifact: com.microsoft.azure:msal4j:1.13.3

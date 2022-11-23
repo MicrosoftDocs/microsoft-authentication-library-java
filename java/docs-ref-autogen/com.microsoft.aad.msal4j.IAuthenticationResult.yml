@@ -1,0 +1,85 @@
+### YamlMime:JavaType
+uid: "com.microsoft.aad.msal4j.IAuthenticationResult"
+fullName: "com.microsoft.aad.msal4j.IAuthenticationResult"
+name: "IAuthenticationResult"
+nameWithType: "IAuthenticationResult"
+summary: "Interface representing the results of token acquisition operation."
+syntax: "public interface **IAuthenticationResult**</br> extends <xref href=\"java.io.Serializable?alt=java.io.Serializable&text=Serializable\" data-throw-if-not-resolved=\"False\" />"
+methods:
+- uid: "com.microsoft.aad.msal4j.IAuthenticationResult.accessToken()"
+  fullName: "com.microsoft.aad.msal4j.IAuthenticationResult.accessToken()"
+  name: "accessToken()"
+  nameWithType: "IAuthenticationResult.accessToken()"
+  modifiers:
+  - "abstract"
+  syntax: "public abstract String accessToken()"
+  returns:
+    description: "access token"
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.aad.msal4j.IAuthenticationResult.account()"
+  fullName: "com.microsoft.aad.msal4j.IAuthenticationResult.account()"
+  name: "account()"
+  nameWithType: "IAuthenticationResult.account()"
+  modifiers:
+  - "abstract"
+  syntax: "public abstract IAccount account()"
+  returns:
+    description: "user account"
+    type: "<xref href=\"com.microsoft.aad.msal4j.IAccount?alt=com.microsoft.aad.msal4j.IAccount&text=IAccount\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.aad.msal4j.IAuthenticationResult.environment()"
+  fullName: "com.microsoft.aad.msal4j.IAuthenticationResult.environment()"
+  name: "environment()"
+  nameWithType: "IAuthenticationResult.environment()"
+  modifiers:
+  - "abstract"
+  syntax: "public abstract String environment()"
+  returns:
+    description: "environment"
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.aad.msal4j.IAuthenticationResult.expiresOnDate()"
+  fullName: "com.microsoft.aad.msal4j.IAuthenticationResult.expiresOnDate()"
+  name: "expiresOnDate()"
+  nameWithType: "IAuthenticationResult.expiresOnDate()"
+  modifiers:
+  - "abstract"
+  syntax: "public abstract Date expiresOnDate()"
+  returns:
+    description: "access token expiration date"
+    type: "<xref href=\"java.util.Date?alt=java.util.Date&text=Date\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.aad.msal4j.IAuthenticationResult.idToken()"
+  fullName: "com.microsoft.aad.msal4j.IAuthenticationResult.idToken()"
+  name: "idToken()"
+  nameWithType: "IAuthenticationResult.idToken()"
+  modifiers:
+  - "abstract"
+  syntax: "public abstract String idToken()"
+  returns:
+    description: "id token"
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.aad.msal4j.IAuthenticationResult.scopes()"
+  fullName: "com.microsoft.aad.msal4j.IAuthenticationResult.scopes()"
+  name: "scopes()"
+  nameWithType: "IAuthenticationResult.scopes()"
+  modifiers:
+  - "abstract"
+  syntax: "public abstract String scopes()"
+  returns:
+    description: "granted scopes values returned by the service"
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.aad.msal4j.IAuthenticationResult.tenantProfile()"
+  fullName: "com.microsoft.aad.msal4j.IAuthenticationResult.tenantProfile()"
+  name: "tenantProfile()"
+  nameWithType: "IAuthenticationResult.tenantProfile()"
+  modifiers:
+  - "abstract"
+  syntax: "public abstract ITenantProfile tenantProfile()"
+  returns:
+    description: "tenant profile"
+    type: "<xref href=\"com.microsoft.aad.msal4j.ITenantProfile?alt=com.microsoft.aad.msal4j.ITenantProfile&text=ITenantProfile\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "Interface representing the results of token acquisition operation."
+implements:
+- "<xref href=\"java.io.Serializable?alt=java.io.Serializable&text=Serializable\" data-throw-if-not-resolved=\"False\" />"
+metadata: {}
+package: "com.microsoft.aad.msal4j"
+artifact: com.microsoft.azure:msal4j:1.13.3

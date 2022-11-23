@@ -1,0 +1,38 @@
+### YamlMime:JavaType
+uid: "com.microsoft.aad.msal4j.ITokenCache"
+fullName: "com.microsoft.aad.msal4j.ITokenCache"
+name: "ITokenCache"
+nameWithType: "ITokenCache"
+summary: "Interface representing security token cache persistence"
+syntax: "public interface **ITokenCache**"
+methods:
+- uid: "com.microsoft.aad.msal4j.ITokenCache.deserialize(java.lang.String)"
+  fullName: "com.microsoft.aad.msal4j.ITokenCache.deserialize(String data)"
+  name: "deserialize(String data)"
+  nameWithType: "ITokenCache.deserialize(String data)"
+  summary: "Deserialize token cache from json"
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "serialized cache in json format"
+    name: "data"
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract void deserialize(String data)"
+  desc: "Deserialize token cache from json"
+- uid: "com.microsoft.aad.msal4j.ITokenCache.serialize()"
+  fullName: "com.microsoft.aad.msal4j.ITokenCache.serialize()"
+  name: "serialize()"
+  nameWithType: "ITokenCache.serialize()"
+  summary: "Serialize token cache to json"
+  modifiers:
+  - "abstract"
+  syntax: "public abstract String serialize()"
+  desc: "Serialize token cache to json"
+  returns:
+    description: "serialized cache in json format"
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "Interface representing security token cache persistence\n\nFor more details, see https://aka.ms/msal4j-token-cache"
+metadata: {}
+package: "com.microsoft.aad.msal4j"
+artifact: com.microsoft.azure:msal4j:1.13.3
