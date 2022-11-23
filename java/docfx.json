@@ -7,7 +7,7 @@
           "**/*.yml"
         ],
         "src": "docs-ref-autogen",
-        "dest": "api/msal-java-latest",
+        "dest": "api",
         "group": "latest",
         "version": "msal-java-latest",
         "exclude": [
@@ -48,7 +48,7 @@
           "**/toc.yml"
         ],
         "src": "docs-ref-autogen",
-        "dest": "api/msal-java-latest",
+        "dest": "api",
         "group": "stable",
         "version": "msal-java-latest",
         "exclude": [
