@@ -7,10 +7,13 @@
           "**/*.yml"
         ],
         "src": "docs-ref-autogen",
-        "dest": "api",
+        "dest": "api/msal-java-latest",
+        "group": "latest",
+        "version": "msal-java-latest",
         "exclude": [
           "**/obj/**",
-          "**/includes/**"
+          "**/includes/**",
+          "**/toc.yml"
         ]
       },
       {
@@ -18,7 +21,9 @@
           "**/*.yml"
         ],
         "src": "breadcrumb",
-        "dest": "breadcrumb",
+        "dest": "msal-java-latest-breadcrumb",
+        "group": "latest",
+        "version": "msal-java-latest",
         "exclude": [
           "**/obj/**",
           "**/includes/**"
@@ -37,13 +42,28 @@
           "ThirdPartyNotices",
           "docs-ref-autogen"
         ]
+      },
+      {
+        "files": [
+          "**/toc.yml"
+        ],
+        "src": "docs-ref-autogen",
+        "dest": "api/msal-java-latest",
+        "group": "stable",
+        "version": "msal-java-latest",
+        "exclude": [
+          "**/obj/**",
+          "**/includes/**"
+        ]
       }
     ],
     "resource": [
       {
         "files": [
           "**/*.png",
-          "**/*.jpg"
+          "**/*.jpg",
+          "**/*.gif",
+          "**/*.svg"
         ],
         "exclude": [
           "**/obj/**",
@@ -54,7 +74,18 @@
     "overwrite": [],
     "externalReference": [],
     "globalMetadata": {
-      "breadcrumb_path": "~/breadcrumb/toc.yml"
+      "breadcrumb_path": "~/msal-java-latest-breadcrumb/toc.yml"
+    },
+    "groups": {
+      "stable": {
+        "dest": "latest",
+        "moniker_range": "msal-java-latest"
+      }
+    },
+    "versions": {
+      "msal-java-latest": {
+        "dest": "latest"
+      }
     },    
     "markdownEngineName": "markdig",
     "fileMetadata": {},

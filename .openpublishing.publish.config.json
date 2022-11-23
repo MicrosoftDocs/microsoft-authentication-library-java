@@ -5,8 +5,8 @@
       "build_source_folder": "java",
       "build_output_subfolder": "microsoft-authentication-library-java",
       "locale": "en-us",
-      "monikers": [],
-      "moniker_ranges": ["msal-java-latest"],
+      "monikers": [ "msal-java-latest" ],
+      "moniker_ranges": [ "msal-java-latest" ],
       "open_to_public_contributors": true,
       "type_mapping": {
         "Conceptual": "Content",
