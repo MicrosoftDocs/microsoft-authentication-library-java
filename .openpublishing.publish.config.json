@@ -37,8 +37,6 @@
         {
           "ReferenceTOC": "java/docs-ref-autogen/toc.yml",
           "ConceptualTOC": "java/docs-ref-conceptual/toc.yml",
-          "ReferenceTOCUrl": "/java/api/microsoft-authentication-library-java/toc.json",
-          "ConceptualTOCUrl": "/java/microsoft-authentication-library-java/toc.json",
           "ContainerPageMetadata": {
             "langs": [
               "java"
