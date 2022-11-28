@@ -12,8 +12,7 @@
         "version": "msal-java-latest",
         "exclude": [
           "**/obj/**",
-          "**/includes/**",
-          "**/toc.yml"
+          "**/includes/**"
         ]
       },
       {
