@@ -88,7 +88,7 @@
     "overwrite": [],
     "externalReference": [],
     "globalMetadata": {
-      "breadcrumb_path": "~/msal-java-latest-breadcrumb/toc.yml"
+      "breadcrumb_path": "~/msal-java-latest-breadcrumb/toc.yml",
       "ms.topic": "managed-reference",
       "ms.devlang": "java",
       "apiPlatform": "java"
