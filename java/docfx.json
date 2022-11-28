@@ -40,7 +40,8 @@
           "LICENSE",
           "LICENSE-CODE",
           "ThirdPartyNotices",
-          "docs-ref-autogen"
+          "docs-ref-autogen/**",
+          "docs-ref-conceptual/**"
         ]
       },
       {
@@ -55,6 +56,16 @@
           "**/obj/**",
           "**/includes/**"
         ]
+      },
+      {
+        "files": [
+          "**/*.md",
+          "**/*.yml"
+        ],
+        "src": "docs-ref-conceptual",
+        "dest": "api/msal-java",
+        "group": "latest",
+        "version": "msal-java-latest"
       }
     ],
     "resource": [
@@ -68,13 +79,19 @@
         "exclude": [
           "**/obj/**",
           "**/includes/**"
-        ]
+        ],
+        "src": "docs-ref-conceptual",
+        "group": "latest",
+        "version": "msal-java-latest"
       }
     ],
     "overwrite": [],
     "externalReference": [],
     "globalMetadata": {
       "breadcrumb_path": "~/msal-java-latest-breadcrumb/toc.yml"
+      "ms.topic": "managed-reference",
+      "ms.devlang": "java",
+      "apiPlatform": "java"
     },
     "groups": {
       "stable": {
