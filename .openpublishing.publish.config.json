@@ -31,6 +31,23 @@
       },
       "SplitTOC": [
         "java/docs-ref-autogen/toc.yml"
+      ],
+      "JoinTOCPlugin": [
+        {
+          "TopLevelTOC": "java/docs-ref-mapping/reference.yml",
+          "ReferenceTOC": "java/docs-ref-autogen/toc.yml",
+          "ConceptualTOC": "java/docs-ref-conceptual/toc.yml",
+          "ReferenceTOCUrl": "/java/api/microsoft-authentication-library-java/toc.json",
+          "ConceptualTOCUrl": "/java/microsoft-authentication-library-java/toc.json",
+          "OutputFolder": "java/docs-ref-autogen/overview",
+          "HideEmptyNode": false,
+          "ContainerPageMetadata": {
+            "langs": [
+              "java"
+            ],
+            "open_to_public_contributors": false
+          }
+        }
       ]
     }
   ],
