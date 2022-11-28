@@ -20,9 +20,8 @@
           "**/*.yml"
         ],
         "src": "breadcrumb",
-        "dest": "msal-java-latest-breadcrumb",
+        "dest": "breadcrumb",
         "group": "latest",
-        "version": "msal-java-latest",
         "exclude": [
           "**/obj/**",
           "**/includes/**"
