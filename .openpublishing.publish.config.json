@@ -40,7 +40,7 @@
           "ConceptualTOC": "java/docs-ref-conceptual/toc.yml",
           "ConceptualTOCUrl": "/java/api/msal-java/toc.json"
         }
-      ],
+      ]
     }
   ],
   "notification_subscribers": [],
