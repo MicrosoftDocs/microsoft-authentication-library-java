@@ -36,15 +36,11 @@
       "JoinTOCPlugin": [
         {
           "ReferenceTOC": "java/docs-ref-autogen/toc.yml",
+          "ReferenceTOCUrl": "/java/api/toc.json",
           "ConceptualTOC": "java/docs-ref-conceptual/toc.yml",
-          "ContainerPageMetadata": {
-            "langs": [
-              "java"
-            ],
-            "open_to_public_contributors": false
-          }
+          "ConceptualTOCUrl": "/java/api/msal-java/toc.json"
         }
-      ]
+      ],
     }
   ],
   "notification_subscribers": [],
