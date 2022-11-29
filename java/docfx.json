@@ -103,7 +103,14 @@
       }
     },    
     "markdownEngineName": "markdig",
-    "fileMetadata": {},
+    "fileMetadata": {
+      "ms.author": {
+        "api/**.yml": "dmwendia"
+      },
+      "ms.service": {
+        "api/**.yml": "active-directory"
+      }
+    },
     "template": [],
     "dest": "_site"
   }
