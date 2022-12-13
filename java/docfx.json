@@ -103,9 +103,11 @@
     "markdownEngineName": "markdig",
     "fileMetadata": {
       "author": {
+        "**.md": "Dickson-Mwendia",
         "api/**.yml": "Dickson-Mwendia"
       },
       "ms.author": {
+        "**.md": "dmwendia",
         "api/**.yml": "dmwendia"
       },
       "ms.service": {
