@@ -48,7 +48,7 @@
           "**/toc.yml"
         ],
         "src": "docs-ref-autogen",
-        "dest": "api",
+        "dest": "api/msal-java",
         "group": "latest",
         "exclude": [
           "**/obj/**",
@@ -61,7 +61,7 @@
           "**/*.yml"
         ],
         "src": "docs-ref-conceptual",
-        "dest": "api/msal-java",
+        "dest": "msal-java",
         "group": "latest"
       }
     ],
