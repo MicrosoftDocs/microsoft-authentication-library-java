@@ -12,7 +12,8 @@
         "version": "msal-java-latest",
         "exclude": [
           "**/obj/**",
-          "**/includes/**"
+          "**/includes/**",
+          "**/toc.yml"
         ]
       },
       {
@@ -48,8 +49,7 @@
         ],
         "src": "docs-ref-autogen",
         "dest": "api",
-        "group": "stable",
-        "version": "msal-java-latest",
+        "group": "latest",
         "exclude": [
           "**/obj/**",
           "**/includes/**"
@@ -62,8 +62,7 @@
         ],
         "src": "docs-ref-conceptual",
         "dest": "api/msal-java",
-        "group": "latest",
-        "version": "msal-java-latest"
+        "group": "latest"
       }
     ],
     "resource": [
@@ -79,8 +78,7 @@
           "**/includes/**"
         ],
         "src": "docs-ref-conceptual",
-        "group": "latest",
-        "version": "msal-java-latest"
+        "group": "latest"
       }
     ],
     "overwrite": [],
@@ -104,6 +102,9 @@
     },    
     "markdownEngineName": "markdig",
     "fileMetadata": {
+      "author": {
+        "api/**.yml": "Dickson-Mwendia"
+      },
       "ms.author": {
         "api/**.yml": "dmwendia"
       },

@@ -35,10 +35,11 @@
       ],
       "JoinTOCPlugin": [
         {
+	  "TopLevelTOC": "java/docs-ref-mapping/reference.yml",
           "ReferenceTOC": "java/docs-ref-autogen/toc.yml",
-          "ReferenceTOCUrl": "/java/api/toc.json",
+          "ReferenceTOCUrl": "/java/api/msal-java/toc.json",
           "ConceptualTOC": "java/docs-ref-conceptual/toc.yml",
-          "ConceptualTOCUrl": "/java/api/msal-java/toc.json"
+          "ConceptualTOCUrl": "/java/msal-java/toc.json"
         }
       ]
     }
