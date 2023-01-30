@@ -1,0 +1,37 @@
+### YamlMime:JavaType
+uid: "com.microsoft.aad.msal4j.ITenantProfile"
+fullName: "com.microsoft.aad.msal4j.ITenantProfile"
+name: "ITenantProfile"
+nameWithType: "ITenantProfile"
+summary: "Interface representing a single tenant profile."
+syntax: "public interface **ITenantProfile**</br> extends <xref href=\"java.io.Serializable?alt=java.io.Serializable&text=Serializable\" data-throw-if-not-resolved=\"False\" />"
+methods:
+- uid: "com.microsoft.aad.msal4j.ITenantProfile.environment()"
+  fullName: "com.microsoft.aad.msal4j.ITenantProfile.environment()"
+  name: "environment()"
+  nameWithType: "ITenantProfile.environment()"
+  modifiers:
+  - "abstract"
+  syntax: "public abstract String environment()"
+  returns:
+    description: "tenant environment"
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.aad.msal4j.ITenantProfile.getClaims()"
+  fullName: "com.microsoft.aad.msal4j.ITenantProfile.getClaims()"
+  name: "getClaims()"
+  nameWithType: "ITenantProfile.getClaims()"
+  summary: "A map of claims taken from an ID token."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract Map<String,?> getClaims()"
+  desc: "A map of claims taken from an ID token. Keys and values will follow the structure of a JSON Web Token"
+  returns:
+    description: "Map claims in id token"
+    type: "<xref href=\"java.util.Map?alt=java.util.Map&text=Map\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />,?&gt;"
+type: "interface"
+desc: "Interface representing a single tenant profile. ITenantProfiles are made available through the <xref uid=\"com.microsoft.aad.msal4j.IAccount.getTenantProfiles()\" data-throw-if-not-resolved=\"false\" data-raw-source=\"IAccount#getTenantProfiles()\"></xref> method of an Account"
+implements:
+- "<xref href=\"java.io.Serializable?alt=java.io.Serializable&text=Serializable\" data-throw-if-not-resolved=\"False\" />"
+metadata: {}
+package: "com.microsoft.aad.msal4j"
+artifact: com.microsoft.azure:msal4j:1.13.3

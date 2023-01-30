@@ -1,0 +1,152 @@
+### YamlMime:JavaType
+uid: "com.microsoft.aad.msal4j.DeviceCode"
+fullName: "com.microsoft.aad.msal4j.DeviceCode"
+name: "DeviceCode"
+nameWithType: "DeviceCode"
+summary: "Response returned from the STS device code endpoint containing information necessary for device code flow"
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "<xref href=\"java.lang.Object?alt=java.lang.Object&text=Object\" data-throw-if-not-resolved=\"False\" />"
+  methodsRef:
+  - "<xref href=\"java.lang.Object.clone()?alt=java.lang.Object.clone&text=clone\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"java.lang.Object.equals(java.lang.Object)?alt=java.lang.Object.equals&text=equals\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"java.lang.Object.finalize()?alt=java.lang.Object.finalize&text=finalize\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"java.lang.Object.getClass()?alt=java.lang.Object.getClass&text=getClass\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"java.lang.Object.hashCode()?alt=java.lang.Object.hashCode&text=hashCode\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"java.lang.Object.notify()?alt=java.lang.Object.notify&text=notify\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"java.lang.Object.notifyAll()?alt=java.lang.Object.notifyAll&text=notifyAll\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"java.lang.Object.toString()?alt=java.lang.Object.toString&text=toString\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"java.lang.Object.wait()?alt=java.lang.Object.wait&text=wait\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"java.lang.Object.wait(long)?alt=java.lang.Object.wait&text=wait\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"java.lang.Object.wait(long,int)?alt=java.lang.Object.wait&text=wait\" data-throw-if-not-resolved=\"False\" />"
+syntax: "public final class **DeviceCode**"
+constructors:
+- uid: "com.microsoft.aad.msal4j.DeviceCode.DeviceCode()"
+  fullName: "com.microsoft.aad.msal4j.DeviceCode.DeviceCode()"
+  name: "DeviceCode()"
+  nameWithType: "DeviceCode.DeviceCode()"
+  syntax: "public DeviceCode()"
+methods:
+- uid: "com.microsoft.aad.msal4j.DeviceCode.clientId()"
+  fullName: "com.microsoft.aad.msal4j.DeviceCode.clientId()"
+  name: "clientId()"
+  nameWithType: "DeviceCode.clientId()"
+  modifiers:
+  - "protected"
+  syntax: "protected String clientId()"
+  returns:
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.aad.msal4j.DeviceCode.clientId(java.lang.String)"
+  fullName: "com.microsoft.aad.msal4j.DeviceCode.clientId(String clientId)"
+  name: "clientId(String clientId)"
+  nameWithType: "DeviceCode.clientId(String clientId)"
+  modifiers:
+  - "protected"
+  parameters:
+  - name: "clientId"
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "protected DeviceCode clientId(String clientId)"
+  returns:
+    type: "<xref href=\"com.microsoft.aad.msal4j.DeviceCode?alt=com.microsoft.aad.msal4j.DeviceCode&text=DeviceCode\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.aad.msal4j.DeviceCode.correlationId()"
+  fullName: "com.microsoft.aad.msal4j.DeviceCode.correlationId()"
+  name: "correlationId()"
+  nameWithType: "DeviceCode.correlationId()"
+  modifiers:
+  - "protected"
+  syntax: "protected String correlationId()"
+  returns:
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.aad.msal4j.DeviceCode.correlationId(java.lang.String)"
+  fullName: "com.microsoft.aad.msal4j.DeviceCode.correlationId(String correlationId)"
+  name: "correlationId(String correlationId)"
+  nameWithType: "DeviceCode.correlationId(String correlationId)"
+  modifiers:
+  - "protected"
+  parameters:
+  - name: "correlationId"
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "protected DeviceCode correlationId(String correlationId)"
+  returns:
+    type: "<xref href=\"com.microsoft.aad.msal4j.DeviceCode?alt=com.microsoft.aad.msal4j.DeviceCode&text=DeviceCode\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.aad.msal4j.DeviceCode.deviceCode()"
+  fullName: "com.microsoft.aad.msal4j.DeviceCode.deviceCode()"
+  name: "deviceCode()"
+  nameWithType: "DeviceCode.deviceCode()"
+  summary: "code which should be included in the request for the access token"
+  syntax: "public String deviceCode()"
+  desc: "code which should be included in the request for the access token"
+  returns:
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.aad.msal4j.DeviceCode.expiresIn()"
+  fullName: "com.microsoft.aad.msal4j.DeviceCode.expiresIn()"
+  name: "expiresIn()"
+  nameWithType: "DeviceCode.expiresIn()"
+  summary: "expiration time of device code in seconds."
+  syntax: "public long expiresIn()"
+  desc: "expiration time of device code in seconds."
+  returns:
+    type: "<xref href=\"long?alt=long&text=long\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.aad.msal4j.DeviceCode.interval()"
+  fullName: "com.microsoft.aad.msal4j.DeviceCode.interval()"
+  name: "interval()"
+  nameWithType: "DeviceCode.interval()"
+  summary: "interval at which the STS should be polled at"
+  syntax: "public long interval()"
+  desc: "interval at which the STS should be polled at"
+  returns:
+    type: "<xref href=\"long?alt=long&text=long\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.aad.msal4j.DeviceCode.message()"
+  fullName: "com.microsoft.aad.msal4j.DeviceCode.message()"
+  name: "message()"
+  nameWithType: "DeviceCode.message()"
+  summary: "message which should be displayed to the user."
+  syntax: "public String message()"
+  desc: "message which should be displayed to the user."
+  returns:
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.aad.msal4j.DeviceCode.scopes()"
+  fullName: "com.microsoft.aad.msal4j.DeviceCode.scopes()"
+  name: "scopes()"
+  nameWithType: "DeviceCode.scopes()"
+  modifiers:
+  - "protected"
+  syntax: "protected String scopes()"
+  returns:
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.aad.msal4j.DeviceCode.scopes(java.lang.String)"
+  fullName: "com.microsoft.aad.msal4j.DeviceCode.scopes(String scopes)"
+  name: "scopes(String scopes)"
+  nameWithType: "DeviceCode.scopes(String scopes)"
+  modifiers:
+  - "protected"
+  parameters:
+  - name: "scopes"
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "protected DeviceCode scopes(String scopes)"
+  returns:
+    type: "<xref href=\"com.microsoft.aad.msal4j.DeviceCode?alt=com.microsoft.aad.msal4j.DeviceCode&text=DeviceCode\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.aad.msal4j.DeviceCode.userCode()"
+  fullName: "com.microsoft.aad.msal4j.DeviceCode.userCode()"
+  name: "userCode()"
+  nameWithType: "DeviceCode.userCode()"
+  summary: "code which user needs to provide when authenticating at the verification URI"
+  syntax: "public String userCode()"
+  desc: "code which user needs to provide when authenticating at the verification URI"
+  returns:
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.aad.msal4j.DeviceCode.verificationUri()"
+  fullName: "com.microsoft.aad.msal4j.DeviceCode.verificationUri()"
+  name: "verificationUri()"
+  nameWithType: "DeviceCode.verificationUri()"
+  summary: "URI where user can authenticate"
+  syntax: "public String verificationUri()"
+  desc: "URI where user can authenticate"
+  returns:
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+type: "class"
+desc: "Response returned from the STS device code endpoint containing information necessary for device code flow"
+metadata: {}
+package: "com.microsoft.aad.msal4j"
+artifact: com.microsoft.azure:msal4j:1.13.3

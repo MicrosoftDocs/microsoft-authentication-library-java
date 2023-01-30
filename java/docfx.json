@@ -8,9 +8,12 @@
         ],
         "src": "docs-ref-autogen",
         "dest": "api",
+        "group": "latest",
+        "version": "msal-java-latest",
         "exclude": [
           "**/obj/**",
-          "**/includes/**"
+          "**/includes/**",
+          "**/toc.yml"
         ]
       },
       {
@@ -19,6 +22,7 @@
         ],
         "src": "breadcrumb",
         "dest": "breadcrumb",
+        "group": "latest",
         "exclude": [
           "**/obj/**",
           "**/includes/**"
@@ -35,29 +39,81 @@
           "LICENSE",
           "LICENSE-CODE",
           "ThirdPartyNotices",
-          "docs-ref-autogen"
+          "docs-ref-autogen/**",
+          "docs-ref-conceptual/**"
         ]
+      },
+      {
+        "files": [
+          "**/toc.yml"
+        ],
+        "src": "docs-ref-autogen",
+        "dest": "api/msal-java",
+        "group": "latest",
+        "exclude": [
+          "**/obj/**",
+          "**/includes/**"
+        ]
+      },
+      {
+        "files": [
+          "**/*.md",
+          "**/*.yml"
+        ],
+        "src": "docs-ref-conceptual",
+        "dest": "msal-java",
+        "group": "latest"
       }
     ],
     "resource": [
       {
         "files": [
           "**/*.png",
-          "**/*.jpg"
+          "**/*.jpg",
+          "**/*.gif",
+          "**/*.svg"
         ],
         "exclude": [
           "**/obj/**",
           "**/includes/**"
-        ]
+        ],
+        "src": "docs-ref-conceptual",
+        "group": "latest"
       }
     ],
     "overwrite": [],
     "externalReference": [],
     "globalMetadata": {
-      "breadcrumb_path": "~/breadcrumb/toc.yml"
+      "breadcrumb_path": "breadcrumb/toc.yml",
+      "ms.topic": "managed-reference",
+      "ms.devlang": "java",
+      "apiPlatform": "java"
+    },
+    "groups": {
+      "stable": {
+        "dest": "latest",
+        "moniker_range": "msal-java-latest"
+      }
+    },
+    "versions": {
+      "msal-java-latest": {
+        "dest": "latest"
+      }
     },    
     "markdownEngineName": "markdig",
-    "fileMetadata": {},
+    "fileMetadata": {
+      "author": {
+        "**.md": "Dickson-Mwendia",
+        "api/**.yml": "Dickson-Mwendia"
+      },
+      "ms.author": {
+        "**.md": "dmwendia",
+        "api/**.yml": "dmwendia"
+      },
+      "ms.service": {
+        "api/**.yml": "active-directory"
+      }
+    },
     "template": [],
     "dest": "_site"
   }

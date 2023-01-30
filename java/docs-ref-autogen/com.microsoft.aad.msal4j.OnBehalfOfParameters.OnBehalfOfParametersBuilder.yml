@@ -1,0 +1,102 @@
+### YamlMime:JavaType
+uid: "com.microsoft.aad.msal4j.OnBehalfOfParameters.OnBehalfOfParametersBuilder"
+fullName: "com.microsoft.aad.msal4j.OnBehalfOfParameters.OnBehalfOfParametersBuilder"
+name: "OnBehalfOfParameters.OnBehalfOfParametersBuilder"
+nameWithType: "OnBehalfOfParameters.OnBehalfOfParametersBuilder"
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "<xref href=\"java.lang.Object?alt=java.lang.Object&text=Object\" data-throw-if-not-resolved=\"False\" />"
+  methodsRef:
+  - "<xref href=\"java.lang.Object.clone()?alt=java.lang.Object.clone&text=clone\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"java.lang.Object.equals(java.lang.Object)?alt=java.lang.Object.equals&text=equals\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"java.lang.Object.finalize()?alt=java.lang.Object.finalize&text=finalize\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"java.lang.Object.getClass()?alt=java.lang.Object.getClass&text=getClass\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"java.lang.Object.hashCode()?alt=java.lang.Object.hashCode&text=hashCode\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"java.lang.Object.notify()?alt=java.lang.Object.notify&text=notify\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"java.lang.Object.notifyAll()?alt=java.lang.Object.notifyAll&text=notifyAll\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"java.lang.Object.toString()?alt=java.lang.Object.toString&text=toString\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"java.lang.Object.wait()?alt=java.lang.Object.wait&text=wait\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"java.lang.Object.wait(long)?alt=java.lang.Object.wait&text=wait\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"java.lang.Object.wait(long,int)?alt=java.lang.Object.wait&text=wait\" data-throw-if-not-resolved=\"False\" />"
+syntax: "public static class **OnBehalfOfParameters.OnBehalfOfParametersBuilder**"
+methods:
+- uid: "com.microsoft.aad.msal4j.OnBehalfOfParameters.OnBehalfOfParametersBuilder.build()"
+  fullName: "com.microsoft.aad.msal4j.OnBehalfOfParameters.OnBehalfOfParametersBuilder.build()"
+  name: "build()"
+  nameWithType: "OnBehalfOfParameters.OnBehalfOfParametersBuilder.build()"
+  syntax: "public OnBehalfOfParameters build()"
+  returns:
+    type: "<xref href=\"com.microsoft.aad.msal4j.OnBehalfOfParameters?alt=com.microsoft.aad.msal4j.OnBehalfOfParameters&text=OnBehalfOfParameters\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.aad.msal4j.OnBehalfOfParameters.OnBehalfOfParametersBuilder.claims(com.microsoft.aad.msal4j.ClaimsRequest)"
+  fullName: "com.microsoft.aad.msal4j.OnBehalfOfParameters.OnBehalfOfParametersBuilder.claims(ClaimsRequest claims)"
+  name: "claims(ClaimsRequest claims)"
+  nameWithType: "OnBehalfOfParameters.OnBehalfOfParametersBuilder.claims(ClaimsRequest claims)"
+  parameters:
+  - name: "claims"
+    type: "<xref href=\"com.microsoft.aad.msal4j.ClaimsRequest?alt=com.microsoft.aad.msal4j.ClaimsRequest&text=ClaimsRequest\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public OnBehalfOfParameters.OnBehalfOfParametersBuilder claims(ClaimsRequest claims)"
+  returns:
+    type: "<xref href=\"com.microsoft.aad.msal4j.OnBehalfOfParameters.OnBehalfOfParametersBuilder?alt=com.microsoft.aad.msal4j.OnBehalfOfParameters.OnBehalfOfParametersBuilder&text=OnBehalfOfParametersBuilder\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.aad.msal4j.OnBehalfOfParameters.OnBehalfOfParametersBuilder.extraHttpHeaders(java.util.Map<java.lang.String,java.lang.String>)"
+  fullName: "com.microsoft.aad.msal4j.OnBehalfOfParameters.OnBehalfOfParametersBuilder.extraHttpHeaders(Map<String,String> extraHttpHeaders)"
+  name: "extraHttpHeaders(Map<String,String> extraHttpHeaders)"
+  nameWithType: "OnBehalfOfParameters.OnBehalfOfParametersBuilder.extraHttpHeaders(Map<String,String> extraHttpHeaders)"
+  parameters:
+  - name: "extraHttpHeaders"
+    type: "<xref href=\"java.util.Map?alt=java.util.Map&text=Map\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />,<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />&gt;"
+  syntax: "public OnBehalfOfParameters.OnBehalfOfParametersBuilder extraHttpHeaders(Map<String,String> extraHttpHeaders)"
+  returns:
+    type: "<xref href=\"com.microsoft.aad.msal4j.OnBehalfOfParameters.OnBehalfOfParametersBuilder?alt=com.microsoft.aad.msal4j.OnBehalfOfParameters.OnBehalfOfParametersBuilder&text=OnBehalfOfParametersBuilder\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.aad.msal4j.OnBehalfOfParameters.OnBehalfOfParametersBuilder.scopes(java.util.Set<java.lang.String>)"
+  fullName: "com.microsoft.aad.msal4j.OnBehalfOfParameters.OnBehalfOfParametersBuilder.scopes(Set<String> scopes)"
+  name: "scopes(Set<String> scopes)"
+  nameWithType: "OnBehalfOfParameters.OnBehalfOfParametersBuilder.scopes(Set<String> scopes)"
+  parameters:
+  - name: "scopes"
+    type: "<xref href=\"java.util.Set?alt=java.util.Set&text=Set\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />&gt;"
+  syntax: "public OnBehalfOfParameters.OnBehalfOfParametersBuilder scopes(Set<String> scopes)"
+  returns:
+    type: "<xref href=\"com.microsoft.aad.msal4j.OnBehalfOfParameters.OnBehalfOfParametersBuilder?alt=com.microsoft.aad.msal4j.OnBehalfOfParameters.OnBehalfOfParametersBuilder&text=OnBehalfOfParametersBuilder\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.aad.msal4j.OnBehalfOfParameters.OnBehalfOfParametersBuilder.skipCache(java.lang.Boolean)"
+  fullName: "com.microsoft.aad.msal4j.OnBehalfOfParameters.OnBehalfOfParametersBuilder.skipCache(Boolean skipCache)"
+  name: "skipCache(Boolean skipCache)"
+  nameWithType: "OnBehalfOfParameters.OnBehalfOfParametersBuilder.skipCache(Boolean skipCache)"
+  parameters:
+  - name: "skipCache"
+    type: "<xref href=\"java.lang.Boolean?alt=java.lang.Boolean&text=Boolean\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public OnBehalfOfParameters.OnBehalfOfParametersBuilder skipCache(Boolean skipCache)"
+  returns:
+    type: "<xref href=\"com.microsoft.aad.msal4j.OnBehalfOfParameters.OnBehalfOfParametersBuilder?alt=com.microsoft.aad.msal4j.OnBehalfOfParameters.OnBehalfOfParametersBuilder&text=OnBehalfOfParametersBuilder\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.aad.msal4j.OnBehalfOfParameters.OnBehalfOfParametersBuilder.tenant(java.lang.String)"
+  fullName: "com.microsoft.aad.msal4j.OnBehalfOfParameters.OnBehalfOfParametersBuilder.tenant(String tenant)"
+  name: "tenant(String tenant)"
+  nameWithType: "OnBehalfOfParameters.OnBehalfOfParametersBuilder.tenant(String tenant)"
+  parameters:
+  - name: "tenant"
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public OnBehalfOfParameters.OnBehalfOfParametersBuilder tenant(String tenant)"
+  returns:
+    type: "<xref href=\"com.microsoft.aad.msal4j.OnBehalfOfParameters.OnBehalfOfParametersBuilder?alt=com.microsoft.aad.msal4j.OnBehalfOfParameters.OnBehalfOfParametersBuilder&text=OnBehalfOfParametersBuilder\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.aad.msal4j.OnBehalfOfParameters.OnBehalfOfParametersBuilder.toString()"
+  fullName: "com.microsoft.aad.msal4j.OnBehalfOfParameters.OnBehalfOfParametersBuilder.toString()"
+  name: "toString()"
+  nameWithType: "OnBehalfOfParameters.OnBehalfOfParametersBuilder.toString()"
+  overridden: "java.lang.Object.toString()"
+  syntax: "public String toString()"
+  returns:
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.aad.msal4j.OnBehalfOfParameters.OnBehalfOfParametersBuilder.userAssertion(com.microsoft.aad.msal4j.IUserAssertion)"
+  fullName: "com.microsoft.aad.msal4j.OnBehalfOfParameters.OnBehalfOfParametersBuilder.userAssertion(IUserAssertion userAssertion)"
+  name: "userAssertion(IUserAssertion userAssertion)"
+  nameWithType: "OnBehalfOfParameters.OnBehalfOfParametersBuilder.userAssertion(IUserAssertion userAssertion)"
+  parameters:
+  - name: "userAssertion"
+    type: "<xref href=\"com.microsoft.aad.msal4j.IUserAssertion?alt=com.microsoft.aad.msal4j.IUserAssertion&text=IUserAssertion\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public OnBehalfOfParameters.OnBehalfOfParametersBuilder userAssertion(IUserAssertion userAssertion)"
+  returns:
+    type: "<xref href=\"com.microsoft.aad.msal4j.OnBehalfOfParameters.OnBehalfOfParametersBuilder?alt=com.microsoft.aad.msal4j.OnBehalfOfParameters.OnBehalfOfParametersBuilder&text=OnBehalfOfParametersBuilder\" data-throw-if-not-resolved=\"False\" />"
+type: "class"
+metadata: {}
+package: "com.microsoft.aad.msal4j"
+artifact: com.microsoft.azure:msal4j:1.13.3

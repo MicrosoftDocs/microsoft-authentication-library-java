@@ -1,0 +1,92 @@
+### YamlMime:JavaType
+uid: "com.microsoft.aad.msal4j.SystemBrowserOptions.SystemBrowserOptionsBuilder"
+fullName: "com.microsoft.aad.msal4j.SystemBrowserOptions.SystemBrowserOptionsBuilder"
+name: "SystemBrowserOptions.SystemBrowserOptionsBuilder"
+nameWithType: "SystemBrowserOptions.SystemBrowserOptionsBuilder"
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "<xref href=\"java.lang.Object?alt=java.lang.Object&text=Object\" data-throw-if-not-resolved=\"False\" />"
+  methodsRef:
+  - "<xref href=\"java.lang.Object.clone()?alt=java.lang.Object.clone&text=clone\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"java.lang.Object.equals(java.lang.Object)?alt=java.lang.Object.equals&text=equals\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"java.lang.Object.finalize()?alt=java.lang.Object.finalize&text=finalize\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"java.lang.Object.getClass()?alt=java.lang.Object.getClass&text=getClass\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"java.lang.Object.hashCode()?alt=java.lang.Object.hashCode&text=hashCode\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"java.lang.Object.notify()?alt=java.lang.Object.notify&text=notify\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"java.lang.Object.notifyAll()?alt=java.lang.Object.notifyAll&text=notifyAll\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"java.lang.Object.toString()?alt=java.lang.Object.toString&text=toString\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"java.lang.Object.wait()?alt=java.lang.Object.wait&text=wait\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"java.lang.Object.wait(long)?alt=java.lang.Object.wait&text=wait\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"java.lang.Object.wait(long,int)?alt=java.lang.Object.wait&text=wait\" data-throw-if-not-resolved=\"False\" />"
+syntax: "public static class **SystemBrowserOptions.SystemBrowserOptionsBuilder**"
+methods:
+- uid: "com.microsoft.aad.msal4j.SystemBrowserOptions.SystemBrowserOptionsBuilder.browserRedirectError(java.net.URI)"
+  fullName: "com.microsoft.aad.msal4j.SystemBrowserOptions.SystemBrowserOptionsBuilder.browserRedirectError(URI browserRedirectError)"
+  name: "browserRedirectError(URI browserRedirectError)"
+  nameWithType: "SystemBrowserOptions.SystemBrowserOptionsBuilder.browserRedirectError(URI browserRedirectError)"
+  parameters:
+  - name: "browserRedirectError"
+    type: "<xref href=\"java.net.URI?alt=java.net.URI&text=URI\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public SystemBrowserOptions.SystemBrowserOptionsBuilder browserRedirectError(URI browserRedirectError)"
+  returns:
+    type: "<xref href=\"com.microsoft.aad.msal4j.SystemBrowserOptions.SystemBrowserOptionsBuilder?alt=com.microsoft.aad.msal4j.SystemBrowserOptions.SystemBrowserOptionsBuilder&text=SystemBrowserOptionsBuilder\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.aad.msal4j.SystemBrowserOptions.SystemBrowserOptionsBuilder.browserRedirectSuccess(java.net.URI)"
+  fullName: "com.microsoft.aad.msal4j.SystemBrowserOptions.SystemBrowserOptionsBuilder.browserRedirectSuccess(URI browserRedirectSuccess)"
+  name: "browserRedirectSuccess(URI browserRedirectSuccess)"
+  nameWithType: "SystemBrowserOptions.SystemBrowserOptionsBuilder.browserRedirectSuccess(URI browserRedirectSuccess)"
+  parameters:
+  - name: "browserRedirectSuccess"
+    type: "<xref href=\"java.net.URI?alt=java.net.URI&text=URI\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public SystemBrowserOptions.SystemBrowserOptionsBuilder browserRedirectSuccess(URI browserRedirectSuccess)"
+  returns:
+    type: "<xref href=\"com.microsoft.aad.msal4j.SystemBrowserOptions.SystemBrowserOptionsBuilder?alt=com.microsoft.aad.msal4j.SystemBrowserOptions.SystemBrowserOptionsBuilder&text=SystemBrowserOptionsBuilder\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.aad.msal4j.SystemBrowserOptions.SystemBrowserOptionsBuilder.build()"
+  fullName: "com.microsoft.aad.msal4j.SystemBrowserOptions.SystemBrowserOptionsBuilder.build()"
+  name: "build()"
+  nameWithType: "SystemBrowserOptions.SystemBrowserOptionsBuilder.build()"
+  syntax: "public SystemBrowserOptions build()"
+  returns:
+    type: "<xref href=\"com.microsoft.aad.msal4j.SystemBrowserOptions?alt=com.microsoft.aad.msal4j.SystemBrowserOptions&text=SystemBrowserOptions\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.aad.msal4j.SystemBrowserOptions.SystemBrowserOptionsBuilder.htmlMessageError(java.lang.String)"
+  fullName: "com.microsoft.aad.msal4j.SystemBrowserOptions.SystemBrowserOptionsBuilder.htmlMessageError(String htmlMessageError)"
+  name: "htmlMessageError(String htmlMessageError)"
+  nameWithType: "SystemBrowserOptions.SystemBrowserOptionsBuilder.htmlMessageError(String htmlMessageError)"
+  parameters:
+  - name: "htmlMessageError"
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public SystemBrowserOptions.SystemBrowserOptionsBuilder htmlMessageError(String htmlMessageError)"
+  returns:
+    type: "<xref href=\"com.microsoft.aad.msal4j.SystemBrowserOptions.SystemBrowserOptionsBuilder?alt=com.microsoft.aad.msal4j.SystemBrowserOptions.SystemBrowserOptionsBuilder&text=SystemBrowserOptionsBuilder\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.aad.msal4j.SystemBrowserOptions.SystemBrowserOptionsBuilder.htmlMessageSuccess(java.lang.String)"
+  fullName: "com.microsoft.aad.msal4j.SystemBrowserOptions.SystemBrowserOptionsBuilder.htmlMessageSuccess(String htmlMessageSuccess)"
+  name: "htmlMessageSuccess(String htmlMessageSuccess)"
+  nameWithType: "SystemBrowserOptions.SystemBrowserOptionsBuilder.htmlMessageSuccess(String htmlMessageSuccess)"
+  parameters:
+  - name: "htmlMessageSuccess"
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public SystemBrowserOptions.SystemBrowserOptionsBuilder htmlMessageSuccess(String htmlMessageSuccess)"
+  returns:
+    type: "<xref href=\"com.microsoft.aad.msal4j.SystemBrowserOptions.SystemBrowserOptionsBuilder?alt=com.microsoft.aad.msal4j.SystemBrowserOptions.SystemBrowserOptionsBuilder&text=SystemBrowserOptionsBuilder\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.aad.msal4j.SystemBrowserOptions.SystemBrowserOptionsBuilder.openBrowserAction(com.microsoft.aad.msal4j.OpenBrowserAction)"
+  fullName: "com.microsoft.aad.msal4j.SystemBrowserOptions.SystemBrowserOptionsBuilder.openBrowserAction(OpenBrowserAction openBrowserAction)"
+  name: "openBrowserAction(OpenBrowserAction openBrowserAction)"
+  nameWithType: "SystemBrowserOptions.SystemBrowserOptionsBuilder.openBrowserAction(OpenBrowserAction openBrowserAction)"
+  parameters:
+  - name: "openBrowserAction"
+    type: "<xref href=\"com.microsoft.aad.msal4j.OpenBrowserAction?alt=com.microsoft.aad.msal4j.OpenBrowserAction&text=OpenBrowserAction\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public SystemBrowserOptions.SystemBrowserOptionsBuilder openBrowserAction(OpenBrowserAction openBrowserAction)"
+  returns:
+    type: "<xref href=\"com.microsoft.aad.msal4j.SystemBrowserOptions.SystemBrowserOptionsBuilder?alt=com.microsoft.aad.msal4j.SystemBrowserOptions.SystemBrowserOptionsBuilder&text=SystemBrowserOptionsBuilder\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.aad.msal4j.SystemBrowserOptions.SystemBrowserOptionsBuilder.toString()"
+  fullName: "com.microsoft.aad.msal4j.SystemBrowserOptions.SystemBrowserOptionsBuilder.toString()"
+  name: "toString()"
+  nameWithType: "SystemBrowserOptions.SystemBrowserOptionsBuilder.toString()"
+  overridden: "java.lang.Object.toString()"
+  syntax: "public String toString()"
+  returns:
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+type: "class"
+metadata: {}
+package: "com.microsoft.aad.msal4j"
+artifact: com.microsoft.azure:msal4j:1.13.3

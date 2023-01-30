@@ -1,0 +1,32 @@
+### YamlMime:JavaType
+uid: "com.microsoft.aad.msal4j.IHttpClient"
+fullName: "com.microsoft.aad.msal4j.IHttpClient"
+name: "IHttpClient"
+nameWithType: "IHttpClient"
+summary: "Interface to be implemented when configuring http client for <xref uid=\"com.microsoft.aad.msal4j.IPublicClientApplication\" data-throw-if-not-resolved=\"false\" data-raw-source=\"IPublicClientApplication\"></xref> or <xref uid=\"com.microsoft.aad.msal4j.IConfidentialClientApplication\" data-throw-if-not-resolved=\"false\" data-raw-source=\"IConfidentialClientApplication\"></xref>."
+syntax: "public interface **IHttpClient**"
+methods:
+- uid: "com.microsoft.aad.msal4j.IHttpClient.send(com.microsoft.aad.msal4j.HttpRequest)"
+  fullName: "com.microsoft.aad.msal4j.IHttpClient.send(HttpRequest httpRequest)"
+  name: "send(HttpRequest httpRequest)"
+  nameWithType: "IHttpClient.send(HttpRequest httpRequest)"
+  summary: "Should implement execution of outgoing HTTP request with HTTP client of choice."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "<xref uid=\"com.microsoft.aad.msal4j.HttpRequest\" data-throw-if-not-resolved=\"false\" data-raw-source=\"HttpRequest\"></xref>"
+    name: "httpRequest"
+    type: "<xref href=\"com.microsoft.aad.msal4j.HttpRequest?alt=com.microsoft.aad.msal4j.HttpRequest&text=HttpRequest\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract IHttpResponse send(HttpRequest httpRequest)"
+  exceptions:
+  - description: "Non-recoverable exception. Recoverable exceptions should be handled by the\n                   IHttpClient implementation"
+    type: "<xref href=\"java.lang.Exception?alt=java.lang.Exception&text=Exception\" data-throw-if-not-resolved=\"False\" />"
+  desc: "Should implement execution of outgoing HTTP request with HTTP client of choice. Adapts response returned from HTTP client to <xref uid=\"com.microsoft.aad.msal4j.IHttpResponse\" data-throw-if-not-resolved=\"false\" data-raw-source=\"IHttpResponse\"></xref>"
+  returns:
+    description: "<xref uid=\"com.microsoft.aad.msal4j.IHttpResponse\" data-throw-if-not-resolved=\"false\" data-raw-source=\"IHttpResponse\"></xref>."
+    type: "<xref href=\"com.microsoft.aad.msal4j.IHttpResponse?alt=com.microsoft.aad.msal4j.IHttpResponse&text=IHttpResponse\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "Interface to be implemented when configuring http client for <xref uid=\"com.microsoft.aad.msal4j.IPublicClientApplication\" data-throw-if-not-resolved=\"false\" data-raw-source=\"IPublicClientApplication\"></xref> or <xref uid=\"com.microsoft.aad.msal4j.IConfidentialClientApplication\" data-throw-if-not-resolved=\"false\" data-raw-source=\"IConfidentialClientApplication\"></xref>.\n\nFor more details, see https://aka.ms/msal4j-http-client"
+metadata: {}
+package: "com.microsoft.aad.msal4j"
+artifact: com.microsoft.azure:msal4j:1.13.3

@@ -1,0 +1,26 @@
+### YamlMime:JavaType
+uid: "com.microsoft.aad.msal4j.OpenBrowserAction"
+fullName: "com.microsoft.aad.msal4j.OpenBrowserAction"
+name: "OpenBrowserAction"
+nameWithType: "OpenBrowserAction"
+summary: "Interface to be implemented to override system browser initialization logic."
+syntax: "public interface **OpenBrowserAction**"
+methods:
+- uid: "com.microsoft.aad.msal4j.OpenBrowserAction.openBrowser(java.net.URL)"
+  fullName: "com.microsoft.aad.msal4j.OpenBrowserAction.openBrowser(URL url)"
+  name: "openBrowser(URL url)"
+  nameWithType: "OpenBrowserAction.openBrowser(URL url)"
+  summary: "Override for providing custom browser initialization logic."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "URL to the /authorize endpoint which should opened up in a browser so the user can\n            provide their credentials and consent to scopes."
+    name: "url"
+    type: "<xref href=\"java.net.URL?alt=java.net.URL&text=URL\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract void openBrowser(URL url)"
+  desc: "Override for providing custom browser initialization logic. Method that is called by MSAL when doing <xref uid=\"com.microsoft.aad.msal4j.IPublicClientApplication.acquireToken(com.microsoft.aad.msal4j.InteractiveRequestParameters)\" data-throw-if-not-resolved=\"false\" data-raw-source=\"IPublicClientApplication#acquireToken(InteractiveRequestParameters)\"></xref>. If not overridden, MSAL will attempt to open URL in default system browser."
+type: "interface"
+desc: "Interface to be implemented to override system browser initialization logic. Otherwise, PublicClientApplication defaults to using default system browser"
+metadata: {}
+package: "com.microsoft.aad.msal4j"
+artifact: com.microsoft.azure:msal4j:1.13.3

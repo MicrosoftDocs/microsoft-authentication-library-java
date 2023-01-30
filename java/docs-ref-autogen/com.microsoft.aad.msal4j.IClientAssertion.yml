@@ -1,0 +1,25 @@
+### YamlMime:JavaType
+uid: "com.microsoft.aad.msal4j.IClientAssertion"
+fullName: "com.microsoft.aad.msal4j.IClientAssertion"
+name: "IClientAssertion"
+nameWithType: "IClientAssertion"
+summary: "Credential type containing an assertion of type \"urn:ietf:params:oauth:token-type:jwt\"."
+syntax: "public interface **IClientAssertion**</br> extends <xref href=\"com.microsoft.aad.msal4j.IClientCredential?alt=com.microsoft.aad.msal4j.IClientCredential&text=IClientCredential\" data-throw-if-not-resolved=\"False\" />"
+methods:
+- uid: "com.microsoft.aad.msal4j.IClientAssertion.assertion()"
+  fullName: "com.microsoft.aad.msal4j.IClientAssertion.assertion()"
+  name: "assertion()"
+  nameWithType: "IClientAssertion.assertion()"
+  modifiers:
+  - "abstract"
+  syntax: "public abstract String assertion()"
+  returns:
+    description: "Jwt token encoded as a base64 URL encoded string"
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "Credential type containing an assertion of type \"urn:ietf:params:oauth:token-type:jwt\".\n\nFor more details, see https://aka.ms/msal4j-client-credentials"
+implements:
+- "<xref href=\"com.microsoft.aad.msal4j.IClientCredential?alt=com.microsoft.aad.msal4j.IClientCredential&text=IClientCredential\" data-throw-if-not-resolved=\"False\" />"
+metadata: {}
+package: "com.microsoft.aad.msal4j"
+artifact: com.microsoft.azure:msal4j:1.13.3

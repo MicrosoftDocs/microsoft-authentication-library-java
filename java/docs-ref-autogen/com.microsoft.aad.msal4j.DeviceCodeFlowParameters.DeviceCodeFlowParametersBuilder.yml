@@ -1,0 +1,92 @@
+### YamlMime:JavaType
+uid: "com.microsoft.aad.msal4j.DeviceCodeFlowParameters.DeviceCodeFlowParametersBuilder"
+fullName: "com.microsoft.aad.msal4j.DeviceCodeFlowParameters.DeviceCodeFlowParametersBuilder"
+name: "DeviceCodeFlowParameters.DeviceCodeFlowParametersBuilder"
+nameWithType: "DeviceCodeFlowParameters.DeviceCodeFlowParametersBuilder"
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "<xref href=\"java.lang.Object?alt=java.lang.Object&text=Object\" data-throw-if-not-resolved=\"False\" />"
+  methodsRef:
+  - "<xref href=\"java.lang.Object.clone()?alt=java.lang.Object.clone&text=clone\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"java.lang.Object.equals(java.lang.Object)?alt=java.lang.Object.equals&text=equals\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"java.lang.Object.finalize()?alt=java.lang.Object.finalize&text=finalize\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"java.lang.Object.getClass()?alt=java.lang.Object.getClass&text=getClass\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"java.lang.Object.hashCode()?alt=java.lang.Object.hashCode&text=hashCode\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"java.lang.Object.notify()?alt=java.lang.Object.notify&text=notify\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"java.lang.Object.notifyAll()?alt=java.lang.Object.notifyAll&text=notifyAll\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"java.lang.Object.toString()?alt=java.lang.Object.toString&text=toString\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"java.lang.Object.wait()?alt=java.lang.Object.wait&text=wait\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"java.lang.Object.wait(long)?alt=java.lang.Object.wait&text=wait\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"java.lang.Object.wait(long,int)?alt=java.lang.Object.wait&text=wait\" data-throw-if-not-resolved=\"False\" />"
+syntax: "public static class **DeviceCodeFlowParameters.DeviceCodeFlowParametersBuilder**"
+methods:
+- uid: "com.microsoft.aad.msal4j.DeviceCodeFlowParameters.DeviceCodeFlowParametersBuilder.build()"
+  fullName: "com.microsoft.aad.msal4j.DeviceCodeFlowParameters.DeviceCodeFlowParametersBuilder.build()"
+  name: "build()"
+  nameWithType: "DeviceCodeFlowParameters.DeviceCodeFlowParametersBuilder.build()"
+  syntax: "public DeviceCodeFlowParameters build()"
+  returns:
+    type: "<xref href=\"com.microsoft.aad.msal4j.DeviceCodeFlowParameters?alt=com.microsoft.aad.msal4j.DeviceCodeFlowParameters&text=DeviceCodeFlowParameters\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.aad.msal4j.DeviceCodeFlowParameters.DeviceCodeFlowParametersBuilder.claims(com.microsoft.aad.msal4j.ClaimsRequest)"
+  fullName: "com.microsoft.aad.msal4j.DeviceCodeFlowParameters.DeviceCodeFlowParametersBuilder.claims(ClaimsRequest claims)"
+  name: "claims(ClaimsRequest claims)"
+  nameWithType: "DeviceCodeFlowParameters.DeviceCodeFlowParametersBuilder.claims(ClaimsRequest claims)"
+  parameters:
+  - name: "claims"
+    type: "<xref href=\"com.microsoft.aad.msal4j.ClaimsRequest?alt=com.microsoft.aad.msal4j.ClaimsRequest&text=ClaimsRequest\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public DeviceCodeFlowParameters.DeviceCodeFlowParametersBuilder claims(ClaimsRequest claims)"
+  returns:
+    type: "<xref href=\"com.microsoft.aad.msal4j.DeviceCodeFlowParameters.DeviceCodeFlowParametersBuilder?alt=com.microsoft.aad.msal4j.DeviceCodeFlowParameters.DeviceCodeFlowParametersBuilder&text=DeviceCodeFlowParametersBuilder\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.aad.msal4j.DeviceCodeFlowParameters.DeviceCodeFlowParametersBuilder.deviceCodeConsumer(java.util.function.Consumer<com.microsoft.aad.msal4j.DeviceCode>)"
+  fullName: "com.microsoft.aad.msal4j.DeviceCodeFlowParameters.DeviceCodeFlowParametersBuilder.deviceCodeConsumer(Consumer<DeviceCode> deviceCodeConsumer)"
+  name: "deviceCodeConsumer(Consumer<DeviceCode> deviceCodeConsumer)"
+  nameWithType: "DeviceCodeFlowParameters.DeviceCodeFlowParametersBuilder.deviceCodeConsumer(Consumer<DeviceCode> deviceCodeConsumer)"
+  parameters:
+  - name: "deviceCodeConsumer"
+    type: "<xref href=\"java.util.function.Consumer?alt=java.util.function.Consumer&text=Consumer\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.aad.msal4j.DeviceCode?alt=com.microsoft.aad.msal4j.DeviceCode&text=DeviceCode\" data-throw-if-not-resolved=\"False\" />&gt;"
+  syntax: "public DeviceCodeFlowParameters.DeviceCodeFlowParametersBuilder deviceCodeConsumer(Consumer<DeviceCode> deviceCodeConsumer)"
+  returns:
+    type: "<xref href=\"com.microsoft.aad.msal4j.DeviceCodeFlowParameters.DeviceCodeFlowParametersBuilder?alt=com.microsoft.aad.msal4j.DeviceCodeFlowParameters.DeviceCodeFlowParametersBuilder&text=DeviceCodeFlowParametersBuilder\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.aad.msal4j.DeviceCodeFlowParameters.DeviceCodeFlowParametersBuilder.extraHttpHeaders(java.util.Map<java.lang.String,java.lang.String>)"
+  fullName: "com.microsoft.aad.msal4j.DeviceCodeFlowParameters.DeviceCodeFlowParametersBuilder.extraHttpHeaders(Map<String,String> extraHttpHeaders)"
+  name: "extraHttpHeaders(Map<String,String> extraHttpHeaders)"
+  nameWithType: "DeviceCodeFlowParameters.DeviceCodeFlowParametersBuilder.extraHttpHeaders(Map<String,String> extraHttpHeaders)"
+  parameters:
+  - name: "extraHttpHeaders"
+    type: "<xref href=\"java.util.Map?alt=java.util.Map&text=Map\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />,<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />&gt;"
+  syntax: "public DeviceCodeFlowParameters.DeviceCodeFlowParametersBuilder extraHttpHeaders(Map<String,String> extraHttpHeaders)"
+  returns:
+    type: "<xref href=\"com.microsoft.aad.msal4j.DeviceCodeFlowParameters.DeviceCodeFlowParametersBuilder?alt=com.microsoft.aad.msal4j.DeviceCodeFlowParameters.DeviceCodeFlowParametersBuilder&text=DeviceCodeFlowParametersBuilder\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.aad.msal4j.DeviceCodeFlowParameters.DeviceCodeFlowParametersBuilder.scopes(java.util.Set<java.lang.String>)"
+  fullName: "com.microsoft.aad.msal4j.DeviceCodeFlowParameters.DeviceCodeFlowParametersBuilder.scopes(Set<String> scopes)"
+  name: "scopes(Set<String> scopes)"
+  nameWithType: "DeviceCodeFlowParameters.DeviceCodeFlowParametersBuilder.scopes(Set<String> scopes)"
+  parameters:
+  - name: "scopes"
+    type: "<xref href=\"java.util.Set?alt=java.util.Set&text=Set\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />&gt;"
+  syntax: "public DeviceCodeFlowParameters.DeviceCodeFlowParametersBuilder scopes(Set<String> scopes)"
+  returns:
+    type: "<xref href=\"com.microsoft.aad.msal4j.DeviceCodeFlowParameters.DeviceCodeFlowParametersBuilder?alt=com.microsoft.aad.msal4j.DeviceCodeFlowParameters.DeviceCodeFlowParametersBuilder&text=DeviceCodeFlowParametersBuilder\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.aad.msal4j.DeviceCodeFlowParameters.DeviceCodeFlowParametersBuilder.tenant(java.lang.String)"
+  fullName: "com.microsoft.aad.msal4j.DeviceCodeFlowParameters.DeviceCodeFlowParametersBuilder.tenant(String tenant)"
+  name: "tenant(String tenant)"
+  nameWithType: "DeviceCodeFlowParameters.DeviceCodeFlowParametersBuilder.tenant(String tenant)"
+  parameters:
+  - name: "tenant"
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public DeviceCodeFlowParameters.DeviceCodeFlowParametersBuilder tenant(String tenant)"
+  returns:
+    type: "<xref href=\"com.microsoft.aad.msal4j.DeviceCodeFlowParameters.DeviceCodeFlowParametersBuilder?alt=com.microsoft.aad.msal4j.DeviceCodeFlowParameters.DeviceCodeFlowParametersBuilder&text=DeviceCodeFlowParametersBuilder\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.aad.msal4j.DeviceCodeFlowParameters.DeviceCodeFlowParametersBuilder.toString()"
+  fullName: "com.microsoft.aad.msal4j.DeviceCodeFlowParameters.DeviceCodeFlowParametersBuilder.toString()"
+  name: "toString()"
+  nameWithType: "DeviceCodeFlowParameters.DeviceCodeFlowParametersBuilder.toString()"
+  overridden: "java.lang.Object.toString()"
+  syntax: "public String toString()"
+  returns:
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+type: "class"
+metadata: {}
+package: "com.microsoft.aad.msal4j"
+artifact: com.microsoft.azure:msal4j:1.13.3
