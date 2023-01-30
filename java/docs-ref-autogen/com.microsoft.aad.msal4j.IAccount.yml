@@ -1,0 +1,57 @@
+### YamlMime:JavaType
+uid: "com.microsoft.aad.msal4j.IAccount"
+fullName: "com.microsoft.aad.msal4j.IAccount"
+name: "IAccount"
+nameWithType: "IAccount"
+summary: "Interface representing a single user account."
+syntax: "public interface **IAccount**</br> extends <xref href=\"java.io.Serializable?alt=java.io.Serializable&text=Serializable\" data-throw-if-not-resolved=\"False\" />"
+methods:
+- uid: "com.microsoft.aad.msal4j.IAccount.environment()"
+  fullName: "com.microsoft.aad.msal4j.IAccount.environment()"
+  name: "environment()"
+  nameWithType: "IAccount.environment()"
+  modifiers:
+  - "abstract"
+  syntax: "public abstract String environment()"
+  returns:
+    description: "account environment"
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.aad.msal4j.IAccount.getTenantProfiles()"
+  fullName: "com.microsoft.aad.msal4j.IAccount.getTenantProfiles()"
+  name: "getTenantProfiles()"
+  nameWithType: "IAccount.getTenantProfiles()"
+  summary: "Map of <xref uid=\"com.microsoft.aad.msal4j.ITenantProfile\" data-throw-if-not-resolved=\"false\" data-raw-source=\"ITenantProfile\"></xref> objects related to this account, the keys of the map are the tenant ID values and match the 'realm' key of an ID token"
+  modifiers:
+  - "abstract"
+  syntax: "public abstract Map<String,ITenantProfile> getTenantProfiles()"
+  desc: "Map of <xref uid=\"com.microsoft.aad.msal4j.ITenantProfile\" data-throw-if-not-resolved=\"false\" data-raw-source=\"ITenantProfile\"></xref> objects related to this account, the keys of the map are the tenant ID values and match the 'realm' key of an ID token"
+  returns:
+    description: "tenant profiles"
+    type: "<xref href=\"java.util.Map?alt=java.util.Map&text=Map\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />,<xref href=\"com.microsoft.aad.msal4j.ITenantProfile?alt=com.microsoft.aad.msal4j.ITenantProfile&text=ITenantProfile\" data-throw-if-not-resolved=\"False\" />&gt;"
+- uid: "com.microsoft.aad.msal4j.IAccount.homeAccountId()"
+  fullName: "com.microsoft.aad.msal4j.IAccount.homeAccountId()"
+  name: "homeAccountId()"
+  nameWithType: "IAccount.homeAccountId()"
+  modifiers:
+  - "abstract"
+  syntax: "public abstract String homeAccountId()"
+  returns:
+    description: "account id"
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.aad.msal4j.IAccount.username()"
+  fullName: "com.microsoft.aad.msal4j.IAccount.username()"
+  name: "username()"
+  nameWithType: "IAccount.username()"
+  modifiers:
+  - "abstract"
+  syntax: "public abstract String username()"
+  returns:
+    description: "account username"
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "Interface representing a single user account. An IAccount is returned in the <xref uid=\"com.microsoft.aad.msal4j.IAuthenticationResult\" data-throw-if-not-resolved=\"false\" data-raw-source=\"IAuthenticationResult\"></xref> property, and is used as parameter in <xref uid=\"com.microsoft.aad.msal4j.SilentParameters.builder(java.util.Set<java.lang.String>,com.microsoft.aad.msal4j.IAccount)\" data-throw-if-not-resolved=\"false\" data-raw-source=\"SilentParameters#builder(Set, IAccount)\"></xref> )\\}"
+implements:
+- "<xref href=\"java.io.Serializable?alt=java.io.Serializable&text=Serializable\" data-throw-if-not-resolved=\"False\" />"
+metadata: {}
+package: "com.microsoft.aad.msal4j"
+artifact: com.microsoft.azure:msal4j:1.13.3

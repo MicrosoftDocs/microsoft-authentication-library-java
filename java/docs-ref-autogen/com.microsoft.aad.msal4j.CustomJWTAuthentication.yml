@@ -1,0 +1,74 @@
+### YamlMime:JavaType
+uid: "com.microsoft.aad.msal4j.CustomJWTAuthentication"
+fullName: "com.microsoft.aad.msal4j.CustomJWTAuthentication"
+name: "CustomJWTAuthentication"
+nameWithType: "CustomJWTAuthentication"
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.nimbusds.oauth2.sdk.auth.ClientAuthentication?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "<xref href=\"com.nimbusds.oauth2.sdk.auth.ClientAuthentication?alt=com.nimbusds.oauth2.sdk.auth.ClientAuthentication&text=ClientAuthentication\" data-throw-if-not-resolved=\"False\" />"
+  methodsRef:
+  - "<xref href=\"com.nimbusds.oauth2.sdk.auth.ClientAuthentication.applyTo(com.nimbusds.oauth2.sdk.http.HTTPRequest)?alt=com.nimbusds.oauth2.sdk.auth.ClientAuthentication.applyTo&text=applyTo\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.nimbusds.oauth2.sdk.auth.ClientAuthentication.getClientID()?alt=com.nimbusds.oauth2.sdk.auth.ClientAuthentication.getClientID&text=getClientID\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.nimbusds.oauth2.sdk.auth.ClientAuthentication.getFormParameterNames()?alt=com.nimbusds.oauth2.sdk.auth.ClientAuthentication.getFormParameterNames&text=getFormParameterNames\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.nimbusds.oauth2.sdk.auth.ClientAuthentication.getMethod()?alt=com.nimbusds.oauth2.sdk.auth.ClientAuthentication.getMethod&text=getMethod\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.nimbusds.oauth2.sdk.auth.ClientAuthentication.parse(com.nimbusds.oauth2.sdk.http.HTTPRequest)?alt=com.nimbusds.oauth2.sdk.auth.ClientAuthentication.parse&text=parse\" data-throw-if-not-resolved=\"False\" />"
+- classRef: "<xref href=\"java.lang.Object?alt=java.lang.Object&text=Object\" data-throw-if-not-resolved=\"False\" />"
+  methodsRef:
+  - "<xref href=\"java.lang.Object.clone()?alt=java.lang.Object.clone&text=clone\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"java.lang.Object.equals(java.lang.Object)?alt=java.lang.Object.equals&text=equals\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"java.lang.Object.finalize()?alt=java.lang.Object.finalize&text=finalize\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"java.lang.Object.getClass()?alt=java.lang.Object.getClass&text=getClass\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"java.lang.Object.hashCode()?alt=java.lang.Object.hashCode&text=hashCode\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"java.lang.Object.notify()?alt=java.lang.Object.notify&text=notify\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"java.lang.Object.notifyAll()?alt=java.lang.Object.notifyAll&text=notifyAll\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"java.lang.Object.toString()?alt=java.lang.Object.toString&text=toString\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"java.lang.Object.wait()?alt=java.lang.Object.wait&text=wait\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"java.lang.Object.wait(long)?alt=java.lang.Object.wait&text=wait\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"java.lang.Object.wait(long,int)?alt=java.lang.Object.wait&text=wait\" data-throw-if-not-resolved=\"False\" />"
+syntax: "public class **CustomJWTAuthentication**</br> extends <xref href=\"com.nimbusds.oauth2.sdk.auth.ClientAuthentication?alt=com.nimbusds.oauth2.sdk.auth.ClientAuthentication&text=ClientAuthentication\" data-throw-if-not-resolved=\"False\" />"
+constructors:
+- uid: "com.microsoft.aad.msal4j.CustomJWTAuthentication.CustomJWTAuthentication(com.nimbusds.oauth2.sdk.auth.ClientAuthenticationMethod,com.microsoft.aad.msal4j.ClientAssertion,com.nimbusds.oauth2.sdk.id.ClientID)"
+  fullName: "com.microsoft.aad.msal4j.CustomJWTAuthentication.CustomJWTAuthentication(ClientAuthenticationMethod method, ClientAssertion clientAssertion, ClientID clientID)"
+  name: "CustomJWTAuthentication(ClientAuthenticationMethod method, ClientAssertion clientAssertion, ClientID clientID)"
+  nameWithType: "CustomJWTAuthentication.CustomJWTAuthentication(ClientAuthenticationMethod method, ClientAssertion clientAssertion, ClientID clientID)"
+  modifiers:
+  - "protected"
+  parameters:
+  - name: "method"
+    type: "<xref href=\"com.nimbusds.oauth2.sdk.auth.ClientAuthenticationMethod?alt=com.nimbusds.oauth2.sdk.auth.ClientAuthenticationMethod&text=ClientAuthenticationMethod\" data-throw-if-not-resolved=\"False\" />"
+  - name: "clientAssertion"
+    type: "<xref href=\"com.microsoft.aad.msal4j.ClientAssertion?alt=com.microsoft.aad.msal4j.ClientAssertion&text=ClientAssertion\" data-throw-if-not-resolved=\"False\" />"
+  - name: "clientID"
+    type: "<xref href=\"com.nimbusds.oauth2.sdk.id.ClientID?alt=com.nimbusds.oauth2.sdk.id.ClientID&text=ClientID\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "protected CustomJWTAuthentication(ClientAuthenticationMethod method, ClientAssertion clientAssertion, ClientID clientID)"
+methods:
+- uid: "com.microsoft.aad.msal4j.CustomJWTAuthentication.applyTo(com.nimbusds.oauth2.sdk.http.HTTPRequest)"
+  fullName: "com.microsoft.aad.msal4j.CustomJWTAuthentication.applyTo(HTTPRequest httpRequest)"
+  name: "applyTo(HTTPRequest httpRequest)"
+  nameWithType: "CustomJWTAuthentication.applyTo(HTTPRequest httpRequest)"
+  overridden: "com.nimbusds.oauth2.sdk.auth.ClientAuthentication.applyTo(com.nimbusds.oauth2.sdk.http.HTTPRequest)"
+  parameters:
+  - name: "httpRequest"
+    type: "<xref href=\"com.nimbusds.oauth2.sdk.http.HTTPRequest?alt=com.nimbusds.oauth2.sdk.http.HTTPRequest&text=HTTPRequest\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public void applyTo(HTTPRequest httpRequest)"
+- uid: "com.microsoft.aad.msal4j.CustomJWTAuthentication.getFormParameterNames()"
+  fullName: "com.microsoft.aad.msal4j.CustomJWTAuthentication.getFormParameterNames()"
+  name: "getFormParameterNames()"
+  nameWithType: "CustomJWTAuthentication.getFormParameterNames()"
+  overridden: "com.nimbusds.oauth2.sdk.auth.ClientAuthentication.getFormParameterNames()"
+  syntax: "public Set<String> getFormParameterNames()"
+  returns:
+    type: "<xref href=\"java.util.Set?alt=java.util.Set&text=Set\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />&gt;"
+- uid: "com.microsoft.aad.msal4j.CustomJWTAuthentication.toParameters()"
+  fullName: "com.microsoft.aad.msal4j.CustomJWTAuthentication.toParameters()"
+  name: "toParameters()"
+  nameWithType: "CustomJWTAuthentication.toParameters()"
+  syntax: "public Map<String,List<String>> toParameters()"
+  returns:
+    type: "<xref href=\"java.util.Map?alt=java.util.Map&text=Map\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />,<xref href=\"java.util.List?alt=java.util.List&text=List\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />&gt;&gt;"
+type: "class"
+metadata: {}
+package: "com.microsoft.aad.msal4j"
+artifact: com.microsoft.azure:msal4j:1.13.3

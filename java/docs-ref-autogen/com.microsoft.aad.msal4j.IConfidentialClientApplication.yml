@@ -1,0 +1,57 @@
+### YamlMime:JavaType
+uid: "com.microsoft.aad.msal4j.IConfidentialClientApplication"
+fullName: "com.microsoft.aad.msal4j.IConfidentialClientApplication"
+name: "IConfidentialClientApplication"
+nameWithType: "IConfidentialClientApplication"
+summary: "Interface representing a confidential client application (Web App, Web API, Daemon App)."
+syntax: "public interface **IConfidentialClientApplication**</br> extends <xref href=\"com.microsoft.aad.msal4j.IClientApplicationBase?alt=com.microsoft.aad.msal4j.IClientApplicationBase&text=IClientApplicationBase\" data-throw-if-not-resolved=\"False\" />"
+methods:
+- uid: "com.microsoft.aad.msal4j.IConfidentialClientApplication.acquireToken(com.microsoft.aad.msal4j.ClientCredentialParameters)"
+  fullName: "com.microsoft.aad.msal4j.IConfidentialClientApplication.acquireToken(ClientCredentialParameters parameters)"
+  name: "acquireToken(ClientCredentialParameters parameters)"
+  nameWithType: "IConfidentialClientApplication.acquireToken(ClientCredentialParameters parameters)"
+  summary: "Acquires tokens from the authority configured in the application, for the confidential client itself."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "instance of <xref uid=\"com.microsoft.aad.msal4j.ClientCredentialParameters\" data-throw-if-not-resolved=\"false\" data-raw-source=\"ClientCredentialParameters\"></xref>"
+    name: "parameters"
+    type: "<xref href=\"com.microsoft.aad.msal4j.ClientCredentialParameters?alt=com.microsoft.aad.msal4j.ClientCredentialParameters&text=ClientCredentialParameters\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract CompletableFuture<IAuthenticationResult> acquireToken(ClientCredentialParameters parameters)"
+  desc: "Acquires tokens from the authority configured in the application, for the confidential client itself. It will by default attempt to get tokens from the token cache. If no tokens are found, it falls back to acquiring them via client credentials from the STS"
+  returns:
+    description: "<xref uid=\"java.util.concurrent.CompletableFuture\" data-throw-if-not-resolved=\"false\" data-raw-source=\"CompletableFuture\"></xref> containing an <xref uid=\"com.microsoft.aad.msal4j.IAuthenticationResult\" data-throw-if-not-resolved=\"false\" data-raw-source=\"IAuthenticationResult\"></xref>"
+    type: "<xref href=\"java.util.concurrent.CompletableFuture?alt=java.util.concurrent.CompletableFuture&text=CompletableFuture\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.aad.msal4j.IAuthenticationResult?alt=com.microsoft.aad.msal4j.IAuthenticationResult&text=IAuthenticationResult\" data-throw-if-not-resolved=\"False\" />&gt;"
+- uid: "com.microsoft.aad.msal4j.IConfidentialClientApplication.acquireToken(com.microsoft.aad.msal4j.OnBehalfOfParameters)"
+  fullName: "com.microsoft.aad.msal4j.IConfidentialClientApplication.acquireToken(OnBehalfOfParameters parameters)"
+  name: "acquireToken(OnBehalfOfParameters parameters)"
+  nameWithType: "IConfidentialClientApplication.acquireToken(OnBehalfOfParameters parameters)"
+  summary: "Acquires an access token for this application (usually a Web API) from the authority configured in the application, in order to access another downstream protected Web API on behalf of a user using the On-Behalf-Of flow."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "instance of <xref uid=\"com.microsoft.aad.msal4j.OnBehalfOfParameters\" data-throw-if-not-resolved=\"false\" data-raw-source=\"OnBehalfOfParameters\"></xref>"
+    name: "parameters"
+    type: "<xref href=\"com.microsoft.aad.msal4j.OnBehalfOfParameters?alt=com.microsoft.aad.msal4j.OnBehalfOfParameters&text=OnBehalfOfParameters\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract CompletableFuture<IAuthenticationResult> acquireToken(OnBehalfOfParameters parameters)"
+  desc: "Acquires an access token for this application (usually a Web API) from the authority configured in the application, in order to access another downstream protected Web API on behalf of a user using the On-Behalf-Of flow. It will by default attempt to get tokens from the token cache. This confidential client application was itself called with an acces token which is provided in the <xref uid=\"com.microsoft.aad.msal4j.UserAssertion\" data-throw-if-not-resolved=\"false\" data-raw-source=\"UserAssertion\"></xref> field of <xref uid=\"com.microsoft.aad.msal4j.OnBehalfOfParameters\" data-throw-if-not-resolved=\"false\" data-raw-source=\"OnBehalfOfParameters\"></xref>.\n\nWhen serializing/deserializing the in-memory token cache to permanent storage, there should be a token cache per incoming access token, where the hash of the incoming access token can be used as the token cache key. Access tokens are usually only valid for a 1 hour period of time, and a new access token in the <xref uid=\"com.microsoft.aad.msal4j.UserAssertion\" data-throw-if-not-resolved=\"false\" data-raw-source=\"UserAssertion\"></xref> means there will be a new token cache and new token cache key. To avoid your permanent storage from being filled with expired token caches, an eviction policy should be set. For example, a token cache that is more than a couple of hours old can be deemed expired and therefore evicted from the serialized token cache."
+  returns:
+    description: "<xref uid=\"java.util.concurrent.CompletableFuture\" data-throw-if-not-resolved=\"false\" data-raw-source=\"CompletableFuture\"></xref> containing an <xref uid=\"com.microsoft.aad.msal4j.IAuthenticationResult\" data-throw-if-not-resolved=\"false\" data-raw-source=\"IAuthenticationResult\"></xref>"
+    type: "<xref href=\"java.util.concurrent.CompletableFuture?alt=java.util.concurrent.CompletableFuture&text=CompletableFuture\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.aad.msal4j.IAuthenticationResult?alt=com.microsoft.aad.msal4j.IAuthenticationResult&text=IAuthenticationResult\" data-throw-if-not-resolved=\"False\" />&gt;"
+- uid: "com.microsoft.aad.msal4j.IConfidentialClientApplication.sendX5c()"
+  fullName: "com.microsoft.aad.msal4j.IConfidentialClientApplication.sendX5c()"
+  name: "sendX5c()"
+  nameWithType: "IConfidentialClientApplication.sendX5c()"
+  modifiers:
+  - "abstract"
+  syntax: "public abstract boolean sendX5c()"
+  returns:
+    description: "a boolean value which determines whether x5c claim (public key of the certificate)\n will be sent to the STS."
+    type: "<xref href=\"boolean?alt=boolean&text=boolean\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "Interface representing a confidential client application (Web App, Web API, Daemon App). Confidential client applications are trusted to safely store application secrets, and therefore can be used to acquire tokens in then name of either the application or an user. For details see https://aka.ms/msal4jclientapplications"
+implements:
+- "<xref href=\"com.microsoft.aad.msal4j.IClientApplicationBase?alt=com.microsoft.aad.msal4j.IClientApplicationBase&text=IClientApplicationBase\" data-throw-if-not-resolved=\"False\" />"
+metadata: {}
+package: "com.microsoft.aad.msal4j"
+artifact: com.microsoft.azure:msal4j:1.13.3

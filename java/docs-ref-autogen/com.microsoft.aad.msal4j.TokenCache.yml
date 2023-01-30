@@ -1,0 +1,82 @@
+### YamlMime:JavaType
+uid: "com.microsoft.aad.msal4j.TokenCache"
+fullName: "com.microsoft.aad.msal4j.TokenCache"
+name: "TokenCache"
+nameWithType: "TokenCache"
+summary: "Cache used for storing tokens."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "<xref href=\"java.lang.Object?alt=java.lang.Object&text=Object\" data-throw-if-not-resolved=\"False\" />"
+  methodsRef:
+  - "<xref href=\"java.lang.Object.clone()?alt=java.lang.Object.clone&text=clone\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"java.lang.Object.equals(java.lang.Object)?alt=java.lang.Object.equals&text=equals\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"java.lang.Object.finalize()?alt=java.lang.Object.finalize&text=finalize\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"java.lang.Object.getClass()?alt=java.lang.Object.getClass&text=getClass\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"java.lang.Object.hashCode()?alt=java.lang.Object.hashCode&text=hashCode\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"java.lang.Object.notify()?alt=java.lang.Object.notify&text=notify\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"java.lang.Object.notifyAll()?alt=java.lang.Object.notifyAll&text=notifyAll\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"java.lang.Object.toString()?alt=java.lang.Object.toString&text=toString\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"java.lang.Object.wait()?alt=java.lang.Object.wait&text=wait\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"java.lang.Object.wait(long)?alt=java.lang.Object.wait&text=wait\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"java.lang.Object.wait(long,int)?alt=java.lang.Object.wait&text=wait\" data-throw-if-not-resolved=\"False\" />"
+syntax: "public class **TokenCache**</br> implements <xref href=\"com.microsoft.aad.msal4j.ITokenCache?alt=com.microsoft.aad.msal4j.ITokenCache&text=ITokenCache\" data-throw-if-not-resolved=\"False\" />"
+constructors:
+- uid: "com.microsoft.aad.msal4j.TokenCache.TokenCache()"
+  fullName: "com.microsoft.aad.msal4j.TokenCache.TokenCache()"
+  name: "TokenCache()"
+  nameWithType: "TokenCache.TokenCache()"
+  summary: "Constructor for token cache"
+  syntax: "public TokenCache()"
+  desc: "Constructor for token cache"
+- uid: "com.microsoft.aad.msal4j.TokenCache.TokenCache(com.microsoft.aad.msal4j.ITokenCacheAccessAspect)"
+  fullName: "com.microsoft.aad.msal4j.TokenCache.TokenCache(ITokenCacheAccessAspect tokenCacheAccessAspect)"
+  name: "TokenCache(ITokenCacheAccessAspect tokenCacheAccessAspect)"
+  nameWithType: "TokenCache.TokenCache(ITokenCacheAccessAspect tokenCacheAccessAspect)"
+  summary: "Constructor for token cache"
+  parameters:
+  - description: "<xref uid=\"com.microsoft.aad.msal4j.ITokenCacheAccessAspect\" data-throw-if-not-resolved=\"false\" data-raw-source=\"ITokenCacheAccessAspect\"></xref>"
+    name: "tokenCacheAccessAspect"
+    type: "<xref href=\"com.microsoft.aad.msal4j.ITokenCacheAccessAspect?alt=com.microsoft.aad.msal4j.ITokenCacheAccessAspect&text=ITokenCacheAccessAspect\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public TokenCache(ITokenCacheAccessAspect tokenCacheAccessAspect)"
+  desc: "Constructor for token cache"
+fields:
+- uid: "com.microsoft.aad.msal4j.TokenCache.MIN_ACCESS_TOKEN_EXPIRE_IN_SEC"
+  fullName: "com.microsoft.aad.msal4j.TokenCache.MIN_ACCESS_TOKEN_EXPIRE_IN_SEC"
+  name: "MIN_ACCESS_TOKEN_EXPIRE_IN_SEC"
+  nameWithType: "TokenCache.MIN_ACCESS_TOKEN_EXPIRE_IN_SEC"
+  modifiers:
+  - "protected"
+  - "static"
+  - "final"
+  field:
+    value: "300"
+    type: "<xref href=\"int?alt=int&text=int\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "protected static final int MIN_ACCESS_TOKEN_EXPIRE_IN_SEC"
+methods:
+- uid: "com.microsoft.aad.msal4j.TokenCache.deserialize(java.lang.String)"
+  fullName: "com.microsoft.aad.msal4j.TokenCache.deserialize(String data)"
+  name: "deserialize(String data)"
+  nameWithType: "TokenCache.deserialize(String data)"
+  summary: "Deserialize token cache from json"
+  parameters:
+  - name: "data"
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public void deserialize(String data)"
+  desc: "Deserialize token cache from json"
+- uid: "com.microsoft.aad.msal4j.TokenCache.serialize()"
+  fullName: "com.microsoft.aad.msal4j.TokenCache.serialize()"
+  name: "serialize()"
+  nameWithType: "TokenCache.serialize()"
+  summary: "Serialize token cache to json"
+  syntax: "public String serialize()"
+  desc: "Serialize token cache to json"
+  returns:
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+type: "class"
+desc: "Cache used for storing tokens. For more details, see https://aka.ms/msal4j-token-cache\n\nConditionally thread-safe"
+implements:
+- "<xref href=\"com.microsoft.aad.msal4j.ITokenCache?alt=com.microsoft.aad.msal4j.ITokenCache&text=ITokenCache\" data-throw-if-not-resolved=\"False\" />"
+metadata: {}
+package: "com.microsoft.aad.msal4j"
+artifact: com.microsoft.azure:msal4j:1.13.3

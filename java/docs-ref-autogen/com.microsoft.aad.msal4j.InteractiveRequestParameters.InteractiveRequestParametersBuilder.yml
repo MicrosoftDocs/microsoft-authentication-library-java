@@ -1,0 +1,162 @@
+### YamlMime:JavaType
+uid: "com.microsoft.aad.msal4j.InteractiveRequestParameters.InteractiveRequestParametersBuilder"
+fullName: "com.microsoft.aad.msal4j.InteractiveRequestParameters.InteractiveRequestParametersBuilder"
+name: "InteractiveRequestParameters.InteractiveRequestParametersBuilder"
+nameWithType: "InteractiveRequestParameters.InteractiveRequestParametersBuilder"
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "<xref href=\"java.lang.Object?alt=java.lang.Object&text=Object\" data-throw-if-not-resolved=\"False\" />"
+  methodsRef:
+  - "<xref href=\"java.lang.Object.clone()?alt=java.lang.Object.clone&text=clone\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"java.lang.Object.equals(java.lang.Object)?alt=java.lang.Object.equals&text=equals\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"java.lang.Object.finalize()?alt=java.lang.Object.finalize&text=finalize\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"java.lang.Object.getClass()?alt=java.lang.Object.getClass&text=getClass\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"java.lang.Object.hashCode()?alt=java.lang.Object.hashCode&text=hashCode\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"java.lang.Object.notify()?alt=java.lang.Object.notify&text=notify\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"java.lang.Object.notifyAll()?alt=java.lang.Object.notifyAll&text=notifyAll\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"java.lang.Object.toString()?alt=java.lang.Object.toString&text=toString\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"java.lang.Object.wait()?alt=java.lang.Object.wait&text=wait\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"java.lang.Object.wait(long)?alt=java.lang.Object.wait&text=wait\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"java.lang.Object.wait(long,int)?alt=java.lang.Object.wait&text=wait\" data-throw-if-not-resolved=\"False\" />"
+syntax: "public static class **InteractiveRequestParameters.InteractiveRequestParametersBuilder**"
+methods:
+- uid: "com.microsoft.aad.msal4j.InteractiveRequestParameters.InteractiveRequestParametersBuilder.build()"
+  fullName: "com.microsoft.aad.msal4j.InteractiveRequestParameters.InteractiveRequestParametersBuilder.build()"
+  name: "build()"
+  nameWithType: "InteractiveRequestParameters.InteractiveRequestParametersBuilder.build()"
+  syntax: "public InteractiveRequestParameters build()"
+  returns:
+    type: "<xref href=\"com.microsoft.aad.msal4j.InteractiveRequestParameters?alt=com.microsoft.aad.msal4j.InteractiveRequestParameters&text=InteractiveRequestParameters\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.aad.msal4j.InteractiveRequestParameters.InteractiveRequestParametersBuilder.claims(com.microsoft.aad.msal4j.ClaimsRequest)"
+  fullName: "com.microsoft.aad.msal4j.InteractiveRequestParameters.InteractiveRequestParametersBuilder.claims(ClaimsRequest claims)"
+  name: "claims(ClaimsRequest claims)"
+  nameWithType: "InteractiveRequestParameters.InteractiveRequestParametersBuilder.claims(ClaimsRequest claims)"
+  parameters:
+  - name: "claims"
+    type: "<xref href=\"com.microsoft.aad.msal4j.ClaimsRequest?alt=com.microsoft.aad.msal4j.ClaimsRequest&text=ClaimsRequest\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public InteractiveRequestParameters.InteractiveRequestParametersBuilder claims(ClaimsRequest claims)"
+  returns:
+    type: "<xref href=\"com.microsoft.aad.msal4j.InteractiveRequestParameters.InteractiveRequestParametersBuilder?alt=com.microsoft.aad.msal4j.InteractiveRequestParameters.InteractiveRequestParametersBuilder&text=InteractiveRequestParametersBuilder\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.aad.msal4j.InteractiveRequestParameters.InteractiveRequestParametersBuilder.claimsChallenge(java.lang.String)"
+  fullName: "com.microsoft.aad.msal4j.InteractiveRequestParameters.InteractiveRequestParametersBuilder.claimsChallenge(String claimsChallenge)"
+  name: "claimsChallenge(String claimsChallenge)"
+  nameWithType: "InteractiveRequestParameters.InteractiveRequestParametersBuilder.claimsChallenge(String claimsChallenge)"
+  parameters:
+  - name: "claimsChallenge"
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public InteractiveRequestParameters.InteractiveRequestParametersBuilder claimsChallenge(String claimsChallenge)"
+  returns:
+    type: "<xref href=\"com.microsoft.aad.msal4j.InteractiveRequestParameters.InteractiveRequestParametersBuilder?alt=com.microsoft.aad.msal4j.InteractiveRequestParameters.InteractiveRequestParametersBuilder&text=InteractiveRequestParametersBuilder\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.aad.msal4j.InteractiveRequestParameters.InteractiveRequestParametersBuilder.domainHint(java.lang.String)"
+  fullName: "com.microsoft.aad.msal4j.InteractiveRequestParameters.InteractiveRequestParametersBuilder.domainHint(String domainHint)"
+  name: "domainHint(String domainHint)"
+  nameWithType: "InteractiveRequestParameters.InteractiveRequestParametersBuilder.domainHint(String domainHint)"
+  parameters:
+  - name: "domainHint"
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public InteractiveRequestParameters.InteractiveRequestParametersBuilder domainHint(String domainHint)"
+  returns:
+    type: "<xref href=\"com.microsoft.aad.msal4j.InteractiveRequestParameters.InteractiveRequestParametersBuilder?alt=com.microsoft.aad.msal4j.InteractiveRequestParameters.InteractiveRequestParametersBuilder&text=InteractiveRequestParametersBuilder\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.aad.msal4j.InteractiveRequestParameters.InteractiveRequestParametersBuilder.extraHttpHeaders(java.util.Map<java.lang.String,java.lang.String>)"
+  fullName: "com.microsoft.aad.msal4j.InteractiveRequestParameters.InteractiveRequestParametersBuilder.extraHttpHeaders(Map<String,String> extraHttpHeaders)"
+  name: "extraHttpHeaders(Map<String,String> extraHttpHeaders)"
+  nameWithType: "InteractiveRequestParameters.InteractiveRequestParametersBuilder.extraHttpHeaders(Map<String,String> extraHttpHeaders)"
+  parameters:
+  - name: "extraHttpHeaders"
+    type: "<xref href=\"java.util.Map?alt=java.util.Map&text=Map\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />,<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />&gt;"
+  syntax: "public InteractiveRequestParameters.InteractiveRequestParametersBuilder extraHttpHeaders(Map<String,String> extraHttpHeaders)"
+  returns:
+    type: "<xref href=\"com.microsoft.aad.msal4j.InteractiveRequestParameters.InteractiveRequestParametersBuilder?alt=com.microsoft.aad.msal4j.InteractiveRequestParameters.InteractiveRequestParametersBuilder&text=InteractiveRequestParametersBuilder\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.aad.msal4j.InteractiveRequestParameters.InteractiveRequestParametersBuilder.httpPollingTimeoutInSeconds(int)"
+  fullName: "com.microsoft.aad.msal4j.InteractiveRequestParameters.InteractiveRequestParametersBuilder.httpPollingTimeoutInSeconds(int httpPollingTimeoutInSeconds)"
+  name: "httpPollingTimeoutInSeconds(int httpPollingTimeoutInSeconds)"
+  nameWithType: "InteractiveRequestParameters.InteractiveRequestParametersBuilder.httpPollingTimeoutInSeconds(int httpPollingTimeoutInSeconds)"
+  parameters:
+  - name: "httpPollingTimeoutInSeconds"
+    type: "<xref href=\"int?alt=int&text=int\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public InteractiveRequestParameters.InteractiveRequestParametersBuilder httpPollingTimeoutInSeconds(int httpPollingTimeoutInSeconds)"
+  returns:
+    type: "<xref href=\"com.microsoft.aad.msal4j.InteractiveRequestParameters.InteractiveRequestParametersBuilder?alt=com.microsoft.aad.msal4j.InteractiveRequestParameters.InteractiveRequestParametersBuilder&text=InteractiveRequestParametersBuilder\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.aad.msal4j.InteractiveRequestParameters.InteractiveRequestParametersBuilder.instanceAware(boolean)"
+  fullName: "com.microsoft.aad.msal4j.InteractiveRequestParameters.InteractiveRequestParametersBuilder.instanceAware(boolean instanceAware)"
+  name: "instanceAware(boolean instanceAware)"
+  nameWithType: "InteractiveRequestParameters.InteractiveRequestParametersBuilder.instanceAware(boolean instanceAware)"
+  parameters:
+  - name: "instanceAware"
+    type: "<xref href=\"boolean?alt=boolean&text=boolean\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public InteractiveRequestParameters.InteractiveRequestParametersBuilder instanceAware(boolean instanceAware)"
+  returns:
+    type: "<xref href=\"com.microsoft.aad.msal4j.InteractiveRequestParameters.InteractiveRequestParametersBuilder?alt=com.microsoft.aad.msal4j.InteractiveRequestParameters.InteractiveRequestParametersBuilder&text=InteractiveRequestParametersBuilder\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.aad.msal4j.InteractiveRequestParameters.InteractiveRequestParametersBuilder.loginHint(java.lang.String)"
+  fullName: "com.microsoft.aad.msal4j.InteractiveRequestParameters.InteractiveRequestParametersBuilder.loginHint(String loginHint)"
+  name: "loginHint(String loginHint)"
+  nameWithType: "InteractiveRequestParameters.InteractiveRequestParametersBuilder.loginHint(String loginHint)"
+  parameters:
+  - name: "loginHint"
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public InteractiveRequestParameters.InteractiveRequestParametersBuilder loginHint(String loginHint)"
+  returns:
+    type: "<xref href=\"com.microsoft.aad.msal4j.InteractiveRequestParameters.InteractiveRequestParametersBuilder?alt=com.microsoft.aad.msal4j.InteractiveRequestParameters.InteractiveRequestParametersBuilder&text=InteractiveRequestParametersBuilder\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.aad.msal4j.InteractiveRequestParameters.InteractiveRequestParametersBuilder.prompt(com.microsoft.aad.msal4j.Prompt)"
+  fullName: "com.microsoft.aad.msal4j.InteractiveRequestParameters.InteractiveRequestParametersBuilder.prompt(Prompt prompt)"
+  name: "prompt(Prompt prompt)"
+  nameWithType: "InteractiveRequestParameters.InteractiveRequestParametersBuilder.prompt(Prompt prompt)"
+  parameters:
+  - name: "prompt"
+    type: "<xref href=\"com.microsoft.aad.msal4j.Prompt?alt=com.microsoft.aad.msal4j.Prompt&text=Prompt\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public InteractiveRequestParameters.InteractiveRequestParametersBuilder prompt(Prompt prompt)"
+  returns:
+    type: "<xref href=\"com.microsoft.aad.msal4j.InteractiveRequestParameters.InteractiveRequestParametersBuilder?alt=com.microsoft.aad.msal4j.InteractiveRequestParameters.InteractiveRequestParametersBuilder&text=InteractiveRequestParametersBuilder\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.aad.msal4j.InteractiveRequestParameters.InteractiveRequestParametersBuilder.redirectUri(java.net.URI)"
+  fullName: "com.microsoft.aad.msal4j.InteractiveRequestParameters.InteractiveRequestParametersBuilder.redirectUri(URI redirectUri)"
+  name: "redirectUri(URI redirectUri)"
+  nameWithType: "InteractiveRequestParameters.InteractiveRequestParametersBuilder.redirectUri(URI redirectUri)"
+  parameters:
+  - name: "redirectUri"
+    type: "<xref href=\"java.net.URI?alt=java.net.URI&text=URI\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public InteractiveRequestParameters.InteractiveRequestParametersBuilder redirectUri(URI redirectUri)"
+  returns:
+    type: "<xref href=\"com.microsoft.aad.msal4j.InteractiveRequestParameters.InteractiveRequestParametersBuilder?alt=com.microsoft.aad.msal4j.InteractiveRequestParameters.InteractiveRequestParametersBuilder&text=InteractiveRequestParametersBuilder\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.aad.msal4j.InteractiveRequestParameters.InteractiveRequestParametersBuilder.scopes(java.util.Set<java.lang.String>)"
+  fullName: "com.microsoft.aad.msal4j.InteractiveRequestParameters.InteractiveRequestParametersBuilder.scopes(Set<String> scopes)"
+  name: "scopes(Set<String> scopes)"
+  nameWithType: "InteractiveRequestParameters.InteractiveRequestParametersBuilder.scopes(Set<String> scopes)"
+  parameters:
+  - name: "scopes"
+    type: "<xref href=\"java.util.Set?alt=java.util.Set&text=Set\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />&gt;"
+  syntax: "public InteractiveRequestParameters.InteractiveRequestParametersBuilder scopes(Set<String> scopes)"
+  returns:
+    type: "<xref href=\"com.microsoft.aad.msal4j.InteractiveRequestParameters.InteractiveRequestParametersBuilder?alt=com.microsoft.aad.msal4j.InteractiveRequestParameters.InteractiveRequestParametersBuilder&text=InteractiveRequestParametersBuilder\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.aad.msal4j.InteractiveRequestParameters.InteractiveRequestParametersBuilder.systemBrowserOptions(com.microsoft.aad.msal4j.SystemBrowserOptions)"
+  fullName: "com.microsoft.aad.msal4j.InteractiveRequestParameters.InteractiveRequestParametersBuilder.systemBrowserOptions(SystemBrowserOptions systemBrowserOptions)"
+  name: "systemBrowserOptions(SystemBrowserOptions systemBrowserOptions)"
+  nameWithType: "InteractiveRequestParameters.InteractiveRequestParametersBuilder.systemBrowserOptions(SystemBrowserOptions systemBrowserOptions)"
+  parameters:
+  - name: "systemBrowserOptions"
+    type: "<xref href=\"com.microsoft.aad.msal4j.SystemBrowserOptions?alt=com.microsoft.aad.msal4j.SystemBrowserOptions&text=SystemBrowserOptions\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public InteractiveRequestParameters.InteractiveRequestParametersBuilder systemBrowserOptions(SystemBrowserOptions systemBrowserOptions)"
+  returns:
+    type: "<xref href=\"com.microsoft.aad.msal4j.InteractiveRequestParameters.InteractiveRequestParametersBuilder?alt=com.microsoft.aad.msal4j.InteractiveRequestParameters.InteractiveRequestParametersBuilder&text=InteractiveRequestParametersBuilder\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.aad.msal4j.InteractiveRequestParameters.InteractiveRequestParametersBuilder.tenant(java.lang.String)"
+  fullName: "com.microsoft.aad.msal4j.InteractiveRequestParameters.InteractiveRequestParametersBuilder.tenant(String tenant)"
+  name: "tenant(String tenant)"
+  nameWithType: "InteractiveRequestParameters.InteractiveRequestParametersBuilder.tenant(String tenant)"
+  parameters:
+  - name: "tenant"
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public InteractiveRequestParameters.InteractiveRequestParametersBuilder tenant(String tenant)"
+  returns:
+    type: "<xref href=\"com.microsoft.aad.msal4j.InteractiveRequestParameters.InteractiveRequestParametersBuilder?alt=com.microsoft.aad.msal4j.InteractiveRequestParameters.InteractiveRequestParametersBuilder&text=InteractiveRequestParametersBuilder\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.aad.msal4j.InteractiveRequestParameters.InteractiveRequestParametersBuilder.toString()"
+  fullName: "com.microsoft.aad.msal4j.InteractiveRequestParameters.InteractiveRequestParametersBuilder.toString()"
+  name: "toString()"
+  nameWithType: "InteractiveRequestParameters.InteractiveRequestParametersBuilder.toString()"
+  overridden: "java.lang.Object.toString()"
+  syntax: "public String toString()"
+  returns:
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+type: "class"
+metadata: {}
+package: "com.microsoft.aad.msal4j"
+artifact: com.microsoft.azure:msal4j:1.13.3
