@@ -4,19 +4,19 @@ The Microsoft Authentication Library for Java (usually shortened to MSAL Java or
 
 ## Overview
 
-1. [Why use MSAL4J?](Why-use-MSAL4J)
+1. [Why use MSAL4J?](getting-started/why-use-msal4j.md)
 
-2. **Pre-requisite**: Before using MSAL4J you will have to [register your applications with Azure AD](https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-integrating-applications).
+2. **Pre-requisite**: Before using MSAL4J you will have to [register your applications with Azure AD](/azure/active-directory/develop/active-directory-integrating-applications).
 
-3. Learn about the supported [scenarios](Scenarios).
+3. Learn about the supported [scenarios](getting-started/scenarios.md).
 
-4. To start using MSAL4J, instantiate and configure the [client application](https://github.com/AzureAD/microsoft-authentication-library-for-java/wiki/Client-Applications).
+4. To start using MSAL4J, instantiate and configure the [client application](getting-started/client-applications.md).
 
-5. Learn about the ways to [acquire a token](https://github.com/AzureAD/microsoft-authentication-library-for-java/wiki/Acquiring-Tokens) using MSAL4J. This returns an [IAuthenticationResult](https://github.com/AzureAD/microsoft-authentication-library-for-java/wiki/IAuthenticationResult).
+5. Learn about the ways to [acquire a token](getting-started/acquiring-tokens.md) using MSAL4J. This returns an [IAuthenticationResult](getting-started/iauthenticationresult.md).
 
-6. Follow [best practices for a robust enterprise ready application](https://github.com/AzureAD/microsoft-authentication-library-for-java/wiki/Best-Practices-for-a-robust-enterprise-ready-application).
+6. Follow [best practices for a robust enterprise ready application](advanced/best-practices-enterprise.md).
 
-7. Refer [FAQ](https://github.com/AzureAD/microsoft-authentication-library-for-java/wiki/FAQs) for common issues and known bugs.
+7. Refer [FAQ](getting-started/faq.md) for common issues and known bugs.
 
 ## Releases
 

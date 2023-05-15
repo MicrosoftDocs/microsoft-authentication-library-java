@@ -61,7 +61,7 @@
           "**/*.yml"
         ],
         "src": "docs-ref-conceptual",
-        "dest": "msal-java",
+        "dest": "api/overview/msal-java",
         "group": "latest"
       }
     ],
