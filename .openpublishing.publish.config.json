@@ -34,15 +34,6 @@
       },
       "SplitTOC": [
         "java/docs-ref-autogen/toc.yml"
-      ],
-      "JoinTOCPlugin": [
-        {
-          "TopLevelTOC": "java/docs-ref-mapping/reference.yml",
-          "ReferenceTOC": "java/docs-ref-autogen/toc.yml",
-          "ReferenceTOCUrl": "/java/api/msal-java/toc.json",
-          "ConceptualTOC": "java/docs-ref-conceptual/toc.yml",
-          "ConceptualTOCUrl": "/java/msal-java/toc.json"
-        }
       ]
     },
     {
@@ -72,6 +63,15 @@
       "branch_mapping": {}
     }
   ],
+  "JoinTOCPlugin": [
+    {
+      "TopLevelTOC": "java/docs-ref-mapping/reference.yml",
+      "ReferenceTOC": "java/docs-ref-autogen/toc.yml",
+      "ReferenceTOCUrl": "/java/api/msal-java/toc.json",
+      "ConceptualTOC": "msal-java-articles/toc.yml",
+      "ConceptualTOCUrl": "/entra/msal/java/toc.json"
+    }
+  ],
   "branch_target_mapping": {},
   "docs_build_engine": {},
   "skip_source_output_uploading": false,
@@ -92,5 +92,5 @@
       "version": "latest"
     }
   ],
-  "need_generate_pdf_url_template": false
+  "need_generate_pdf_url_template": true
 }
