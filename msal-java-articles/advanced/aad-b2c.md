@@ -16,7 +16,7 @@ The authority to use is `https://login.microsoftonline.com/tfp/{tenant}/{policyN
 - `tenant` is the name of the Azure AD B2C tenant
 - `policyName` the name of the policy to apply (for instance "b2c_1_susi" for sign-in/sign-up).
 
-The current guidance from B2C is to use `b2clogin.com` as the authority. For example, `https://{your-tenant-name}.b2clogin.com/tfp/{your-tenant-ID}/{policyname}`. For more information, see this [documentation](https://docs.microsoft.com/en-us/azure/active-directory-b2c/b2clogin).
+The current guidance from B2C is to use `b2clogin.com` as the authority. For example, `https://{your-tenant-name}.b2clogin.com/tfp/{your-tenant-ID}/{policyname}`. For more information, see this [documentation](/azure/active-directory-b2c/b2clogin).
 
 ## Limitations of the Username/Password flow
 

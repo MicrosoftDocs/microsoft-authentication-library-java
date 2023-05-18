@@ -17,10 +17,10 @@ MSAL4J can be used in applications running on different operating systems (Windo
 
 Here are the key scenarios supported by MSAL4J. You can read the detailed explanations with MSAL4J code usage by following the links.
 
-- [Web application that signs in users](https://docs.microsoft.com/en-us/azure/active-directory/develop/scenario-web-app-sign-user-overview)
-- [Web Application signing in a user and calling a Web API in the name of the user](https://docs.microsoft.com/en-us/azure/active-directory/develop/scenario-web-app-call-api-overview)
-- [Desktop application calling a Web API in the name of the signed-in user](https://docs.microsoft.com/en-us/azure/active-directory/develop/scenario-desktop-overview)
-- [Desktop/service daemon application calling Web API without a user](https://docs.microsoft.com/en-us/azure/active-directory/develop/scenario-daemon-overview)
-- [Application without a browser, or IOT application calling an API in the name of the user](https://docs.microsoft.com/en-us/azure/active-directory/develop/scenario-desktop-acquire-token?tabs=java#command-line-tool-without-web-browser)
+- [Web application that signs in users](/azure/active-directory/develop/scenario-web-app-sign-user-overview)
+- [Web Application signing in a user and calling a Web API in the name of the user](/azure/active-directory/develop/scenario-web-app-call-api-overview)
+- [Desktop application calling a Web API in the name of the signed-in user](/azure/active-directory/develop/scenario-desktop-overview)
+- [Desktop/service daemon application calling Web API without a user](/azure/active-directory/develop/scenario-daemon-overview)
+- [Application without a browser, or IOT application calling an API in the name of the user](/azure/active-directory/develop/scenario-desktop-acquire-token?tabs=java#command-line-tool-without-web-browser)
 
-Can't find the scenario you are looking for? Check out the [supported scenarios and platforms](https://docs.microsoft.com/en-us/azure/active-directory/develop/authentication-flows-app-scenarios#scenarios-and-supported-platforms-and-languages) across MSALs.
+Can't find the scenario you are looking for? Check out the [supported scenarios and platforms](/azure/active-directory/develop/authentication-flows-app-scenarios#scenarios-and-supported-platforms-and-languages) across MSALs.
