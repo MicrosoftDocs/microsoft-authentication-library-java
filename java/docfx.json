@@ -88,27 +88,27 @@
     "markdownEngineName": "markdig",
     "fileMetadata": {
       "author": {
-        "api/**/**.yml": "Dickson-Mwendia",
-        "api/**/**.md": "Dickson-Mwendia"
+        "docs-ref-autogen/**/**.yml": "Dickson-Mwendia",
+        "docs-ref-conceptual/**/**.md": "Dickson-Mwendia"
       },
       "ms.author": {
-        "api/**/**.yml": "dmwendia",
-        "api/**/**.md": "dmwendia"
+        "docs-ref-autogen/**/**.yml": "dmwendia",
+        "docs-ref-conceptual/**/**.md": "dmwendia"
       },
       "ms.service": {
-        "api/**/**.yml": "active-directory",
-        "api/**/**.md": "active-directory"
+        "docs-ref-autogen/**/**.yml": "active-directory",
+        "docs-ref-conceptual/**/**.md": "active-directory"
       },
       "titleSuffix": {
-        "api/**/**.md": "Microsoft Authentication Library for Java",
-        "api/**/**.yml": "Microsoft Authentication Library for Java"
+        "docs-ref-autogen/**/**.md": "Microsoft Authentication Library for Java",
+        "docs-ref-conceptual/**/**.yml": "Microsoft Authentication Library for Java"
       },
       "ms.topic": {
-        "api/**/**.md": "conceptual",
-        "api/**/**.yml": "reference"
+        "docs-ref-autogen/**/**.md": "conceptual",
+        "docs-ref-conceptual/**/**.yml": "reference"
       },
       "open_to_public_contributors": {
-        "api/**/**.md": true
+        "docs-ref-conceptual/**/**.md": true
       } 
     },
     "template": [],

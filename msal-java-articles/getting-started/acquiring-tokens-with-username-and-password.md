@@ -7,7 +7,7 @@ description: "MSAL4J supports in the user name and password flow for public clie
 
 MSAL4J supports in the user name and password flow for public client applications. In general Microsoft does not advise customers to use it as it's less secure than the other flows, and it is not compatible with conditional access because if the resource requires conditional access, the call to acquire token will just fail, given that this is not an interactive flow (the STS does not have an opportunity to present a dialog to the user to tell them that they need to do multiple factor authentication).
 
-The preferred flow for acquiring a token silently on Windows domain joined machines is [Integrated Windows Authentication](./integrated-windows-authentication.md). Otherwise you can also use [Device code flow](../getting-started/device-code-flow.md)
+The preferred flow for acquiring a token silently on Windows domain joined machines is [Integrated Windows Authentication](../advanced//integrated-windows-authentication.md). Otherwise you can also use [Device code flow](../getting-started/device-code-flow.md)
 
 > [!NOTE]
 > Although this is useful in some cases (DevOps scenarios), if you want to use Username/password in interactive scenarios where you provide your own UI, you should really think about how to move away from it. By using username/password you are giving-up a number of things:
