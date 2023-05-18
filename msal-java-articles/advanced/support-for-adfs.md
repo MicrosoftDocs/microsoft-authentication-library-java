@@ -31,7 +31,7 @@ The user is redirected to the sign-in page of the identity provider. The sign-in
 
 ## MSAL connects directly to an AD FS authority
 
-MSAL4J provides support for directly authenticating with AD FS 2019. In this case, you can provide the ADFS specific authority URL to MSAL4J when initializing the client. The authority value should look something like https://adfs.contoso.com/adfs
+MSAL4J provides support for directly authenticating with AD FS 2019. In this case, you can provide the ADFS specific authority URL to MSAL4J when initializing the client. The authority value should look something like `https://adfs.contoso.com/adfs`.
 
 ## Acquiring a token using AcquireToken with IntegratedWindowsAuthenticationParameters or UsernamePasswordParameters
 

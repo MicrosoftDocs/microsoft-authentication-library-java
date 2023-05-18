@@ -5,7 +5,7 @@ description: "The Microsoft Authentication Library for Java (usually shortened t
 
 # Microsoft Authentication Library for Java
 
-The Microsoft Authentication Library for Java (usually shortened to MSAL Java or MSAL4J) enables applications to integrate with the [Microsoft identity platform](https://aka.ms/aaddevv2). It allows you to sign in users or apps with Microsoft identities (Azure AD, Microsoft accounts and Azure AD B2C accounts) and obtain tokens to call Microsoft APIs such as [Microsoft Graph](https://graph.microsoft.io/) or your own APIs registered with the Microsoft identity platform. It is built using industry standard OAuth2 and OpenID Connect protocols.
+The Microsoft Authentication Library for Java (usually shortened to MSAL Java or MSAL4J) enables applications to integrate with the [Microsoft identity platform](/azure/active-directory/develop/v2-overview). It allows you to sign in users or apps with Microsoft identities (Azure AD, Microsoft accounts and Azure AD B2C accounts) and obtain tokens to call Microsoft APIs such as [Microsoft Graph](https://graph.microsoft.io/) or your own APIs registered with the Microsoft identity platform. It is built using industry standard OAuth2 and OpenID Connect protocols.
 
 ## Overview
 

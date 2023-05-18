@@ -21,4 +21,4 @@ Note that enabling your application for sovereign clouds requires you to:
 
 More details in [Authentication in National Clouds](/azure/active-directory/develop/authentication-national-cloud)
 
-For convenience, the list of authentication endpoints for the national clouds can be found in the [AzureCloudEndpoint](https://github.com/AzureAD/microsoft-authentication-library-for-java/blob/dev/src/main/java/com/microsoft/aad/msal4j/AzureCloudEndpoint.java) enum, along with the endpoint for the global/public cloud.
+For convenience, the list of authentication endpoints for the national clouds can be found in the [AzureCloudEndpoint](https://github.com/AzureAD/microsoft-authentication-library-for-java/blob/main/msal4j-sdk/src/main/java/com/microsoft/aad/msal4j/AzureCloudEndpoint.java) enum, along with the endpoint for the global/public cloud.
