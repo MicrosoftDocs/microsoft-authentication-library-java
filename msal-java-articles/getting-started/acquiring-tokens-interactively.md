@@ -1,4 +1,7 @@
-# Acquiring tokens interactively
+---
+title: Acquiring tokens interactively
+description: "MSAL supports acquiring tokens interactively on public clients through use of the system OS browser."
+---
 
 ## System Browser
 
@@ -11,22 +14,21 @@ MSAL will listen on "http://localhost:port" and intercept the code that authorit
 During app registration, configure `http://localhost` as a redirect URI. In the case of B2C, you will need to register a specific port `http://locahost:port`.
 
 ```java
-        PublicClientApplication publicClientApplication =
-                PublicClientApplication
-                        .builder(CLIENT_ID)
-                        .authority(AUTHORITY)
-                        .build();
-
-        InteractiveRequestParameters parameters = InteractiveRequestParameters
-                .builder(new URI("http://localhost"))
-                .scopes(scope)
+PublicClientApplication publicClientApplication =
+        PublicClientApplication
+                .builder(CLIENT_ID)
+                .authority(AUTHORITY)
                 .build();
 
-        IAuthenticationResult result = publicClientApplication.acquireToken(parameters).join();
+InteractiveRequestParameters parameters = InteractiveRequestParameters
+        .builder(new URI("http://localhost"))
+        .scopes(scope)
+        .build();
 
+IAuthenticationResult result = publicClientApplication.acquireToken(parameters).join();
 ```
 
- ## Customizing the experience 
+## Customizing the experience
 
 MSAL attempts to open the default system browser, if one is available, on the users machine. You can customize this logic by providing your own implementation of `OpenBrowserAction`
 
@@ -47,30 +49,23 @@ MSAL attempts to open the default system browser, if one is available, on the us
                         .builder()
                         .openBrowserAction(new CustomOpenBrowserAction())
                         .build();
-
 ```
 
 You can also customize the HTML message that the user sees after authenticating or even provide a URL where you want the user to be redirected to after authenticating.
 
 ```java
+SystemBrowserOptions options =  
+        SystemBrowserOptions
+                .builder()
+                .htmlMessageSuccess("CUSTOM_HTML_HERE")
+                .htmlMessageError("CUSTOM_HTML_HERE")
+                .build();
+// OR
 
-        SystemBrowserOptions options =  
-                SystemBrowserOptions
-                        .builder()
-                        .htmlMessageSuccess("CUSTOM_HTML_HERE")
-                        .htmlMessageError("CUSTOM_HTML_HERE")
-                        .build();
-        // OR
-
-        SystemBrowserOptions options =
-                SystemBrowserOptions
-                        .builder()
-                        .browserRedirectSuccess(new URI("http://localhost:port"))
-                        .browserRedirectError(new URI ("http://localhost:port"))
-                        .build();
-
+SystemBrowserOptions options =
+        SystemBrowserOptions
+                .builder()
+                .browserRedirectSuccess(new URI("http://localhost:port"))
+                .browserRedirectError(new URI ("http://localhost:port"))
+                .build();
 ```
-
-
-
-

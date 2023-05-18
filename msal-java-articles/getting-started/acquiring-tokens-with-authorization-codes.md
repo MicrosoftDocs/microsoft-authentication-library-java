@@ -1,4 +1,7 @@
-# Acquiring tokens with authorization codes
+---
+title: Acquiring tokens with authorization codes
+description: "The Authorization Code flow is suitable when the application requires the user's interaction with the Azure AD STS during authentication."
+---
 
 The Authorization Code flow is suitable when the application requires the user's interaction with the Azure AD STS during authentication. One such case is when users login to Web applications (web sites) using Open Id connect. The web application receives an authorization code which it can redeem to acquire a token for Web APIs.
 

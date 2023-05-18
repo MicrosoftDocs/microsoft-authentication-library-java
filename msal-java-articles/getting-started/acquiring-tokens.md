@@ -1,8 +1,11 @@
-# Acquiring tokens
+---
+title: Acquiring tokens
+description: "In general the way to acquire a token is different depending on the application type - public client application (desktop/mobile) or a confidential client application (Web App, Web API, daemon application like a Windows service)."
+---
 
 As explained in [scenarios](./scenarios.md), there are many ways of acquiring a token. Some require user interactions through a web browser. Some don't require any user interactions.
 
-In general the way to acquire a token is different depending on the application type-  public client application (Desktop / Mobile) or a confidential client application (Web App, Web API, daemon application like a windows service)
+In general the way to acquire a token is different depending on the application type - public client application (desktop/mobile) or a confidential client application (Web App, Web API, daemon application like a Windows service).
 
 ## Pre-requisites
 

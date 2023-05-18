@@ -1,10 +1,16 @@
+---
+title: Client applications
+description: "How to start configuring client applications with MSAL Java."
+---
+
 ## Instantiating an Application
 
 ### Pre-requisites
 
-Before instantiating your app with MSAL4J,
-1. Understand the types of Client applications available- [Public Client and Confidential Client applications](https://docs.microsoft.com/en-us/azure/active-directory/develop/msal-client-applications).
-1. You'll need to [register](https://docs.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app) the application with Azure AD. You will therefore know:
+Before instantiating your app with MSAL4J:
+
+1. Understand the types of Client applications available- [Public Client and Confidential Client applications](/azure/active-directory/develop/msal-client-applications).
+1. You'll need to [register](/azure/active-directory/develop/quickstart-register-app) the application with Azure AD. You will therefore know:
     - Its `clientID` (a string representing a GUID)
     - The identity provider  URL (named the instance) and the sign-in audience for your application. These two parameters are collectively known as the authority.
     - Possibly the `TenantID` in the case you are writing a line of business application (just for your organization, also named single-tenant application)
@@ -29,6 +35,7 @@ PublicClientApplication app =
 You will need either a secret or a certificate, as described in the [Client Credentials page](https://github.com/AzureAD/microsoft-authentication-library-for-java/wiki/Client-Credentials). 
 
 If you have a secret:
+
 ```java
 String PUBLIC_CLIENT_ID;
 String AUTHORITY;
@@ -43,6 +50,7 @@ ConfidentialClientApplication app =
 ```
 
 If you have a certificate:
+
 ```java
 String PUBLIC_CLIENT_ID;
 String AUTHORITY;

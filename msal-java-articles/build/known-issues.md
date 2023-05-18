@@ -1,4 +1,7 @@
-# Known issues
+---
+title: Known issues
+description: "This page covers known issues that exist outside of MSAL4J, such as those found in dependencies or services that MSAL4J relies on, and potential workarounds to use until those issues are resolved."
+---
 
 This page covers known issues that exist outside of MSAL4J, such as those found in dependencies or services that MSAL4J relies on, and potential workarounds to use until those issues are resolved.
 

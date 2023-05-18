@@ -1,4 +1,7 @@
-# FAQs
+---
+title: Frequently asked questions
+description: "Some of the most common questions asked about MSAL Java."
+---
 
 ## MSAL4J Scope
 
@@ -47,16 +50,13 @@ There are several diagnostics tools you can use:
 2. MSAL diagnostic logs: You can enable logging. This will write some logs with information about the internal steps of MSAL. You may analyze the logs to find the issue. Also, in case you contact the MSAL team, you need to send the logs to help with the analysis. You can find the instruction on how to turn on MSAL logs [here](Logging).
 3. Network traces: Use a tool like Fiddler for recording all the http communications MSAL makes with the server. Using fiddler is especially easy on Windows desktop machines. Please share the network trace file with the MSAL team in case we are involved in diagnosing your issue.
 
-
 ### What kind of errors are returned from MSAL as exception and what kind is reported to the user?
 
 Most errors are returned from MSAL in forms of an exception; however, there are limited cases in which MSAL shows the error on the browser control. These cases happen mostly when the client cannot be validated or authority server cannot be reached.
 
-
 ### Does MSAL have any kind of retry logic inside?
 
 No. If an operations fails, MSAL reports an error via an exception. The exception includes an error code and also a status code in case the error is returned from the authority. In such cases, it is developer’s job to examine the status code (which mostly reflects the http status code of the response) in the exception and decides whether to retry or not. 502 is usually the status code that warrants a retry.
-
 
 ## MSAL Release Model
 

@@ -3,8 +3,6 @@ title: Authorization code URL builder
 description: "When performing Oauth2 authorization code flow, the first step is to direct the user to the authorization endpoint, where they will authenticate, and the identity provider will respond with an authentication code."
 ---
 
-# Authorization code URL builder
-
 When performing Oauth2 authorization code flow, the first step is to direct the user to the authorization endpoint, where they will authenticate, and the identity provider will respond with an authentication code. The authentication code can then be used to redeem a token by calling MSALs `PublicClientApplication.acquireToken(AuthorizationCodeParameters)` or `ConfidentialClientApplication.acquireToken(AuthorizationCodeParameters)`. 
 
 ## Authorization URL builder

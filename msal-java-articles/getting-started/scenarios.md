@@ -1,4 +1,7 @@
-### Introduction
+---
+title: MSAL Java scenarios
+description: "MSAL4J can be used by applications to acquire tokens to access a protected API."
+---
 
 MSAL4J can be used by applications to acquire tokens to access a protected API. Tokens can be acquired by different **application types**: Desktop applications, Web applications, Web APIs, and applications running on devices that don't have a browser (such as IoT). In MSAL4J, applications are categorized as follows:
 

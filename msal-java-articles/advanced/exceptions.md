@@ -1,17 +1,20 @@
-When processing exceptions, you can use the exception type itself and the ErrorCode member to distinguish between exceptions.
+---
+title: Exceptions in MSAL Java
+description: "When processing exceptions, you can use the exception type itself and the ErrorCode member to distinguish between exceptions."
+---
 
-There are three type of exceptions: MsalClientException,  MsalServiceException, and MsalInteractionRequiredException, all which inherit from MsalException. 
+When processing exceptions, you can use the exception type itself and the ErrorCode member to distinguish between exceptions. There are three type of exceptions: `MsalClientException`,  `MsalServiceException`, and `MsalInteractionRequiredException`, all which inherit from `MsalException`.
 
-**MsalClientException** is thrown when an error occurs that is local to the library or device. 
+- **MsalClientException** is thrown when an error occurs that is local to the library or device.
+- **MsalServiceException** is thrown when the STS service returns an error response or another networking error occurs.
+- **MsalInteractionRequiredException** is thrown when UI interaction is required for authentication to succeed.
 
-**MsalServiceException** is thrown when the STS service returns an error response or another networking error occurs.
+## MsalServiceException
 
-**MsalInteractionRequiredException** is thrown when UI interaction is required for authentication to succeed. 
-
-### MsalServiceException
 MsalServiceException exposes HTTP headers returned the requests to the STS. You can access them by `MsalServiceException.headers()`
 
-### MsalInteractionRequiredException
+## MsalInteractionRequiredException
+
 One of common status codes returned from MSAL4J when calling `AcquireTokenSilently()` is `InvalidGrantError`. This status code means that the application should call the authentication library again, but in interactive mode (Using AuthorizationCodeParameters or DeviceCodeParameters for public client applications). This is because additional user interaction is required before an authentication token can be issued.
 
 Most of the time when AcquireTokenSilently fails, it is because the token cache doesn't have tokens matching your request. Access tokens expire in 1 hour, and AcquireTokenSilently will try to fetch a new one based on a refresh token (in OAuth2 terms, this is the "Refresh Token' flow). This flow can also fail for various reasons, for example if a tenant admin configures more stringent login policies.
@@ -30,26 +33,27 @@ MSAL exposes a `reason` field, which you can read to provide a better user exper
 |ConsentRequired|User consent is missing, or has been revoked| Call acquireToken with interactive paramaters so user can reset password|
 |None| 	No further details are provided. Condition may be resolved by user interaction during the interactive authentication flow. | Call acquireToken with interactive parameters|
 
-### Code Example
-```
-        IAuthenticationResult result;
-        try {
-            PublicClientApplication application = PublicClientApplication
-                    .builder("clientId")
-                    .b2cAuthority("authority")
-                    .build();
+## Code Example
 
-            SilentParameters parameters = SilentParameters
-                    .builder(Collections.singleton("scope"))
-                    .build();
+```java
+IAuthenticationResult result;
+try {
+    PublicClientApplication application = PublicClientApplication
+            .builder("clientId")
+            .b2cAuthority("authority")
+            .build();
 
-            result = application.acquireTokenSilently(parameters).join();
-        }
-        catch (Exception ex){
-            if(ex instanceof MsalInteractionRequiredException){
-                // AcquireToken by either AuthorizationCodeParameters or DeviceCodeParameters
-            } else{
-                // Log and handle exception accordingly
-            }
-        }
+    SilentParameters parameters = SilentParameters
+            .builder(Collections.singleton("scope"))
+            .build();
+
+    result = application.acquireTokenSilently(parameters).join();
+}
+catch (Exception ex){
+    if(ex instanceof MsalInteractionRequiredException){
+        // AcquireToken by either AuthorizationCodeParameters or DeviceCodeParameters
+    } else{
+        // Log and handle exception accordingly
+    }
+}
 ```
