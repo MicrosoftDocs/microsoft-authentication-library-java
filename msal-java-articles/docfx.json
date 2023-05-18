@@ -52,7 +52,28 @@
         "Certification"
       ]
     },
-    "fileMetadata": {},
+    "fileMetadata": {
+      "author": {
+        "*.md": "localden",
+        "*/**.md": "localden"
+      },
+      "ms.author": {
+        "*.md": "ddelimarsky",
+        "*/**.md": "ddelimarsky"
+      },
+      "ms.service": {
+        "*.md": "active-directory",
+        "*/**.md": "active-directory"
+      },
+      "titleSuffix": {
+        "*.md": "Microsoft Authentication Library for Java",
+        "*/**.md": "Microsoft Authentication Library for Java"
+      },
+      "ms.topic": {
+        "*.md": "conceptual",
+        "*/**.md": "conceptual"
+      }
+    },
     "template": [],
     "dest": "msal-java"
   }

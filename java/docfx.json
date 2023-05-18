@@ -103,16 +103,28 @@
     "markdownEngineName": "markdig",
     "fileMetadata": {
       "author": {
-        "**.md": "Dickson-Mwendia",
-        "api/**.yml": "Dickson-Mwendia"
+        "api/**.yml": "Dickson-Mwendia",
+        "api/**.md": "Dickson-Mwendia"
       },
       "ms.author": {
-        "**.md": "dmwendia",
-        "api/**.yml": "dmwendia"
+        "api/**.yml": "dmwendia",
+        "api/**.md": "dmwendia"
       },
       "ms.service": {
-        "api/**.yml": "active-directory"
-      }
+        "api/**.yml": "active-directory",
+        "api/**.md": "active-directory"
+      },
+      "titleSuffix": {
+        "api/**.md": "Microsoft Authentication Library for Java",
+        "api/**.yml": "Microsoft Authentication Library for Java"
+      },
+      "ms.topic": {
+        "api/**.md": "conceptual",
+        "api/**.yml": "reference"
+      },
+      "open_to_public_contributors": {
+        "api/**.md": false
+      } 
     },
     "template": [],
     "dest": "_site"
