@@ -10,7 +10,7 @@ MSAL4J can be used by applications to acquire tokens to access a protected API. 
 - Public client applications (Desktop). These type of apps cannot store app secrets securely.
 - Confidential client applications (Web apps, Web APIs, and daemon applications). These type of apps securely store a secret registered with Azure AD.
 
-Learn more details about instantiating and configuring the above in [Client applications](Client-Applications) topic.
+Learn more details about instantiating and configuring the above in [Client applications](./client-applications.md) topic.
 MSAL4J supports acquiring tokens either in the name of a user, or, in the name of the application itself (without a user). In the latter case, a confidential client application must be used.
 
 MSAL4J can be used in applications running on different operating systems (Windows, Linux, Mac). Scenarios might differ depending on the platform.

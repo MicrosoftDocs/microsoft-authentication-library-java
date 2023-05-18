@@ -31,7 +31,7 @@ It depends on what type of authority you talk to. If it is ADFS, you have to pas
 
 ### What overload of AcquireToken should I call?
 
-It depends on the type of client application you use and the scenario you need a token for. See the guidance documented in [Acquire Tokens](Acquire-tokens).
+It depends on the type of client application you use and the scenario you need a token for. See the guidance documented in [Acquire Tokens](./acquiring-tokens.md).
 
 ## Debugging
 
@@ -48,8 +48,8 @@ Problems in MSAL could have various reasons. These are the common culprits:
 
 There are several diagnostics tools you can use:
 
-1. MSAL Samples: The first best tool is the set of samples published along with MSAL (microsoft-authentication-library-for-java/src/samples as well as samples posted on http://github.com/AzureSamples). Try to find the closest sample to your application and download and run it on your machine. If the sample works properly, you need to follow the same steps of the sample app in your application.
-2. MSAL diagnostic logs: You can enable logging. This will write some logs with information about the internal steps of MSAL. You may analyze the logs to find the issue. Also, in case you contact the MSAL team, you need to send the logs to help with the analysis. You can find the instruction on how to turn on MSAL logs [here](Logging).
+1. MSAL Samples: The first best tool is the set of samples published along with MSAL (microsoft-authentication-library-for-java/src/samples as well as samples posted on https://github.com/AzureSamples). Try to find the closest sample to your application and download and run it on your machine. If the sample works properly, you need to follow the same steps of the sample app in your application.
+2. MSAL diagnostic logs: You can enable logging. This will write some logs with information about the internal steps of MSAL. You may analyze the logs to find the issue. Also, in case you contact the MSAL team, you need to send the logs to help with the analysis. You can find the instruction on how to turn on MSAL logs [here](/azure/active-directory/develop/msal-logging-java).
 3. Network traces: Use a tool like Fiddler for recording all the http communications MSAL makes with the server. Using fiddler is especially easy on Windows desktop machines. Please share the network trace file with the MSAL team in case we are involved in diagnosing your issue.
 
 ### What kind of errors are returned from MSAL as exception and what kind is reported to the user?

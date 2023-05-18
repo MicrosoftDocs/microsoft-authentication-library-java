@@ -21,8 +21,6 @@
       href: getting-started/iauthenticationresult.md
     - name: Calling a protected API
       href: getting-started/using-the-acquired-token-to-call-a-protected-web-api.md
-    - name: Service-to-service calls
-      href: getting-started/service-to-service-calls.md
     - name: Device code flow
       href: getting-started/device-code-flow.md
     - name: Client credentials
@@ -45,6 +43,8 @@
 
   - name: Advanced
     items:
+    - name: Service-to-service calls
+      href: advanced/service-to-service-calls.md
     - name: Logging
       href: /azure/active-directory/develop/msal-logging-java
     - name: Exceptions
