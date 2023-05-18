@@ -3,6 +3,8 @@ title: Frequently asked questions
 description: "Some of the most common questions asked about MSAL Java."
 ---
 
+# Frequently asked questions
+
 ## MSAL4J Scope
 
 ### What is the main functionality of MSAL?

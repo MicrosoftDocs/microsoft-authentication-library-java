@@ -3,6 +3,8 @@ title: Client applications
 description: "How to start configuring client applications with MSAL Java."
 ---
 
+# Client applications
+
 ## Instantiating an Application
 
 ### Pre-requisites

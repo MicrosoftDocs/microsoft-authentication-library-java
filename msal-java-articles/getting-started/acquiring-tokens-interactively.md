@@ -3,11 +3,13 @@ title: Acquiring tokens interactively
 description: "MSAL supports acquiring tokens interactively on public clients through use of the system OS browser."
 ---
 
+# Acquiring tokens interactively
+
 ## System Browser
 
-MSAL supports acquiring tokens interactively on public clients through use of the system OS browser. MSAL will start the system browser as a separate process, and open the authorization URL. MSAL does have have control over this browser, but once the user finishes authentication, the web page is redirected in such a way such that MSAL can intercept the response from the authority. 
+MSAL supports acquiring tokens interactively on public clients through use of the system OS browser. MSAL will start the system browser as a separate process, and open the authorization URL. MSAL does have have control over this browser, but once the user finishes authentication, the web page is redirected in such a way such that MSAL can intercept the response from the authority.
 
-MSAL will listen on "http://localhost:port" and intercept the code that authority sends when the user is done authenticating. MSAL cannot detect if the user navigates away or simply closes the browser. Apps using this technique are encouraged to define a timeout. We recommend a timeout of at least a few minutes to take into account cases where the user is prompted to change password or perform 2FA. 
+MSAL will listen on `http://localhost:port` and intercept the code that authority sends when the user is done authenticating. MSAL cannot detect if the user navigates away or simply closes the browser. Apps using this technique are encouraged to define a timeout. We recommend a timeout of at least a few minutes to take into account cases where the user is prompted to change password or perform 2FA.
 
 ## How to use the default OS browser
 
@@ -36,19 +38,18 @@ MSAL attempts to open the default system browser, if one is available, on the us
 - Pass custom action to `SystemBrowserOptions`
 
 ```java
-    class CustomOpenBrowserAction implements OpenBrowserAction {
-
-        @Override
-        public void openBrowser(URL url){
+class CustomOpenBrowserAction implements OpenBrowserAction {
+    @Override
+    public void openBrowser(URL url){
             //Custom logic to open URL 
-        }
     }
+}
 
-        SystemBrowserOptions options =  
-                SystemBrowserOptions
-                        .builder()
-                        .openBrowserAction(new CustomOpenBrowserAction())
-                        .build();
+SystemBrowserOptions options =  
+        SystemBrowserOptions
+                .builder()
+                .openBrowserAction(new CustomOpenBrowserAction())
+                .build();
 ```
 
 You can also customize the HTML message that the user sees after authenticating or even provide a URL where you want the user to be redirected to after authenticating.

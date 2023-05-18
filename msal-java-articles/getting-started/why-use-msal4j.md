@@ -3,6 +3,8 @@ title: Why use MSAL4J
 description: "Decide when to use MSAL4J to authenticate your users."
 ---
 
+# Why use MSAL4J
+
 MSAL4J ([Microsoft Authentication Library for Java](https://github.com/AzureAD/microsoft-authentication-library-for-java)) enables developers to **acquire [tokens](https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-dev-glossary#security-token) in order to call secured Web APIs**. These Web APIs can be the Microsoft Graph, other Microsoft APIS, 3rd party Web APIs, or your own Web API.
 
 ## MSAL4J Supports multiple application architectures

@@ -1,7 +1,9 @@
 ---
-title: Configure custom HTTP client.
+title: Configure custom HTTP client
 description: "MSAL lets you provide your own HTTP client for supporting fine grained configurations."
 ---
+
+# Configure custom HTTP client
 
 MSAL lets you provide your own HTTP client for supporting fine grained configurations. To use a custom Http client, you'll need to implement `IHttpClient`. This class, which we will class `HttpClientAdapter`, should implement `send`, which takes in the `HttpRequest` composed by MSAL, executes it, and then constructs `IHttpResponse` with the results of the execution.
 

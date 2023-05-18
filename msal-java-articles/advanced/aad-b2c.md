@@ -3,6 +3,8 @@ title: Use MSAL4J to sign-in users with social identities
 description: "You can use MSAL4J to sign-in users with social identities by using Azure AD B2C."
 ---
 
+# Use MSAL4J to sign-in users with social identities
+
 You can use MSAL4J to sign-in users with social identities by using [Azure AD B2C](https://aka.ms/aadb2c). AAD B2C is built around the notion of policies. In MSAL4J, specifying a policy translates to providing an authority.
 
 - When you instantiate the client application, you need to specify the policy in authority

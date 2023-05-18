@@ -3,6 +3,8 @@ title: Acquiring tokens with a username and password
 description: "MSAL4J supports in the user name and password flow for public client applications."
 ---
 
+# Acquiring tokens with a username and password
+
 MSAL4J supports in the user name and password flow for public client applications. In general Microsoft does not advise customers to use it as it's less secure than the other flows, and it is not compatible with conditional access because if the resource requires conditional access, the call to acquire token will just fail, given that this is not an interactive flow (the STS does not have an opportunity to present a dialog to the user to tell them that they need to do multiple factor authentication).
 
 The preferred flow for acquiring a token silently on Windows domain joined machines is [Integrated Windows Authentication](./integrated-windows-authentication.md). Otherwise you can also use [Device code flow](../getting-started/device-code-flow.md)

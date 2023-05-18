@@ -3,6 +3,8 @@ title: Using Web Account Manager with MSAL Java
 description: "Web Account Manager (WAM) is a Windows 10+ component that can act as an authentication broker, allowing your users to easily authenticate with external identity providers as well as Microsoft."
 ---
 
+# Using Web Account Manager with MSAL Java
+
 > [!NOTE]
 > This functionality is currently in a beta release ([1.14.x-beta](https://mvnrepository.com/artifact/com.microsoft.azure/msal4j/1.14.0-beta)) while it undergoes internal testing. Although the core functionality and APIs are most likely finalized, anything described here could potentially change during the beta. This page will be kept up to date with the latest beta version, as well as the final release.
 

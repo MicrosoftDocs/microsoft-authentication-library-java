@@ -3,6 +3,8 @@ title: Exceptions in MSAL Java
 description: "When processing exceptions, you can use the exception type itself and the ErrorCode member to distinguish between exceptions."
 ---
 
+# Exceptions in MSAL Java
+
 When processing exceptions, you can use the exception type itself and the ErrorCode member to distinguish between exceptions. There are three type of exceptions: `MsalClientException`,  `MsalServiceException`, and `MsalInteractionRequiredException`, all which inherit from `MsalException`.
 
 - **MsalClientException** is thrown when an error occurs that is local to the library or device.

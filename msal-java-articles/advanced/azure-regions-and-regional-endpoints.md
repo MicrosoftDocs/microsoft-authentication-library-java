@@ -3,6 +3,8 @@ title: Azure regions and regional endpoints
 description: "To increase the reliability, availability and performance of applications running in Azure, multiple Azure regions are available that aim to keep all traffic for the application inside the same geographical area."
 ---
 
+# Azure regions and regional endpoints
+
 To increase the reliability, availability and performance of applications running in Azure, multiple Azure regions are available that aim to keep all traffic for the application inside the same geographical area. Relevant for MSAL are the regional endpoints for the secure token service, allowing an application using MSAL to retrieve tokens from a regional endpoint rather than the default global endpoint. 
 
 See [here](https://azure.microsoft.com/global-infrastructure/geographies/#geographies) for more information about specific Azure regions, and before trying to use a regional endpoint ensure that your authentication flow or scenario is supported by looking at the [regional token service FAQ](/identity/microsoft-identity-platform/ests-r-faq).

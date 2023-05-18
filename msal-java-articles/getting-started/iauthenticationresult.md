@@ -3,6 +3,8 @@ title: IAuthenticationResult
 description: "An overview of the IAuthenticationResult interface."
 ---
 
+# IAuthenticationResult
+
 In all of the authentication flows, the methods to acquire tokens return a `Future<IAuthenticationResult>`.
 
 The IAuthenticationResult interface contains the following attributes:

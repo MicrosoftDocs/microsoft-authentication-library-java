@@ -3,6 +3,8 @@ title: Using the acquired token to call a protected API
 description: "How to use a token acquired with MSAL4J to call a secure API."
 ---
 
+# Using the acquired token to call a protected API
+
 ## Using the token
 
 Getting a token is not a goal per se. It's a necessary step to call a protected API. The token needs to be used to access a Web API. The way to do it is by setting the Authorization header to be "Bearer", followed by a space, followed by the access token.

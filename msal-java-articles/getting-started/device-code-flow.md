@@ -3,6 +3,8 @@ title: Device code flow
 description: "Interactive authentication with Azure AD requires a web browser. However, in the case of devices and operating systems that do not provide a Web browser, Device code flow lets the user use another device (for instance another computer or a mobile phone) to sign-in interactively."
 ---
 
+# Device code flow
+
 Interactive authentication with Azure AD requires a web browser. However, in the case of devices and operating systems that do not provide a Web browser, Device code flow lets the user use another device (for instance another computer or a mobile phone) to sign-in interactively. By using the device code flow, the application obtains tokens through a two-step process especially designed for these devices/OS. Examples of such applications are applications running on iOT, or Command-Line tools (CLI). The idea is that:
 
 ## Constraints

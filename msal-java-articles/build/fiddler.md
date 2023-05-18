@@ -3,6 +3,8 @@ title: Using Fiddler with MSAL Java
 description: "You can use the MSAL4J with a proxy such as Fiddler to debug requests and responses."
 ---
 
+# Using Fiddler with MSAL Java
+
 You can use the MSAL4J with a proxy such as [Fiddler](https://www.telerik.com/fiddler) to debug requests and responses.
 
 ## 1. Set up a keystore file
