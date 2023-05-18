@@ -2,3 +2,4 @@ https://aka.ms/msal/estsr/guidance
 xref:.+
 https://mvnrepository.com/artifact/com.microsoft.azure/msal4j/1.14.0-beta
 https://mvnrepository.com/artifact/com.microsoft.azure/javamsalruntime
+https://mvnrepository.com/artifact/com.microsoft.azure/msal4j-brokers
