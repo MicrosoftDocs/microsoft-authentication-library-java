@@ -1,9 +1,11 @@
-### MSAL lets you provide your own Http client for supporting fine grained configurations.
+---
+title: Configure custom HTTP client.
+description: "MSAL lets you provide your own HTTP client for supporting fine grained configurations."
+---
 
-To use a custom Http client, you'll need to implement `IHttpClient`. This class, which we will class `HttpClientAdapter`, should implement `send`, which takes in the `HttpRequest` composed by MSAL, executes it, and then constructs `IHttpResponse` with the results of the execution.
+MSAL lets you provide your own HTTP client for supporting fine grained configurations. To use a custom Http client, you'll need to implement `IHttpClient`. This class, which we will class `HttpClientAdapter`, should implement `send`, which takes in the `HttpRequest` composed by MSAL, executes it, and then constructs `IHttpResponse` with the results of the execution.
 
-
-```Java
+```java
 class OkHttpClientAdapter implements IHttpClient{
 
     private OkHttpClient client;
@@ -26,21 +28,18 @@ class OkHttpClientAdapter implements IHttpClient{
         // Map status code, headers, and response body from OkHttpClient's Response object to MSAL's IHttpResponse
         return buildMsalResponseFromOkResponse(okHttpResponse);
     }
-
+}
 ```
 
 Once `HttpClientAdapter` has been implemented, it can be set on the client application for which you would like to use it.
 
-```Java
+```java
+IHttpClient httpClient = new OkHttpClientAdapter();
+PublicClientApplication pca = PublicClientApplication.builder(
+        APP_ID).
+        authority(AUTHORITY).
+        httpClient(httpClient).
+        build();
+```
 
-        IHttpClient httpClient = new OkHttpClientAdapter();
-        PublicClientApplication pca = PublicClientApplication.builder(
-                APP_ID).
-                authority(AUTHORITY).
-                httpClient(httpClient).
-                build();
-``` 
-
-All Http requests will now be routed through `httpClient`.
-
-
+All HTTP requests will now be routed through `httpClient`.

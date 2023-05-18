@@ -1,3 +1,8 @@
+---
+title: Best practices for enterprises
+description: "To build robust, enterprise-ready applications, you will need to follow some of the best patterns and practices in using MSAL Java."
+---
+
 You've seen that with MSAL4J you can quite simply acquire a token for a protected Web API. You also don't have to handle refreshing tokens yourself.
 
 However, to build robust, enterprise ready applications, you will need to do a bit more. For instance you'll want to:
