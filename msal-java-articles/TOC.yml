@@ -1,4 +1,4 @@
-- name: Microsoft Authentication Libraries for Java
+- name: Microsoft Authentication Library for Java
   items:
   - name: Getting started
     href: index.md
