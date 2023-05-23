@@ -1,3 +1,5 @@
-## Microsoft Open Source Code of Conduct
-This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/).
-For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
+# Documentation for Microsoft Authentication Library (MSAL) for Java
+
+## API reference documentation automation
+
+Continuous Integration (CI) jobs for this repository are available in the [automation Azure DevOps instance](https://apidrop.visualstudio.com/Content%20CI/_build?definitionScope=%5CPROD%5CGitHub_MicrosoftDocs_microsoft-authentication-library-java).
