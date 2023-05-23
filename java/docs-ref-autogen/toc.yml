@@ -22,6 +22,8 @@
     name: "AuthorizationRequestUrlParameters.Builder"
   - uid: "com.microsoft.aad.msal4j.AzureCloudEndpoint"
     name: "AzureCloudEndpoint"
+  - uid: "com.microsoft.aad.msal4j.CIAMAuthority"
+    name: "CIAMAuthority"
   - uid: "com.microsoft.aad.msal4j.ClaimsRequest"
     name: "ClaimsRequest"
   - uid: "com.microsoft.aad.msal4j.ClientCredentialFactory"

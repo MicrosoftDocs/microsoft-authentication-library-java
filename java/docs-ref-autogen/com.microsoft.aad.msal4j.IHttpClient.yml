@@ -29,4 +29,4 @@ type: "interface"
 desc: "Interface to be implemented when configuring http client for <xref uid=\"com.microsoft.aad.msal4j.IPublicClientApplication\" data-throw-if-not-resolved=\"false\" data-raw-source=\"IPublicClientApplication\"></xref> or <xref uid=\"com.microsoft.aad.msal4j.IConfidentialClientApplication\" data-throw-if-not-resolved=\"false\" data-raw-source=\"IConfidentialClientApplication\"></xref>.\n\nFor more details, see https://aka.ms/msal4j-http-client"
 metadata: {}
 package: "com.microsoft.aad.msal4j"
-artifact: com.microsoft.azure:msal4j:1.13.3
+artifact: com.microsoft.azure:msal4j:1.13.8

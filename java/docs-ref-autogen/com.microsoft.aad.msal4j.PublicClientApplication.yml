@@ -26,6 +26,7 @@ inheritedClassMethods:
   - "<xref href=\"com.microsoft.aad.msal4j.AbstractClientApplicationBase.correlationId()?alt=com.microsoft.aad.msal4j.AbstractClientApplicationBase.correlationId&text=correlationId\" data-throw-if-not-resolved=\"False\" />"
   - "<xref href=\"com.microsoft.aad.msal4j.AbstractClientApplicationBase.getAccounts()?alt=com.microsoft.aad.msal4j.AbstractClientApplicationBase.getAccounts&text=getAccounts\" data-throw-if-not-resolved=\"False\" />"
   - "<xref href=\"com.microsoft.aad.msal4j.AbstractClientApplicationBase.getAuthorizationRequestUrl(com.microsoft.aad.msal4j.AuthorizationRequestUrlParameters)?alt=com.microsoft.aad.msal4j.AbstractClientApplicationBase.getAuthorizationRequestUrl&text=getAuthorizationRequestUrl\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.microsoft.aad.msal4j.AbstractClientApplicationBase.instanceDiscovery()?alt=com.microsoft.aad.msal4j.AbstractClientApplicationBase.instanceDiscovery&text=instanceDiscovery\" data-throw-if-not-resolved=\"False\" />"
   - "<xref href=\"com.microsoft.aad.msal4j.AbstractClientApplicationBase.logPii()?alt=com.microsoft.aad.msal4j.AbstractClientApplicationBase.logPii&text=logPii\" data-throw-if-not-resolved=\"False\" />"
   - "<xref href=\"com.microsoft.aad.msal4j.AbstractClientApplicationBase.proxy()?alt=com.microsoft.aad.msal4j.AbstractClientApplicationBase.proxy&text=proxy\" data-throw-if-not-resolved=\"False\" />"
   - "<xref href=\"com.microsoft.aad.msal4j.AbstractClientApplicationBase.readTimeoutForDefaultHttpClient()?alt=com.microsoft.aad.msal4j.AbstractClientApplicationBase.readTimeoutForDefaultHttpClient&text=readTimeoutForDefaultHttpClient\" data-throw-if-not-resolved=\"False\" />"
@@ -126,4 +127,4 @@ implements:
 - "<xref href=\"com.microsoft.aad.msal4j.IPublicClientApplication?alt=com.microsoft.aad.msal4j.IPublicClientApplication&text=IPublicClientApplication\" data-throw-if-not-resolved=\"False\" />"
 metadata: {}
 package: "com.microsoft.aad.msal4j"
-artifact: com.microsoft.azure:msal4j:1.13.3
+artifact: com.microsoft.azure:msal4j:1.13.8

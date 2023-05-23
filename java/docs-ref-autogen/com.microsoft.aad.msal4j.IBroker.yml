@@ -87,4 +87,4 @@ type: "interface"
 desc: "Used to define the basic set of methods that all Brokers must implement All methods are so they can be referenced by MSAL Java without an implementation, and by default simply throw an exception saying that a broker implementation is missing"
 metadata: {}
 package: "com.microsoft.aad.msal4j"
-artifact: com.microsoft.azure:msal4j:1.13.3
+artifact: com.microsoft.azure:msal4j:1.13.8

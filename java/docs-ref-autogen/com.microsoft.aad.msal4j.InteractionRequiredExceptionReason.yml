@@ -91,4 +91,4 @@ methods:
 desc: "Details about the cause of an <xref uid=\"com.microsoft.aad.msal4j.MsalInteractionRequiredException\" data-throw-if-not-resolved=\"false\" data-raw-source=\"MsalInteractionRequiredException\"></xref>, giving a hint about the user can expect when they go through interactive authentication"
 metadata: {}
 package: "com.microsoft.aad.msal4j"
-artifact: com.microsoft.azure:msal4j:1.13.3
+artifact: com.microsoft.azure:msal4j:1.13.8
