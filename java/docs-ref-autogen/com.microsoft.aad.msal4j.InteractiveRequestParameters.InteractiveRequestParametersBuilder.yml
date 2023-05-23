@@ -68,6 +68,16 @@ methods:
   syntax: "public InteractiveRequestParameters.InteractiveRequestParametersBuilder extraHttpHeaders(Map<String,String> extraHttpHeaders)"
   returns:
     type: "<xref href=\"com.microsoft.aad.msal4j.InteractiveRequestParameters.InteractiveRequestParametersBuilder?alt=com.microsoft.aad.msal4j.InteractiveRequestParameters.InteractiveRequestParametersBuilder&text=InteractiveRequestParametersBuilder\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.aad.msal4j.InteractiveRequestParameters.InteractiveRequestParametersBuilder.extraQueryParameters(java.util.Map<java.lang.String,java.lang.String>)"
+  fullName: "com.microsoft.aad.msal4j.InteractiveRequestParameters.InteractiveRequestParametersBuilder.extraQueryParameters(Map<String,String> extraQueryParameters)"
+  name: "extraQueryParameters(Map<String,String> extraQueryParameters)"
+  nameWithType: "InteractiveRequestParameters.InteractiveRequestParametersBuilder.extraQueryParameters(Map<String,String> extraQueryParameters)"
+  parameters:
+  - name: "extraQueryParameters"
+    type: "<xref href=\"java.util.Map?alt=java.util.Map&text=Map\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />,<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />&gt;"
+  syntax: "public InteractiveRequestParameters.InteractiveRequestParametersBuilder extraQueryParameters(Map<String,String> extraQueryParameters)"
+  returns:
+    type: "<xref href=\"com.microsoft.aad.msal4j.InteractiveRequestParameters.InteractiveRequestParametersBuilder?alt=com.microsoft.aad.msal4j.InteractiveRequestParameters.InteractiveRequestParametersBuilder&text=InteractiveRequestParametersBuilder\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.microsoft.aad.msal4j.InteractiveRequestParameters.InteractiveRequestParametersBuilder.httpPollingTimeoutInSeconds(int)"
   fullName: "com.microsoft.aad.msal4j.InteractiveRequestParameters.InteractiveRequestParametersBuilder.httpPollingTimeoutInSeconds(int httpPollingTimeoutInSeconds)"
   name: "httpPollingTimeoutInSeconds(int httpPollingTimeoutInSeconds)"
@@ -159,4 +169,4 @@ methods:
 type: "class"
 metadata: {}
 package: "com.microsoft.aad.msal4j"
-artifact: com.microsoft.azure:msal4j:1.13.3
+artifact: com.microsoft.azure:msal4j:1.13.8

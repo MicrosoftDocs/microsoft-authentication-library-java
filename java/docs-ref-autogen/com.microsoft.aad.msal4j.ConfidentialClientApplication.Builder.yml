@@ -21,6 +21,7 @@ inheritedClassMethods:
   - "<xref href=\"com.microsoft.aad.msal4j.AbstractClientApplicationBase.Builder.correlationId(java.lang.String)?alt=com.microsoft.aad.msal4j.AbstractClientApplicationBase.Builder.correlationId&text=correlationId\" data-throw-if-not-resolved=\"False\" />"
   - "<xref href=\"com.microsoft.aad.msal4j.AbstractClientApplicationBase.Builder.executorService(java.util.concurrent.ExecutorService)?alt=com.microsoft.aad.msal4j.AbstractClientApplicationBase.Builder.executorService&text=executorService\" data-throw-if-not-resolved=\"False\" />"
   - "<xref href=\"com.microsoft.aad.msal4j.AbstractClientApplicationBase.Builder.httpClient(com.microsoft.aad.msal4j.IHttpClient)?alt=com.microsoft.aad.msal4j.AbstractClientApplicationBase.Builder.httpClient&text=httpClient\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.microsoft.aad.msal4j.AbstractClientApplicationBase.Builder.instanceDiscovery(boolean)?alt=com.microsoft.aad.msal4j.AbstractClientApplicationBase.Builder.instanceDiscovery&text=instanceDiscovery\" data-throw-if-not-resolved=\"False\" />"
   - "<xref href=\"com.microsoft.aad.msal4j.AbstractClientApplicationBase.Builder.logPii(boolean)?alt=com.microsoft.aad.msal4j.AbstractClientApplicationBase.Builder.logPii&text=logPii\" data-throw-if-not-resolved=\"False\" />"
   - "<xref href=\"com.microsoft.aad.msal4j.AbstractClientApplicationBase.Builder.proxy(java.net.Proxy)?alt=com.microsoft.aad.msal4j.AbstractClientApplicationBase.Builder.proxy&text=proxy\" data-throw-if-not-resolved=\"False\" />"
   - "<xref href=\"com.microsoft.aad.msal4j.AbstractClientApplicationBase.Builder.readTimeoutForDefaultHttpClient(java.lang.Integer)?alt=com.microsoft.aad.msal4j.AbstractClientApplicationBase.Builder.readTimeoutForDefaultHttpClient&text=readTimeoutForDefaultHttpClient\" data-throw-if-not-resolved=\"False\" />"
@@ -85,4 +86,4 @@ methods:
 type: "class"
 metadata: {}
 package: "com.microsoft.aad.msal4j"
-artifact: com.microsoft.azure:msal4j:1.13.3
+artifact: com.microsoft.azure:msal4j:1.13.8

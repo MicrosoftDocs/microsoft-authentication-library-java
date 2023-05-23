@@ -48,6 +48,16 @@ methods:
   syntax: "public OnBehalfOfParameters.OnBehalfOfParametersBuilder extraHttpHeaders(Map<String,String> extraHttpHeaders)"
   returns:
     type: "<xref href=\"com.microsoft.aad.msal4j.OnBehalfOfParameters.OnBehalfOfParametersBuilder?alt=com.microsoft.aad.msal4j.OnBehalfOfParameters.OnBehalfOfParametersBuilder&text=OnBehalfOfParametersBuilder\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.aad.msal4j.OnBehalfOfParameters.OnBehalfOfParametersBuilder.extraQueryParameters(java.util.Map<java.lang.String,java.lang.String>)"
+  fullName: "com.microsoft.aad.msal4j.OnBehalfOfParameters.OnBehalfOfParametersBuilder.extraQueryParameters(Map<String,String> extraQueryParameters)"
+  name: "extraQueryParameters(Map<String,String> extraQueryParameters)"
+  nameWithType: "OnBehalfOfParameters.OnBehalfOfParametersBuilder.extraQueryParameters(Map<String,String> extraQueryParameters)"
+  parameters:
+  - name: "extraQueryParameters"
+    type: "<xref href=\"java.util.Map?alt=java.util.Map&text=Map\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />,<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />&gt;"
+  syntax: "public OnBehalfOfParameters.OnBehalfOfParametersBuilder extraQueryParameters(Map<String,String> extraQueryParameters)"
+  returns:
+    type: "<xref href=\"com.microsoft.aad.msal4j.OnBehalfOfParameters.OnBehalfOfParametersBuilder?alt=com.microsoft.aad.msal4j.OnBehalfOfParameters.OnBehalfOfParametersBuilder&text=OnBehalfOfParametersBuilder\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.microsoft.aad.msal4j.OnBehalfOfParameters.OnBehalfOfParametersBuilder.scopes(java.util.Set<java.lang.String>)"
   fullName: "com.microsoft.aad.msal4j.OnBehalfOfParameters.OnBehalfOfParametersBuilder.scopes(Set<String> scopes)"
   name: "scopes(Set<String> scopes)"
@@ -99,4 +109,4 @@ methods:
 type: "class"
 metadata: {}
 package: "com.microsoft.aad.msal4j"
-artifact: com.microsoft.azure:msal4j:1.13.3
+artifact: com.microsoft.azure:msal4j:1.13.8

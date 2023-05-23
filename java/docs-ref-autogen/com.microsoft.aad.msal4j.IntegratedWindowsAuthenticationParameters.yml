@@ -59,6 +59,15 @@ methods:
   desc: "Adds additional headers to the token request"
   returns:
     type: "<xref href=\"java.util.Map?alt=java.util.Map&text=Map\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />,<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />&gt;"
+- uid: "com.microsoft.aad.msal4j.IntegratedWindowsAuthenticationParameters.extraQueryParameters()"
+  fullName: "com.microsoft.aad.msal4j.IntegratedWindowsAuthenticationParameters.extraQueryParameters()"
+  name: "extraQueryParameters()"
+  nameWithType: "IntegratedWindowsAuthenticationParameters.extraQueryParameters()"
+  summary: "Adds additional parameters to the token request"
+  syntax: "public Map<String,String> extraQueryParameters()"
+  desc: "Adds additional parameters to the token request"
+  returns:
+    type: "<xref href=\"java.util.Map?alt=java.util.Map&text=Map\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />,<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.microsoft.aad.msal4j.IntegratedWindowsAuthenticationParameters.scopes()"
   fullName: "com.microsoft.aad.msal4j.IntegratedWindowsAuthenticationParameters.scopes()"
   name: "scopes()"
@@ -92,4 +101,4 @@ implements:
 - "<xref href=\"com.microsoft.aad.msal4j.IAcquireTokenParameters?alt=com.microsoft.aad.msal4j.IAcquireTokenParameters&text=IAcquireTokenParameters\" data-throw-if-not-resolved=\"False\" />"
 metadata: {}
 package: "com.microsoft.aad.msal4j"
-artifact: com.microsoft.azure:msal4j:1.13.3
+artifact: com.microsoft.azure:msal4j:1.13.8
