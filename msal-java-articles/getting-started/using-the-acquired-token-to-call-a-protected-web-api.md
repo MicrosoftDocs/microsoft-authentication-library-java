@@ -11,7 +11,7 @@ Getting a token is not a goal per se. It's a necessary step to call a protected 
 
 ## Using the access token to call a protected Web API
 
-Note that the code below shows how to call directly the web API with an HttpURLConnection. You can also use libraries which will only require the access token (DocumentDb for instance) and will take care of the headers details. In practice the code might change depending on the libraries you want to use.
+Note that the code below shows how to call directly the web API with an HttpURLConnection. You can also use libraries which will only require the access token (for example, DocumentDb) and will take care of the headers details. In practice the code might change depending on the libraries you want to use.
 
 ```java
 HttpURLConnection conn = (HttpURLConnection) url.openConnection();

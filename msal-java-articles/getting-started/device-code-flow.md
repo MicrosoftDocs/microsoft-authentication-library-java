@@ -9,12 +9,12 @@ Interactive authentication with Azure AD requires a web browser. However, in the
 
 ## Constraints
 
-- Device Code Flow is only available on public client applications
-- The authority passed in the `PublicClientApplication` needs to be:
-  - tenanted of the form `https://login.microsoftonline.com/{tenant}/` where `tenant` is either the GUID representing the tenant ID or a domain associated with the tenant.
-  - or any work and school accounts (`https://login.microsoftonline.com/organizations/`)
+- Device Code Flow is only available for public client applications
+- The authority passed in the `PublicClientApplication` needs to be configured as one of the options below:
+  - Tenanted of the form `https://login.microsoftonline.com/{tenant}/` where `tenant` is either the GUID representing the tenant ID or a domain associated with the tenant.
+  - Any work and school accounts (`https://login.microsoftonline.com/organizations/`)
 
-  > Microsoft personal accounts are not yet supported by the Azure AD v2.0 endpoint (you cannot use /common or /consumers tenants)
+> Microsoft personal accounts are not yet supported by the Azure AD v2.0 endpoint (you cannot use `/common` or `/consumers` tenants).
 
 ## Code snippet
 

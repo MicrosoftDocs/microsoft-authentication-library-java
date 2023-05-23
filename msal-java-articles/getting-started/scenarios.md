@@ -23,4 +23,4 @@ Here are the key scenarios supported by MSAL4J. You can read the detailed explan
 - [Desktop/service daemon application calling Web API without a user](/azure/active-directory/develop/scenario-daemon-overview)
 - [Application without a browser, or IOT application calling an API in the name of the user](/azure/active-directory/develop/scenario-desktop-acquire-token?tabs=java#command-line-tool-without-web-browser)
 
-Can't find the scenario you are looking for? Check out the [supported scenarios and platforms](/azure/active-directory/develop/authentication-flows-app-scenarios#scenarios-and-supported-platforms-and-languages) across MSALs.
+Can't find the scenario you are looking for? Check out the [supported scenarios and platforms](/azure/active-directory/develop/authentication-flows-app-scenarios#scenarios-and-supported-platforms-and-languages) across MSAL libraries.
