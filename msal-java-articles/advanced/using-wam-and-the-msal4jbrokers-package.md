@@ -12,16 +12,16 @@ description: "Web Account Manager (WAM) is a Windows 10+ component that can act 
 
 ## Before you start
 
-First, you will need to... [TODO: need a link, there's on onboarding process to allow an Azure app to use WAM]
+First, you will need to make sure to configure your application to use the Web Account Manager through Azure Portal. To do that, your application needs to have [a WAM-compatible redirect URI](/azure/active-directory/develop/scenario-desktop-acquire-token-wam#redirect-uri).
 
-Second, in addition to the main msal4j package your project will need a new dependency: [msal4j-brokers](https://mvnrepository.com/artifact/com.microsoft.azure/msal4j-brokers). This package contains everything that is needed for MSAL Java to access the native WAM API on your behalf.
+Second, in addition to the main `msal4j` package your project will need a new dependency: [msal4j-brokers](https://mvnrepository.com/artifact/com.microsoft.azure/msal4j-brokers). This package contains everything that is needed for MSAL Java to access the native WAM API on your behalf.
 
 ## How to enable brokers in your application
 
-Once you have msal4j and msal4j-brokers as dependencies in your project, you will be able to find two important classes and one important parameter:
+Once you have `msal4j` and `msal4j-brokers` as dependencies in your project, you will be able to find two important classes and one important parameter:
 
 - [IBroker](https://github.com/AzureAD/microsoft-authentication-library-for-java/blob/avdunn/msalruntime-broker/msal4j-sdk/src/main/java/com/microsoft/aad/msal4j/IBroker.java) in msal4j, which is an interface acquireToken APIs similar to the ones already in MSAL Java
-- [MsalRuntimeBroker](https://github.com/AzureAD/microsoft-authentication-library-for-java/blob/avdunn/msalruntime-broker/msal4j-brokers/src/main/java/com/microsoft/aad/msal4jbrokers/MsalRuntimeBroker.java) in msal4j-brokers, which implements IBroker and provides access to the underlying code that's interacting with WAM
+- [MsalRuntimeBroker](https://github.com/AzureAD/microsoft-authentication-library-for-java/blob/avdunn/msalruntime-broker/msal4j-brokers/src/main/java/com/microsoft/aad/msal4jbrokers/MsalRuntimeBroker.java) in `msal4j-brokers`, which implements IBroker and provides access to the underlying code that's interacting with WAM
 - The [broker](https://github.com/AzureAD/microsoft-authentication-library-for-java/blob/5ae3186cea6451682664c8ff343033834feb984b/msal4j-sdk/src/main/java/com/microsoft/aad/msal4j/PublicClientApplication.java#L195) parameter in msal4j's `PublicClientApplication` builder, which will allow you to tell MSAL Java which IBroker implementation to use
 
 To start using WAM in your application, you simply need to pass an instance of `MsalRuntimeBroker` into `PublicClientApplication's` broker parameter:

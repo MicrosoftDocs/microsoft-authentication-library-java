@@ -5,10 +5,11 @@ description: "MSAL Java supports two types of client credentials - application s
 
 # Client credentials in MSAL Java
 
-There are two types of client secrets in MSAL4J:
+There are three types of client secrets in MSAL4J:
 
 - Application Secrets
 - Certificates
+- Client assertions
 
 ## Client Credentials with application secret in MSAL4J
 
@@ -18,7 +19,7 @@ During the registration of a the confidential client application with Azure AD, 
 
 ```java
 String CLIENT_SECRET; 
-IClientCredential credential = ClientCredentialFactory.create(CLIENT_SECRET)
+IClientCredential credential = ClientCredentialFactory.createFromSecret(CLIENT_SECRET)
 ```
 
 ## Client Credentials with certificate
@@ -30,7 +31,7 @@ In this case, when the application is registered with Azure AD, it uploads the p
 ```java
 PrivateKey privateKey;  
 X509Certificate publicKey;  
-IClientCredential credential = ClientCredentialFactory.create(privateKey, publicKey)
+IClientCredential credential = ClientCredentialFactory.createFromCertificate(privateKey, publicKey)
 ```
 
 or

@@ -19,7 +19,7 @@ Then run:
 - `mvn clean`
 - `mvn package`
 
-You should now have a "target" directory with msal4j-x.x.x-preview.jar
+You should now have a "target" directory with `msal4j-x.x.x.jar`.
 
 To install, run:
 

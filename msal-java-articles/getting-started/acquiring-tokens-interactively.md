@@ -7,7 +7,7 @@ description: "MSAL supports acquiring tokens interactively on public clients thr
 
 ## System Browser
 
-MSAL supports acquiring tokens interactively on public clients through use of the system OS browser. MSAL will start the system browser as a separate process, and open the authorization URL. MSAL does have have control over this browser, but once the user finishes authentication, the web page is redirected in such a way such that MSAL can intercept the response from the authority.
+MSAL supports acquiring tokens interactively on public clients through use of the system browser. By default, MSAL will start the system browser as a separate process, direct the user to the authorization URL, and intercept the authorization response. You can [customize this behavior](#customizing-the-experience), such as how the browser window is opened and what the user sees after the authorization, by configuring the `SystemBrowserOptions` parameter of an interactive request.
 
 MSAL will listen on `http://localhost:port` and intercept the code that authority sends when the user is done authenticating. MSAL cannot detect if the user navigates away or simply closes the browser. Apps using this technique are encouraged to define a timeout. We recommend a timeout of at least a few minutes to take into account cases where the user is prompted to change password or perform 2FA.
 
