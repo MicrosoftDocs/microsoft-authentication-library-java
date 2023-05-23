@@ -1,6 +1,6 @@
 ---
-title:  Microsoft Authentication Library for Java Overview
-description: Overview of the Microsoft Authentication Library for Java.
+title:  Microsoft Authentication Library for Java API Reference
+description: Overview of the Microsoft Authentication Library for Java API.
 ---
 
-# Microsoft Authentication Library for Java
+# Microsoft Authentication Library for Java API Reference

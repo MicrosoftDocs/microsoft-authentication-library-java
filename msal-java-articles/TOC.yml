@@ -1,2 +1,83 @@
-- name: Index
-  href: index.md
+- name: Microsoft Authentication Library for Java
+  items:
+  - name: Getting started
+    href: index.md
+    items:
+    - name: Why use MSAL4J
+      href: getting-started/why-use-msal4j.md
+    - name: Scenarios
+      href: getting-started/scenarios.md
+    - name: Client Applications
+      href: getting-started/client-applications.md
+    - name: Acquiring tokens
+      href: getting-started/acquiring-tokens.md
+    - name: Acquiring tokens interactively
+      href: getting-started/acquiring-tokens-interactively.md
+    - name: Acquiring tokens with authorization codes
+      href: getting-started/acquiring-tokens-with-authorization-codes.md
+    - name: Acquiring tokens with a username and password
+      href: getting-started/acquiring-tokens-with-username-and-password.md
+    - name: IAuthenticationResult
+      href: getting-started/iauthenticationresult.md
+    - name: Calling a protected API
+      href: getting-started/using-the-acquired-token-to-call-a-protected-web-api.md
+    - name: Device code flow
+      href: getting-started/device-code-flow.md
+    - name: Client credentials
+      href: getting-started/client-credentials.md
+    - name: FAQ
+      href: getting-started/faq.md
+    - name: Releases
+      href: https://github.com/AzureAD/microsoft-authentication-library-for-java/releases
+    - name: Samples
+      href: /azure/active-directory/develop/sample-v2-code
+
+  - name: Configure, build, and test
+    items:
+    - name: Build with Maven
+      href: build/maven.md
+    - name: Fiddler
+      href: build/fiddler.md
+    - name: Known issues
+      href: build/known-issues.md
+
+  - name: Advanced
+    items:
+    - name: Service-to-service calls
+      href: advanced/service-to-service-calls.md
+    - name: Logging
+      href: /azure/active-directory/develop/msal-logging-java
+    - name: Exceptions
+      href: advanced/exceptions.md
+    - name: Token Cache
+      href: /azure/active-directory/develop/msal-java-token-cache-serialization
+    - name: Claims Challenge
+      href: /azure/active-directory/develop/conditional-access-dev-guide
+    - name: Migrate from ADAL
+      href: /azure/active-directory/develop/migrate-adal-msal-java
+    - name: Using MSAL4J with B2C
+      href: advanced/aad-b2c.md
+    - name: ADFS Support
+      href: advanced/support-for-adfs.md
+    - name: National Clouds
+      href: advanced/national-clouds.md
+    - name: Telemetry
+      href: advanced/telemetry.md
+    - name: Configuring Http Client
+      href: advanced/configure-http-client.md
+    - name: Handle SameSite cookie changes on Chrome
+      href: /azure/active-directory/develop/howto-handle-samesite-cookie-changes-chrome-browser?tabs=java
+    - name: Using the Web Account Manager (WAM)
+      href: advanced/using-wam-and-the-msal4jbrokers-package.md
+    - name: Integrated Windows Authentication (IWA)
+      href: advanced/integrated-windows-authentication.md
+    - name: Authorization code URL builder
+      href: advanced/authorization-code-url-builder.md
+    - name: Instance discovery
+      href: advanced/instance-discovery.md
+    - name: Azure regions and regional endpoints
+      href: advanced/azure-regions-and-regional-endpoints.md
+    - name: Deployment instructions for MSAL Java samples
+      href: advanced/deployment-instructions-for-msal-java-samples.md
+    - name: Best practices for robust enterprise applications
+      href: advanced/best-practices-enterprise.md

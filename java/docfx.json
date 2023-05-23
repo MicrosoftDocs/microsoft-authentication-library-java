@@ -30,21 +30,6 @@
       },
       {
         "files": [
-          "**/*.md"
-        ],
-        "exclude": [
-          "**/obj/**",
-          "**/includes/**",
-          "README.md",
-          "LICENSE",
-          "LICENSE-CODE",
-          "ThirdPartyNotices",
-          "docs-ref-autogen/**",
-          "docs-ref-conceptual/**"
-        ]
-      },
-      {
-        "files": [
           "**/toc.yml"
         ],
         "src": "docs-ref-autogen",
@@ -61,7 +46,7 @@
           "**/*.yml"
         ],
         "src": "docs-ref-conceptual",
-        "dest": "msal-java",
+        "dest": "api/overview/msal-java",
         "group": "latest"
       }
     ],
@@ -103,16 +88,28 @@
     "markdownEngineName": "markdig",
     "fileMetadata": {
       "author": {
-        "**.md": "Dickson-Mwendia",
-        "api/**.yml": "Dickson-Mwendia"
+        "docs-ref-autogen/**/**.yml": "Dickson-Mwendia",
+        "docs-ref-conceptual/**/**.md": "Dickson-Mwendia"
       },
       "ms.author": {
-        "**.md": "dmwendia",
-        "api/**.yml": "dmwendia"
+        "docs-ref-autogen/**/**.yml": "dmwendia",
+        "docs-ref-conceptual/**/**.md": "dmwendia"
       },
       "ms.service": {
-        "api/**.yml": "active-directory"
-      }
+        "docs-ref-autogen/**/**.yml": "active-directory",
+        "docs-ref-conceptual/**/**.md": "active-directory"
+      },
+      "titleSuffix": {
+        "docs-ref-autogen/**/**.md": "Microsoft Authentication Library for Java",
+        "docs-ref-conceptual/**/**.yml": "Microsoft Authentication Library for Java"
+      },
+      "ms.topic": {
+        "docs-ref-autogen/**/**.md": "conceptual",
+        "docs-ref-conceptual/**/**.yml": "reference"
+      },
+      "open_to_public_contributors": {
+        "docs-ref-conceptual/**/**.md": true
+      } 
     },
     "template": [],
     "dest": "_site"
