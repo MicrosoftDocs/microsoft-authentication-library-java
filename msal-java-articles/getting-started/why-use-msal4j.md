@@ -16,7 +16,7 @@ MSAL for Java, or MSAL4J for short, supports all the possible application topolo
 
 MSAL4J does not support [user-agent based clients](/azure/active-directory/develop/active-directory-dev-glossary#user-agent-based-client), which are only supported in JavaScript.
 
-For details about the supported scenarios see [Scenarios](./scenarios.md).
+For details about the supported scenarios see [the introductory section](../index.md#msal-java-scenarios).
 
 ## Value of MSAL4J over generic lirbaries
 
