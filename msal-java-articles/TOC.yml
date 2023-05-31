@@ -17,29 +17,18 @@
       href: getting-started/acquiring-tokens-with-authorization-codes.md
     - name: Acquiring tokens with a username and password
       href: getting-started/acquiring-tokens-with-username-and-password.md
-    - name: IAuthenticationResult
-      href: getting-started/iauthenticationresult.md
     - name: Calling a protected API
       href: getting-started/using-the-acquired-token-to-call-a-protected-web-api.md
     - name: Device code flow
       href: getting-started/device-code-flow.md
     - name: Client credentials
       href: getting-started/client-credentials.md
-    - name: FAQ
-      href: getting-started/faq.md
     - name: Releases
       href: https://github.com/AzureAD/microsoft-authentication-library-for-java/releases
     - name: Samples
       href: /azure/active-directory/develop/sample-v2-code
-
-  - name: Configure, build, and test
-    items:
-    - name: Build with Maven
-      href: build/maven.md
-    - name: Fiddler
-      href: build/fiddler.md
-    - name: Known issues
-      href: build/known-issues.md
+    - name: FAQ
+      href: getting-started/faq.md
 
   - name: Advanced
     items:
@@ -81,3 +70,12 @@
       href: advanced/deployment-instructions-for-msal-java-samples.md
     - name: Best practices for robust enterprise applications
       href: advanced/best-practices-enterprise.md
+
+  - name: Configure, build, and test
+    items:
+    - name: Build with Maven
+      href: build/maven.md
+    - name: Fiddler
+      href: build/fiddler.md
+    - name: Known issues
+      href: build/known-issues.md

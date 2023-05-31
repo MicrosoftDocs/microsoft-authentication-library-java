@@ -34,7 +34,7 @@ PublicClientApplication app =
 
 ### Instantiating a Confidential Client application
 
-You will need either a secret or a certificate, as described in the [Client Credentials page](https://github.com/AzureAD/microsoft-authentication-library-for-java/wiki/Client-Credentials). 
+You will need either a secret or a certificate, as described in [Client Credentials](./client-credentials.md).
 
 If you have a secret:
 

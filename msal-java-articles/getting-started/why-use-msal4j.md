@@ -16,7 +16,7 @@ MSAL for Java, or MSAL4J for short, supports all the possible application topolo
 
 MSAL4J does not support [user-agent based clients](/azure/active-directory/develop/active-directory-dev-glossary#user-agent-based-client), which are only supported in JavaScript.
 
-For details about the supported scenarios see [Scenarios](./scenarios.md).
+For details about the supported scenarios see [the introductory section](../index.md#msal-java-scenarios).
 
 ## Value of MSAL4J over generic lirbaries
 
@@ -32,5 +32,5 @@ It also adds value by:
 
 MSAL4J is used to acquire tokens. It's not used to protect a Web API. If you are interested in protecting a Web API with Azure AD, check out the following resources:
 
-- [Spring Starter for Azure Active Directory](https://github.com/Azure/azure-sdk-for-java/tree/main/sdk/spring/spring-cloud-azure-starter-active-directory)
+- [Spring Starter for Azure Active Directory](/azure/developer/java/spring-framework/spring-boot-starter-for-azure-active-directory-developer-guide?tabs=SpringCloudAzure4x)
 - [Validating tokens manually](/azure/active-directory/develop/access-tokens#validating-tokens)
