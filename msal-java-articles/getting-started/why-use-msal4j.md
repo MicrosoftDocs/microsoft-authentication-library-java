@@ -32,5 +32,5 @@ It also adds value by:
 
 MSAL4J is used to acquire tokens. It's not used to protect a Web API. If you are interested in protecting a Web API with Azure AD, check out the following resources:
 
-- [Spring Starter for Azure Active Directory](https://github.com/Azure/azure-sdk-for-java/tree/main/sdk/spring/spring-cloud-azure-starter-active-directory)
+- [Spring Starter for Azure Active Directory](/azure/developer/java/spring-framework/spring-boot-starter-for-azure-active-directory-developer-guide?tabs=SpringCloudAzure4x)
 - [Validating tokens manually](/azure/active-directory/develop/access-tokens#validating-tokens)
