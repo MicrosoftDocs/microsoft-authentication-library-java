@@ -5,8 +5,6 @@
     items:
     - name: Why use MSAL4J
       href: getting-started/why-use-msal4j.md
-    - name: Scenarios
-      href: getting-started/scenarios.md
     - name: Client Applications
       href: getting-started/client-applications.md
     - name: Acquiring tokens
