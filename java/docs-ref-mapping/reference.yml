@@ -4,6 +4,6 @@
   items:
     - name: Microsoft Authentication Library for Java
       uid: com.microsoft.aad.msal4j.landingpage.api
-      href: ~/docs-ref-conceptual/overview.md
+      href: ~/docs-ref-conceptual/index.md
       children:
       - '**'
