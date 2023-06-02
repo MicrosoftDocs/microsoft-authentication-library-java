@@ -124,13 +124,17 @@ methods:
   fullName: "com.microsoft.aad.msal4j.AbstractClientApplicationBase.Builder<T>.b2cAuthority(String val)"
   name: "b2cAuthority(String val)"
   nameWithType: "AbstractClientApplicationBase.Builder<T>.b2cAuthority(String val)"
+  summary: "Set URL of the authenticating B2C authority from which MSAL will acquire tokens Valid B2C authorities should look like: https://<something.<wbr>b2clogin.<wbr>com/<tenant>/<policy> MSAL Java also supports a legacy B2C authority format, which looks like: https://<host>/tfp/<tenant>/<policy> However, MSAL Java will eventually stop supporting the legacy format."
   parameters:
-  - name: "val"
+  - description: "a boolean value for validateAuthority"
+    name: "val"
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public T b2cAuthority(String val)"
   exceptions:
   - type: "<xref href=\"java.net.MalformedURLException?alt=java.net.MalformedURLException&text=MalformedURLException\" data-throw-if-not-resolved=\"False\" />"
+  desc: "Set URL of the authenticating B2C authority from which MSAL will acquire tokens Valid B2C authorities should look like: https://<something.b2clogin.com/<tenant>/<policy> MSAL Java also supports a legacy B2C authority format, which looks like: https://<host>/tfp/<tenant>/<policy> However, MSAL Java will eventually stop supporting the legacy format. See here for information on how to migrate to the new format: https://aka.ms/msal4j-b2c"
   returns:
+    description: "instance of the Builder on which method was called"
     type: "<xref href=\"T?alt=T&text=T\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.microsoft.aad.msal4j.AbstractClientApplicationBase.Builder.clientCapabilities(java.util.Set<java.lang.String>)"
   fullName: "com.microsoft.aad.msal4j.AbstractClientApplicationBase.Builder<T>.clientCapabilities(Set<String> capabilities)"
@@ -197,6 +201,18 @@ methods:
   desc: "Sets HTTP client to be used by the client application for all HTTP requests. Allows for fine grained configuration of HTTP client."
   returns:
     description: "instance of the Builder on which method was called"
+    type: "<xref href=\"T?alt=T&text=T\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.aad.msal4j.AbstractClientApplicationBase.Builder.instanceDiscovery(boolean)"
+  fullName: "com.microsoft.aad.msal4j.AbstractClientApplicationBase.Builder<T>.instanceDiscovery(boolean val)"
+  name: "instanceDiscovery(boolean val)"
+  nameWithType: "AbstractClientApplicationBase.Builder<T>.instanceDiscovery(boolean val)"
+  summary: "Historically, MSAL would connect to a central endpoint located at \\`\\`https://login.<wbr>microsoftonline.<wbr>com\\`\\` to acquire some metadata, especially when using an unfamiliar authority."
+  parameters:
+  - name: "val"
+    type: "<xref href=\"boolean?alt=boolean&text=boolean\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public T instanceDiscovery(boolean val)"
+  desc: "Historically, MSAL would connect to a central endpoint located at \\`\\`https://login.microsoftonline.com\\`\\` to acquire some metadata, especially when using an unfamiliar authority. This behavior is known as Instance Discovery. This parameter defaults to true, which enables the Instance Discovery. If you do not know some authorities beforehand, yet still want MSAL to accept any authority that you will provide, you can use a \\`\\`False\\`\\` to unconditionally disable Instance Discovery."
+  returns:
     type: "<xref href=\"T?alt=T&text=T\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.microsoft.aad.msal4j.AbstractClientApplicationBase.Builder.logPii(boolean)"
   fullName: "com.microsoft.aad.msal4j.AbstractClientApplicationBase.Builder<T>.logPii(boolean val)"
@@ -287,4 +303,4 @@ typeParameters:
 - name: "T"
 metadata: {}
 package: "com.microsoft.aad.msal4j"
-artifact: com.microsoft.azure:msal4j:1.13.3
+artifact: com.microsoft.azure:msal4j:1.13.8

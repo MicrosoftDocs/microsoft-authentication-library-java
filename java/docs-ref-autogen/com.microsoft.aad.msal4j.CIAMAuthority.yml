@@ -1,0 +1,62 @@
+### YamlMime:JavaType
+uid: "com.microsoft.aad.msal4j.CIAMAuthority"
+fullName: "com.microsoft.aad.msal4j.CIAMAuthority"
+name: "CIAMAuthority"
+nameWithType: "CIAMAuthority"
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.aad.msal4j.Authority?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "<xref href=\"com.microsoft.aad.msal4j.Authority?alt=com.microsoft.aad.msal4j.Authority&text=Authority\" data-throw-if-not-resolved=\"False\" />"
+  methodsRef:
+  - "<xref href=\"com.microsoft.aad.msal4j.Authority.enforceTrailingSlash(java.lang.String)?alt=com.microsoft.aad.msal4j.Authority.enforceTrailingSlash&text=enforceTrailingSlash\" data-throw-if-not-resolved=\"False\" />"
+- classRef: "<xref href=\"java.lang.Object?alt=java.lang.Object&text=Object\" data-throw-if-not-resolved=\"False\" />"
+  methodsRef:
+  - "<xref href=\"java.lang.Object.clone()?alt=java.lang.Object.clone&text=clone\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"java.lang.Object.equals(java.lang.Object)?alt=java.lang.Object.equals&text=equals\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"java.lang.Object.finalize()?alt=java.lang.Object.finalize&text=finalize\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"java.lang.Object.getClass()?alt=java.lang.Object.getClass&text=getClass\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"java.lang.Object.hashCode()?alt=java.lang.Object.hashCode&text=hashCode\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"java.lang.Object.notify()?alt=java.lang.Object.notify&text=notify\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"java.lang.Object.notifyAll()?alt=java.lang.Object.notifyAll&text=notifyAll\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"java.lang.Object.toString()?alt=java.lang.Object.toString&text=toString\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"java.lang.Object.wait()?alt=java.lang.Object.wait&text=wait\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"java.lang.Object.wait(long)?alt=java.lang.Object.wait&text=wait\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"java.lang.Object.wait(long,int)?alt=java.lang.Object.wait&text=wait\" data-throw-if-not-resolved=\"False\" />"
+syntax: "public class **CIAMAuthority**</br> extends <xref href=\"com.microsoft.aad.msal4j.Authority?alt=com.microsoft.aad.msal4j.Authority&text=Authority\" data-throw-if-not-resolved=\"False\" />"
+fields:
+- uid: "com.microsoft.aad.msal4j.CIAMAuthority.CIAM_HOST_SEGMENT"
+  fullName: "com.microsoft.aad.msal4j.CIAMAuthority.CIAM_HOST_SEGMENT"
+  name: "CIAM_HOST_SEGMENT"
+  nameWithType: "CIAMAuthority.CIAM_HOST_SEGMENT"
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    value: ".ciamlogin.com"
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final String CIAM_HOST_SEGMENT"
+methods:
+- uid: "com.microsoft.aad.msal4j.CIAMAuthority.transformAuthority(java.net.URL)"
+  fullName: "com.microsoft.aad.msal4j.CIAMAuthority.transformAuthority(URL originalAuthority)"
+  name: "transformAuthority(URL originalAuthority)"
+  nameWithType: "CIAMAuthority.transformAuthority(URL originalAuthority)"
+  summary: "This method takes a CIAM authority string of format \"tenant.<wbr>ciamlogin.<wbr>com\" or \"https://tenant.<wbr>ciamlogin.<wbr>com\" and converts it into a full authority url with a path segment of format \"/tenant.<wbr>onmicrosoft.<wbr>com\""
+  modifiers:
+  - "protected"
+  - "static"
+  parameters:
+  - description: "authority to be transformed"
+    name: "originalAuthority"
+    type: "<xref href=\"java.net.URL?alt=java.net.URL&text=URL\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "protected static URL transformAuthority(URL originalAuthority)"
+  exceptions:
+  - type: "<xref href=\"java.net.MalformedURLException?alt=java.net.MalformedURLException&text=MalformedURLException\" data-throw-if-not-resolved=\"False\" />"
+  desc: "This method takes a CIAM authority string of format \"tenant.ciamlogin.com\" or \"https://tenant.ciamlogin.com\" and converts it into a full authority url with a path segment of format \"/tenant.onmicrosoft.com\""
+  returns:
+    description: "full CIAM authority with path"
+    type: "<xref href=\"java.net.URL?alt=java.net.URL&text=URL\" data-throw-if-not-resolved=\"False\" />"
+type: "class"
+metadata: {}
+package: "com.microsoft.aad.msal4j"
+artifact: com.microsoft.azure:msal4j:1.13.8

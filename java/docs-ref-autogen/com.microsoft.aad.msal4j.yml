@@ -12,6 +12,7 @@ classes:
 - "com.microsoft.aad.msal4j.AuthorizationCodeParameters.AuthorizationCodeParametersBuilder"
 - "com.microsoft.aad.msal4j.AuthorizationRequestUrlParameters"
 - "com.microsoft.aad.msal4j.AuthorizationRequestUrlParameters.Builder"
+- "com.microsoft.aad.msal4j.CIAMAuthority"
 - "com.microsoft.aad.msal4j.ClaimsRequest"
 - "com.microsoft.aad.msal4j.ClientCredentialFactory"
 - "com.microsoft.aad.msal4j.ClientCredentialParameters"
@@ -80,4 +81,4 @@ interfaces:
 - "com.microsoft.aad.msal4j.OpenBrowserAction"
 metadata: {}
 package: "com.microsoft.aad.msal4j"
-artifact: com.microsoft.azure:msal4j:1.13.3
+artifact: com.microsoft.azure:msal4j:1.13.8

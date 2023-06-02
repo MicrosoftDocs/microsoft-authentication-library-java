@@ -106,6 +106,18 @@ methods:
   desc: "Provides a hint about the tenant or domain that the user should use to sign in. The value of the domain hint is a registered domain for the tenant."
   returns:
     type: "<xref href=\"com.microsoft.aad.msal4j.AuthorizationRequestUrlParameters.Builder?alt=com.microsoft.aad.msal4j.AuthorizationRequestUrlParameters.Builder&text=Builder\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.aad.msal4j.AuthorizationRequestUrlParameters.Builder.extraQueryParameters(java.util.Map<java.lang.String,java.lang.String>)"
+  fullName: "com.microsoft.aad.msal4j.AuthorizationRequestUrlParameters.Builder.extraQueryParameters(Map<String,String> val)"
+  name: "extraQueryParameters(Map<String,String> val)"
+  nameWithType: "AuthorizationRequestUrlParameters.Builder.extraQueryParameters(Map<String,String> val)"
+  summary: "Query parameters that you can add to the request, in addition to the list of parameters already provided."
+  parameters:
+  - name: "val"
+    type: "<xref href=\"java.util.Map?alt=java.util.Map&text=Map\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />,<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />&gt;"
+  syntax: "public AuthorizationRequestUrlParameters.Builder extraQueryParameters(Map<String,String> val)"
+  desc: "Query parameters that you can add to the request, in addition to the list of parameters already provided."
+  returns:
+    type: "<xref href=\"com.microsoft.aad.msal4j.AuthorizationRequestUrlParameters.Builder?alt=com.microsoft.aad.msal4j.AuthorizationRequestUrlParameters.Builder&text=Builder\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.microsoft.aad.msal4j.AuthorizationRequestUrlParameters.Builder.extraScopesToConsent(java.util.Set<java.lang.String>)"
   fullName: "com.microsoft.aad.msal4j.AuthorizationRequestUrlParameters.Builder.extraScopesToConsent(Set<String> val)"
   name: "extraScopesToConsent(Set<String> val)"
@@ -217,4 +229,4 @@ methods:
 type: "class"
 metadata: {}
 package: "com.microsoft.aad.msal4j"
-artifact: com.microsoft.azure:msal4j:1.13.3
+artifact: com.microsoft.azure:msal4j:1.13.8

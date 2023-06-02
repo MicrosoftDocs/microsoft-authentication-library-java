@@ -198,6 +198,13 @@ methods:
   desc: "Computes the URL of the authorization request letting the user sign-in and consent to the application. The URL target the /authorize endpoint of the authority configured in the application object.\n\nOnce the user successfully authenticates, the response should contain an authorization code, which can then be passed in to<xref uid=\"com.microsoft.aad.msal4j.AbstractClientApplicationBase.acquireToken(com.microsoft.aad.msal4j.AuthorizationCodeParameters)\" data-throw-if-not-resolved=\"false\" data-raw-source=\"AbstractClientApplicationBase#acquireToken(AuthorizationCodeParameters)\"></xref> to be exchanged for a token"
   returns:
     type: "<xref href=\"java.net.URL?alt=java.net.URL&text=URL\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.aad.msal4j.AbstractClientApplicationBase.instanceDiscovery()"
+  fullName: "com.microsoft.aad.msal4j.AbstractClientApplicationBase.instanceDiscovery()"
+  name: "instanceDiscovery()"
+  nameWithType: "AbstractClientApplicationBase.instanceDiscovery()"
+  syntax: "public boolean instanceDiscovery()"
+  returns:
+    type: "<xref href=\"boolean?alt=boolean&text=boolean\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.microsoft.aad.msal4j.AbstractClientApplicationBase.logPii()"
   fullName: "com.microsoft.aad.msal4j.AbstractClientApplicationBase.logPii()"
   name: "logPii()"
@@ -258,4 +265,4 @@ implements:
 - "<xref href=\"com.microsoft.aad.msal4j.IClientApplicationBase?alt=com.microsoft.aad.msal4j.IClientApplicationBase&text=IClientApplicationBase\" data-throw-if-not-resolved=\"False\" />"
 metadata: {}
 package: "com.microsoft.aad.msal4j"
-artifact: com.microsoft.azure:msal4j:1.13.3
+artifact: com.microsoft.azure:msal4j:1.13.8

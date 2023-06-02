@@ -64,6 +64,13 @@ methods:
   syntax: "public String domainHint()"
   returns:
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.aad.msal4j.AuthorizationRequestUrlParameters.extraQueryParameters()"
+  fullName: "com.microsoft.aad.msal4j.AuthorizationRequestUrlParameters.extraQueryParameters()"
+  name: "extraQueryParameters()"
+  nameWithType: "AuthorizationRequestUrlParameters.extraQueryParameters()"
+  syntax: "public Map<String,String> extraQueryParameters()"
+  returns:
+    type: "<xref href=\"java.util.Map?alt=java.util.Map&text=Map\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />,<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.microsoft.aad.msal4j.AuthorizationRequestUrlParameters.instanceAware()"
   fullName: "com.microsoft.aad.msal4j.AuthorizationRequestUrlParameters.instanceAware()"
   name: "instanceAware()"
@@ -71,6 +78,13 @@ methods:
   syntax: "public boolean instanceAware()"
   returns:
     type: "<xref href=\"boolean?alt=boolean&text=boolean\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.aad.msal4j.AuthorizationRequestUrlParameters.log()"
+  fullName: "com.microsoft.aad.msal4j.AuthorizationRequestUrlParameters.log()"
+  name: "log()"
+  nameWithType: "AuthorizationRequestUrlParameters.log()"
+  syntax: "public Logger log()"
+  returns:
+    type: "<xref href=\"org.slf4j.Logger?alt=org.slf4j.Logger&text=Logger\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.microsoft.aad.msal4j.AuthorizationRequestUrlParameters.loginHint()"
   fullName: "com.microsoft.aad.msal4j.AuthorizationRequestUrlParameters.loginHint()"
   name: "loginHint()"
@@ -131,4 +145,4 @@ type: "class"
 desc: "Parameters for <xref uid=\"com.microsoft.aad.msal4j.AbstractClientApplicationBase.getAuthorizationRequestUrl(com.microsoft.aad.msal4j.AuthorizationRequestUrlParameters)\" data-throw-if-not-resolved=\"false\" data-raw-source=\"AbstractClientApplicationBase#getAuthorizationRequestUrl(AuthorizationRequestUrlParameters)\"></xref>"
 metadata: {}
 package: "com.microsoft.aad.msal4j"
-artifact: com.microsoft.azure:msal4j:1.13.3
+artifact: com.microsoft.azure:msal4j:1.13.8

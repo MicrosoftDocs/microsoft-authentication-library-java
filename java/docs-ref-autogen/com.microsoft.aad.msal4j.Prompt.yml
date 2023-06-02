@@ -30,12 +30,6 @@ inheritedClassMethods:
   - "<xref href=\"java.lang.Object.wait(long,int)?alt=java.lang.Object.wait&text=wait\" data-throw-if-not-resolved=\"False\" />"
 syntax: "public enum **Prompt**</br> extends <xref href=\"java.lang.Enum?alt=java.lang.Enum&text=Enum\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.aad.msal4j.Prompt?alt=com.microsoft.aad.msal4j.Prompt&text=Prompt\" data-throw-if-not-resolved=\"False\" />&gt;"
 fields:
-- uid: "com.microsoft.aad.msal4j.Prompt.ADMING_CONSENT"
-  fullName: "com.microsoft.aad.msal4j.Prompt.ADMING_CONSENT"
-  name: "ADMING_CONSENT"
-  nameWithType: "Prompt.ADMING_CONSENT"
-  summary: "An administrator should be prompted to consent on behalf of all users in their organization."
-  desc: "An administrator should be prompted to consent on behalf of all users in their organization.\n\nDeprecated, instead use Prompt.ADMIN\\_CONSENT"
 - uid: "com.microsoft.aad.msal4j.Prompt.ADMIN_CONSENT"
   fullName: "com.microsoft.aad.msal4j.Prompt.ADMIN_CONSENT"
   name: "ADMIN_CONSENT"
@@ -99,4 +93,4 @@ methods:
 desc: "Indicate the type of user interaction that is required when sending authorization code request."
 metadata: {}
 package: "com.microsoft.aad.msal4j"
-artifact: com.microsoft.azure:msal4j:1.13.3
+artifact: com.microsoft.azure:msal4j:1.13.8
