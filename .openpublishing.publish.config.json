@@ -49,20 +49,6 @@
       },
       "build_entry_point": "docs",
       "template_folder": "_themes"
-    },
-    {
-      "docset_name": "msal-java-conceptual",
-      "build_source_folder": "msal-java-conceptual",
-      "build_output_subfolder": "msal-java-conceptual",
-      "locale": "en-us",
-      "monikers": [],
-      "moniker_ranges": [],
-      "open_to_public_contributors": true,
-      "type_mapping": {
-        "Conceptual": "Content"
-      },
-      "build_entry_point": "docs",
-      "template_folder": "_themes"
     }
   ],
   "notification_subscribers": [],
@@ -77,6 +63,8 @@
       "branch_mapping": {}
     }
   ],
+  "branch_target_mapping": {},
+  "docs_build_engine": {},
   "JoinTOCPlugin": [
     {
       "TopLevelTOC": "java/docs-ref-mapping/reference.yml",
@@ -86,8 +74,6 @@
       "ConceptualTOCUrl": "/entra/msal/java/toc.json"
     }
   ],
-  "branch_target_mapping": {},
-  "docs_build_engine": {},
   "skip_source_output_uploading": false,
   "contribution_branch_mappings": {},
   "dependent_packages": [
