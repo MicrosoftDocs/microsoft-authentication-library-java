@@ -1,8 +1,9 @@
 - name: Microsoft Authentication Library for Java
   items:
   - name: Getting started
-    href: index.md
     items:
+    - name: Overview
+      href: index.md
     - name: Why use MSAL4J
       href: getting-started/why-use-msal4j.md
     - name: Client Applications
