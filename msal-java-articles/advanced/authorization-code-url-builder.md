@@ -5,11 +5,11 @@ description: "When performing Oauth2 authorization code flow, the first step is 
 
 # Authorization code URL builder
 
-When performing Oauth2 authorization code flow, the first step is to direct the user to the authorization endpoint, where they will authenticate, and the identity provider will respond with an authentication code. The authentication code can then be used to redeem a token by calling MSALs `PublicClientApplication.acquireToken(AuthorizationCodeParameters)` or `ConfidentialClientApplication.acquireToken(AuthorizationCodeParameters)`. 
+When performing Oauth2 authorization code flow, the first step is to direct the user to the authorization endpoint where they will authenticate and the identity provider will respond with an authentication code. The authentication code can then be used to redeem a token by calling MSALs [`PublicClientApplication.acquireToken(AuthorizationCodeParameters)`](xref:com.microsoft.aad.msal4j.AbstractClientApplicationBase.acquireToken(com.microsoft.aad.msal4j.AuthorizationCodeParameters)) or [`ConfidentialClientApplication.acquireToken(AuthorizationCodeParameters)`](xref:com.microsoft.aad.msal4j.AbstractClientApplicationBase.acquireToken(com.microsoft.aad.msal4j.AuthorizationCodeParameters)).
 
 ## Authorization URL builder
 
-As of MSAL4J v1.4, there is now a helper method that can be used to craft the authorization code URL, used in the first step of OAuth2 authorization code flow. 
+As of MSAL4J 1.4, there is now a helper method, [`getAuthorizationRequestUrl`](xref:com.microsoft.aad.msal4j.AbstractClientApplicationBase.getAuthorizationRequestUrl(com.microsoft.aad.msal4j.AuthorizationRequestUrlParameters)), that can be used to craft the authorization code URL, used in the first step of OAuth2 authorization code flow.
 
 ```java
 PublicClientApplication publicClientApplication =
