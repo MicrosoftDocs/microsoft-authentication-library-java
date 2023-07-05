@@ -1,4 +1,4 @@
-name: Validate existing links
+name: Validate content links
 
 on:
   push:
