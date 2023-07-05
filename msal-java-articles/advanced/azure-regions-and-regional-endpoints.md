@@ -7,7 +7,7 @@ description: "To increase the reliability, availability and performance of appli
 
 To increase the reliability, availability and performance of applications running in Azure, multiple Azure regions are available that aim to keep all traffic for the application inside the same geographical area. Relevant for MSAL are the regional endpoints for the secure token service, allowing an application using MSAL to retrieve tokens from a regional endpoint rather than the default global endpoint.
 
-See [here](https://azure.microsoft.com/global-infrastructure/geographies/#geographies) for more information about specific Azure regions, and before trying to use a regional endpoint ensure that your authentication flow or scenario is supported by looking at the [regional token service FAQ](/identity/microsoft-identity-platform/ests-r-faq).
+See [Azure geographies](https://azure.microsoft.com/global-infrastructure/geographies/#geographies) for more information about specific Azure regions.
 
 In order to make use of regional endpoints, MSAL Java allows developers to either set the region that the library should try to use for its token calls, or if the application is running on an Azure product (such as an Azure VM or Azure Functions) the library could attempt to detect the region automatically. If for some reason the region can't be detected or accessed during a token request, then the library will fallback to using the global endpoint and continue to use the global endpoint when refreshing that token.
 
