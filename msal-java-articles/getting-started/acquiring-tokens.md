@@ -11,9 +11,7 @@ In general the way to acquire a token is different depending on the application 
 
 ## Pre-requisites
 
-Before acquiring tokens with MSAL4J:
-
-- Instantiate a [client application](./client-applications.md)
+Before acquiring tokens with MSAL4J, make sure to instantiate a [client application](./client-applications.md)
 
 ## Token acquisition methods
 
