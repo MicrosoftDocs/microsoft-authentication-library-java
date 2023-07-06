@@ -5,7 +5,7 @@ description: "National clouds (aka Sovereign clouds) are physically isolated ins
 
 # National clouds
 
-National clouds (aka Sovereign clouds) are physically isolated instances of Azure. These regions of Azure are designed to make sure that data residency, sovereignty, and compliance requirements are honored within geographical boundaries.
+National clouds (also known as sovereign clouds) are physically isolated instances of Azure. These regions of Azure are designed to make sure that data residency, sovereignty, and compliance requirements are honored within geographical boundaries.
 
 In addition to the public cloud​, Azure Active Directory is deployed in the following National clouds:  
 
@@ -21,4 +21,4 @@ Note that enabling your application for sovereign clouds requires you to:
 
 More details in [Authentication in National Clouds](/azure/active-directory/develop/authentication-national-cloud)
 
-For convenience, the list of authentication endpoints for the national clouds can be found in the [AzureCloudEndpoint](https://github.com/AzureAD/microsoft-authentication-library-for-java/blob/main/msal4j-sdk/src/main/java/com/microsoft/aad/msal4j/AzureCloudEndpoint.java) enum, along with the endpoint for the global/public cloud.
+For convenience, the list of authentication endpoints for the national clouds can be found in the [`AzureCloudEndpoint`](xref:com.microsoft.aad.msal4j.AzureCloudEndpoint) enum, along with the endpoint for the global/public cloud.

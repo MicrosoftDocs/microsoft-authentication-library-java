@@ -69,6 +69,7 @@
     "overwrite": [],
     "externalReference": [],
     "globalMetadata": {
+      "uhfHeaderId": "MSDocsHeader-Entra",
       "breadcrumb_path": "breadcrumb/toc.yml",
       "ms.topic": "managed-reference",
       "ms.devlang": "java",
