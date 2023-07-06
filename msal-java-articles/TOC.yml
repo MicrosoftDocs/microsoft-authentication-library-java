@@ -62,8 +62,6 @@
       href: advanced/authorization-code-url-builder.md
     - name: Instance discovery
       href: advanced/instance-discovery.md
-    - name: Azure regions and regional endpoints
-      href: advanced/azure-regions-and-regional-endpoints.md
     - name: Deployment instructions for MSAL Java samples
       href: advanced/deployment-instructions-for-msal-java-samples.md
     - name: Best practices for robust enterprise applications

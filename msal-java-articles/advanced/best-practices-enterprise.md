@@ -5,10 +5,7 @@ description: "To build robust, enterprise-ready applications, you will need to f
 
 # Best practices for enterprises
 
-You've seen that with MSAL4J you can quite simply acquire a token for a protected Web API. You also don't have to handle refreshing tokens yourself.
+To build robust, enterprise-ready applications, you will need to ensure that you implement a few additional guardrails. We recommend developers to:
 
-However, to build robust, enterprise ready applications, you will need to do a bit more. For instance you'll want to:
-
-- Handle exceptions, both when you acquire a token, but also when you call the protected Web API. In particular, if your application runs in an Azure AD tenant where the tenant admins have set Conditional Access policies to enforce Multiple Factor Authentication (MFA), you will need to handle a Claim challenge which is described in [Exceptions](https://github.com/AzureAD/microsoft-authentication-library-for-java/wiki/Exceptions).
-
-- You might want to enable [Logging](/azure/active-directory/develop/msal-logging?tabs=java) to troubleshoot your application and help your users, while respecting their privacy and being compliant with GDPR.
+- Handle exceptions, both when acquiring a token, but also when calling a protected web API. In particular, if an application runs in an Azure AD tenant where the tenant admins have set [Conditional Access](/azure/active-directory/conditional-access/overview) policies to enforce Multiple Factor Authentication (MFA), you will need to handle a claim challenge which is described in [Exceptions](./exceptions.md).
+- Enable [Logging](/azure/active-directory/develop/msal-logging?tabs=java) to troubleshoot applications, while respecting user privacy and remain compliant with privacy regulations, such as GDPR.
