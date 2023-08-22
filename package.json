@@ -9,7 +9,9 @@
                 "packageArtifactId": "msal4j",
                 "packageVersion": "1.13.10",
                 "inputPath": [],
-                "excludePath": []
+                "excludePath": [
+                    "/delombok"
+                ]
             }
         ]
     }
