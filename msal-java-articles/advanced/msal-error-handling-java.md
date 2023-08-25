@@ -1,19 +1,8 @@
 ---
 title: Handle errors and exceptions in MSAL4J
 description: Learn how to handle errors and exceptions, Conditional Access claims challenges, and retries in MSAL4J applications.
-services: active-directory
-author: Dickson-Mwendia
-manager: CelesteDG
-
-ms.service: active-directory
-ms.subservice: develop
-ms.topic: conceptual
-ms.workload: identity
-ms.date: 11/27/2020
-ms.author: dmwendia
-ms.reviewer: saeeda, nacanuma
-ms.custom: aaddev, devx-track-extended-java
 ---
+
 # Handle errors and exceptions in MSAL for Java
 
 This article gives an overview of the different types of errors and recommendations for handling common sign-in errors.
@@ -22,7 +11,7 @@ This article gives an overview of the different types of errors and recommendati
 
 Exceptions in Microsoft Authentication Library (MSAL) are intended for app developers to troubleshoot, not for displaying to end users. Exception messages are not localized.
 
-When processing exceptions and errors, you can use the exception type itself and the error code to distinguish between exceptions. For a list of error codes, see [Azure AD Authentication and authorization error codes](/azure/active-directory/develop/reference-error-codes.md).
+When processing exceptions and errors, you can use the exception type itself and the error code to distinguish between exceptions. For a list of error codes, see [Azure AD Authentication and authorization error codes](/azure/active-directory/develop/reference-error-codes).
 
 During the sign-in experience, you may encounter errors about consents, Conditional Access (MFA, Device Management, Location-based restrictions), token issuance and redemption, and user properties.
 
@@ -86,11 +75,11 @@ MSAL exposes a `reason` field, which you can use to provide a better user experi
 
 ## Conditional Access and claims challenges
 
-When getting tokens silently, your application may receive errors when a [Conditional Access claims challenge](/azure/active-directory/develop/v2-conditional-access-dev-guide.md) such as MFA policy is required by an API you're trying to access.
+When getting tokens silently, your application may receive errors when a [Conditional Access claims challenge](/azure/active-directory/develop/v2-conditional-access-dev-guide) such as MFA policy is required by an API you're trying to access.
 
 The pattern for handling this error is to interactively acquire a token using MSAL. This prompts the user and gives them the opportunity to satisfy the required Conditional Access policy.
 
-In certain cases when calling an API requiring Conditional Access, you can receive a claims challenge in the error from the API. For instance if the Conditional Access policy is to have a managed device (Intune) the error will be something like [AADSTS53000: Your device is required to be managed to access this resource](/azure/active-directory/develop/reference-error-codes.md) or something similar. In this case, you can pass the claims in the acquire token call so that the user is prompted to satisfy the appropriate policy.
+In certain cases when calling an API requiring Conditional Access, you can receive a claims challenge in the error from the API. For instance if the Conditional Access policy is to have a managed device (Intune) the error will be something like [AADSTS53000: Your device is required to be managed to access this resource](/azure/active-directory/develop/reference-error-codes) or something similar. In this case, you can pass the claims in the acquire token call so that the user is prompted to satisfy the appropriate policy.
 
 ## Retrying after errors and exceptions
 

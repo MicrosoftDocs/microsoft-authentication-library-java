@@ -33,7 +33,7 @@
     - name: Service-to-service calls
       href: advanced/service-to-service-calls.md
     - name: Logging
-      href: advanced/msal-logging-java
+      href: advanced/msal-logging-java.md
     - name: Exceptions
       href: advanced/exceptions.md
     - name: Token Cache
