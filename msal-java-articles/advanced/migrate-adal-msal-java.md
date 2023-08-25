@@ -26,7 +26,7 @@ ADAL4J acquires tokens for resources whereas MSAL for Java acquires tokens for s
 You can add the `/.default` scope suffix to the resource to help migrate your apps from the ADAL to MSAL. For example, for the resource value of `https://graph.microsoft.com`, the equivalent scope value is `https://graph.microsoft.com/.default`.  If the resource isn't in the URL form, but a resource ID of the form `XXXXXXXX-XXXX-XXXX-XXXXXXXXXXXX`, you can still use the scope value as `XXXXXXXX-XXXX-XXXX-XXXXXXXXXXXX/.default`.
 
 For more details about the different types of scopes, refer
-[Permissions and consent in the Microsoft identity platform](/azure/active-directory/develop/permissions-consent-overview.md) and the [Scopes for a Web API accepting v1.0 tokens](/azure/active-directory/develop/msal-v1-app-scopes.md) articles.
+[Permissions and consent in the Microsoft identity platform](/azure/active-directory/develop/permissions-consent-overview) and the [Scopes for a Web API accepting v1.0 tokens](/azure/active-directory/develop/msal-v1-app-scopes) articles.
 
 ## Core classes
 
