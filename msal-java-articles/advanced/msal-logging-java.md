@@ -32,7 +32,7 @@ MSAL for Java allows you to use the logging library that you're already using wi
 
 This article shows how to enable MSAL4J logging using the logback framework in a spring boot web application. You can refer to the [code sample](https://github.com/Azure-Samples/ms-identity-java-webapp/tree/master/msal-java-webapp-sample) for reference.
 
-1. To implement logging, include the `logback` package in the *pom.xml* file.
+1. To implement logging, include the `logback` package in *pom.xml*.
 
     ```xml
     <dependency>
@@ -57,7 +57,7 @@ This article shows how to enable MSAL4J logging using the logback framework in a
         </root>    
     </configuration>
     ```
-3. Next, you should set the *logging.config* property to the location of the *logback.xml* file before the main method. Navigate to *MsalWebSampleApplication.java* and add the following code to the `MsalWebSampleApplication` public class. 
+3. Next, you should set the `logging.config` property to the location of the *logback.xml* file before the main method. Navigate to *MsalWebSampleApplication.java* and add the following code to the `MsalWebSampleApplication` public class.
 
     ```java
     @SpringBootApplication

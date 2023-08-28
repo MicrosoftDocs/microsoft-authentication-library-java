@@ -7,9 +7,9 @@ description: Learn how to serialize the token cache for MSAL for Java
 
 To persist the token cache between instances of your application, you will need to customize the serialization. The Java classes and interfaces involved in token cache serialization are the following:
 
-- [ITokenCache](https://static.javadoc.io/com.microsoft.azure/msal4j/0.5.0-preview/com/microsoft/aad/msal4j/ITokenCache.html):  Interface representing security token cache.
-- [ITokenCacheAccessAspect](https://static.javadoc.io/com.microsoft.azure/msal4j/0.5.0-preview/com/microsoft/aad/msal4j/ITokenCacheAccessAspect.html): Interface representing operation of executing code before and after access. You would @Override *beforeCacheAccess* and *afterCacheAccess* with the logic responsible for serializing and deserializing the cache.
-- [ITokenCacheContext](https://static.javadoc.io/com.microsoft.azure/msal4j/0.5.0-preview/com/microsoft/aad/msal4j/ITokenCacheAccessContext.html): Interface representing context in which the token cache is accessed. 
+- [ITokenCache](/java/api/com.microsoft.aad.msal4j.itokencache):  Interface representing security token cache.
+- [ITokenCacheAccessAspect](/java/api/com.microsoft.aad.msal4j.itokencacheaccessaspect): Interface representing operation of executing code before and after access. You would @Override *beforeCacheAccess* and *afterCacheAccess* with the logic responsible for serializing and deserializing the cache.
+- [ITokenCacheContext](/java/api/com.microsoft.aad.msal4j.itokencacheaccesscontext): Interface representing context in which the token cache is accessed. 
 
 Below is a naive implementation of custom serialization of token cache serialization/deserialization. Do not copy and paste this into a production environment.
 

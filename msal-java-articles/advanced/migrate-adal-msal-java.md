@@ -36,15 +36,15 @@ The following table shows how ADAL4J functions map to the new MSAL for Java func
 
 | ADAL4J method| MSAL4J method|
 |------|-------|
-|acquireToken(String resource, ClientCredential credential, AuthenticationCallback callback) | acquireToken(ClientCredentialParameters)|
-|acquireToken(String resource, ClientAssertion assertion, AuthenticationCallback callback)|acquireToken(ClientCredentialParameters)|
-|acquireToken(String resource, AsymmetricKeyCredential credential, AuthenticationCallback callback)|acquireToken(ClientCredentialParameters)|
-|acquireToken(String resource, String clientId, String username, String password, AuthenticationCallback callback)| acquireToken(UsernamePasswordParameters)|
-|acquireToken(String resource, String clientId, String username, String password=null, AuthenticationCallback callback)|acquireToken(IntegratedWindowsAuthenticationParameters)|
-|acquireToken(String resource, UserAssertion userAssertion, ClientCredential credential, AuthenticationCallback callback)| acquireToken(OnBehalfOfParameters)|
-|acquireTokenByAuthorizationCode() | acquireToken(AuthorizationCodeParameters) |
-| acquireDeviceCode() and acquireTokenByDeviceCode()| acquireToken(DeviceCodeParameters)|
-|acquireTokenByRefreshToken()| acquireTokenSilently(SilentParameters)|
+|acquireToken(String resource, ClientCredential credential, AuthenticationCallback callback) | [acquireToken(ClientCredentialParameters)](/java/api/com.microsoft.aad.msal4j.clientcredentialparameters)|
+|acquireToken(String resource, ClientAssertion assertion, AuthenticationCallback callback)| [acquireToken(ClientCredentialParameters)](/java/api/com.microsoft.aad.msal4j.clientcredentialparameters)|
+|acquireToken(String resource, AsymmetricKeyCredential credential, AuthenticationCallback callback)| [acquireToken(ClientCredentialParameters)](/java/api/com.microsoft.aad.msal4j.clientcredentialparameters)|
+|acquireToken(String resource, String clientId, String username, String password, AuthenticationCallback callback)| [acquireToken(UsernamePasswordParameters)](/java/api/com.microsoft.aad.msal4j.usernamepasswordparameters)|
+|acquireToken(String resource, String clientId, String username, String password=null, AuthenticationCallback callback)|[acquireToken(IntegratedWindowsAuthenticationParameters)](/java/api/com.microsoft.aad.msal4j.integratedwindowsauthenticationparameters)|
+|acquireToken(String resource, UserAssertion userAssertion, ClientCredential credential, AuthenticationCallback callback)| [acquireToken(OnBehalfOfParameters)](/java/api/com.microsoft.aad.msal4j.onbehalfofparameters)|
+|acquireTokenByAuthorizationCode() | [acquireToken(AuthorizationCodeParameters)](/java/api/com.microsoft.aad.msal4j.authorizationcodeparameters) |
+| acquireDeviceCode() and acquireTokenByDeviceCode()| [acquireToken(DeviceCodeParameters)](/java/api/com.microsoft.aad.msal4j.devicecodeflowparameters)|
+|acquireTokenByRefreshToken()| [acquireTokenSilently(SilentParameters)](/java/api/com.microsoft.aad.msal4j.silentparameters)|
 
 ## IAccount instead of IUser
 
@@ -61,7 +61,7 @@ MSAL for Java adds a [token cache](/azure/active-directory/develop/msal-acquire-
 
 In v1.0, if you use the `https://login.microsoftonline.com/common` authority, users can sign in with any Azure Active Directory (Azure AD) account (for any organization).
 
-If you use the `https://login.microsoftonline.com/common` authority in v2.0, users can sign in with any Azure AD organization, or even a Microsoft personal account (MSA). In MSAL for Java, if you want to restrict login to any Azure AD account, use the `https://login.microsoftonline.com/organizations` authority (which is the same behavior as with ADAL4J). To specify an authority, set the `authority` parameter in the [PublicClientApplication.Builder](https://javadoc.io/doc/com.microsoft.azure/msal4j/1.0.0/com/microsoft/aad/msal4j/PublicClientApplication.Builder.html) method when you create your `PublicClientApplication` class.
+If you use the `https://login.microsoftonline.com/common` authority in v2.0, users can sign in with any Azure AD organization, or even a Microsoft personal account (MSA). In MSAL for Java, if you want to restrict login to any Azure AD account, use the `https://login.microsoftonline.com/organizations` authority (which is the same behavior as with ADAL4J). To specify an authority, set the `authority` parameter in the [PublicClientApplication.Builder](/java/api/com.microsoft.aad.msal4j.publicclientapplication.builder) method when you create your `PublicClientApplication` class.
 
 ## v1.0 and v2.0 tokens
 
@@ -77,7 +77,7 @@ In ADAL4J, the refresh tokens were exposed--which allowed developers to cache th
 
 MSAL for Java doesn't expose refresh tokens for security reasons. Instead, MSAL handles refreshing tokens for you.
 
-MSAL for Java has an API that allows you to migrate refresh tokens you acquired with ADAL4j into the ClientApplication: [acquireToken(RefreshTokenParameters)](https://javadoc.io/static/com.microsoft.azure/msal4j/1.0.0/com/microsoft/aad/msal4j/PublicClientApplication.html#acquireToken-com.microsoft.aad.msal4j.RefreshTokenParameters-). With this method, you can provide the previously used refresh token along with any scopes (resources) you desire. The refresh token will be exchanged for a new one and cached for use by your application.
+MSAL for Java has an API that allows you to migrate refresh tokens you acquired with ADAL4j into the ClientApplication: [acquireToken(RefreshTokenParameters)](/java/api/com.microsoft.aad.msal4j.refreshtokenparameters). With this method, you can provide the previously used refresh token along with any scopes (resources) you desire. The refresh token will be exchanged for a new one and cached for use by your application.
 
 The following code snippet shows some migration code in a confidential client application:
 
