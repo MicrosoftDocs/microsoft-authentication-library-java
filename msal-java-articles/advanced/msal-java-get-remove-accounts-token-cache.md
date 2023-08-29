@@ -5,7 +5,7 @@ description: Learn how to view and remove accounts from the token cache using th
 
 # Get and remove accounts from the token cache using MSAL for Java
 
-MSAL for Java provides an in-memory token cache by default. The in-memory token cache lasts the duration of the application instance.
+MSAL for Java provides an in-memory token cache by default. The in-memory token cache persists for the duration of the application execution.
 
 ## See which accounts are in the cache
 
