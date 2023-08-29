@@ -37,14 +37,14 @@ The following table shows how ADAL4J functions map to the new MSAL for Java func
 | ADAL4J method| MSAL4J method|
 |------|-------|
 |acquireToken(String resource, ClientCredential credential, AuthenticationCallback callback) | <xref:com.microsoft.aad.msal4j.ClientCredentialParameters> |
-|acquireToken(String resource, ClientAssertion assertion, AuthenticationCallback callback)| [acquireToken(ClientCredentialParameters)](/java/api/com.microsoft.aad.msal4j.clientcredentialparameters)|
-|acquireToken(String resource, AsymmetricKeyCredential credential, AuthenticationCallback callback)| [acquireToken(ClientCredentialParameters)](/java/api/com.microsoft.aad.msal4j.clientcredentialparameters)|
-|acquireToken(String resource, String clientId, String username, String password, AuthenticationCallback callback)| [acquireToken(UsernamePasswordParameters)](/java/api/com.microsoft.aad.msal4j.usernamepasswordparameters)|
-|acquireToken(String resource, String clientId, String username, String password=null, AuthenticationCallback callback)|[acquireToken(IntegratedWindowsAuthenticationParameters)](/java/api/com.microsoft.aad.msal4j.integratedwindowsauthenticationparameters)|
-|acquireToken(String resource, UserAssertion userAssertion, ClientCredential credential, AuthenticationCallback callback)| [acquireToken(OnBehalfOfParameters)](/java/api/com.microsoft.aad.msal4j.onbehalfofparameters)|
-|acquireTokenByAuthorizationCode() | [acquireToken(AuthorizationCodeParameters)](/java/api/com.microsoft.aad.msal4j.authorizationcodeparameters) |
-| acquireDeviceCode() and acquireTokenByDeviceCode()| [acquireToken(DeviceCodeParameters)](/java/api/com.microsoft.aad.msal4j.devicecodeflowparameters)|
-|acquireTokenByRefreshToken()| [acquireTokenSilently(SilentParameters)](/java/api/com.microsoft.aad.msal4j.silentparameters)|
+|acquireToken(String resource, ClientAssertion assertion, AuthenticationCallback callback)| <xref:com.microsoft.aad.msal4j.ClientCredentialParameters> |
+|acquireToken(String resource, AsymmetricKeyCredential credential, AuthenticationCallback callback)| <xref:com.microsoft.aad.msal4j.ClientCredentialParameters> |
+|acquireToken(String resource, String clientId, String username, String password, AuthenticationCallback callback)| <xref:com.microsoft.aad.msal4j.UsernamePasswordParameters> |
+|acquireToken(String resource, String clientId, String username, String password=null, AuthenticationCallback callback)|<xref:com.microsoft.aad.msal4j.IntegratedWindowsAuthenticationParameters> |
+|acquireToken(String resource, UserAssertion userAssertion, ClientCredential credential, AuthenticationCallback callback)| <xref:com.microsoft.aad.msal4j.OnBehalfOfParameters> |
+|acquireTokenByAuthorizationCode() | <xref:com.microsoft.aad.msal4j.AuthorizationCodeParameters> |
+| acquireDeviceCode() and acquireTokenByDeviceCode()| <xref:com.microsoft.aad.msal4j.DeviceCodeParameters> |
+|acquireTokenByRefreshToken()| <xref:com.microsoft.aad.msal4j.SilentParameters> |
 
 ## IAccount instead of IUser
 
