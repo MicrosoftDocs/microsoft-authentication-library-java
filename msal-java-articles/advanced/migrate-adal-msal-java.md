@@ -61,7 +61,7 @@ MSAL for Java adds a [token cache](/azure/active-directory/develop/msal-acquire-
 
 In v1.0, if you use the `https://login.microsoftonline.com/common` authority, users can sign in with any Azure Active Directory (Azure AD) account (for any organization).
 
-If you use the `https://login.microsoftonline.com/common` authority in v2.0, users can sign in with any Azure AD organization, or even a Microsoft personal account (MSA). In MSAL for Java, if you want to restrict login to any Azure AD account, use the `https://login.microsoftonline.com/organizations` authority (which is the same behavior as with ADAL4J). To specify an authority, set the `authority` parameter in the [PublicClientApplication.Builder](/java/api/com.microsoft.aad.msal4j.publicclientapplication.builder) method when you create your `PublicClientApplication` class.
+If you use the `https://login.microsoftonline.com/common` authority in v2.0, users can sign in with any Azure AD organization, or even a Microsoft personal account (MSA). In MSAL for Java, if you want to restrict login to any Azure AD account, use the `https://login.microsoftonline.com/organizations` authority (which is the same behavior as with ADAL4J). To specify an authority, set the `authority` parameter in the <xref:com.microsoft.aad.msal4j.PublicClientApplication.Builder> method when you create your `PublicClientApplication` class.
 
 ## v1.0 and v2.0 tokens
 
