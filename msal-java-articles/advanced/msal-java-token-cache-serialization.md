@@ -9,7 +9,7 @@ To persist the token cache between instances of your application, you will need 
 
 - <xref:com.microsoft.aad.msal4j.ITokenCache>: Interface representing security token cache.
 - <xref:com.microsoft.aad.msal4j.ITokenCacheAccessAspect> : Interface representing operation of executing code before and after access. You would `@Override` *beforeCacheAccess* and *afterCacheAccess* with the logic responsible for serializing and deserializing the cache.
-- <xref:com.microsoft.aad.msal4j.ITokenCacheContext> : Interface representing context in which the token cache is accessed. 
+- <xref:com.microsoft.aad.msal4j.ITokenCacheAccessContext> : Interface representing context in which the token cache is accessed. 
 
 Below is a naive implementation of custom serialization of token cache serialization/deserialization. Do not copy and paste this into a production environment.
 
