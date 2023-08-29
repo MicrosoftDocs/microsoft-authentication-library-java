@@ -5,15 +5,18 @@ description: Learn how to serialize the token cache for MSAL for Java
 
 # Custom token cache serialization in MSAL for Java
 
-To persist the token cache between instances of your application, you will need to customize the serialization. The Java classes and interfaces involved in token cache serialization are the following:
+To persist the token cache between instances of your application, you will need to customize the serialization logic. The Java classes and interfaces involved in token cache serialization are the following:
 
 - <xref:com.microsoft.aad.msal4j.ITokenCache>: Interface representing security token cache.
 - <xref:com.microsoft.aad.msal4j.ITokenCacheAccessAspect> : Interface representing operation of executing code before and after access. You would `@Override` *beforeCacheAccess* and *afterCacheAccess* with the logic responsible for serializing and deserializing the cache.
-- <xref:com.microsoft.aad.msal4j.ITokenCacheAccessContext> : Interface representing context in which the token cache is accessed. 
+- <xref:com.microsoft.aad.msal4j.ITokenCacheAccessContext> : Interface representing context in which the token cache is accessed.
 
-Below is a naive implementation of custom serialization of token cache serialization/deserialization. Do not copy and paste this into a production environment.
+Below is a naive implementation of custom serialization of the token cache.
 
-```Java
+>[!WARNING]
+>Because the sample cod ebelow doesn't showcase the full cache storage lifecycle, we strongly recomment to not copy and paste this into a production environment. Make sure that you're aware of security and access requirements for the token cache.
+
+```java
 static class TokenPersistence implements ITokenCacheAccessAspect {
 String data;
 
@@ -32,7 +35,7 @@ public void afterCacheAccess(ITokenCacheAccessContext iTokenCacheAccessContext) 
 }
 ```
 
-```Java
+```java
 // Loads cache from file
 String dataToInitCache = readResource(this.getClass(), "/cache_data/serialized_cache.json");
 
