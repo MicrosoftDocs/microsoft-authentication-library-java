@@ -5,7 +5,7 @@ description: Learn how to handle errors and exceptions, Conditional Access claim
 
 # Handle errors and exceptions in MSAL for Java
 
-This article gives an overview of the different types of errors and recommendations for handling common sign-in errors.
+This article gives an overview of the different types of errors and recommendations for handling them.
 
 ## MSAL error handling basics
 
@@ -13,7 +13,7 @@ Exceptions in Microsoft Authentication Library (MSAL) are intended for app devel
 
 When processing exceptions and errors, you can use the exception type itself and the error code to distinguish between exceptions. For a list of error codes, see [Azure AD Authentication and authorization error codes](/azure/active-directory/develop/reference-error-codes).
 
-During the sign-in experience, you may encounter errors about consents, Conditional Access (MFA, Device Management, Location-based restrictions), token issuance and redemption, and user properties.
+During the sign-in experience, you may encounter errors about consents, Conditional Access (e.g., multi-factor authentication, device management, location-based restrictions), token issuance and redemption, and user properties.
 
 The following section provides more details about error handling for your app.
 
@@ -51,31 +51,31 @@ MSAL exposes a `reason` field, which you can use to provide a better user experi
 ### Code Example
 
 ```java
-        IAuthenticationResult result;
-        try {
-            PublicClientApplication application = PublicClientApplication
-                    .builder("clientId")
-                    .b2cAuthority("authority")
-                    .build();
+IAuthenticationResult result;
+try {
+    PublicClientApplication application = PublicClientApplication
+            .builder("clientId")
+            .b2cAuthority("authority")
+            .build();
 
-            SilentParameters parameters = SilentParameters
-                    .builder(Collections.singleton("scope"))
-                    .build();
+    SilentParameters parameters = SilentParameters
+            .builder(Collections.singleton("scope"))
+            .build();
 
-            result = application.acquireTokenSilently(parameters).join();
-        }
-        catch (Exception ex){
-            if(ex instanceof MsalInteractionRequiredException){
-                // AcquireToken by either AuthorizationCodeParameters or DeviceCodeParameters
-            } else{
-                // Log and handle exception accordingly
-            }
-        }
+    result = application.acquireTokenSilently(parameters).join();
+}
+catch (Exception ex){
+    if(ex instanceof MsalInteractionRequiredException){
+        // AcquireToken by either AuthorizationCodeParameters or DeviceCodeParameters
+    } else{
+        // Log and handle exception accordingly
+    }
+}
 ```
 
 ## Conditional Access and claims challenges
 
-When getting tokens silently, your application may receive errors when a [Conditional Access claims challenge](/azure/active-directory/develop/v2-conditional-access-dev-guide) such as MFA policy is required by an API you're trying to access.
+When getting tokens silently, your application may receive errors when a [Conditional Access claims challenge](/azure/active-directory/develop/v2-conditional-access-dev-guide), such as MFA policy, is required by the API you're trying to access.
 
 The pattern for handling this error is to interactively acquire a token using MSAL. This prompts the user and gives them the opportunity to satisfy the required Conditional Access policy.
 
@@ -83,11 +83,12 @@ In certain cases when calling an API requiring Conditional Access, you can recei
 
 ## Retrying after errors and exceptions
 
-You're expected to implement your own retry policies when calling MSAL. MSAL makes HTTP calls to the Azure AD service, and occasionally failures can occur. For example the network can go down or the server is overloaded.  
+You're expected to implement your own retry policies when calling MSAL. MSAL makes HTTP calls to the Microsoft Entra ID service, and occasionally failures can occur. For example the network can go down or the server is overloaded.  
 
 ### HTTP 429
 
 When the Service Token Server (STS) is overloaded with too many requests, it returns HTTP error 429 with a hint about how long until you can try again in the `Retry-After` response field.
+
 ## Next steps
 
 Consider enabling [Logging in MSAL for Java](msal-logging-java.md) to help you diagnose and debug issues.
