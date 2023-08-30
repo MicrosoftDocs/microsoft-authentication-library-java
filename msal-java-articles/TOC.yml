@@ -33,17 +33,21 @@
     - name: Service-to-service calls
       href: advanced/service-to-service-calls.md
     - name: Logging
-      href: /azure/active-directory/develop/msal-logging-java
+      href: advanced/msal-logging-java.md
     - name: Exceptions
       href: advanced/exceptions.md
     - name: Token Cache
-      href: /azure/active-directory/develop/msal-java-token-cache-serialization
+      href: advanced/msal-java-token-cache-serialization.md
+    - name: Get and remove accounts from the token cache using MSAL4J
+      href: advanced/msal-java-get-remove-accounts-token-cache.md
     - name: Claims Challenge
       href: /azure/active-directory/develop/conditional-access-dev-guide
     - name: Migrate from ADAL
-      href: /azure/active-directory/develop/migrate-adal-msal-java
+      href: advanced/migrate-adal-msal-java.md
     - name: Using MSAL4J with B2C
       href: advanced/aad-b2c.md
+    - name: Handle errors and exceptions in MSAL4J
+      href: advanced/msal-error-handling-java.md
     - name: ADFS Support
       href: advanced/support-for-adfs.md
     - name: National Clouds
