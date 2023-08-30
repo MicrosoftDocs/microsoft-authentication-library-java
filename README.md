@@ -2,7 +2,7 @@
 
 [![Validate content links](https://github.com/MicrosoftDocs/microsoft-authentication-library-java/actions/workflows/linkchecker.yml/badge.svg)](https://github.com/MicrosoftDocs/microsoft-authentication-library-java/actions/workflows/linkchecker.yml)
 
-This is the documentation repository for Microsoft Authentication Library (MSAL) for .NET. If you are looking for the library, refer to [AzureAD/microsoft-authentication-library-for-java](https://github.com/AzureAD/microsoft-authentication-library-for-java).
+This is the documentation repository for Microsoft Authentication Library (MSAL) for Java. If you are looking for the library, refer to [AzureAD/microsoft-authentication-library-for-java](https://github.com/AzureAD/microsoft-authentication-library-for-java).
 
 ## Contributions
 
