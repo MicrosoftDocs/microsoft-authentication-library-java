@@ -5,7 +5,7 @@ description: "To be able to build with maven, you need a working installation of
 
 # Building with Maven
 
-To be able to build with maven, you need a working installation of [Java](http://www.oracle.com/technetwork/java/javase/downloads/index.html) and [Maven](http://maven.apache.org/download.cgi).
+To be able to build with maven, you need a working installation of [Java](https://www.oracle.com/technetwork/java/javase/downloads/index.html) and [Maven](https://maven.apache.org/download.cgi).
 
 Once you have successfully installed Java and Maven, clone the microsoft-authentication-library-for-java repository.
 
