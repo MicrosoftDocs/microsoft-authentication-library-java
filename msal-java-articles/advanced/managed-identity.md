@@ -50,30 +50,35 @@ For both user-assigned and system-assigned identities, developers can use the <x
 
 For system-assigned managed identities, the developer does not need to pass any additional information when creating an instance of <xref:Microsoft.Identity.Client.IManagedIdentityApplication>, as it will automatically infer the relevant metadata about the assigned identity.
 
-<xref:Microsoft.Identity.Client.IManagedIdentityApplication.AcquireTokenForManagedIdentity(System.String)> is called with the resource to acquire a token for, such as `https://management.azure.com`.
+<xref:Microsoft.Identity.Client.IManagedIdentityApplication.acquireTokenForManagedIdentity(ManagedIdentityParameters)> is called with the resource to acquire a token for, such as `https://management.azure.com`.
 
-```csharp
-IManagedIdentityApplication mi = ManagedIdentityApplicationBuilder.Create(ManagedIdentityId.SystemAssigned)
-    .Build();
-
-AuthenticationResult result = await mi.AcquireTokenForManagedIdentity(resource)
-    .ExecuteAsync()
-    .ConfigureAwait(false);
+```java
+ManagedIdentityApplication miApp = ManagedIdentityApplication
+                .builder(ManagedIdentityId.systemAssigned())
+                .build();
+                
+ManagedIdentityParameters parameters = ManagedIdentityParameters.builder(resource).build();
+                
+IAuthenticationResult result = miApp.acquireTokenForManagedIdentity(parameters).get();
+    
 ```
 
 ### User-assigned managed identities
 
 For user-assigned managed identities, the developer needs to pass either the client ID, full resource identifier, or the object ID of the managed identity when creating <xref:Microsoft.Identity.Client.IManagedIdentityApplication>.
 
-Like in the case for system-assigned managed identities, <xref:Microsoft.Identity.Client.IManagedIdentityApplication.AcquireTokenForManagedIdentity(System.String)> is called with the resource to acquire a token for, such as `https://management.azure.com`.
+Like in the case for system-assigned managed identities, <xref:Microsoft.Identity.Client.IManagedIdentityApplication.acquireTokenForManagedIdentity(ManagedIdentityParameters)> is called with the resource to acquire a token for, such as `https://management.azure.com`.
 
-```csharp
-IManagedIdentityApplication mi = ManagedIdentityApplicationBuilder.Create(ManagedIdentityId.WithUserAssignedClientId(clientIdOfUserAssignedManagedIdentity))
-    .Build();
-
-AuthenticationResult result = await mi.AcquireTokenForManagedIdentity(resource)
-    .ExecuteAsync()
-    .ConfigureAwait(false);
+```java
+ManagedIdentityApplication miApp = ManagedIdentityApplication
+                .builder(ManagedIdentityId.userAssignedClientId(CLIENT_ID))
+                .build();
+                
+ ManagedIdentityParameters parameters = ManagedIdentityParameters.builder(resource).build();
+               
+ IAuthenticationResult result = miApp.acquireTokenForManagedIdentity(
+                ManagedIdentityParameters.builder(resource)
+                        .build()).get();
 ```
 
 ## Caching
