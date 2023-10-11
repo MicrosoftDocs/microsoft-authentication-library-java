@@ -52,7 +52,7 @@ For system-assigned managed identities, the developer does not need to pass any 
 
 <xref:Microsoft.Identity.Client.IManagedIdentityApplication.acquireTokenForManagedIdentity(ManagedIdentityParameters)> is called with the resource to acquire a token for, such as `https://management.azure.com`.
 
-```csharp
+```java
 ManagedIdentityApplication miApp = ManagedIdentityApplication
                 .builder(ManagedIdentityId.systemAssigned())
                 .build();
@@ -69,9 +69,9 @@ For user-assigned managed identities, the developer needs to pass either the cli
 
 Like in the case for system-assigned managed identities, <xref:Microsoft.Identity.Client.IManagedIdentityApplication.acquireTokenForManagedIdentity(ManagedIdentityParameters)> is called with the resource to acquire a token for, such as `https://management.azure.com`.
 
-```csharp
+```java
 ManagedIdentityApplication miApp = ManagedIdentityApplication
-                .builder(id)
+                .builder(ManagedIdentityId.userAssignedClientId(CLIENT_ID))
                 .build();
                 
  ManagedIdentityParameters parameters = ManagedIdentityParameters.builder(resource).build();
