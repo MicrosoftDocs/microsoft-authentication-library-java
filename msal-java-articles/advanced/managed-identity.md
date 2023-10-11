@@ -53,12 +53,14 @@ For system-assigned managed identities, the developer does not need to pass any 
 <xref:Microsoft.Identity.Client.IManagedIdentityApplication.AcquireTokenForManagedIdentity(System.String)> is called with the resource to acquire a token for, such as `https://management.azure.com`.
 
 ```csharp
-IManagedIdentityApplication mi = ManagedIdentityApplicationBuilder.Create(ManagedIdentityId.SystemAssigned)
-    .Build();
-
-AuthenticationResult result = await mi.AcquireTokenForManagedIdentity(resource)
-    .ExecuteAsync()
-    .ConfigureAwait(false);
+ManagedIdentityApplication miApp = ManagedIdentityApplication
+                .builder(ManagedIdentityId.systemAssigned())
+                .build();
+                
+ManagedIdentityParameters parameters = ManagedIdentityParameters.builder(resource).build();
+                
+IAuthenticationResult result = miApp.acquireTokenForManagedIdentity(parameters).get();
+    
 ```
 
 ### User-assigned managed identities
@@ -68,12 +70,15 @@ For user-assigned managed identities, the developer needs to pass either the cli
 Like in the case for system-assigned managed identities, <xref:Microsoft.Identity.Client.IManagedIdentityApplication.AcquireTokenForManagedIdentity(System.String)> is called with the resource to acquire a token for, such as `https://management.azure.com`.
 
 ```csharp
-IManagedIdentityApplication mi = ManagedIdentityApplicationBuilder.Create(ManagedIdentityId.WithUserAssignedClientId(clientIdOfUserAssignedManagedIdentity))
-    .Build();
-
-AuthenticationResult result = await mi.AcquireTokenForManagedIdentity(resource)
-    .ExecuteAsync()
-    .ConfigureAwait(false);
+ManagedIdentityApplication miApp = ManagedIdentityApplication
+                .builder(id)
+                .build();
+                
+ ManagedIdentityParameters parameters = ManagedIdentityParameters.builder(resource).build();
+               
+ IAuthenticationResult result = miApp.acquireTokenForManagedIdentity(
+                ManagedIdentityParameters.builder(resource)
+                        .build()).get();
 ```
 
 ## Caching
