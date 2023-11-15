@@ -11,7 +11,7 @@ This article gives an overview of the different types of errors and recommendati
 
 Exceptions in Microsoft Authentication Library (MSAL) are intended for app developers to troubleshoot, not for displaying to end users. Exception messages are not localized.
 
-When processing exceptions and errors, you can use the exception type itself and the error code to distinguish between exceptions. For a list of error codes, see [Azure AD Authentication and authorization error codes](/azure/active-directory/develop/reference-error-codes).
+When processing exceptions and errors, you can use the exception type itself and the error code to distinguish between exceptions. For a list of error codes, see [Microsoft Entra authentication and authorization error codes](/azure/active-directory/develop/reference-error-codes).
 
 During the sign-in experience, you may encounter errors about consents, Conditional Access (e.g., multi-factor authentication, device management, location-based restrictions), token issuance and redemption, and user properties.
 
@@ -83,7 +83,7 @@ In certain cases when calling an API requiring Conditional Access, you can recei
 
 ## Retrying after errors and exceptions
 
-You're expected to implement your own retry policies when calling MSAL. MSAL makes HTTP calls to the Microsoft Entra ID service, and occasionally failures can occur. For example the network can go down or the server is overloaded.  
+You're expected to implement your own retry policies when calling MSAL. MSAL makes HTTP calls to the Microsoft Entra service, and occasionally failures can occur. For example the network can go down or the server is overloaded.  
 
 ### HTTP 429
 

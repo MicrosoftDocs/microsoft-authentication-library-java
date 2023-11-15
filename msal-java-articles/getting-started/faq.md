@@ -21,13 +21,13 @@ MSAL is implementing a custom version of the OAuth2 protocol. Also, for some spe
 
 ### Is MSAL a general library for token acquisition using OAuth2 protocol?
 
-No. MSAL is a client library for Azure Active Directory (AAD), Active Directory Federation Services (ADFS), and Azure Active Directory B2C. There are some custom notions such as “resource” required by ADAL which are considered extensions to the general OAuth2 protocol spec and not supported by other STS’s.
+No. MSAL is a client library for Microsoft Entra ID, Active Directory Federation Services (ADFS), and Azure Active Directory B2C. There are some custom notions such as “resource” required by ADAL which are considered extensions to the general OAuth2 protocol spec and not supported by other STS’s.
 
 ## API Ramp Up
 
 ### Should I turn off authority validation by passing false to the constructor?
 
-It depends on what type of authority you talk to. If it is ADFS, you have to pass false as ADFS does not currently support authority validation. If it is AAD, you still have the option to pass false, but it is recommended to be true, especially if you get the address of the authority from a third party (e.g. via 401 challenge). This is to protect applications and users from being redirected to malicious endpoints to enter their credentials.
+It depends on what type of authority you talk to. If it is ADFS, you have to pass false as ADFS does not currently support authority validation. If it is Microsoft Entra ID, you still have the option to pass false, but it is recommended to be true, especially if you get the address of the authority from a third party (e.g. via 401 challenge). This is to protect applications and users from being redirected to malicious endpoints to enter their credentials.
 
 ### What overload of AcquireToken should I call?
 
@@ -40,7 +40,7 @@ It depends on the type of client application you use and the scenario you need a
 Problems in MSAL could have various reasons. These are the common culprits:
 
 1. Your machine has connection issues.
-2. Your applications/users are not properly configured on AAD or ADFS.
+2. Your applications/users are not properly configured on Microsoft Entra ID or ADFS.
 3. You are using an incorrect API for your task (MSAL has several similar overloads for the method AcquireToken).
 4. There is a bug in MSAL! Yes, that is always possible. If you are certain that none of the items above are the reason for the failure, please report it to us and we will investigate and fix the bug if exists.
 

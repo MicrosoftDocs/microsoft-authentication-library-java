@@ -7,7 +7,7 @@ description: "Web APIs can acquire tokens in the name of a user, leveraging User
 
 Web APIs can acquire tokens in the name of a user, leveraging User assertions. Web API cannot have any user interaction, and therefore when a web API (named "Web API #1") needs to call another Web API (named "Web API #2") in the name of a user, it needs to use the [On Behalf Of OAuth 2.0 flow](/azure/active-directory/develop/v2-oauth2-on-behalf-of-flow).
 
-This flow is a confidential client flow, and therefore the first web API provides client credentials (client secret or certificate), as well as an `UserAssertion`. The first web API will receive a bearer token and send it to Azure AD by embedding it into a `UserAssertion` to request another token to the downstream second Web API.
+This flow is a confidential client flow, and therefore the first web API provides client credentials (client secret or certificate), as well as an `UserAssertion`. The first web API will receive a bearer token and send it to Microsoft Entra ID by embedding it into a `UserAssertion` to request another token to the downstream second Web API.
 
 ```java  
 // This is the confidential client application representing Web Api #1

@@ -88,7 +88,7 @@ For failed requests the error response contains a correlation ID that can be use
 
 ### Potential errors
 
-#### `MsalServiceException` Error Code: `managed_identity_failed_response` Error Message: An unexpected error occurred while fetching the AAD token
+#### `MsalServiceException` Error Code: `managed_identity_failed_response` Error Message: An unexpected error occurred while fetching the Microsoft Entra token
 
 This exception might mean that the resource you are trying to acquire a token for is either not supported or is provided using the wrong resource ID format. Examples of correct resource ID formats include `https://management.azure.com/.default`, `https://management.azure.com`, and `https://graph.microsoft.com`.
 
