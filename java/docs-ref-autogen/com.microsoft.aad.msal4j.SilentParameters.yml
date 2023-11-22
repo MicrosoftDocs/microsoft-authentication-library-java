@@ -113,6 +113,13 @@ methods:
   desc: "Force MSAL to refresh the tokens in the cache, even if there is a valid access token."
   returns:
     type: "<xref href=\"boolean?alt=boolean&text=boolean\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.aad.msal4j.SilentParameters.proofOfPossession()"
+  fullName: "com.microsoft.aad.msal4j.SilentParameters.proofOfPossession()"
+  name: "proofOfPossession()"
+  nameWithType: "SilentParameters.proofOfPossession()"
+  syntax: "public PopParameters proofOfPossession()"
+  returns:
+    type: "<xref href=\"com.microsoft.aad.msal4j.PopParameters?alt=com.microsoft.aad.msal4j.PopParameters&text=PopParameters\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.microsoft.aad.msal4j.SilentParameters.scopes()"
   fullName: "com.microsoft.aad.msal4j.SilentParameters.scopes()"
   name: "scopes()"
@@ -132,9 +139,9 @@ methods:
   returns:
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
-desc: "Object containing parameters for silent requests. Can be used as parameter to <xref uid=\"com.microsoft.aad.msal4j.PublicClientApplication.acquireTokenSilently*\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PublicClientApplication#acquireTokenSilently(SilentParameters)\"></xref> or to <xref uid=\"com.microsoft.aad.msal4j.ConfidentialClientApplication.acquireTokenSilently*\" data-throw-if-not-resolved=\"false\" data-raw-source=\"ConfidentialClientApplication#acquireTokenSilently(SilentParameters)\"></xref>"
+desc: "Object containing parameters for silent requests. Can be used as parameter to <xref uid=\"com.microsoft.aad.msal4j.PublicClientApplication.acquireTokenSilently(com.microsoft.aad.msal4j.SilentParameters)\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PublicClientApplication#acquireTokenSilently(SilentParameters)\"></xref> or to <xref uid=\"com.microsoft.aad.msal4j.ConfidentialClientApplication.acquireTokenSilently*\" data-throw-if-not-resolved=\"false\" data-raw-source=\"ConfidentialClientApplication#acquireTokenSilently(SilentParameters)\"></xref>"
 implements:
 - "<xref href=\"com.microsoft.aad.msal4j.IAcquireTokenParameters?alt=com.microsoft.aad.msal4j.IAcquireTokenParameters&text=IAcquireTokenParameters\" data-throw-if-not-resolved=\"False\" />"
 metadata: {}
 package: "com.microsoft.aad.msal4j"
-artifact: com.microsoft.azure:msal4j:1.13.8
+artifact: com.microsoft.azure:msal4j:1.14.0

@@ -35,8 +35,10 @@ classes:
 - "com.microsoft.aad.msal4j.MsalInteractionRequiredException"
 - "com.microsoft.aad.msal4j.MsalServiceException"
 - "com.microsoft.aad.msal4j.MsalThrottlingException"
+- "com.microsoft.aad.msal4j.OSHelper"
 - "com.microsoft.aad.msal4j.OnBehalfOfParameters"
 - "com.microsoft.aad.msal4j.OnBehalfOfParameters.OnBehalfOfParametersBuilder"
+- "com.microsoft.aad.msal4j.PopParameters"
 - "com.microsoft.aad.msal4j.PublicClientApplication"
 - "com.microsoft.aad.msal4j.PublicClientApplication.Builder"
 - "com.microsoft.aad.msal4j.RefreshTokenParameters"
@@ -81,4 +83,4 @@ interfaces:
 - "com.microsoft.aad.msal4j.OpenBrowserAction"
 metadata: {}
 package: "com.microsoft.aad.msal4j"
-artifact: com.microsoft.azure:msal4j:1.13.8
+artifact: com.microsoft.azure:msal4j:1.14.0

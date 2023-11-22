@@ -118,6 +118,20 @@ methods:
   syntax: "public InteractiveRequestParameters.InteractiveRequestParametersBuilder prompt(Prompt prompt)"
   returns:
     type: "<xref href=\"com.microsoft.aad.msal4j.InteractiveRequestParameters.InteractiveRequestParametersBuilder?alt=com.microsoft.aad.msal4j.InteractiveRequestParameters.InteractiveRequestParametersBuilder&text=InteractiveRequestParametersBuilder\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.aad.msal4j.InteractiveRequestParameters.InteractiveRequestParametersBuilder.proofOfPossession(com.microsoft.aad.msal4j.HttpMethod,java.net.URI,java.lang.String)"
+  fullName: "com.microsoft.aad.msal4j.InteractiveRequestParameters.InteractiveRequestParametersBuilder.proofOfPossession(HttpMethod httpMethod, URI uri, String nonce)"
+  name: "proofOfPossession(HttpMethod httpMethod, URI uri, String nonce)"
+  nameWithType: "InteractiveRequestParameters.InteractiveRequestParametersBuilder.proofOfPossession(HttpMethod httpMethod, URI uri, String nonce)"
+  parameters:
+  - name: "httpMethod"
+    type: "<xref href=\"com.microsoft.aad.msal4j.HttpMethod?alt=com.microsoft.aad.msal4j.HttpMethod&text=HttpMethod\" data-throw-if-not-resolved=\"False\" />"
+  - name: "uri"
+    type: "<xref href=\"java.net.URI?alt=java.net.URI&text=URI\" data-throw-if-not-resolved=\"False\" />"
+  - name: "nonce"
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public InteractiveRequestParameters.InteractiveRequestParametersBuilder proofOfPossession(HttpMethod httpMethod, URI uri, String nonce)"
+  returns:
+    type: "<xref href=\"com.microsoft.aad.msal4j.InteractiveRequestParameters.InteractiveRequestParametersBuilder?alt=com.microsoft.aad.msal4j.InteractiveRequestParameters.InteractiveRequestParametersBuilder&text=InteractiveRequestParametersBuilder\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.microsoft.aad.msal4j.InteractiveRequestParameters.InteractiveRequestParametersBuilder.redirectUri(java.net.URI)"
   fullName: "com.microsoft.aad.msal4j.InteractiveRequestParameters.InteractiveRequestParametersBuilder.redirectUri(URI redirectUri)"
   name: "redirectUri(URI redirectUri)"
@@ -166,7 +180,17 @@ methods:
   syntax: "public String toString()"
   returns:
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.aad.msal4j.InteractiveRequestParameters.InteractiveRequestParametersBuilder.windowHandle(long)"
+  fullName: "com.microsoft.aad.msal4j.InteractiveRequestParameters.InteractiveRequestParametersBuilder.windowHandle(long windowHandle)"
+  name: "windowHandle(long windowHandle)"
+  nameWithType: "InteractiveRequestParameters.InteractiveRequestParametersBuilder.windowHandle(long windowHandle)"
+  parameters:
+  - name: "windowHandle"
+    type: "<xref href=\"long?alt=long&text=long\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public InteractiveRequestParameters.InteractiveRequestParametersBuilder windowHandle(long windowHandle)"
+  returns:
+    type: "<xref href=\"com.microsoft.aad.msal4j.InteractiveRequestParameters.InteractiveRequestParametersBuilder?alt=com.microsoft.aad.msal4j.InteractiveRequestParameters.InteractiveRequestParametersBuilder&text=InteractiveRequestParametersBuilder\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 metadata: {}
 package: "com.microsoft.aad.msal4j"
-artifact: com.microsoft.azure:msal4j:1.13.8
+artifact: com.microsoft.azure:msal4j:1.14.0
