@@ -1,8 +1,9 @@
 ### YamlMime:JavaType
-uid: "com.microsoft.aad.msal4j.AuthenticationErrorMessage"
-fullName: "com.microsoft.aad.msal4j.AuthenticationErrorMessage"
-name: "AuthenticationErrorMessage"
-nameWithType: "AuthenticationErrorMessage"
+uid: "com.microsoft.aad.msal4j.PopParameters"
+fullName: "com.microsoft.aad.msal4j.PopParameters"
+name: "PopParameters"
+nameWithType: "PopParameters"
+summary: "Contains parameters used to request a Proof of Possession (PoP) token in supported flows"
 inheritances:
 - "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedClassMethods:
@@ -19,28 +20,31 @@ inheritedClassMethods:
   - "<xref href=\"java.lang.Object.wait()?alt=java.lang.Object.wait&text=wait\" data-throw-if-not-resolved=\"False\" />"
   - "<xref href=\"java.lang.Object.wait(long)?alt=java.lang.Object.wait&text=wait\" data-throw-if-not-resolved=\"False\" />"
   - "<xref href=\"java.lang.Object.wait(long,int)?alt=java.lang.Object.wait&text=wait\" data-throw-if-not-resolved=\"False\" />"
-syntax: "public class **AuthenticationErrorMessage**"
-constructors:
-- uid: "com.microsoft.aad.msal4j.AuthenticationErrorMessage.AuthenticationErrorMessage()"
-  fullName: "com.microsoft.aad.msal4j.AuthenticationErrorMessage.AuthenticationErrorMessage()"
-  name: "AuthenticationErrorMessage()"
-  nameWithType: "AuthenticationErrorMessage.AuthenticationErrorMessage()"
-  syntax: "public AuthenticationErrorMessage()"
-fields:
-- uid: "com.microsoft.aad.msal4j.AuthenticationErrorMessage.NO_TOKEN_IN_CACHE"
-  fullName: "com.microsoft.aad.msal4j.AuthenticationErrorMessage.NO_TOKEN_IN_CACHE"
-  name: "NO_TOKEN_IN_CACHE"
-  nameWithType: "AuthenticationErrorMessage.NO_TOKEN_IN_CACHE"
-  summary: "Token not found in the cache"
-  modifiers:
-  - "static"
-  - "final"
-  field:
-    value: "Token not found in the cache"
+syntax: "public class **PopParameters**"
+methods:
+- uid: "com.microsoft.aad.msal4j.PopParameters.getHttpMethod()"
+  fullName: "com.microsoft.aad.msal4j.PopParameters.getHttpMethod()"
+  name: "getHttpMethod()"
+  nameWithType: "PopParameters.getHttpMethod()"
+  syntax: "public HttpMethod getHttpMethod()"
+  returns:
+    type: "<xref href=\"com.microsoft.aad.msal4j.HttpMethod?alt=com.microsoft.aad.msal4j.HttpMethod&text=HttpMethod\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.aad.msal4j.PopParameters.getNonce()"
+  fullName: "com.microsoft.aad.msal4j.PopParameters.getNonce()"
+  name: "getNonce()"
+  nameWithType: "PopParameters.getNonce()"
+  syntax: "public String getNonce()"
+  returns:
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public static final String NO_TOKEN_IN_CACHE"
-  desc: "Token not found in the cache"
+- uid: "com.microsoft.aad.msal4j.PopParameters.getUri()"
+  fullName: "com.microsoft.aad.msal4j.PopParameters.getUri()"
+  name: "getUri()"
+  nameWithType: "PopParameters.getUri()"
+  syntax: "public URI getUri()"
+  returns:
+    type: "<xref href=\"java.net.URI?alt=java.net.URI&text=URI\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
+desc: "Contains parameters used to request a Proof of Possession (PoP) token in supported flows"
 metadata: {}
 package: "com.microsoft.aad.msal4j"
 artifact: com.microsoft.azure:msal4j:1.14.0

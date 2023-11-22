@@ -97,6 +97,21 @@ methods:
   desc: "Acquires tokens from the authority configured in the application via Username/Password authentication."
   returns:
     type: "<xref href=\"java.util.concurrent.CompletableFuture?alt=java.util.concurrent.CompletableFuture&text=CompletableFuture\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.aad.msal4j.IAuthenticationResult?alt=com.microsoft.aad.msal4j.IAuthenticationResult&text=IAuthenticationResult\" data-throw-if-not-resolved=\"False\" />&gt;"
+- uid: "com.microsoft.aad.msal4j.PublicClientApplication.acquireTokenSilently(com.microsoft.aad.msal4j.SilentParameters)"
+  fullName: "com.microsoft.aad.msal4j.PublicClientApplication.acquireTokenSilently(SilentParameters parameters)"
+  name: "acquireTokenSilently(SilentParameters parameters)"
+  nameWithType: "PublicClientApplication.acquireTokenSilently(SilentParameters parameters)"
+  summary: "Returns tokens from cache if present and not expired or acquires new tokens from the authority by using the refresh token present in cache."
+  overridden: "com.microsoft.aad.msal4j.AbstractClientApplicationBase.acquireTokenSilently(com.microsoft.aad.msal4j.SilentParameters)"
+  parameters:
+  - name: "parameters"
+    type: "<xref href=\"com.microsoft.aad.msal4j.SilentParameters?alt=com.microsoft.aad.msal4j.SilentParameters&text=SilentParameters\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public CompletableFuture<IAuthenticationResult> acquireTokenSilently(SilentParameters parameters)"
+  exceptions:
+  - type: "<xref href=\"java.net.MalformedURLException?alt=java.net.MalformedURLException&text=MalformedURLException\" data-throw-if-not-resolved=\"False\" />"
+  desc: "Returns tokens from cache if present and not expired or acquires new tokens from the authority by using the refresh token present in cache."
+  returns:
+    type: "<xref href=\"java.util.concurrent.CompletableFuture?alt=java.util.concurrent.CompletableFuture&text=CompletableFuture\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.aad.msal4j.IAuthenticationResult?alt=com.microsoft.aad.msal4j.IAuthenticationResult&text=IAuthenticationResult\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.microsoft.aad.msal4j.PublicClientApplication.builder(java.lang.String)"
   fullName: "com.microsoft.aad.msal4j.PublicClientApplication.builder(String clientId)"
   name: "builder(String clientId)"
@@ -121,10 +136,23 @@ methods:
   syntax: "protected ClientAuthentication clientAuthentication()"
   returns:
     type: "<xref href=\"com.nimbusds.oauth2.sdk.auth.ClientAuthentication?alt=com.nimbusds.oauth2.sdk.auth.ClientAuthentication&text=ClientAuthentication\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.aad.msal4j.PublicClientApplication.removeAccount(com.microsoft.aad.msal4j.IAccount)"
+  fullName: "com.microsoft.aad.msal4j.PublicClientApplication.removeAccount(IAccount account)"
+  name: "removeAccount(IAccount account)"
+  nameWithType: "PublicClientApplication.removeAccount(IAccount account)"
+  summary: "Removes IAccount from the cache"
+  overridden: "com.microsoft.aad.msal4j.AbstractClientApplicationBase.removeAccount(com.microsoft.aad.msal4j.IAccount)"
+  parameters:
+  - name: "account"
+    type: "<xref href=\"com.microsoft.aad.msal4j.IAccount?alt=com.microsoft.aad.msal4j.IAccount&text=IAccount\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public CompletableFuture<Void> removeAccount(IAccount account)"
+  desc: "Removes IAccount from the cache"
+  returns:
+    type: "<xref href=\"java.util.concurrent.CompletableFuture?alt=java.util.concurrent.CompletableFuture&text=CompletableFuture\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"java.lang.Void?alt=java.lang.Void&text=Void\" data-throw-if-not-resolved=\"False\" />&gt;"
 type: "class"
 desc: "Class to be used to acquire tokens for public client applications (Desktop, Mobile). For details see <xref uid=\"com.microsoft.aad.msal4j.IPublicClientApplication\" data-throw-if-not-resolved=\"false\" data-raw-source=\"IPublicClientApplication\"></xref>\n\nConditionally thread-safe"
 implements:
 - "<xref href=\"com.microsoft.aad.msal4j.IPublicClientApplication?alt=com.microsoft.aad.msal4j.IPublicClientApplication&text=IPublicClientApplication\" data-throw-if-not-resolved=\"False\" />"
 metadata: {}
 package: "com.microsoft.aad.msal4j"
-artifact: com.microsoft.azure:msal4j:1.13.8
+artifact: com.microsoft.azure:msal4j:1.14.0
