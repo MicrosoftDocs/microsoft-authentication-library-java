@@ -113,6 +113,13 @@ methods:
   desc: "Indicate the type of user interaction that is required."
   returns:
     type: "<xref href=\"com.microsoft.aad.msal4j.Prompt?alt=com.microsoft.aad.msal4j.Prompt&text=Prompt\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.aad.msal4j.InteractiveRequestParameters.proofOfPossession()"
+  fullName: "com.microsoft.aad.msal4j.InteractiveRequestParameters.proofOfPossession()"
+  name: "proofOfPossession()"
+  nameWithType: "InteractiveRequestParameters.proofOfPossession()"
+  syntax: "public PopParameters proofOfPossession()"
+  returns:
+    type: "<xref href=\"com.microsoft.aad.msal4j.PopParameters?alt=com.microsoft.aad.msal4j.PopParameters&text=PopParameters\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.microsoft.aad.msal4j.InteractiveRequestParameters.redirectUri()"
   fullName: "com.microsoft.aad.msal4j.InteractiveRequestParameters.redirectUri()"
   name: "redirectUri()"
@@ -149,10 +156,19 @@ methods:
   desc: "Overrides the tenant value in the authority URL for this request"
   returns:
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.aad.msal4j.InteractiveRequestParameters.windowHandle()"
+  fullName: "com.microsoft.aad.msal4j.InteractiveRequestParameters.windowHandle()"
+  name: "windowHandle()"
+  nameWithType: "InteractiveRequestParameters.windowHandle()"
+  summary: "The parent window handle used to open UI elements with the correct parent For browser scenarios and Windows console applications, this value should not need to be set For Windows console applications, MSAL Java will attempt to discover the console's window handle if this parameter is not set For scenarios where MSAL Java is responsible for opening UI elements (such as when using MSALRuntime), this parameter is required and an exception will be thrown if not set"
+  syntax: "public long windowHandle()"
+  desc: "The parent window handle used to open UI elements with the correct parent For browser scenarios and Windows console applications, this value should not need to be set For Windows console applications, MSAL Java will attempt to discover the console's window handle if this parameter is not set For scenarios where MSAL Java is responsible for opening UI elements (such as when using MSALRuntime), this parameter is required and an exception will be thrown if not set"
+  returns:
+    type: "<xref href=\"long?alt=long&text=long\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 desc: "Object containing parameters for interactive requests. Can be used as parameter to <xref uid=\"com.microsoft.aad.msal4j.PublicClientApplication.acquireToken(com.microsoft.aad.msal4j.InteractiveRequestParameters)\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PublicClientApplication#acquireToken(InteractiveRequestParameters)\"></xref>.\n\nFor more details, see https://aka.ms/msal4j-interactive-request."
 implements:
 - "<xref href=\"com.microsoft.aad.msal4j.IAcquireTokenParameters?alt=com.microsoft.aad.msal4j.IAcquireTokenParameters&text=IAcquireTokenParameters\" data-throw-if-not-resolved=\"False\" />"
 metadata: {}
 package: "com.microsoft.aad.msal4j"
-artifact: com.microsoft.azure:msal4j:1.13.8
+artifact: com.microsoft.azure:msal4j:1.14.0

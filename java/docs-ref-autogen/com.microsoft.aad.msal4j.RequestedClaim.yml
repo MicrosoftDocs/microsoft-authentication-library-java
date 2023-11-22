@@ -54,4 +54,4 @@ type: "class"
 desc: "Represents an individual requested claims that's part of a complete claims request parameter"
 metadata: {}
 package: "com.microsoft.aad.msal4j"
-artifact: com.microsoft.azure:msal4j:1.13.8
+artifact: com.microsoft.azure:msal4j:1.14.0

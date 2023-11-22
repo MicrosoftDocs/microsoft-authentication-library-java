@@ -1,8 +1,8 @@
 ### YamlMime:JavaType
-uid: "com.microsoft.aad.msal4j.AuthenticationErrorMessage"
-fullName: "com.microsoft.aad.msal4j.AuthenticationErrorMessage"
-name: "AuthenticationErrorMessage"
-nameWithType: "AuthenticationErrorMessage"
+uid: "com.microsoft.aad.msal4j.OSHelper"
+fullName: "com.microsoft.aad.msal4j.OSHelper"
+name: "OSHelper"
+nameWithType: "OSHelper"
 inheritances:
 - "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedClassMethods:
@@ -19,27 +19,50 @@ inheritedClassMethods:
   - "<xref href=\"java.lang.Object.wait()?alt=java.lang.Object.wait&text=wait\" data-throw-if-not-resolved=\"False\" />"
   - "<xref href=\"java.lang.Object.wait(long)?alt=java.lang.Object.wait&text=wait\" data-throw-if-not-resolved=\"False\" />"
   - "<xref href=\"java.lang.Object.wait(long,int)?alt=java.lang.Object.wait&text=wait\" data-throw-if-not-resolved=\"False\" />"
-syntax: "public class **AuthenticationErrorMessage**"
+syntax: "public class **OSHelper**"
 constructors:
-- uid: "com.microsoft.aad.msal4j.AuthenticationErrorMessage.AuthenticationErrorMessage()"
-  fullName: "com.microsoft.aad.msal4j.AuthenticationErrorMessage.AuthenticationErrorMessage()"
-  name: "AuthenticationErrorMessage()"
-  nameWithType: "AuthenticationErrorMessage.AuthenticationErrorMessage()"
-  syntax: "public AuthenticationErrorMessage()"
-fields:
-- uid: "com.microsoft.aad.msal4j.AuthenticationErrorMessage.NO_TOKEN_IN_CACHE"
-  fullName: "com.microsoft.aad.msal4j.AuthenticationErrorMessage.NO_TOKEN_IN_CACHE"
-  name: "NO_TOKEN_IN_CACHE"
-  nameWithType: "AuthenticationErrorMessage.NO_TOKEN_IN_CACHE"
-  summary: "Token not found in the cache"
+- uid: "com.microsoft.aad.msal4j.OSHelper.OSHelper()"
+  fullName: "com.microsoft.aad.msal4j.OSHelper.OSHelper()"
+  name: "OSHelper()"
+  nameWithType: "OSHelper.OSHelper()"
+  syntax: "public OSHelper()"
+methods:
+- uid: "com.microsoft.aad.msal4j.OSHelper.getOs()"
+  fullName: "com.microsoft.aad.msal4j.OSHelper.getOs()"
+  name: "getOs()"
+  nameWithType: "OSHelper.getOs()"
   modifiers:
   - "static"
-  - "final"
-  field:
-    value: "Token not found in the cache"
+  syntax: "public static String getOs()"
+  returns:
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public static final String NO_TOKEN_IN_CACHE"
-  desc: "Token not found in the cache"
+- uid: "com.microsoft.aad.msal4j.OSHelper.isLinux()"
+  fullName: "com.microsoft.aad.msal4j.OSHelper.isLinux()"
+  name: "isLinux()"
+  nameWithType: "OSHelper.isLinux()"
+  modifiers:
+  - "static"
+  syntax: "public static boolean isLinux()"
+  returns:
+    type: "<xref href=\"boolean?alt=boolean&text=boolean\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.aad.msal4j.OSHelper.isMac()"
+  fullName: "com.microsoft.aad.msal4j.OSHelper.isMac()"
+  name: "isMac()"
+  nameWithType: "OSHelper.isMac()"
+  modifiers:
+  - "static"
+  syntax: "public static boolean isMac()"
+  returns:
+    type: "<xref href=\"boolean?alt=boolean&text=boolean\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.aad.msal4j.OSHelper.isWindows()"
+  fullName: "com.microsoft.aad.msal4j.OSHelper.isWindows()"
+  name: "isWindows()"
+  nameWithType: "OSHelper.isWindows()"
+  modifiers:
+  - "static"
+  syntax: "public static boolean isWindows()"
+  returns:
+    type: "<xref href=\"boolean?alt=boolean&text=boolean\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 metadata: {}
 package: "com.microsoft.aad.msal4j"

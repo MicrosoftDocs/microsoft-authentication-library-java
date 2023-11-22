@@ -88,6 +88,20 @@ methods:
   syntax: "public SilentParameters.SilentParametersBuilder forceRefresh(boolean forceRefresh)"
   returns:
     type: "<xref href=\"com.microsoft.aad.msal4j.SilentParameters.SilentParametersBuilder?alt=com.microsoft.aad.msal4j.SilentParameters.SilentParametersBuilder&text=SilentParametersBuilder\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.aad.msal4j.SilentParameters.SilentParametersBuilder.proofOfPossession(com.microsoft.aad.msal4j.HttpMethod,java.net.URI,java.lang.String)"
+  fullName: "com.microsoft.aad.msal4j.SilentParameters.SilentParametersBuilder.proofOfPossession(HttpMethod httpMethod, URI uri, String nonce)"
+  name: "proofOfPossession(HttpMethod httpMethod, URI uri, String nonce)"
+  nameWithType: "SilentParameters.SilentParametersBuilder.proofOfPossession(HttpMethod httpMethod, URI uri, String nonce)"
+  parameters:
+  - name: "httpMethod"
+    type: "<xref href=\"com.microsoft.aad.msal4j.HttpMethod?alt=com.microsoft.aad.msal4j.HttpMethod&text=HttpMethod\" data-throw-if-not-resolved=\"False\" />"
+  - name: "uri"
+    type: "<xref href=\"java.net.URI?alt=java.net.URI&text=URI\" data-throw-if-not-resolved=\"False\" />"
+  - name: "nonce"
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public SilentParameters.SilentParametersBuilder proofOfPossession(HttpMethod httpMethod, URI uri, String nonce)"
+  returns:
+    type: "<xref href=\"com.microsoft.aad.msal4j.SilentParameters.SilentParametersBuilder?alt=com.microsoft.aad.msal4j.SilentParameters.SilentParametersBuilder&text=SilentParametersBuilder\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.microsoft.aad.msal4j.SilentParameters.SilentParametersBuilder.scopes(java.util.Set<java.lang.String>)"
   fullName: "com.microsoft.aad.msal4j.SilentParameters.SilentParametersBuilder.scopes(Set<String> scopes)"
   name: "scopes(Set<String> scopes)"
@@ -119,4 +133,4 @@ methods:
 type: "class"
 metadata: {}
 package: "com.microsoft.aad.msal4j"
-artifact: com.microsoft.azure:msal4j:1.13.8
+artifact: com.microsoft.azure:msal4j:1.14.0
