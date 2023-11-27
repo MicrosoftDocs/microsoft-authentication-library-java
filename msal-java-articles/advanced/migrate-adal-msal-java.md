@@ -7,11 +7,11 @@ description: Learn how to migrate your Azure Active Directory Authentication Lib
 
 This article highlights changes you need to make to migrate an application that uses the Azure Active Directory Authentication Library (ADAL) to the Microsoft Authentication Library (MSAL).
 
-Both the Microsoft Authentication Library for Java (MSAL4J) and Azure AD Authentication Library for Java (ADAL4J) are used to authenticate Microsoft Entra entities and request tokens from Microsoft Entra ID. Until now, most developers have worked with Microsoft Entra developer platform (v1.0) to authenticate with various identities, such as work and school accounts, by requesting tokens using Azure AD Authentication Library (ADAL).
+Both the Microsoft Authentication Library for Java (MSAL4J) and Azure AD Authentication Library for Java (ADAL4J) are used to authenticate Microsoft Entra entities and request tokens from Microsoft Entra ID. Until now, most developers have worked with Azure AD for developers (v1.0) to authenticate with various identities, such as work and school accounts, by requesting tokens using Azure AD Authentication Library (ADAL).
 
 MSAL offers the following benefits:
 
-- Because it uses the newer Microsoft identity platform, you can authenticate a broader set of Microsoft identities such as Microsoft Entra identities, Microsoft accounts, and social and local accounts through Microsoft Entra Business to Consumer (B2C).
+- Because it uses the newer Microsoft identity platform, you can authenticate a broader set of Microsoft identities such as Microsoft Entra identities, Microsoft accounts, social and local accounts through Azure AD Business to Consumer (Azure AD B2C), and social or local customer accounts through Microsoft Entra External ID.
 - Your users will get the best single-sign-on experience.
 - Your application can enable incremental consent, as well as support new features, such as Conditional Access.
 
@@ -48,7 +48,7 @@ The following table shows how ADAL4J functions map to the new MSAL for Java func
 
 ## IAccount instead of IUser
 
-ADAL4J handled users. Although a user represents a single human or software agent, it can have one or more accounts in the Microsoft identity system. For example, a user may have several Microsoft Entra ID, Microsoft Entra B2C, or Microsoft personal accounts.
+ADAL4J handled users. Although a user represents a single human or software agent, it can have one or more accounts in the Microsoft identity system. For example, a user may have several Microsoft Entra ID, Azure AD B2C, or Microsoft personal accounts.
 
 MSAL for Java defines the concept of Account via the `IAccount` interface. This is a breaking change from ADAL4J. It captures the fact that the same user can have several accounts, and perhaps even in different Microsoft Entra directories. MSAL for Java provides better information in guest scenarios because home account information is provided.
 
