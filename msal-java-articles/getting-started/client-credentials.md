@@ -13,7 +13,7 @@ There are three types of client secrets in MSAL4J:
 
 ## Client Credentials with application secret in MSAL4J
 
-During the registration of a the confidential client application with Azure AD, a client secret is generated (a kind of application password). When the client wants to acquire a token in its own name it will:
+During the registration of a the confidential client application with Microsoft Entra ID, a client secret is generated (a kind of application password). When the client wants to acquire a token in its own name it will:
 
 - Create `IClientCredential` using the `ClientCredentialFactory`, passing in the client secret, which should be a string.
 
@@ -24,7 +24,7 @@ IClientCredential credential = ClientCredentialFactory.createFromSecret(CLIENT_S
 
 ## Client Credentials with certificate
 
-In this case, when the application is registered with Azure AD, it uploads the public key of a certificate. When it wants to acquire a token, the client application will
+In this case, when the application is registered with Microsoft Entra ID, it uploads the public key of a certificate. When it wants to acquire a token, the client application will
 
 - Create `IClientCredential` using the `ClientCredentialFactory`, passing in either both the public and private keys, or a InputStream of the pkcs12
 
