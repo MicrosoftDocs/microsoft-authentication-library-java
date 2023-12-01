@@ -18,7 +18,7 @@ MSAL4J does not support [user-agent based clients](/azure/active-directory/devel
 
 For details about the supported scenarios see [the introductory section](../index.md#msal-java-scenarios).
 
-## Value of MSAL4J over generic lirbaries
+## Value of MSAL4J over generic libraries
 
 MSAL4J is a token acquisition library. Depending on your scenario it provides you with various way of getting a token, with a consistent API for a number of platforms.
 
