@@ -1,4 +1,11 @@
-- name: Docs
-  href: /
-  homepage: /
+- name: Microsoft Entra
+  tocHref: /java/
+  topicHref: /entra/index
   items:
+  - name: MSAL
+    tocHref: /java/
+    topicHref: /entra/msal/index
+    items:
+    - name: Java API browser
+      tocHref: /java/
+      topicHref: /java/api/index
