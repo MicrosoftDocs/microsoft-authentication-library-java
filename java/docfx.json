@@ -21,7 +21,7 @@
           "**/*.yml"
         ],
         "src": "microsoft-authentication-library-java-breadcrumb",
-        "dest": "breadcrumb",
+        "dest": "microsoft-authentication-library-java-breadcrumb",
         "group": "latest",
         "exclude": [
           "**/obj/**",
