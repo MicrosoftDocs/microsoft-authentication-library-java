@@ -20,7 +20,7 @@
         "files": [
           "**/*.yml"
         ],
-        "src": "breadcrumb",
+        "src": "microsoft-authentication-library-java-breadcrumb",
         "dest": "breadcrumb",
         "group": "latest",
         "exclude": [
