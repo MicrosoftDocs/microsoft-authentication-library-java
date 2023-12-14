@@ -20,8 +20,8 @@
         "files": [
           "**/*.yml"
         ],
-        "src": "microsoft-authentication-library-java-breadcrumb",
-        "dest": "microsoft-authentication-library-java-breadcrumb",
+        "src": "breadcrumb",
+        "dest": "msal-java",
         "group": "latest",
         "exclude": [
           "**/obj/**",
@@ -70,7 +70,7 @@
     "externalReference": [],
     "globalMetadata": {
       "uhfHeaderId": "MSDocsHeader-Entra",
-      "breadcrumb_path": "/java/microsoft-authentication-library-java-breadcrumb/toc.json",
+      "breadcrumb_path": "/java/msal-java/breadcrumb/toc.json",
       "ms.topic": "managed-reference",
       "ms.devlang": "java",
       "apiPlatform": "java"
