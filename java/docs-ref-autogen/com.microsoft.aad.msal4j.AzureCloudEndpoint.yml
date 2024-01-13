@@ -83,4 +83,4 @@ methods:
 desc: "All the national clouds authenticate users separately in each environment and have separate authentication endpoints. AzureCloudEndpoint is an utility enum containing URLs for each of the national clouds endpoints, as well as the public cloud endpoint\n\nFor more details see: https://aka.ms/msal4j-national-cloud"
 metadata: {}
 package: "com.microsoft.aad.msal4j"
-artifact: com.microsoft.azure:msal4j:1.14.0
+artifact: com.microsoft.azure:msal4j:1.14.2

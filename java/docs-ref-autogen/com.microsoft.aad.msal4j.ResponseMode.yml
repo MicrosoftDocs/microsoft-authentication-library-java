@@ -81,4 +81,4 @@ methods:
 desc: "Values for possible methods in which AAD can send the authorization result back to the calling application"
 metadata: {}
 package: "com.microsoft.aad.msal4j"
-artifact: com.microsoft.azure:msal4j:1.14.0
+artifact: com.microsoft.azure:msal4j:1.14.2

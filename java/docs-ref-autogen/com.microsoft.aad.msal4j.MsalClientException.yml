@@ -71,4 +71,4 @@ type: "class"
 desc: "Exception type thrown when and error occurs that is local to the library or the device."
 metadata: {}
 package: "com.microsoft.aad.msal4j"
-artifact: com.microsoft.azure:msal4j:1.14.0
+artifact: com.microsoft.azure:msal4j:1.14.2
