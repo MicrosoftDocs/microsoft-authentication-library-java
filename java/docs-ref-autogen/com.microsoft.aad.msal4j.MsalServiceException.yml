@@ -131,4 +131,4 @@ type: "class"
 desc: "Exception type thrown when service returns an error response or other networking errors occur."
 metadata: {}
 package: "com.microsoft.aad.msal4j"
-artifact: com.microsoft.azure:msal4j:1.14.0
+artifact: com.microsoft.azure:msal4j:1.14.2
