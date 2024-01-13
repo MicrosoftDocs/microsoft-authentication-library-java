@@ -32,7 +32,7 @@ MSAL exposes a `reason` field, which you can read to provide a better user exper
 |MessageOnly|Condition can't be resolved at this time. Launching interactive authentication flow will show a message explaining the condition.| Call acquireToken with interactive parameters to show a message that explains the condition. acquireTokenCall will return UserCanceled error after the user reads the message and closes the window. Calling application may choose to hide flows that result in message_only if the user is unlikely to benefit from the message.|
 |ConsentRequired|User consent is missing, or has been revoked.|Call all acquireToken with interactive parameters for user to give consent.|
 |UserPasswordExpired|User's password has expired.|Call acquireToken with interactive parameter so user can reset password|
-|ConsentRequired|User consent is missing, or has been revoked| Call acquireToken with interactive paramaters so user can reset password|
+|ConsentRequired|User consent is missing, or has been revoked| Call acquireToken with interactive parameters so user can reset password|
 |None| 	No further details are provided. Condition may be resolved by user interaction during the interactive authentication flow. | Call acquireToken with interactive parameters|
 
 ## Code Example
