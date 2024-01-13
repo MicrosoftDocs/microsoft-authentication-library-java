@@ -14,7 +14,7 @@ To persist the token cache between instances of your application, you will need 
 Below is a naive implementation of custom serialization of the token cache.
 
 >[!WARNING]
->Because the sample cod ebelow doesn't showcase the full cache storage lifecycle, we strongly recomment to not copy and paste this into a production environment. Make sure that you're aware of security and access requirements for the token cache.
+>Because the sample code below doesn't showcase the full cache storage lifecycle, we strongly recommend to not copy and paste this into a production environment. Make sure that you're aware of security and access requirements for the token cache.
 
 ```java
 static class TokenPersistence implements ITokenCacheAccessAspect {

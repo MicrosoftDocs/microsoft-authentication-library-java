@@ -18,7 +18,7 @@ MSAL4J does not support [user-agent based clients](/azure/active-directory/devel
 
 For details about the supported scenarios see [the introductory section](../index.md#msal-java-scenarios).
 
-## Value of MSAL4J over generic lirbaries
+## Value of MSAL4J over generic libraries
 
 MSAL4J is a token acquisition library. Depending on your scenario it provides you with various way of getting a token, with a consistent API for a number of platforms.
 
@@ -30,7 +30,7 @@ It also adds value by:
 
 ## Token acquisition
 
-MSAL4J is used to acquire tokens. It's not used to protect a Web API. If you are interested in protecting a Web API with Azure AD, check out the following resources:
+MSAL4J is used to acquire tokens. It's not used to protect a Web API. If you are interested in protecting a Web API with Microsoft Entra ID, check out the following resources:
 
-- [Spring Starter for Azure Active Directory](/azure/developer/java/spring-framework/spring-boot-starter-for-azure-active-directory-developer-guide?tabs=SpringCloudAzure4x)
+- [Spring Starter for Microsoft Entra ID](/azure/developer/java/spring-framework/spring-boot-starter-for-azure-active-directory-developer-guide?tabs=SpringCloudAzure4x)
 - [Validating tokens manually](/azure/active-directory/develop/access-tokens#validating-tokens)

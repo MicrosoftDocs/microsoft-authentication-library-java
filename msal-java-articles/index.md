@@ -5,12 +5,12 @@ description: "The Microsoft Authentication Library for Java (usually shortened t
 
 # Microsoft Authentication Library for Java
 
-The Microsoft Authentication Library for Java (usually shortened to MSAL Java or MSAL4J) enables applications to integrate with the [Microsoft identity platform](/azure/active-directory/develop/v2-overview). It allows you to sign in users or apps with Microsoft identities (Azure AD, Microsoft accounts, and Azure AD B2C accounts) and obtain tokens to call Microsoft APIs such as [Microsoft Graph](https://graph.microsoft.io/) or your own APIs. It is built using industry standard OAuth2 and OpenID Connect protocols.
+The Microsoft Authentication Library for Java (usually shortened to MSAL Java or MSAL4J) enables applications to integrate with the [Microsoft identity platform](/azure/active-directory/develop/v2-overview). It allows you to sign in users or apps with Microsoft identities (Microsoft Entra ID, Microsoft accounts, and Azure AD B2C accounts) and obtain tokens to call Microsoft APIs such as [Microsoft Graph](https://graph.microsoft.io/) or your own APIs. It is built using industry standard OAuth2 and OpenID Connect protocols.
 
 ## Overview
 
 1. [Why use MSAL4J?](getting-started/why-use-msal4j.md)
-1. **Pre-requisite**: Before using MSAL4J you will have to [register your applications with Azure AD](/azure/active-directory/develop/active-directory-integrating-applications).
+1. **Pre-requisite**: Before using MSAL4J you will have to [register your applications with Microsoft Entra ID](/azure/active-directory/develop/active-directory-integrating-applications).
 1. To start using MSAL4J, instantiate and configure the [client application](getting-started/client-applications.md).
 1. Learn about the ways to [acquire a token](getting-started/acquiring-tokens.md) using MSAL4J.
 1. Follow [best practices for a robust enterprise ready application](advanced/best-practices-enterprise.md).
@@ -21,7 +21,7 @@ The Microsoft Authentication Library for Java (usually shortened to MSAL Java or
 MSAL4J can be used by applications to acquire tokens to access protected APIs. Tokens can be acquired by different **application types**: desktop applications, web applications, web APIs, and applications running on devices that don't have a browser (such as IoT devices). In MSAL4J, applications are categorized as follows:
 
 - **Public client applications (desktop and mobile)**. These types of apps cannot store app secrets securely.
-- **Confidential client applications (web apps, web APIs, and daemon applications)**. These type of apps securely store a secret registered with Azure AD.
+- **Confidential client applications (web apps, web APIs, and daemon applications)**. These type of apps securely store a secret registered with Microsoft Entra ID.
 
 Learn more details about instantiating and configuring the above in the [Client applications](./getting-started/client-applications.md) topic.
 
