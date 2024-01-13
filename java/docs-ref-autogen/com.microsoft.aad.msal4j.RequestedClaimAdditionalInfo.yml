@@ -84,4 +84,4 @@ type: "class"
 desc: "Represents the additional information that can be sent to an authorization server for a request claim in the claim request parameter"
 metadata: {}
 package: "com.microsoft.aad.msal4j"
-artifact: com.microsoft.azure:msal4j:1.14.0
+artifact: com.microsoft.azure:msal4j:1.14.2
