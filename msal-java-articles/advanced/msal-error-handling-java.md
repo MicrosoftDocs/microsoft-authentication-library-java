@@ -11,7 +11,7 @@ This article gives an overview of the different types of errors and recommendati
 
 Exceptions in Microsoft Authentication Library (MSAL) are intended for app developers to troubleshoot, not for displaying to end users. Exception messages are not localized.
 
-When processing exceptions and errors, you can use the exception type itself and the error code to distinguish between exceptions. For a list of error codes, see [Microsoft Entra authentication and authorization error codes](/azure/active-directory/develop/reference-error-codes).
+When processing exceptions and errors, you can use the exception type itself and the error code to distinguish between exceptions. For a list of error codes, see [Microsoft Entra authentication and authorization error codes](/entra/identity-platform/reference-error-codes).
 
 During the sign-in experience, you may encounter errors about consents, Conditional Access (e.g., multi-factor authentication, device management, location-based restrictions), token issuance and redemption, and user properties.
 
@@ -75,11 +75,11 @@ catch (Exception ex){
 
 ## Conditional Access and claims challenges
 
-When getting tokens silently, your application may receive errors when a [Conditional Access claims challenge](/azure/active-directory/develop/v2-conditional-access-dev-guide), such as MFA policy, is required by the API you're trying to access.
+When getting tokens silently, your application may receive errors when a [Conditional Access claims challenge](/entra/identity-platform/v2-conditional-access-dev-guide), such as MFA policy, is required by the API you're trying to access.
 
 The pattern for handling this error is to interactively acquire a token using MSAL. This prompts the user and gives them the opportunity to satisfy the required Conditional Access policy.
 
-In certain cases when calling an API requiring Conditional Access, you can receive a claims challenge in the error from the API. For instance if the Conditional Access policy is to have a managed device (Intune) the error will be something like [AADSTS53000: Your device is required to be managed to access this resource](/azure/active-directory/develop/reference-error-codes) or something similar. In this case, you can pass the claims in the acquire token call so that the user is prompted to satisfy the appropriate policy.
+In certain cases when calling an API requiring Conditional Access, you can receive a claims challenge in the error from the API. For instance if the Conditional Access policy is to have a managed device (Intune) the error will be something like [AADSTS53000: Your device is required to be managed to access this resource](/entra/identity-platform/reference-error-codes) or something similar. In this case, you can pass the claims in the acquire token call so that the user is prompted to satisfy the appropriate policy.
 
 ## Retrying after errors and exceptions
 

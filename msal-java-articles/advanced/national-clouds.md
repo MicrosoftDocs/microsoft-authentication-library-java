@@ -19,6 +19,6 @@ Note that enabling your application for sovereign clouds requires you to:
 - Use a specific authority, depending on the cloud in the config file for your application
 - In case you want to call the graph, this requires a specific Graph endpoint URL, depending on the cloud.
 
-More details in [Authentication in National Clouds](/azure/active-directory/develop/authentication-national-cloud)
+More details in [Authentication in National Clouds](/entra/identity-platform/authentication-national-cloud)
 
 For convenience, the list of authentication endpoints for the national clouds can be found in the [`AzureCloudEndpoint`](xref:com.microsoft.aad.msal4j.AzureCloudEndpoint) enum, along with the endpoint for the global/public cloud.

@@ -5,12 +5,12 @@ description: "The Microsoft Authentication Library for Java (usually shortened t
 
 # Microsoft Authentication Library for Java
 
-The Microsoft Authentication Library for Java (usually shortened to MSAL Java or MSAL4J) enables applications to integrate with the [Microsoft identity platform](/azure/active-directory/develop/v2-overview). It allows you to sign in users or apps with Microsoft identities (Microsoft Entra ID, Microsoft accounts, and Azure AD B2C accounts) and obtain tokens to call Microsoft APIs such as [Microsoft Graph](https://graph.microsoft.io/) or your own APIs. It is built using industry standard OAuth2 and OpenID Connect protocols.
+The Microsoft Authentication Library for Java (usually shortened to MSAL Java or MSAL4J) enables applications to integrate with the [Microsoft identity platform](/entra/identity-platform/v2-overview). It allows you to sign in users or apps with Microsoft identities (Microsoft Entra ID, Microsoft accounts, and Azure AD B2C accounts) and obtain tokens to call Microsoft APIs such as [Microsoft Graph](https://graph.microsoft.io/) or your own APIs. It is built using industry standard OAuth2 and OpenID Connect protocols.
 
 ## Overview
 
 1. [Why use MSAL4J?](getting-started/why-use-msal4j.md)
-1. **Pre-requisite**: Before using MSAL4J you will have to [register your applications with Microsoft Entra ID](/azure/active-directory/develop/active-directory-integrating-applications).
+1. **Pre-requisite**: Before using MSAL4J you will have to [register your applications with Microsoft Entra ID](/entra/identity-platform/active-directory-integrating-applications).
 1. To start using MSAL4J, instantiate and configure the [client application](getting-started/client-applications.md).
 1. Learn about the ways to [acquire a token](getting-started/acquiring-tokens.md) using MSAL4J.
 1. Follow [best practices for a robust enterprise ready application](advanced/best-practices-enterprise.md).
@@ -31,13 +31,13 @@ MSAL4J can be used in applications running on different operating systems (Windo
 
 Key scenarios supported by MSAL4J:
 
-- [Web application that signs in users](/azure/active-directory/develop/scenario-web-app-sign-user-overview)
-- [Web Application signing in a user and calling a Web API in the name of the user](/azure/active-directory/develop/scenario-web-app-call-api-overview)
-- [Desktop application calling a Web API in the name of the signed-in user](/azure/active-directory/develop/scenario-desktop-overview)
-- [Desktop/service daemon application calling Web API without a user](/azure/active-directory/develop/scenario-daemon-overview)
-- [Application without a browser, or IOT application calling an API in the name of the user](/azure/active-directory/develop/scenario-desktop-acquire-token?tabs=java#command-line-tool-without-web-browser)
+- [Web application that signs in users](/entra/identity-platform/scenario-web-app-sign-user-overview)
+- [Web Application signing in a user and calling a Web API in the name of the user](/entra/identity-platform/scenario-web-app-call-api-overview)
+- [Desktop application calling a Web API in the name of the signed-in user](/entra/identity-platform/scenario-desktop-overview)
+- [Desktop/service daemon application calling Web API without a user](/entra/identity-platform/scenario-daemon-overview)
+- [Application without a browser, or IOT application calling an API in the name of the user](/entra/identity-platform/scenario-desktop-acquire-token?tabs=java#command-line-tool-without-web-browser)
 
-Can't find the scenario you are looking for? Check out the [supported scenarios and platforms](/azure/active-directory/develop/authentication-flows-app-scenarios#scenarios-and-supported-platforms-and-languages) across MSAL libraries.
+Can't find the scenario you are looking for? Check out the [supported scenarios and platforms](/entra/identity-platform/authentication-flows-app-scenarios#scenarios-and-supported-platforms-and-languages) across MSAL libraries.
 
 ## Releases
 
