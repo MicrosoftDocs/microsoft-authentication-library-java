@@ -1,7 +1,17 @@
 ---
 title: Using the acquired token to call a protected API
 description: "How to use a token acquired with MSAL4J to call a secure API."
+author: Dickson-Mwendia
+manager: CelesteDG
+
+ms.author: dmwendia
+ms.date: 02/27/2024
+ms.reviewer: dayodeji
+ms.service: msal
+ms.subservice: msal-java
+ms.topic: conceptual
 ---
+
 
 # Using the acquired token to call a protected API
 

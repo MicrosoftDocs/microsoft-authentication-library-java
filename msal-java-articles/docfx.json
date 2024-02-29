@@ -62,8 +62,12 @@
         "*/**.md": "ddelimarsky"
       },
       "ms.service": {
-        "*.md": "active-directory",
-        "*/**.md": "active-directory"
+        "*.md": "msal",
+        "*/**.md": "msal"
+      },
+      "ms.subservice": {
+        "*.md": "msal-java",
+        "*/**.md": "msal-java"
       },
       "titleSuffix": {
         "*.md": "Microsoft Authentication Library for Java",

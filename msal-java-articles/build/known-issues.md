@@ -1,6 +1,15 @@
 ---
 title: Known issues
 description: "This page covers known issues that exist outside of MSAL4J, such as those found in dependencies or services that MSAL4J relies on, and potential workarounds to use until those issues are resolved."
+author: Dickson-Mwendia
+manager: CelesteDG
+
+ms.author: dmwendia
+ms.date: 01/27/2024
+ms.reviewer: dayodeji
+ms.service: msal
+ms.subservice: msal-java
+ms.topic: conceptual
 ---
 
 # Known issues

@@ -1,20 +1,29 @@
 ---
 title: Why use MSAL4J
 description: "Decide when to use MSAL4J to authenticate your users."
+author: Dickson-Mwendia
+manager: CelesteDG
+
+ms.author: dmwendia
+ms.date: 02/27/2024
+ms.reviewer: dayodeji
+ms.service: msal
+ms.subservice: msal-java
+ms.topic: conceptual
 ---
 
 # Why use MSAL4J
 
-MSAL4J ([Microsoft Authentication Library for Java](https://github.com/AzureAD/microsoft-authentication-library-for-java)) enables developers to **acquire [tokens](/azure/active-directory/develop/active-directory-dev-glossary#security-token) in order to call secured web APIs**. These web APIs include Microsoft Graph, other Microsoft APIS, third party web APIs, or your own web API.
+The Microsoft Authentication Library for Java (MSAL for Java or MSAL4J) enables developers to **acquire [tokens](/entra/identity-platform/developer-glossary#security-token) in order to call secured web APIs**. These web APIs include Microsoft Graph, other Microsoft APIS, third party web APIs, or your own web API.
 
 ## Multiple application architectures
 
-MSAL for Java, or MSAL4J for short, supports all the possible application topologies including:
+MSAL for Java supports all the possible application topologies including:
 
-- [Native client](/azure/active-directory/develop/active-directory-dev-glossary#native-client)  (desktop applications) calling an API, such as Microsoft Graph, in the name of the user.
-- Daemons/services or [web clients](/azure/active-directory/develop/active-directory-dev-glossary#web-client)  (web apps/ web APIs) calling other APIs, such as Microsoft Graph in the name of a user or without a user.
+- [Native client](/entra/identity-platform/developer-glossary#native-client)  (desktop applications) calling an API, such as Microsoft Graph, in the name of the user.
+- Daemons/services or [web clients](/entra/identity-platform/developer-glossary#web-client)  (web apps/ web APIs) calling other APIs, such as Microsoft Graph in the name of a user or without a user.
 
-MSAL4J does not support [user-agent based clients](/azure/active-directory/develop/active-directory-dev-glossary#user-agent-based-client), which are only supported in JavaScript.
+MSAL4J does not support [user-agent based clients](/entra/identity-platform/developer-glossary#user-agent-based-client), which are only supported in JavaScript.
 
 For details about the supported scenarios see [the introductory section](../index.md#msal-java-scenarios).
 
@@ -33,4 +42,4 @@ It also adds value by:
 MSAL4J is used to acquire tokens. It's not used to protect a Web API. If you are interested in protecting a Web API with Microsoft Entra ID, check out the following resources:
 
 - [Spring Starter for Microsoft Entra ID](/azure/developer/java/spring-framework/spring-boot-starter-for-azure-active-directory-developer-guide?tabs=SpringCloudAzure4x)
-- [Validating tokens manually](/azure/active-directory/develop/access-tokens#validating-tokens)
+- [Validating tokens manually](/entra/identity-platform/access-tokens#validating-tokens)

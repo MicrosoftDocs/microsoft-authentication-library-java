@@ -97,8 +97,12 @@
         "docs-ref-conceptual/**/**.md": "dmwendia"
       },
       "ms.service": {
-        "docs-ref-autogen/**/**.yml": "active-directory",
-        "docs-ref-conceptual/**/**.md": "active-directory"
+        "docs-ref-autogen/**/**.yml": "msal",
+        "docs-ref-conceptual/**/**.md": "msal"
+      },
+      "ms.subservice": {
+        "docs-ref-autogen/**/**.yml": "msal-java",
+        "docs-ref-conceptual/**/**.md": "msal-java"
       },
       "titleSuffix": {
         "docs-ref-autogen/**/**.md": "Microsoft Authentication Library for Java",

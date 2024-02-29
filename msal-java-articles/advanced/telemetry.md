@@ -1,7 +1,17 @@
 ---
 title: Telemetry configuration
 description: "You can register a callback to get telemetry from the authentication flow that you are conducting."
+author: Dickson-Mwendia
+manager: CelesteDG
+
+ms.author: dmwendia
+ms.date: 02/27/2024
+ms.reviewer: dayodeji
+ms.service: msal
+ms.subservice: msal-java
+ms.topic: conceptual
 ---
+
 
 # Telemetry configuration
 

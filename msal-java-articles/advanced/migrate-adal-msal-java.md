@@ -1,6 +1,15 @@
 ---
 title: ADAL to MSAL migration guide (MSAL4j)
 description: Learn how to migrate your Azure Active Directory Authentication Library (ADAL) Java app to the Microsoft Authentication Library (MSAL).
+author: Dickson-Mwendia
+manager: CelesteDG
+
+ms.author: dmwendia
+ms.date: 01/27/2024
+ms.reviewer: dayodeji
+ms.service: msal
+ms.subservice: msal-java
+ms.topic: conceptual
 ---
 
 # ADAL to MSAL migration guide for Java
@@ -26,7 +35,7 @@ ADAL4J acquires tokens for resources whereas MSAL for Java acquires tokens for s
 You can add the `/.default` scope suffix to the resource to help migrate your apps from the ADAL to MSAL. For example, for the resource value of `https://graph.microsoft.com`, the equivalent scope value is `https://graph.microsoft.com/.default`.  If the resource isn't in the URL form, but a resource ID of the form `XXXXXXXX-XXXX-XXXX-XXXXXXXXXXXX`, you can still use the scope value as `XXXXXXXX-XXXX-XXXX-XXXXXXXXXXXX/.default`.
 
 For more details about the different types of scopes, refer
-[Permissions and consent in the Microsoft identity platform](/azure/active-directory/develop/permissions-consent-overview) and the [Scopes for a Web API accepting v1.0 tokens](/azure/active-directory/develop/msal-v1-app-scopes) articles.
+[Permissions and consent in the Microsoft identity platform](/entra/identity-platform/permissions-consent-overview) and the [Scopes for a Web API accepting v1.0 tokens](/entra/identity-platform/msal-v1-app-scopes) articles.
 
 ## Core classes
 
@@ -54,7 +63,7 @@ MSAL for Java defines the concept of Account via the `IAccount` interface. This 
 
 ## Cache persistence
 
-ADAL4J didn't have support for token cache. MSAL for Java adds a [token cache](/azure/active-directory/develop/msal-acquire-cache-tokens) to simplify managing token lifetimes by automatically refreshing expired tokens when possible and preventing unnecessary prompts for the user to provide credentials when possible.
+ADAL4J didn't have support for token cache. MSAL for Java adds a [token cache](/entra/identity-platform/msal-acquire-cache-tokens) to simplify managing token lifetimes by automatically refreshing expired tokens when possible and preventing unnecessary prompts for the user to provide credentials when possible.
 
 ## Common Authority
 
@@ -66,9 +75,9 @@ If you use the `https://login.microsoftonline.com/common` authority in v2.0, use
 
 The v1.0 endpoint (used by ADAL) only emits v1.0 tokens.
 
-The v2.0 endpoint (used by MSAL) can emit v1.0 and v2.0 tokens. A property of the application manifest of the web API enables developers to choose which version of token is accepted. See `accessTokenAcceptedVersion` in the [application manifest](/azure/active-directory/develop/reference-app-manifest) reference documentation.
+The v2.0 endpoint (used by MSAL) can emit v1.0 and v2.0 tokens. A property of the application manifest of the web API enables developers to choose which version of token is accepted. See `accessTokenAcceptedVersion` in the [application manifest](/entra/identity-platform/reference-app-manifest) reference documentation.
 
-For more information about v1.0 and v2.0 tokens, see [Microsoft Entra access tokens](/azure/active-directory/develop/access-tokens).
+For more information about v1.0 and v2.0 tokens, see [Microsoft Entra access tokens](/entra/identity-platform/access-tokens).
 
 ## ADAL to MSAL migration
 
