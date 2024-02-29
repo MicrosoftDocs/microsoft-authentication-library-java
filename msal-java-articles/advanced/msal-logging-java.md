@@ -1,6 +1,15 @@
 ---
 title: Logging errors and exceptions in MSAL for Java
 description: Learn how to log errors and exceptions in MSAL for Java
+author: Dickson-Mwendia
+manager: CelesteDG
+
+ms.author: dmwendia
+ms.date: 02/27/2024
+ms.reviewer: dayodeji
+ms.service: msal
+ms.subservice: msal-java
+ms.topic: conceptual
 ---
 
 # Logging in MSAL for Java

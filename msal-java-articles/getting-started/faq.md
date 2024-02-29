@@ -1,7 +1,17 @@
 ---
 title: Frequently asked questions
 description: "Some of the most common questions asked about MSAL Java."
+author: Dickson-Mwendia
+manager: CelesteDG
+
+ms.author: dmwendia
+ms.date: 02/27/2024
+ms.reviewer: dayodeji
+ms.service: msal
+ms.subservice: msal-java
+ms.topic: faq
 ---
+
 
 # Frequently asked questions
 

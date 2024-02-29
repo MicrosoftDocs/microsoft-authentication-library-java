@@ -1,6 +1,15 @@
 ---
 title: Building with Maven
 description: "To be able to build with maven, you need a working installation of Java and Maven."
+author: Dickson-Mwendia
+manager: CelesteDG
+
+ms.author: dmwendia
+ms.date: 01/27/2024
+ms.reviewer: dayodeji
+ms.service: msal
+ms.subservice: msal-java
+ms.topic: conceptual
 ---
 
 # Building with Maven

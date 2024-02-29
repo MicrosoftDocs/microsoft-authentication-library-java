@@ -1,6 +1,15 @@
 ---
 title: Handle errors and exceptions in MSAL4J
 description: Learn how to handle errors and exceptions, Conditional Access claims challenges, and retries in MSAL4J applications.
+author: Dickson-Mwendia
+manager: CelesteDG
+
+ms.author: dmwendia
+ms.date: 01/27/2024
+ms.reviewer: dayodeji
+ms.service: msal
+ms.subservice: msal-java
+ms.topic: conceptual
 ---
 
 # Handle errors and exceptions in MSAL for Java

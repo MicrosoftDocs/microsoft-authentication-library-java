@@ -1,6 +1,15 @@
 ---
 title: Why use MSAL4J
 description: "Decide when to use MSAL4J to authenticate your users."
+author: Dickson-Mwendia
+manager: CelesteDG
+
+ms.author: dmwendia
+ms.date: 02/27/2024
+ms.reviewer: dayodeji
+ms.service: msal
+ms.subservice: msal-java
+ms.topic: conceptual
 ---
 
 # Why use MSAL4J

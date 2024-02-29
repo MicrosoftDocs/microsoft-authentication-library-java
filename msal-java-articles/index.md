@@ -1,7 +1,17 @@
 ---
 title: Microsoft Authentication Library for Java
 description: "The Microsoft Authentication Library for Java (usually shortened to MSAL Java or MSAL4J) enables applications to integrate with the Microsoft identity platform."
+author: Dickson-Mwendia
+manager: CelesteDG
+
+ms.author: dmwendia
+ms.date: 02/27/2024
+ms.reviewer: dayodeji
+ms.service: msal
+ms.subservice: msal-java
+ms.topic: conceptual
 ---
+
 
 # Microsoft Authentication Library for Java
 

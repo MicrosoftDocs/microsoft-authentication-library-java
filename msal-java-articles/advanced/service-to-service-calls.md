@@ -1,7 +1,17 @@
 ---
 title: Service-to-service authentication
 description: "Web APIs can acquire tokens in the name of a user, leveraging User assertions."
+author: Dickson-Mwendia
+manager: CelesteDG
+
+ms.author: dmwendia
+ms.date: 02/27/2024
+ms.reviewer: dayodeji
+ms.service: msal
+ms.subservice: msal-java
+ms.topic: conceptual
 ---
+
 
 # Service-to-service authentication
 

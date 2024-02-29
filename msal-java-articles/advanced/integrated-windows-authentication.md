@@ -1,6 +1,15 @@
 ---
 title: Integrated Windows Authentication
 description: "If your desktop or mobile application runs on Windows, and on a machine connected to a Windows domain (Active Directory or Microsoft Entra joined) it is possible to use the Integrated Windows Authentication (IWA) to acquire a token silently."
+author: Dickson-Mwendia
+manager: CelesteDG
+
+ms.author: dmwendia
+ms.date: 01/27/2024
+ms.reviewer: dayodeji
+ms.service: msal
+ms.subservice: msal-java
+ms.topic: conceptual
 ---
 
 # Integrated Windows Authentication

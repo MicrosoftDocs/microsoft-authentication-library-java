@@ -1,7 +1,17 @@
 ---
-title: Acquiring tokens
+title: Acquire tokens
 description: "In general the way to acquire a token is different depending on the application type - public client application (desktop/mobile) or a confidential client application (Web App, Web API, daemon application like a Windows service)."
+author: Dickson-Mwendia
+manager: CelesteDG
+
+ms.author: dmwendia
+ms.date: 02/27/2024
+ms.reviewer: dayodeji
+ms.service: msal
+ms.subservice: msal-java
+ms.topic: conceptual
 ---
+
 
 # Acquiring tokens
 

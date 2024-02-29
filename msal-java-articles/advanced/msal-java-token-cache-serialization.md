@@ -1,6 +1,15 @@
 ---
 title: Custom token cache serialization (MSAL4j)
 description: Learn how to serialize the token cache for MSAL for Java
+author: Dickson-Mwendia
+manager: CelesteDG
+
+ms.author: dmwendia
+ms.date: 01/27/2024
+ms.reviewer: dayodeji
+ms.service: msal
+ms.subservice: msal-java
+ms.topic: conceptual
 ---
 
 # Custom token cache serialization in MSAL for Java

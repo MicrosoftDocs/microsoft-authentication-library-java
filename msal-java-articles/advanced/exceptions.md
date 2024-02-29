@@ -1,6 +1,15 @@
 ---
 title: Exceptions in MSAL Java
 description: "When processing exceptions, you can use the exception type itself and the ErrorCode member to distinguish between exceptions."
+author: Dickson-Mwendia
+manager: CelesteDG
+
+ms.author: dmwendia
+ms.date: 01/27/2024
+ms.reviewer: dayodeji
+ms.service: msal
+ms.subservice: msal-java
+ms.topic: conceptual
 ---
 
 # Exceptions in MSAL Java

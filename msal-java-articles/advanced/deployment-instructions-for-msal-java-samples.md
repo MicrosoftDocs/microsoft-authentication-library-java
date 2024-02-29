@@ -1,6 +1,15 @@
 ---
 title: Deployment instructions for MSAL Java samples
 description: "MSAL Java can be deployed to a number of web and application servers. Although the exact build and deployment steps will depend on your environment and existing set up, here are instructions for running our MSAL Java samples on some popular web/app servers."
+author: Dickson-Mwendia
+manager: CelesteDG
+
+ms.author: dmwendia
+ms.date: 01/27/2024
+ms.reviewer: dayodeji
+ms.service: msal
+ms.subservice: msal-java
+ms.topic: conceptual
 ---
 
 # Deployment instructions for MSAL Java samples

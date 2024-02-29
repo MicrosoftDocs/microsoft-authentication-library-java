@@ -1,11 +1,21 @@
 ---
 title: Client applications
 description: "How to start configuring client applications with MSAL Java."
+author: Dickson-Mwendia
+manager: CelesteDG
+
+ms.author: dmwendia
+ms.date: 02/27/2024
+ms.reviewer: dayodeji
+ms.service: msal
+ms.subservice: msal-java
+ms.topic: conceptual
 ---
+
 
 # Client applications
 
-## Instantiating an Application
+## Instantiate an application
 
 ### Pre-requisites
 
@@ -19,7 +29,7 @@ Before instantiating your app with MSAL4J:
     - In case it's a confidential client app, its application secret (`clientSecret` string) or certificate
     - For web apps, you'll have also set the `redirectUri` where the identity provider will contact back your application with the security tokens.
 
-### Instantiating a Public Client application
+### Instantiate a Public Client application
 
 ```java
 String PUBLIC_CLIENT_ID;
@@ -32,7 +42,7 @@ PublicClientApplication app =
         .build();
 ```
 
-### Instantiating a Confidential Client application
+### Instantiate a Confidential Client application
 
 You will need either a secret or a certificate, as described in [Client Credentials](./client-credentials.md).
 

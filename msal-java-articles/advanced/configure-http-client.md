@@ -1,6 +1,15 @@
 ---
 title: Configure custom HTTP client
 description: "MSAL lets you provide your own HTTP client for supporting fine grained configurations."
+author: Dickson-Mwendia
+manager: CelesteDG
+
+ms.author: dmwendia
+ms.date: 01/27/2024
+ms.reviewer: dayodeji
+ms.service: msal
+ms.subservice: msal-java
+ms.topic: conceptual
 ---
 
 # Configure custom HTTP client

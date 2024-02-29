@@ -1,6 +1,15 @@
 ---
 title: Providing your own instance discovery metadata
 description: "MSAL4J performs instance discovery before any acquireToken() or GetAccount() API calls. The request is used to get the OpenId metadata endpoint and authority aliases used in the token cache, among other things (these details are not important, as MSAL4J abstracts them from developers)."
+author: Dickson-Mwendia
+manager: CelesteDG
+
+ms.author: dmwendia
+ms.date: 01/27/2024
+ms.reviewer: dayodeji
+ms.service: msal
+ms.subservice: msal-java
+ms.topic: conceptual
 ---
 
 # Providing your own instance discovery metadata
