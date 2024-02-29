@@ -14,16 +14,16 @@ ms.topic: conceptual
 
 # Why use MSAL4J
 
-MSAL4J ([Microsoft Authentication Library for Java](https://github.com/AzureAD/microsoft-authentication-library-for-java)) enables developers to **acquire [tokens](/entra/identity-platform/active-directory-dev-glossary#security-token) in order to call secured web APIs**. These web APIs include Microsoft Graph, other Microsoft APIS, third party web APIs, or your own web API.
+The Microsoft Authentication Library for Java (MSAL for Java or MSAL4J) enables developers to **acquire [tokens](/entra/identity-platform/active-directory-dev-glossary#security-token) in order to call secured web APIs**. These web APIs include Microsoft Graph, other Microsoft APIS, third party web APIs, or your own web API.
 
 ## Multiple application architectures
 
-MSAL for Java, or MSAL4J for short, supports all the possible application topologies including:
+MSAL for Java supports all the possible application topologies including:
 
-- [Native client](/entra/identity-platform/active-directory-dev-glossary#native-client)  (desktop applications) calling an API, such as Microsoft Graph, in the name of the user.
-- Daemons/services or [web clients](/entra/identity-platform/active-directory-dev-glossary#web-client)  (web apps/ web APIs) calling other APIs, such as Microsoft Graph in the name of a user or without a user.
+- [Native client](/entra/identity-platform/developer-glossary#native-client)  (desktop applications) calling an API, such as Microsoft Graph, in the name of the user.
+- Daemons/services or [web clients](/entra/identity-platform/developer-glossary#web-client)  (web apps/ web APIs) calling other APIs, such as Microsoft Graph in the name of a user or without a user.
 
-MSAL4J does not support [user-agent based clients](/entra/identity-platform/active-directory-dev-glossary#user-agent-based-client), which are only supported in JavaScript.
+MSAL4J does not support [user-agent based clients](/entra/identity-platform/developer-glossary#user-agent-based-client), which are only supported in JavaScript.
 
 For details about the supported scenarios see [the introductory section](../index.md#msal-java-scenarios).
 

@@ -17,7 +17,7 @@ ms.topic: conceptual
 >[!NOTE]
 >This feature is available starting with [MSAL Java](https://github.com/AzureAD/microsoft-authentication-library-for-java/releases/tag/v1.13.10) version TBD
 
-A common challenge for developers is the management of secrets, credentials, certificates, and keys used to secure communication between services. [Managed identities](/azure/active-directory/managed-identities-azure-resources/overview) in Azure eliminate the need for developers to handle these credentials manually. MSAL Java supports acquiring tokens through the managed identity service when used with applications running inside Azure infrastructure, such as:
+A common challenge for developers is the management of secrets, credentials, certificates, and keys used to secure communication between services. [Managed identities](/entra/identity/managed-identities-azure-resources/overview) in Azure eliminate the need for developers to handle these credentials manually. MSAL Java supports acquiring tokens through the managed identity service when used with applications running inside Azure infrastructure, such as:
 
 * [Azure App Service](https://azure.microsoft.com/products/app-service/) (API version `2019-08-01` and above)
 * [Azure VMs](https://azure.microsoft.com/free/virtual-machines/)
@@ -25,7 +25,7 @@ A common challenge for developers is the management of secrets, credentials, cer
 * [Azure Cloud Shell](/azure/cloud-shell/overview)
 * [Azure Service Fabric](/azure/service-fabric/service-fabric-overview)
 
-For a complete list, refer to [Azure services that can use managed identities to access other services](/azure/active-directory/managed-identities-azure-resources/managed-identities-status).
+For a complete list, refer to [Azure services that can use managed identities to access other services](/entra/identity/managed-identities-azure-resources/managed-identities-status).
 
 ## Which SDK to use - Azure SDK or MSAL?
 
@@ -44,7 +44,7 @@ To quickly get started and see Azure Managed Identity in action, you can use one
 
 ## How to use managed identities
 
-There are two types of managed identities available to developers - **system-assigned** and **user-assigned**. You can learn more about the differences in the [Managed identity types](/azure/active-directory/managed-identities-azure-resources/overview#managed-identity-types) article. MSAL Java supports acquiring tokens with both. [MSAL Java logging]([/entra/identity-platform/msal-logging-dotnet](https://learn.microsoft.com/en-us/entra/msal/java/advanced/msal-logging-java)) allows to keep track of requests and related metadata.
+There are two types of managed identities available to developers - **system-assigned** and **user-assigned**. You can learn more about the differences in the [Managed identity types](/entra/identity/managed-identities-azure-resources/overview#managed-identity-types) article. MSAL Java supports acquiring tokens with both. [MSAL Java logging](msal-logging-java.md) allows to keep track of requests and related metadata.
 
 Prior to using managed identities from MSAL Java, developers must enable them for the resources they want to use through Azure CLI or the Azure Portal.
 

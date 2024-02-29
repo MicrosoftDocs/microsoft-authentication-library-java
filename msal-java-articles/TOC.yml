@@ -62,6 +62,8 @@
       href: advanced/using-wam-and-the-msal4jbrokers-package.md
     - name: Integrated Windows Authentication (IWA)
       href: advanced/integrated-windows-authentication.md
+    - name: Managed Identity
+      href: advanced/managed-identity.md
     - name: Authorization code URL builder
       href: advanced/authorization-code-url-builder.md
     - name: Instance discovery

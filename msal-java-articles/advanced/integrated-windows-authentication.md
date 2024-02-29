@@ -34,7 +34,7 @@ IAuthenticationResult future = app.acquireToken(parameters).get();
 
 ### Constraints
 
-- *Federated** users only, i.e. where authentication is being federated to an on-premise authority (ADFS for example), or [hybrid scenarios](/azure/active-directory/hybrid/whatis-hybrid-identity) where seamless-sso is enabled.  Pure cloud tenants, where users are directly in Microsoft Entra ID, without any Active Directory backing, cannot use this flow. 
+- *Federated** users only, i.e. where authentication is being federated to an on-premise authority (ADFS for example), or [hybrid scenarios](/entra/identity/hybrid/whatis-hybrid-identity) where seamless-sso is enabled.  Pure cloud tenants, where users are directly in Microsoft Entra ID, without any Active Directory backing, cannot use this flow. 
 - IWA does NOT bypass MFA (multi factor authentication). If MFA is configured, IWA might fail if an MFA challenge is required, because MFA requires user interaction. 
  > This one is tricky. IWA is non-interactive, but 2FA requires user interactivity. You do not control when the identity provider requests 2FA to be performed, the tenant admin does. From our observations, 2FA is required when you login from a different country, when not connected via VPN to a corporate network, and sometimes even when connected via VPN. Don’t expect a deterministic set of rules, Microsoft Entra ID uses AI to continuously learn if 2FA is required. You should fallback to a user prompt if IWA fails
 - The authority passed in the `PublicApplication` needs to be:

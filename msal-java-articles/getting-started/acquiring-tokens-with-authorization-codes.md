@@ -16,7 +16,7 @@ ms.topic: conceptual
 
 The Authorization Code flow is suitable when the application requires the user's interaction with the Microsoft Entra STS during authentication. One such case is when users login to Web applications (web sites) using OpenID Connect. The web application receives an authorization code which it can redeem to acquire a token for Web APIs.
 
-Requests for authorization codes are delegated to the developer. To understand how to request an authorization code, see [Authorization code flow](/entra/identity-platform/active-directory-protocols-oauth-code). To construct the authorization code URL where the user will input their credentials, you can use the [authorization code URL builder](../advanced/authorization-code-url-builder.md)
+Requests for authorization codes are delegated to the developer. To understand how to request an authorization code, see [Authorization code flow](/entra/identity-platform/v2-oauth2-auth-code-flow). To construct the authorization code URL where the user will input their credentials, you can use the [authorization code URL builder](../advanced/authorization-code-url-builder.md)
 
 ## Code snippet
 

@@ -45,4 +45,4 @@ Follow the topics below for detailed explanation with MSAL4J code usage for each
 
 For both Public client and Confidential client applications, MSAL maintains a token cache, and applications should try to get a token from the cache first before any other means (except in the case of [client credentials](./client-credentials.md), which looks at the cache by itself). Take a look at the [recommended pattern](/entra/identity-platform/scenario-desktop-acquire-token?tabs=java) for token acquisition.
 
-To be able to make use of the cache, the application needs to customize the [token cache serialization](/entra/identity-platform/msal-java-token-cache-serialization).
+To be able to make use of the cache, the application needs to customize the [token cache serialization](../advanced/msal-java-token-cache-serialization.md).
