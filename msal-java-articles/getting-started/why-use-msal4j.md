@@ -14,7 +14,7 @@ ms.topic: conceptual
 
 # Why use MSAL4J
 
-The Microsoft Authentication Library for Java (MSAL for Java or MSAL4J) enables developers to **acquire [tokens](/entra/identity-platform/active-directory-dev-glossary#security-token) in order to call secured web APIs**. These web APIs include Microsoft Graph, other Microsoft APIS, third party web APIs, or your own web API.
+The Microsoft Authentication Library for Java (MSAL for Java or MSAL4J) enables developers to **acquire [tokens](/entra/identity-platform/developer-glossary#security-token) in order to call secured web APIs**. These web APIs include Microsoft Graph, other Microsoft APIS, third party web APIs, or your own web API.
 
 ## Multiple application architectures
 
