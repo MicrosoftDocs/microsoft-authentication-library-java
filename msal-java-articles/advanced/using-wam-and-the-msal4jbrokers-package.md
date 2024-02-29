@@ -27,8 +27,8 @@ Second, in addition to the main `msal4j` package your project will need a new de
 
 Once you have `msal4j` and `msal4j-brokers` as dependencies in your project, you will be able to find two important classes and one important parameter:
 
-- [IBroker](https://github.com/AzureAD/microsoft-authentication-library-for-java/blob/avdunn/msalruntime-broker/msal4j-sdk/src/main/java/com/microsoft/aad/msal4j/IBroker.java) in msal4j, which is an interface acquireToken APIs similar to the ones already in MSAL Java
-- [Broker](https://github.com/AzureAD/microsoft-authentication-library-for-java/blob/avdunn/msalruntime-broker/msal4j-brokers/src/main/java/com/microsoft/aad/msal4jbrokers/Broker.java) in `msal4j-brokers`, which implements IBroker and provides access to the underlying code that's interacting with WAM
+- IBroker in msal4j, which is an interface acquireToken APIs similar to the ones already in MSAL Java
+- [Broker](https://github.com/AzureAD/microsoft-authentication-library-for-java/blob/dev/msal4j-brokers/src/main/java/com/microsoft/aad/msal4jbrokers/Broker.java) in `msal4j-brokers`, which implements IBroker and provides access to the underlying code that's interacting with WAM
 - The [broker](https://github.com/AzureAD/microsoft-authentication-library-for-java/blob/5ae3186cea6451682664c8ff343033834feb984b/msal4j-sdk/src/main/java/com/microsoft/aad/msal4j/PublicClientApplication.java#L195) parameter in msal4j's `PublicClientApplication` builder, which will allow you to tell MSAL Java which IBroker implementation to use
 
 To start using WAM in your application, you simply need to pass an instance of `Broker` into the `broker` parameter of `PublicClientApplication`:
