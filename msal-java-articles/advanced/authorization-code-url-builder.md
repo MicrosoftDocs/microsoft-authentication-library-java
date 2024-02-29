@@ -1,6 +1,15 @@
 ---
 title: Authorization code URL builder
 description: "When performing Oauth2 authorization code flow, the first step is to direct the user to the authorization endpoint, where they will authenticate, and the identity provider will respond with an authentication code."
+author: Dickson-Mwendia
+manager: CelesteDG
+
+ms.author: dmwendia
+ms.date: 01/27/2024
+ms.reviewer: dayodeji
+ms.service: msal
+ms.subservice: msal-java
+ms.topic: conceptual
 ---
 
 # Authorization code URL builder

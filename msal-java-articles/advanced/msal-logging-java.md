@@ -1,6 +1,15 @@
 ---
 title: Logging errors and exceptions in MSAL for Java
 description: Learn how to log errors and exceptions in MSAL for Java
+author: Dickson-Mwendia
+manager: CelesteDG
+
+ms.author: dmwendia
+ms.date: 02/27/2024
+ms.reviewer: dayodeji
+ms.service: msal
+ms.subservice: msal-java
+ms.topic: conceptual
 ---
 
 # Logging in MSAL for Java
@@ -76,7 +85,7 @@ This article shows how to enable MSAL4J logging using the logback framework in a
     }
     ```
 
-In your tenant, you'll need separate app registrations for the web app and the web API. For app registration and exposing the web API scope, follow the steps in the scenario [A web app that authenticates users and calls web APIs](/azure/active-directory/develop/scenario-web-app-call-api-overview).
+In your tenant, you'll need separate app registrations for the web app and the web API. For app registration and exposing the web API scope, follow the steps in the scenario [A web app that authenticates users and calls web APIs](/entra/identity-platform/scenario-web-app-call-api-overview).
 
 For instructions on how to bind to other logging frameworks, see the [SLF4J documentation](https://www.javadoc.io/doc/org.slf4j/slf4j-api/latest/index.html).
 
@@ -103,4 +112,4 @@ PublicClientApplication app2 = PublicClientApplication.builder(PUBLIC_CLIENT_ID)
 
 ## Next steps
 
-For more code samples, refer to [Microsoft identity platform code samples](/azure/active-directory/develop/sample-v2-code).
+For more code samples, refer to [Microsoft identity platform code samples](/entra/identity-platform/sample-v2-code).

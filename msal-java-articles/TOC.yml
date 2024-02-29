@@ -24,7 +24,7 @@
     - name: Releases
       href: https://github.com/AzureAD/microsoft-authentication-library-for-java/releases
     - name: Samples
-      href: /azure/active-directory/develop/sample-v2-code
+      href: /entra/identity-platform/sample-v2-code
     - name: FAQ
       href: getting-started/faq.md
 
@@ -41,7 +41,7 @@
     - name: Get and remove accounts from the token cache using MSAL4J
       href: advanced/msal-java-get-remove-accounts-token-cache.md
     - name: Claims Challenge
-      href: /azure/active-directory/develop/conditional-access-dev-guide
+      href: /entra/identity-platform/conditional-access-dev-guide
     - name: Migrate from ADAL
       href: advanced/migrate-adal-msal-java.md
     - name: Using MSAL4J with B2C
@@ -57,11 +57,13 @@
     - name: Configuring Http Client
       href: advanced/configure-http-client.md
     - name: Handle SameSite cookie changes on Chrome
-      href: /azure/active-directory/develop/howto-handle-samesite-cookie-changes-chrome-browser?tabs=java
+      href: /entra/identity-platform/howto-handle-samesite-cookie-changes-chrome-browser?tabs=java
     - name: Using the Web Account Manager (WAM)
       href: advanced/using-wam-and-the-msal4jbrokers-package.md
     - name: Integrated Windows Authentication (IWA)
       href: advanced/integrated-windows-authentication.md
+    - name: Managed Identity
+      href: advanced/managed-identity.md
     - name: Authorization code URL builder
       href: advanced/authorization-code-url-builder.md
     - name: Instance discovery

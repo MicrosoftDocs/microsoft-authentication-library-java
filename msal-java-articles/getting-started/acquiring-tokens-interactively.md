@@ -1,9 +1,18 @@
 ---
-title: Acquiring tokens interactively
-description: "MSAL supports acquiring tokens interactively on public clients through use of the system OS browser."
+title: Acquire tokens interactively in MSAL Java
+description: "MSAL Java supports acquiring tokens interactively on public clients through use of the system OS browser."
+author: Dickson-Mwendia
+manager: CelesteDG
+
+ms.author: dmwendia
+ms.date: 02/27/2024
+ms.reviewer: dayodeji
+ms.service: msal
+ms.subservice: msal-java
+ms.topic: conceptual
 ---
 
-# Acquiring tokens interactively
+# Acquire tokens interactively
 
 ## System Browser
 

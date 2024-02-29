@@ -1,9 +1,19 @@
 ---
-title: Acquiring tokens with a username and password
+title: Acquire tokens with a username and password
 description: "MSAL4J supports in the user name and password flow for public client applications."
+author: Dickson-Mwendia
+manager: CelesteDG
+
+ms.author: dmwendia
+ms.date: 02/27/2024
+ms.reviewer: dayodeji
+ms.service: msal
+ms.subservice: msal-java
+ms.topic: conceptual
 ---
 
-# Acquiring tokens with a username and password
+
+# Acquire tokens with a username and password
 
 MSAL4J supports in the user name and password flow for public client applications. In general Microsoft does not advise customers to use it as it's less secure than the other flows, and it is not compatible with conditional access because if the resource requires conditional access, the call to acquire token will just fail, given that this is not an interactive flow (the STS does not have an opportunity to present a dialog to the user to tell them that they need to do multiple factor authentication).
 

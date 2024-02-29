@@ -1,7 +1,17 @@
 ---
 title: Using Web Account Manager with MSAL Java
 description: "Web Account Manager (WAM) is a Windows 10+ component that can act as an authentication broker, allowing your users to easily authenticate with external identity providers as well as Microsoft."
+author: Dickson-Mwendia
+manager: CelesteDG
+
+ms.author: dmwendia
+ms.date: 02/27/2024
+ms.reviewer: dayodeji
+ms.service: msal
+ms.subservice: msal-java
+ms.topic: conceptual
 ---
+
 
 # Using Web Account Manager with MSAL Java
 
@@ -9,7 +19,7 @@ description: "Web Account Manager (WAM) is a Windows 10+ component that can act 
 
 ## Before you start
 
-First, you will need to make sure to configure your application to use the Web Account Manager through Azure Portal. To do that, your application needs to have [a WAM-compatible redirect URI](/azure/active-directory/develop/scenario-desktop-acquire-token-wam#redirect-uri).
+First, you will need to make sure to configure your application to use the Web Account Manager through Azure Portal. To do that, your application needs to have [a WAM-compatible redirect URI](/entra/identity-platform/scenario-desktop-acquire-token-wam#redirect-uri).
 
 Second, in addition to the main `msal4j` package your project will need a new dependency: [msal4j-brokers](https://mvnrepository.com/artifact/com.microsoft.azure/msal4j-brokers). This package contains everything that is needed for MSAL Java to access the native WAM API on your behalf.
 
