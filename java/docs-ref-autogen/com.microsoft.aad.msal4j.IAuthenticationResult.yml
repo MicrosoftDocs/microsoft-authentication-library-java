@@ -56,6 +56,16 @@ methods:
   returns:
     description: "id token"
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.aad.msal4j.IAuthenticationResult.metadata()"
+  fullName: "com.microsoft.aad.msal4j.IAuthenticationResult.metadata()"
+  name: "metadata()"
+  nameWithType: "IAuthenticationResult.metadata()"
+  modifiers:
+  - "abstract"
+  syntax: "public abstract AuthenticationResultMetadata metadata()"
+  returns:
+    description: "various metadata relating to this authentication result"
+    type: "<xref href=\"com.microsoft.aad.msal4j.AuthenticationResultMetadata?alt=com.microsoft.aad.msal4j.AuthenticationResultMetadata&text=AuthenticationResultMetadata\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.microsoft.aad.msal4j.IAuthenticationResult.scopes()"
   fullName: "com.microsoft.aad.msal4j.IAuthenticationResult.scopes()"
   name: "scopes()"
@@ -82,4 +92,4 @@ implements:
 - "<xref href=\"java.io.Serializable?alt=java.io.Serializable&text=Serializable\" data-throw-if-not-resolved=\"False\" />"
 metadata: {}
 package: "com.microsoft.aad.msal4j"
-artifact: com.microsoft.azure:msal4j:1.14.2
+artifact: com.microsoft.azure:msal4j:1.15.0

@@ -1,0 +1,64 @@
+### YamlMime:JavaType
+uid: "com.microsoft.aad.msal4j.ManagedIdentityApplication.Builder"
+fullName: "com.microsoft.aad.msal4j.ManagedIdentityApplication.Builder"
+name: "ManagedIdentityApplication.Builder"
+nameWithType: "ManagedIdentityApplication.Builder"
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.aad.msal4j.AbstractApplicationBase.Builder?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "<xref href=\"com.microsoft.aad.msal4j.AbstractApplicationBase.Builder?alt=com.microsoft.aad.msal4j.AbstractApplicationBase.Builder&text=Builder\" data-throw-if-not-resolved=\"False\" />"
+  methodsRef:
+  - "<xref href=\"com.microsoft.aad.msal4j.AbstractApplicationBase.Builder.connectTimeoutForDefaultHttpClient(java.lang.Integer)?alt=com.microsoft.aad.msal4j.AbstractApplicationBase.Builder.connectTimeoutForDefaultHttpClient&text=connectTimeoutForDefaultHttpClient\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.microsoft.aad.msal4j.AbstractApplicationBase.Builder.correlationId(java.lang.String)?alt=com.microsoft.aad.msal4j.AbstractApplicationBase.Builder.correlationId&text=correlationId\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.microsoft.aad.msal4j.AbstractApplicationBase.Builder.executorService(java.util.concurrent.ExecutorService)?alt=com.microsoft.aad.msal4j.AbstractApplicationBase.Builder.executorService&text=executorService\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.microsoft.aad.msal4j.AbstractApplicationBase.Builder.httpClient(com.microsoft.aad.msal4j.IHttpClient)?alt=com.microsoft.aad.msal4j.AbstractApplicationBase.Builder.httpClient&text=httpClient\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.microsoft.aad.msal4j.AbstractApplicationBase.Builder.logPii(boolean)?alt=com.microsoft.aad.msal4j.AbstractApplicationBase.Builder.logPii&text=logPii\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.microsoft.aad.msal4j.AbstractApplicationBase.Builder.proxy(java.net.Proxy)?alt=com.microsoft.aad.msal4j.AbstractApplicationBase.Builder.proxy&text=proxy\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.microsoft.aad.msal4j.AbstractApplicationBase.Builder.readTimeoutForDefaultHttpClient(java.lang.Integer)?alt=com.microsoft.aad.msal4j.AbstractApplicationBase.Builder.readTimeoutForDefaultHttpClient&text=readTimeoutForDefaultHttpClient\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.microsoft.aad.msal4j.AbstractApplicationBase.Builder.sslSocketFactory(javax.net.ssl.SSLSocketFactory)?alt=com.microsoft.aad.msal4j.AbstractApplicationBase.Builder.sslSocketFactory&text=sslSocketFactory\" data-throw-if-not-resolved=\"False\" />"
+- classRef: "<xref href=\"java.lang.Object?alt=java.lang.Object&text=Object\" data-throw-if-not-resolved=\"False\" />"
+  methodsRef:
+  - "<xref href=\"java.lang.Object.clone()?alt=java.lang.Object.clone&text=clone\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"java.lang.Object.equals(java.lang.Object)?alt=java.lang.Object.equals&text=equals\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"java.lang.Object.finalize()?alt=java.lang.Object.finalize&text=finalize\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"java.lang.Object.getClass()?alt=java.lang.Object.getClass&text=getClass\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"java.lang.Object.hashCode()?alt=java.lang.Object.hashCode&text=hashCode\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"java.lang.Object.notify()?alt=java.lang.Object.notify&text=notify\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"java.lang.Object.notifyAll()?alt=java.lang.Object.notifyAll&text=notifyAll\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"java.lang.Object.toString()?alt=java.lang.Object.toString&text=toString\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"java.lang.Object.wait()?alt=java.lang.Object.wait&text=wait\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"java.lang.Object.wait(long)?alt=java.lang.Object.wait&text=wait\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"java.lang.Object.wait(long,int)?alt=java.lang.Object.wait&text=wait\" data-throw-if-not-resolved=\"False\" />"
+syntax: "public static class **ManagedIdentityApplication.Builder**</br> extends <xref href=\"com.microsoft.aad.msal4j.AbstractApplicationBase.Builder?alt=com.microsoft.aad.msal4j.AbstractApplicationBase.Builder&text=Builder\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.aad.msal4j.ManagedIdentityApplication.Builder?alt=com.microsoft.aad.msal4j.ManagedIdentityApplication.Builder&text=Builder\" data-throw-if-not-resolved=\"False\" />&gt;"
+methods:
+- uid: "com.microsoft.aad.msal4j.ManagedIdentityApplication.Builder.build()"
+  fullName: "com.microsoft.aad.msal4j.ManagedIdentityApplication.Builder.build()"
+  name: "build()"
+  nameWithType: "ManagedIdentityApplication.Builder.build()"
+  syntax: "public ManagedIdentityApplication build()"
+  returns:
+    type: "<xref href=\"com.microsoft.aad.msal4j.ManagedIdentityApplication?alt=com.microsoft.aad.msal4j.ManagedIdentityApplication&text=ManagedIdentityApplication\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.aad.msal4j.ManagedIdentityApplication.Builder.resource(java.lang.String)"
+  fullName: "com.microsoft.aad.msal4j.ManagedIdentityApplication.Builder.resource(String resource)"
+  name: "resource(String resource)"
+  nameWithType: "ManagedIdentityApplication.Builder.resource(String resource)"
+  parameters:
+  - name: "resource"
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public ManagedIdentityApplication.Builder resource(String resource)"
+  returns:
+    type: "<xref href=\"com.microsoft.aad.msal4j.ManagedIdentityApplication.Builder?alt=com.microsoft.aad.msal4j.ManagedIdentityApplication.Builder&text=Builder\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.aad.msal4j.ManagedIdentityApplication.Builder.self()"
+  fullName: "com.microsoft.aad.msal4j.ManagedIdentityApplication.Builder.self()"
+  name: "self()"
+  nameWithType: "ManagedIdentityApplication.Builder.self()"
+  modifiers:
+  - "protected"
+  syntax: "protected ManagedIdentityApplication.Builder self()"
+  returns:
+    type: "<xref href=\"com.microsoft.aad.msal4j.ManagedIdentityApplication.Builder?alt=com.microsoft.aad.msal4j.ManagedIdentityApplication.Builder&text=Builder\" data-throw-if-not-resolved=\"False\" />"
+type: "class"
+metadata: {}
+package: "com.microsoft.aad.msal4j"
+artifact: com.microsoft.azure:msal4j:1.15.0

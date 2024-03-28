@@ -1,0 +1,72 @@
+### YamlMime:JavaType
+uid: "com.microsoft.aad.msal4j.ManagedIdentityParameters.ManagedIdentityParametersBuilder"
+fullName: "com.microsoft.aad.msal4j.ManagedIdentityParameters.ManagedIdentityParametersBuilder"
+name: "ManagedIdentityParameters.ManagedIdentityParametersBuilder"
+nameWithType: "ManagedIdentityParameters.ManagedIdentityParametersBuilder"
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "<xref href=\"java.lang.Object?alt=java.lang.Object&text=Object\" data-throw-if-not-resolved=\"False\" />"
+  methodsRef:
+  - "<xref href=\"java.lang.Object.clone()?alt=java.lang.Object.clone&text=clone\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"java.lang.Object.equals(java.lang.Object)?alt=java.lang.Object.equals&text=equals\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"java.lang.Object.finalize()?alt=java.lang.Object.finalize&text=finalize\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"java.lang.Object.getClass()?alt=java.lang.Object.getClass&text=getClass\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"java.lang.Object.hashCode()?alt=java.lang.Object.hashCode&text=hashCode\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"java.lang.Object.notify()?alt=java.lang.Object.notify&text=notify\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"java.lang.Object.notifyAll()?alt=java.lang.Object.notifyAll&text=notifyAll\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"java.lang.Object.toString()?alt=java.lang.Object.toString&text=toString\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"java.lang.Object.wait()?alt=java.lang.Object.wait&text=wait\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"java.lang.Object.wait(long)?alt=java.lang.Object.wait&text=wait\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"java.lang.Object.wait(long,int)?alt=java.lang.Object.wait&text=wait\" data-throw-if-not-resolved=\"False\" />"
+syntax: "public static class **ManagedIdentityParameters.ManagedIdentityParametersBuilder**"
+methods:
+- uid: "com.microsoft.aad.msal4j.ManagedIdentityParameters.ManagedIdentityParametersBuilder.build()"
+  fullName: "com.microsoft.aad.msal4j.ManagedIdentityParameters.ManagedIdentityParametersBuilder.build()"
+  name: "build()"
+  nameWithType: "ManagedIdentityParameters.ManagedIdentityParametersBuilder.build()"
+  syntax: "public ManagedIdentityParameters build()"
+  returns:
+    type: "<xref href=\"com.microsoft.aad.msal4j.ManagedIdentityParameters?alt=com.microsoft.aad.msal4j.ManagedIdentityParameters&text=ManagedIdentityParameters\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.aad.msal4j.ManagedIdentityParameters.ManagedIdentityParametersBuilder.environmentVariables(com.microsoft.aad.msal4j.IEnvironmentVariables)"
+  fullName: "com.microsoft.aad.msal4j.ManagedIdentityParameters.ManagedIdentityParametersBuilder.environmentVariables(IEnvironmentVariables environmentVariables)"
+  name: "environmentVariables(IEnvironmentVariables environmentVariables)"
+  nameWithType: "ManagedIdentityParameters.ManagedIdentityParametersBuilder.environmentVariables(IEnvironmentVariables environmentVariables)"
+  parameters:
+  - name: "environmentVariables"
+    type: "<xref href=\"com.microsoft.aad.msal4j.IEnvironmentVariables?alt=com.microsoft.aad.msal4j.IEnvironmentVariables&text=IEnvironmentVariables\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public ManagedIdentityParameters.ManagedIdentityParametersBuilder environmentVariables(IEnvironmentVariables environmentVariables)"
+  returns:
+    type: "<xref href=\"com.microsoft.aad.msal4j.ManagedIdentityParameters.ManagedIdentityParametersBuilder?alt=com.microsoft.aad.msal4j.ManagedIdentityParameters.ManagedIdentityParametersBuilder&text=ManagedIdentityParametersBuilder\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.aad.msal4j.ManagedIdentityParameters.ManagedIdentityParametersBuilder.forceRefresh(boolean)"
+  fullName: "com.microsoft.aad.msal4j.ManagedIdentityParameters.ManagedIdentityParametersBuilder.forceRefresh(boolean forceRefresh)"
+  name: "forceRefresh(boolean forceRefresh)"
+  nameWithType: "ManagedIdentityParameters.ManagedIdentityParametersBuilder.forceRefresh(boolean forceRefresh)"
+  parameters:
+  - name: "forceRefresh"
+    type: "<xref href=\"boolean?alt=boolean&text=boolean\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public ManagedIdentityParameters.ManagedIdentityParametersBuilder forceRefresh(boolean forceRefresh)"
+  returns:
+    type: "<xref href=\"com.microsoft.aad.msal4j.ManagedIdentityParameters.ManagedIdentityParametersBuilder?alt=com.microsoft.aad.msal4j.ManagedIdentityParameters.ManagedIdentityParametersBuilder&text=ManagedIdentityParametersBuilder\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.aad.msal4j.ManagedIdentityParameters.ManagedIdentityParametersBuilder.resource(java.lang.String)"
+  fullName: "com.microsoft.aad.msal4j.ManagedIdentityParameters.ManagedIdentityParametersBuilder.resource(String resource)"
+  name: "resource(String resource)"
+  nameWithType: "ManagedIdentityParameters.ManagedIdentityParametersBuilder.resource(String resource)"
+  parameters:
+  - name: "resource"
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public ManagedIdentityParameters.ManagedIdentityParametersBuilder resource(String resource)"
+  returns:
+    type: "<xref href=\"com.microsoft.aad.msal4j.ManagedIdentityParameters.ManagedIdentityParametersBuilder?alt=com.microsoft.aad.msal4j.ManagedIdentityParameters.ManagedIdentityParametersBuilder&text=ManagedIdentityParametersBuilder\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.aad.msal4j.ManagedIdentityParameters.ManagedIdentityParametersBuilder.toString()"
+  fullName: "com.microsoft.aad.msal4j.ManagedIdentityParameters.ManagedIdentityParametersBuilder.toString()"
+  name: "toString()"
+  nameWithType: "ManagedIdentityParameters.ManagedIdentityParametersBuilder.toString()"
+  overridden: "java.lang.Object.toString()"
+  syntax: "public String toString()"
+  returns:
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+type: "class"
+metadata: {}
+package: "com.microsoft.aad.msal4j"
+artifact: com.microsoft.azure:msal4j:1.15.0

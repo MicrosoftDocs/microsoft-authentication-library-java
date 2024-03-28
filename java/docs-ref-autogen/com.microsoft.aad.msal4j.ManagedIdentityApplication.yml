@@ -1,0 +1,87 @@
+### YamlMime:JavaType
+uid: "com.microsoft.aad.msal4j.ManagedIdentityApplication"
+fullName: "com.microsoft.aad.msal4j.ManagedIdentityApplication"
+name: "ManagedIdentityApplication"
+nameWithType: "ManagedIdentityApplication"
+summary: "Class to be used to acquire tokens for managed identity."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.aad.msal4j.AbstractApplicationBase?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "<xref href=\"com.microsoft.aad.msal4j.AbstractApplicationBase?alt=com.microsoft.aad.msal4j.AbstractApplicationBase&text=AbstractApplicationBase\" data-throw-if-not-resolved=\"False\" />"
+  methodsRef:
+  - "<xref href=\"com.microsoft.aad.msal4j.AbstractApplicationBase.connectTimeoutForDefaultHttpClient()?alt=com.microsoft.aad.msal4j.AbstractApplicationBase.connectTimeoutForDefaultHttpClient&text=connectTimeoutForDefaultHttpClient\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.microsoft.aad.msal4j.AbstractApplicationBase.correlationId()?alt=com.microsoft.aad.msal4j.AbstractApplicationBase.correlationId&text=correlationId\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.microsoft.aad.msal4j.AbstractApplicationBase.httpClient()?alt=com.microsoft.aad.msal4j.AbstractApplicationBase.httpClient&text=httpClient\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.microsoft.aad.msal4j.AbstractApplicationBase.logPii()?alt=com.microsoft.aad.msal4j.AbstractApplicationBase.logPii&text=logPii\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.microsoft.aad.msal4j.AbstractApplicationBase.proxy()?alt=com.microsoft.aad.msal4j.AbstractApplicationBase.proxy&text=proxy\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.microsoft.aad.msal4j.AbstractApplicationBase.readTimeoutForDefaultHttpClient()?alt=com.microsoft.aad.msal4j.AbstractApplicationBase.readTimeoutForDefaultHttpClient&text=readTimeoutForDefaultHttpClient\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.microsoft.aad.msal4j.AbstractApplicationBase.sslSocketFactory()?alt=com.microsoft.aad.msal4j.AbstractApplicationBase.sslSocketFactory&text=sslSocketFactory\" data-throw-if-not-resolved=\"False\" />"
+- classRef: "<xref href=\"java.lang.Object?alt=java.lang.Object&text=Object\" data-throw-if-not-resolved=\"False\" />"
+  methodsRef:
+  - "<xref href=\"java.lang.Object.clone()?alt=java.lang.Object.clone&text=clone\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"java.lang.Object.equals(java.lang.Object)?alt=java.lang.Object.equals&text=equals\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"java.lang.Object.finalize()?alt=java.lang.Object.finalize&text=finalize\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"java.lang.Object.getClass()?alt=java.lang.Object.getClass&text=getClass\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"java.lang.Object.hashCode()?alt=java.lang.Object.hashCode&text=hashCode\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"java.lang.Object.notify()?alt=java.lang.Object.notify&text=notify\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"java.lang.Object.notifyAll()?alt=java.lang.Object.notifyAll&text=notifyAll\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"java.lang.Object.toString()?alt=java.lang.Object.toString&text=toString\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"java.lang.Object.wait()?alt=java.lang.Object.wait&text=wait\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"java.lang.Object.wait(long)?alt=java.lang.Object.wait&text=wait\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"java.lang.Object.wait(long,int)?alt=java.lang.Object.wait&text=wait\" data-throw-if-not-resolved=\"False\" />"
+syntax: "public class **ManagedIdentityApplication**</br> extends <xref href=\"com.microsoft.aad.msal4j.AbstractApplicationBase?alt=com.microsoft.aad.msal4j.AbstractApplicationBase&text=AbstractApplicationBase\" data-throw-if-not-resolved=\"False\" /></br> implements <xref href=\"com.microsoft.aad.msal4j.IManagedIdentityApplication?alt=com.microsoft.aad.msal4j.IManagedIdentityApplication&text=IManagedIdentityApplication\" data-throw-if-not-resolved=\"False\" />"
+methods:
+- uid: "com.microsoft.aad.msal4j.ManagedIdentityApplication.acquireTokenForManagedIdentity(com.microsoft.aad.msal4j.ManagedIdentityParameters)"
+  fullName: "com.microsoft.aad.msal4j.ManagedIdentityApplication.acquireTokenForManagedIdentity(ManagedIdentityParameters managedIdentityParameters)"
+  name: "acquireTokenForManagedIdentity(ManagedIdentityParameters managedIdentityParameters)"
+  nameWithType: "ManagedIdentityApplication.acquireTokenForManagedIdentity(ManagedIdentityParameters managedIdentityParameters)"
+  summary: "Acquires tokens from the configured managed identity on an azure resource."
+  parameters:
+  - name: "managedIdentityParameters"
+    type: "<xref href=\"com.microsoft.aad.msal4j.ManagedIdentityParameters?alt=com.microsoft.aad.msal4j.ManagedIdentityParameters&text=ManagedIdentityParameters\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public CompletableFuture<IAuthenticationResult> acquireTokenForManagedIdentity(ManagedIdentityParameters managedIdentityParameters)"
+  exceptions:
+  - type: "<xref href=\"java.lang.Exception?alt=java.lang.Exception&text=Exception\" data-throw-if-not-resolved=\"False\" />"
+  desc: "Acquires tokens from the configured managed identity on an azure resource."
+  returns:
+    type: "<xref href=\"java.util.concurrent.CompletableFuture?alt=java.util.concurrent.CompletableFuture&text=CompletableFuture\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.aad.msal4j.IAuthenticationResult?alt=com.microsoft.aad.msal4j.IAuthenticationResult&text=IAuthenticationResult\" data-throw-if-not-resolved=\"False\" />&gt;"
+- uid: "com.microsoft.aad.msal4j.ManagedIdentityApplication.builder(com.microsoft.aad.msal4j.ManagedIdentityId)"
+  fullName: "com.microsoft.aad.msal4j.ManagedIdentityApplication.builder(ManagedIdentityId managedIdentityId)"
+  name: "builder(ManagedIdentityId managedIdentityId)"
+  nameWithType: "ManagedIdentityApplication.builder(ManagedIdentityId managedIdentityId)"
+  summary: "Creates instance of Builder of Managed<wbr>Identity<wbr>Application"
+  modifiers:
+  - "static"
+  parameters:
+  - description: "ManagedIdentityId to specify if System Assigned or User Assigned\n\n                          and provide id if it is user assigned."
+    name: "managedIdentityId"
+    type: "<xref href=\"com.microsoft.aad.msal4j.ManagedIdentityId?alt=com.microsoft.aad.msal4j.ManagedIdentityId&text=ManagedIdentityId\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static ManagedIdentityApplication.Builder builder(ManagedIdentityId managedIdentityId)"
+  desc: "Creates instance of Builder of ManagedIdentityApplication"
+  returns:
+    description: "instance of Builder of ManagedIdentityApplication"
+    type: "<xref href=\"com.microsoft.aad.msal4j.ManagedIdentityApplication.Builder?alt=com.microsoft.aad.msal4j.ManagedIdentityApplication.Builder&text=Builder\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.aad.msal4j.ManagedIdentityApplication.getManagedIdentityId()"
+  fullName: "com.microsoft.aad.msal4j.ManagedIdentityApplication.getManagedIdentityId()"
+  name: "getManagedIdentityId()"
+  nameWithType: "ManagedIdentityApplication.getManagedIdentityId()"
+  syntax: "public ManagedIdentityId getManagedIdentityId()"
+  returns:
+    type: "<xref href=\"com.microsoft.aad.msal4j.ManagedIdentityId?alt=com.microsoft.aad.msal4j.ManagedIdentityId&text=ManagedIdentityId\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.aad.msal4j.ManagedIdentityApplication.getSharedTokenCache()"
+  fullName: "com.microsoft.aad.msal4j.ManagedIdentityApplication.getSharedTokenCache()"
+  name: "getSharedTokenCache()"
+  nameWithType: "ManagedIdentityApplication.getSharedTokenCache()"
+  modifiers:
+  - "static"
+  syntax: "public static TokenCache getSharedTokenCache()"
+  returns:
+    type: "<xref href=\"com.microsoft.aad.msal4j.TokenCache?alt=com.microsoft.aad.msal4j.TokenCache&text=TokenCache\" data-throw-if-not-resolved=\"False\" />"
+type: "class"
+desc: "Class to be used to acquire tokens for managed identity. For details see <xref uid=\"com.microsoft.aad.msal4j.IManagedIdentityApplication\" data-throw-if-not-resolved=\"false\" data-raw-source=\"IManagedIdentityApplication\"></xref>\n\nConditionally thread-safe"
+implements:
+- "<xref href=\"com.microsoft.aad.msal4j.IManagedIdentityApplication?alt=com.microsoft.aad.msal4j.IManagedIdentityApplication&text=IManagedIdentityApplication\" data-throw-if-not-resolved=\"False\" />"
+metadata: {}
+package: "com.microsoft.aad.msal4j"
+artifact: com.microsoft.azure:msal4j:1.15.0

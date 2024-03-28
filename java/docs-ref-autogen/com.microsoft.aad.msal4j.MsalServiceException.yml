@@ -77,10 +77,27 @@ constructors:
   - description: "the error message that explains the reason for the exception"
     name: "message"
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
-  - name: "error"
+  - description: "a simplified error code from <xref uid=\"com.microsoft.aad.msal4j.AuthenticationErrorCode\" data-throw-if-not-resolved=\"false\" data-raw-source=\"AuthenticationErrorCode\"></xref> and used for references in documentation"
+    name: "error"
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public MsalServiceException(String message, String error)"
   desc: "Initializes a new instance of the exception class with a specified error message"
+- uid: "com.microsoft.aad.msal4j.MsalServiceException.MsalServiceException(java.lang.String,java.lang.String,com.microsoft.aad.msal4j.ManagedIdentitySourceType)"
+  fullName: "com.microsoft.aad.msal4j.MsalServiceException.MsalServiceException(String message, String error, ManagedIdentitySourceType managedIdentitySource)"
+  name: "MsalServiceException(String message, String error, ManagedIdentitySourceType managedIdentitySource)"
+  nameWithType: "MsalServiceException.MsalServiceException(String message, String error, ManagedIdentitySourceType managedIdentitySource)"
+  summary: "Initializes a new instance of the exception class, with any extra properties for a Managed Identity error"
+  parameters:
+  - description: "the error message that explains the reason for the exception"
+    name: "message"
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+  - name: "error"
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+  - description: "the Managed Identity service"
+    name: "managedIdentitySource"
+    type: "<xref href=\"com.microsoft.aad.msal4j.ManagedIdentitySourceType?alt=com.microsoft.aad.msal4j.ManagedIdentitySourceType&text=ManagedIdentitySourceType\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public MsalServiceException(String message, String error, ManagedIdentitySourceType managedIdentitySource)"
+  desc: "Initializes a new instance of the exception class, with any extra properties for a Managed Identity error"
 methods:
 - uid: "com.microsoft.aad.msal4j.MsalServiceException.claims()"
   fullName: "com.microsoft.aad.msal4j.MsalServiceException.claims()"
@@ -109,6 +126,13 @@ methods:
   desc: "Contains the http headers from the server response that indicated an error. When the server returns a 429 Too Many Requests error, a Retry-After should be set. It is important to read and respect the time specified in the Retry-After header"
   returns:
     type: "<xref href=\"java.util.Map?alt=java.util.Map&text=Map\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />,<xref href=\"java.util.List?alt=java.util.List&text=List\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />&gt;&gt;"
+- uid: "com.microsoft.aad.msal4j.MsalServiceException.managedIdentitySource()"
+  fullName: "com.microsoft.aad.msal4j.MsalServiceException.managedIdentitySource()"
+  name: "managedIdentitySource()"
+  nameWithType: "MsalServiceException.managedIdentitySource()"
+  syntax: "public String managedIdentitySource()"
+  returns:
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.microsoft.aad.msal4j.MsalServiceException.statusCode()"
   fullName: "com.microsoft.aad.msal4j.MsalServiceException.statusCode()"
   name: "statusCode()"
@@ -131,4 +155,4 @@ type: "class"
 desc: "Exception type thrown when service returns an error response or other networking errors occur."
 metadata: {}
 package: "com.microsoft.aad.msal4j"
-artifact: com.microsoft.azure:msal4j:1.14.2
+artifact: com.microsoft.azure:msal4j:1.15.0

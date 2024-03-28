@@ -31,6 +31,37 @@ methods:
   desc: "HTTP request body"
   returns:
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.aad.msal4j.HttpRequest.canEqual(java.lang.Object)"
+  fullName: "com.microsoft.aad.msal4j.HttpRequest.canEqual(Object other)"
+  name: "canEqual(Object other)"
+  nameWithType: "HttpRequest.canEqual(Object other)"
+  modifiers:
+  - "protected"
+  parameters:
+  - name: "other"
+    type: "<xref href=\"java.lang.Object?alt=java.lang.Object&text=Object\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "protected boolean canEqual(Object other)"
+  returns:
+    type: "<xref href=\"boolean?alt=boolean&text=boolean\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.aad.msal4j.HttpRequest.equals(java.lang.Object)"
+  fullName: "com.microsoft.aad.msal4j.HttpRequest.equals(Object o)"
+  name: "equals(Object o)"
+  nameWithType: "HttpRequest.equals(Object o)"
+  overridden: "java.lang.Object.equals(java.lang.Object)"
+  parameters:
+  - name: "o"
+    type: "<xref href=\"java.lang.Object?alt=java.lang.Object&text=Object\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public boolean equals(Object o)"
+  returns:
+    type: "<xref href=\"boolean?alt=boolean&text=boolean\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.aad.msal4j.HttpRequest.hashCode()"
+  fullName: "com.microsoft.aad.msal4j.HttpRequest.hashCode()"
+  name: "hashCode()"
+  nameWithType: "HttpRequest.hashCode()"
+  overridden: "java.lang.Object.hashCode()"
+  syntax: "public int hashCode()"
+  returns:
+    type: "<xref href=\"int?alt=int&text=int\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.microsoft.aad.msal4j.HttpRequest.headerValue(java.lang.String)"
   fullName: "com.microsoft.aad.msal4j.HttpRequest.headerValue(String headerName)"
   name: "headerValue(String headerName)"
@@ -74,4 +105,4 @@ type: "class"
 desc: "Contains information about outgoing HTTP request. Should be adapted to HTTP request for HTTP client of choice"
 metadata: {}
 package: "com.microsoft.aad.msal4j"
-artifact: com.microsoft.azure:msal4j:1.14.2
+artifact: com.microsoft.azure:msal4j:1.15.0

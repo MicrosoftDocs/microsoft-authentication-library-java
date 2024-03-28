@@ -1,9 +1,8 @@
 ### YamlMime:JavaType
-uid: "com.microsoft.aad.msal4j.UserIdentifier"
-fullName: "com.microsoft.aad.msal4j.UserIdentifier"
-name: "UserIdentifier"
-nameWithType: "UserIdentifier"
-summary: "Used for populating the X-Anchor<wbr>Mailbox header, which is used in the cached credential service (CCS) routing"
+uid: "com.microsoft.aad.msal4j.ManagedIdentityErrorResponse"
+fullName: "com.microsoft.aad.msal4j.ManagedIdentityErrorResponse"
+name: "ManagedIdentityErrorResponse"
+nameWithType: "ManagedIdentityErrorResponse"
 inheritances:
 - "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedClassMethods:
@@ -20,34 +19,43 @@ inheritedClassMethods:
   - "<xref href=\"java.lang.Object.wait()?alt=java.lang.Object.wait&text=wait\" data-throw-if-not-resolved=\"False\" />"
   - "<xref href=\"java.lang.Object.wait(long)?alt=java.lang.Object.wait&text=wait\" data-throw-if-not-resolved=\"False\" />"
   - "<xref href=\"java.lang.Object.wait(long,int)?alt=java.lang.Object.wait&text=wait\" data-throw-if-not-resolved=\"False\" />"
-syntax: "public class **UserIdentifier**"
+syntax: "public class **ManagedIdentityErrorResponse**"
+constructors:
+- uid: "com.microsoft.aad.msal4j.ManagedIdentityErrorResponse.ManagedIdentityErrorResponse()"
+  fullName: "com.microsoft.aad.msal4j.ManagedIdentityErrorResponse.ManagedIdentityErrorResponse()"
+  name: "ManagedIdentityErrorResponse()"
+  nameWithType: "ManagedIdentityErrorResponse.ManagedIdentityErrorResponse()"
+  syntax: "public ManagedIdentityErrorResponse()"
 methods:
-- uid: "com.microsoft.aad.msal4j.UserIdentifier.fromHomeAccountId(java.lang.String)"
-  fullName: "com.microsoft.aad.msal4j.UserIdentifier.fromHomeAccountId(String homeAccountId)"
-  name: "fromHomeAccountId(String homeAccountId)"
-  nameWithType: "UserIdentifier.fromHomeAccountId(String homeAccountId)"
-  modifiers:
-  - "static"
-  parameters:
-  - name: "homeAccountId"
-    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public static UserIdentifier fromHomeAccountId(String homeAccountId)"
+- uid: "com.microsoft.aad.msal4j.ManagedIdentityErrorResponse.getCorrelationId()"
+  fullName: "com.microsoft.aad.msal4j.ManagedIdentityErrorResponse.getCorrelationId()"
+  name: "getCorrelationId()"
+  nameWithType: "ManagedIdentityErrorResponse.getCorrelationId()"
+  syntax: "public String getCorrelationId()"
   returns:
-    type: "<xref href=\"com.microsoft.aad.msal4j.UserIdentifier?alt=com.microsoft.aad.msal4j.UserIdentifier&text=UserIdentifier\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.microsoft.aad.msal4j.UserIdentifier.fromUpn(java.lang.String)"
-  fullName: "com.microsoft.aad.msal4j.UserIdentifier.fromUpn(String upn)"
-  name: "fromUpn(String upn)"
-  nameWithType: "UserIdentifier.fromUpn(String upn)"
-  modifiers:
-  - "static"
-  parameters:
-  - name: "upn"
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public static UserIdentifier fromUpn(String upn)"
+- uid: "com.microsoft.aad.msal4j.ManagedIdentityErrorResponse.getError()"
+  fullName: "com.microsoft.aad.msal4j.ManagedIdentityErrorResponse.getError()"
+  name: "getError()"
+  nameWithType: "ManagedIdentityErrorResponse.getError()"
+  syntax: "public String getError()"
   returns:
-    type: "<xref href=\"com.microsoft.aad.msal4j.UserIdentifier?alt=com.microsoft.aad.msal4j.UserIdentifier&text=UserIdentifier\" data-throw-if-not-resolved=\"False\" />"
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.aad.msal4j.ManagedIdentityErrorResponse.getErrorDescription()"
+  fullName: "com.microsoft.aad.msal4j.ManagedIdentityErrorResponse.getErrorDescription()"
+  name: "getErrorDescription()"
+  nameWithType: "ManagedIdentityErrorResponse.getErrorDescription()"
+  syntax: "public String getErrorDescription()"
+  returns:
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.aad.msal4j.ManagedIdentityErrorResponse.getMessage()"
+  fullName: "com.microsoft.aad.msal4j.ManagedIdentityErrorResponse.getMessage()"
+  name: "getMessage()"
+  nameWithType: "ManagedIdentityErrorResponse.getMessage()"
+  syntax: "public String getMessage()"
+  returns:
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
-desc: "Used for populating the X-AnchorMailbox header, which is used in the cached credential service (CCS) routing"
 metadata: {}
 package: "com.microsoft.aad.msal4j"
 artifact: com.microsoft.azure:msal4j:1.15.0

@@ -76,4 +76,4 @@ implements:
 - "<xref href=\"com.microsoft.aad.msal4j.IClientApplicationBase?alt=com.microsoft.aad.msal4j.IClientApplicationBase&text=IClientApplicationBase\" data-throw-if-not-resolved=\"False\" />"
 metadata: {}
 package: "com.microsoft.aad.msal4j"
-artifact: com.microsoft.azure:msal4j:1.14.2
+artifact: com.microsoft.azure:msal4j:1.15.0

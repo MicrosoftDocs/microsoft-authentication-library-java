@@ -5,7 +5,18 @@ name: "AbstractClientApplicationBase.Builder<T>"
 nameWithType: "AbstractClientApplicationBase.Builder<T>"
 inheritances:
 - "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.aad.msal4j.AbstractApplicationBase.Builder?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedClassMethods:
+- classRef: "<xref href=\"com.microsoft.aad.msal4j.AbstractApplicationBase.Builder?alt=com.microsoft.aad.msal4j.AbstractApplicationBase.Builder&text=Builder\" data-throw-if-not-resolved=\"False\" />"
+  methodsRef:
+  - "<xref href=\"com.microsoft.aad.msal4j.AbstractApplicationBase.Builder.connectTimeoutForDefaultHttpClient(java.lang.Integer)?alt=com.microsoft.aad.msal4j.AbstractApplicationBase.Builder.connectTimeoutForDefaultHttpClient&text=connectTimeoutForDefaultHttpClient\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.microsoft.aad.msal4j.AbstractApplicationBase.Builder.correlationId(java.lang.String)?alt=com.microsoft.aad.msal4j.AbstractApplicationBase.Builder.correlationId&text=correlationId\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.microsoft.aad.msal4j.AbstractApplicationBase.Builder.executorService(java.util.concurrent.ExecutorService)?alt=com.microsoft.aad.msal4j.AbstractApplicationBase.Builder.executorService&text=executorService\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.microsoft.aad.msal4j.AbstractApplicationBase.Builder.httpClient(com.microsoft.aad.msal4j.IHttpClient)?alt=com.microsoft.aad.msal4j.AbstractApplicationBase.Builder.httpClient&text=httpClient\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.microsoft.aad.msal4j.AbstractApplicationBase.Builder.logPii(boolean)?alt=com.microsoft.aad.msal4j.AbstractApplicationBase.Builder.logPii&text=logPii\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.microsoft.aad.msal4j.AbstractApplicationBase.Builder.proxy(java.net.Proxy)?alt=com.microsoft.aad.msal4j.AbstractApplicationBase.Builder.proxy&text=proxy\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.microsoft.aad.msal4j.AbstractApplicationBase.Builder.readTimeoutForDefaultHttpClient(java.lang.Integer)?alt=com.microsoft.aad.msal4j.AbstractApplicationBase.Builder.readTimeoutForDefaultHttpClient&text=readTimeoutForDefaultHttpClient\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.microsoft.aad.msal4j.AbstractApplicationBase.Builder.sslSocketFactory(javax.net.ssl.SSLSocketFactory)?alt=com.microsoft.aad.msal4j.AbstractApplicationBase.Builder.sslSocketFactory&text=sslSocketFactory\" data-throw-if-not-resolved=\"False\" />"
 - classRef: "<xref href=\"java.lang.Object?alt=java.lang.Object&text=Object\" data-throw-if-not-resolved=\"False\" />"
   methodsRef:
   - "<xref href=\"java.lang.Object.clone()?alt=java.lang.Object.clone&text=clone\" data-throw-if-not-resolved=\"False\" />"
@@ -19,7 +30,7 @@ inheritedClassMethods:
   - "<xref href=\"java.lang.Object.wait()?alt=java.lang.Object.wait&text=wait\" data-throw-if-not-resolved=\"False\" />"
   - "<xref href=\"java.lang.Object.wait(long)?alt=java.lang.Object.wait&text=wait\" data-throw-if-not-resolved=\"False\" />"
   - "<xref href=\"java.lang.Object.wait(long,int)?alt=java.lang.Object.wait&text=wait\" data-throw-if-not-resolved=\"False\" />"
-syntax: "public abstract static class **AbstractClientApplicationBase.Builder<T>**"
+syntax: "public abstract static class **AbstractClientApplicationBase.Builder<T>**</br> extends <xref href=\"com.microsoft.aad.msal4j.AbstractApplicationBase.Builder?alt=com.microsoft.aad.msal4j.AbstractApplicationBase.Builder&text=Builder\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"T?alt=T&text=T\" data-throw-if-not-resolved=\"False\" />&gt;"
 constructors:
 - uid: "com.microsoft.aad.msal4j.AbstractClientApplicationBase.Builder.Builder(java.lang.String)"
   fullName: "com.microsoft.aad.msal4j.AbstractClientApplicationBase.Builder<T>.Builder(String clientId)"
@@ -32,6 +43,16 @@ constructors:
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public Builder(String clientId)"
   desc: "Constructor to create instance of Builder of client application"
+fields:
+- uid: "com.microsoft.aad.msal4j.AbstractClientApplicationBase.Builder.isInstanceDiscoveryEnabled"
+  fullName: "com.microsoft.aad.msal4j.AbstractClientApplicationBase.Builder<T>.isInstanceDiscoveryEnabled"
+  name: "isInstanceDiscoveryEnabled"
+  nameWithType: "AbstractClientApplicationBase.Builder<T>.isInstanceDiscoveryEnabled"
+  modifiers:
+  - "protected"
+  field:
+    type: "<xref href=\"boolean?alt=boolean&text=boolean\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "protected boolean isInstanceDiscoveryEnabled"
 methods:
 - uid: "com.microsoft.aad.msal4j.AbstractClientApplicationBase.Builder.aadInstanceDiscoveryResponse(java.lang.String)"
   fullName: "com.microsoft.aad.msal4j.AbstractClientApplicationBase.Builder<T>.aadInstanceDiscoveryResponse(String val)"
@@ -146,62 +167,6 @@ methods:
   syntax: "public T clientCapabilities(Set<String> capabilities)"
   returns:
     type: "<xref href=\"T?alt=T&text=T\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.microsoft.aad.msal4j.AbstractClientApplicationBase.Builder.connectTimeoutForDefaultHttpClient(java.lang.Integer)"
-  fullName: "com.microsoft.aad.msal4j.AbstractClientApplicationBase.Builder<T>.connectTimeoutForDefaultHttpClient(Integer val)"
-  name: "connectTimeoutForDefaultHttpClient(Integer val)"
-  nameWithType: "AbstractClientApplicationBase.Builder<T>.connectTimeoutForDefaultHttpClient(Integer val)"
-  summary: "Sets the connect timeout value used in Https<wbr>URLConnection connections made by <xref uid=\"\" data-throw-if-not-resolved=\"false\" data-raw-source=\"DefaultHttpClient\"></xref>, and is not needed if using a custom HTTP client"
-  parameters:
-  - description: "timeout value in milliseconds"
-    name: "val"
-    type: "<xref href=\"java.lang.Integer?alt=java.lang.Integer&text=Integer\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public T connectTimeoutForDefaultHttpClient(Integer val)"
-  desc: "Sets the connect timeout value used in HttpsURLConnection connections made by <xref uid=\"\" data-throw-if-not-resolved=\"false\" data-raw-source=\"DefaultHttpClient\"></xref>, and is not needed if using a custom HTTP client"
-  returns:
-    description: "instance of the Builder on which method was called"
-    type: "<xref href=\"T?alt=T&text=T\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.microsoft.aad.msal4j.AbstractClientApplicationBase.Builder.correlationId(java.lang.String)"
-  fullName: "com.microsoft.aad.msal4j.AbstractClientApplicationBase.Builder<T>.correlationId(String val)"
-  name: "correlationId(String val)"
-  nameWithType: "AbstractClientApplicationBase.Builder<T>.correlationId(String val)"
-  summary: "Set optional correlation id to be used by the API."
-  parameters:
-  - description: "a string value of correlation id"
-    name: "val"
-    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public T correlationId(String val)"
-  desc: "Set optional correlation id to be used by the API. If not provided, the API generates a random UUID."
-  returns:
-    description: "instance of the Builder on which method was called"
-    type: "<xref href=\"T?alt=T&text=T\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.microsoft.aad.msal4j.AbstractClientApplicationBase.Builder.executorService(java.util.concurrent.ExecutorService)"
-  fullName: "com.microsoft.aad.msal4j.AbstractClientApplicationBase.Builder<T>.executorService(ExecutorService val)"
-  name: "executorService(ExecutorService val)"
-  nameWithType: "AbstractClientApplicationBase.Builder<T>.executorService(ExecutorService val)"
-  summary: "Sets Executor<wbr>Service to be used to execute the requests."
-  parameters:
-  - description: "an instance of ExecutorService"
-    name: "val"
-    type: "<xref href=\"java.util.concurrent.ExecutorService?alt=java.util.concurrent.ExecutorService&text=ExecutorService\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public T executorService(ExecutorService val)"
-  desc: "Sets ExecutorService to be used to execute the requests. Developer is responsible for maintaining the lifecycle of the ExecutorService."
-  returns:
-    description: "instance of the Builder on which method was called"
-    type: "<xref href=\"T?alt=T&text=T\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.microsoft.aad.msal4j.AbstractClientApplicationBase.Builder.httpClient(com.microsoft.aad.msal4j.IHttpClient)"
-  fullName: "com.microsoft.aad.msal4j.AbstractClientApplicationBase.Builder<T>.httpClient(IHttpClient val)"
-  name: "httpClient(IHttpClient val)"
-  nameWithType: "AbstractClientApplicationBase.Builder<T>.httpClient(IHttpClient val)"
-  summary: "Sets HTTP client to be used by the client application for all HTTP requests."
-  parameters:
-  - description: "Implementation of <xref uid=\"com.microsoft.aad.msal4j.IHttpClient\" data-throw-if-not-resolved=\"false\" data-raw-source=\"IHttpClient\"></xref>"
-    name: "val"
-    type: "<xref href=\"com.microsoft.aad.msal4j.IHttpClient?alt=com.microsoft.aad.msal4j.IHttpClient&text=IHttpClient\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public T httpClient(IHttpClient val)"
-  desc: "Sets HTTP client to be used by the client application for all HTTP requests. Allows for fine grained configuration of HTTP client."
-  returns:
-    description: "instance of the Builder on which method was called"
-    type: "<xref href=\"T?alt=T&text=T\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.microsoft.aad.msal4j.AbstractClientApplicationBase.Builder.instanceDiscovery(boolean)"
   fullName: "com.microsoft.aad.msal4j.AbstractClientApplicationBase.Builder<T>.instanceDiscovery(boolean val)"
   name: "instanceDiscovery(boolean val)"
@@ -214,48 +179,6 @@ methods:
   desc: "Historically, MSAL would connect to a central endpoint located at \\`\\`https://login.microsoftonline.com\\`\\` to acquire some metadata, especially when using an unfamiliar authority. This behavior is known as Instance Discovery. This parameter defaults to true, which enables the Instance Discovery. If you do not know some authorities beforehand, yet still want MSAL to accept any authority that you will provide, you can use a \\`\\`False\\`\\` to unconditionally disable Instance Discovery."
   returns:
     type: "<xref href=\"T?alt=T&text=T\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.microsoft.aad.msal4j.AbstractClientApplicationBase.Builder.logPii(boolean)"
-  fullName: "com.microsoft.aad.msal4j.AbstractClientApplicationBase.Builder<T>.logPii(boolean val)"
-  name: "logPii(boolean val)"
-  nameWithType: "AbstractClientApplicationBase.Builder<T>.logPii(boolean val)"
-  summary: "Set log<wbr>Pii - boolean value, which determines whether Pii (personally identifiable information) will be logged in."
-  parameters:
-  - description: "a boolean value for logPii"
-    name: "val"
-    type: "<xref href=\"boolean?alt=boolean&text=boolean\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public T logPii(boolean val)"
-  desc: "Set logPii - boolean value, which determines whether Pii (personally identifiable information) will be logged in. The default value is false."
-  returns:
-    description: "instance of the Builder on which method was called"
-    type: "<xref href=\"T?alt=T&text=T\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.microsoft.aad.msal4j.AbstractClientApplicationBase.Builder.proxy(java.net.Proxy)"
-  fullName: "com.microsoft.aad.msal4j.AbstractClientApplicationBase.Builder<T>.proxy(Proxy val)"
-  name: "proxy(Proxy val)"
-  nameWithType: "AbstractClientApplicationBase.Builder<T>.proxy(Proxy val)"
-  summary: "Sets Proxy configuration to be used by the client application (MSAL4J by default uses <xref uid=\"\" data-throw-if-not-resolved=\"false\" data-raw-source=\"javax.net.ssl.HttpsURLConnection\"></xref>) for all network communication."
-  parameters:
-  - description: "an instance of Proxy"
-    name: "val"
-    type: "<xref href=\"java.net.Proxy?alt=java.net.Proxy&text=Proxy\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public T proxy(Proxy val)"
-  desc: "Sets Proxy configuration to be used by the client application (MSAL4J by default uses <xref uid=\"\" data-throw-if-not-resolved=\"false\" data-raw-source=\"javax.net.ssl.HttpsURLConnection\"></xref>) for all network communication. If no proxy value is passed in, system defined properties are used. If HTTP client is set on the client application (via ClientApplication.builder().httpClient()), proxy configuration should be done on the HTTP client object being passed in, and not through this method."
-  returns:
-    description: "instance of the Builder on which method was called"
-    type: "<xref href=\"T?alt=T&text=T\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.microsoft.aad.msal4j.AbstractClientApplicationBase.Builder.readTimeoutForDefaultHttpClient(java.lang.Integer)"
-  fullName: "com.microsoft.aad.msal4j.AbstractClientApplicationBase.Builder<T>.readTimeoutForDefaultHttpClient(Integer val)"
-  name: "readTimeoutForDefaultHttpClient(Integer val)"
-  nameWithType: "AbstractClientApplicationBase.Builder<T>.readTimeoutForDefaultHttpClient(Integer val)"
-  summary: "Sets the read timeout value used in Https<wbr>URLConnection connections made by <xref uid=\"\" data-throw-if-not-resolved=\"false\" data-raw-source=\"DefaultHttpClient\"></xref>, and is not needed if using a custom HTTP client"
-  parameters:
-  - description: "timeout value in milliseconds"
-    name: "val"
-    type: "<xref href=\"java.lang.Integer?alt=java.lang.Integer&text=Integer\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public T readTimeoutForDefaultHttpClient(Integer val)"
-  desc: "Sets the read timeout value used in HttpsURLConnection connections made by <xref uid=\"\" data-throw-if-not-resolved=\"false\" data-raw-source=\"DefaultHttpClient\"></xref>, and is not needed if using a custom HTTP client"
-  returns:
-    description: "instance of the Builder on which method was called"
-    type: "<xref href=\"T?alt=T&text=T\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.microsoft.aad.msal4j.AbstractClientApplicationBase.Builder.setTokenCacheAccessAspect(com.microsoft.aad.msal4j.ITokenCacheAccessAspect)"
   fullName: "com.microsoft.aad.msal4j.AbstractClientApplicationBase.Builder<T>.setTokenCacheAccessAspect(ITokenCacheAccessAspect val)"
   name: "setTokenCacheAccessAspect(ITokenCacheAccessAspect val)"
@@ -267,20 +190,6 @@ methods:
     type: "<xref href=\"com.microsoft.aad.msal4j.ITokenCacheAccessAspect?alt=com.microsoft.aad.msal4j.ITokenCacheAccessAspect&text=ITokenCacheAccessAspect\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public T setTokenCacheAccessAspect(ITokenCacheAccessAspect val)"
   desc: "Sets ITokenCacheAccessAspect to be used for cache\\_data persistence."
-  returns:
-    description: "instance of the Builder on which method was called"
-    type: "<xref href=\"T?alt=T&text=T\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.microsoft.aad.msal4j.AbstractClientApplicationBase.Builder.sslSocketFactory(javax.net.ssl.SSLSocketFactory)"
-  fullName: "com.microsoft.aad.msal4j.AbstractClientApplicationBase.Builder<T>.sslSocketFactory(SSLSocketFactory val)"
-  name: "sslSocketFactory(SSLSocketFactory val)"
-  nameWithType: "AbstractClientApplicationBase.Builder<T>.sslSocketFactory(SSLSocketFactory val)"
-  summary: "Sets SSLSocket<wbr>Factory to be used by the client application for all network communication."
-  parameters:
-  - description: "an instance of SSLSocketFactory"
-    name: "val"
-    type: "<xref href=\"javax.net.ssl.SSLSocketFactory?alt=javax.net.ssl.SSLSocketFactory&text=SSLSocketFactory\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public T sslSocketFactory(SSLSocketFactory val)"
-  desc: "Sets SSLSocketFactory to be used by the client application for all network communication. If HTTP client is set on the client application (via ClientApplication.builder().httpClient()), any configuration of SSL should be done on the HTTP client and not through this method."
   returns:
     description: "instance of the Builder on which method was called"
     type: "<xref href=\"T?alt=T&text=T\" data-throw-if-not-resolved=\"False\" />"
@@ -303,4 +212,4 @@ typeParameters:
 - name: "T"
 metadata: {}
 package: "com.microsoft.aad.msal4j"
-artifact: com.microsoft.azure:msal4j:1.14.2
+artifact: com.microsoft.azure:msal4j:1.15.0
