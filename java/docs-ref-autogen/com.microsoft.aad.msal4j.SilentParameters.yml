@@ -52,7 +52,7 @@ methods:
   - description: "scopes application is requesting access to"
     name: "scopes"
     type: "<xref href=\"java.util.Set?alt=java.util.Set&text=Set\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />&gt;"
-  syntax: "</br>public static SilentParameters.SilentParametersBuilder builder(Set<String> scopes)"
+  syntax: "public static SilentParameters.SilentParametersBuilder builder(Set<String> scopes)"
   desc: "Builder for SilentParameters"
   hasDeprecatedTag: true
   returns:
@@ -144,4 +144,4 @@ implements:
 - "<xref href=\"com.microsoft.aad.msal4j.IAcquireTokenParameters?alt=com.microsoft.aad.msal4j.IAcquireTokenParameters&text=IAcquireTokenParameters\" data-throw-if-not-resolved=\"False\" />"
 metadata: {}
 package: "com.microsoft.aad.msal4j"
-artifact: com.microsoft.azure:msal4j:1.14.2
+artifact: com.microsoft.azure:msal4j:1.15.0

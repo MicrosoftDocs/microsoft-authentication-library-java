@@ -1,0 +1,33 @@
+### YamlMime:JavaType
+uid: "com.microsoft.aad.msal4j.IManagedIdentityApplication"
+fullName: "com.microsoft.aad.msal4j.IManagedIdentityApplication"
+name: "IManagedIdentityApplication"
+nameWithType: "IManagedIdentityApplication"
+summary: "Interface representing a managed identity application."
+syntax: "public interface **IManagedIdentityApplication**</br> extends <xref href=\"com.microsoft.aad.msal4j.IApplicationBase?alt=com.microsoft.aad.msal4j.IApplicationBase&text=IApplicationBase\" data-throw-if-not-resolved=\"False\" />"
+methods:
+- uid: "com.microsoft.aad.msal4j.IManagedIdentityApplication.acquireTokenForManagedIdentity(com.microsoft.aad.msal4j.ManagedIdentityParameters)"
+  fullName: "com.microsoft.aad.msal4j.IManagedIdentityApplication.acquireTokenForManagedIdentity(ManagedIdentityParameters parameters)"
+  name: "acquireTokenForManagedIdentity(ManagedIdentityParameters parameters)"
+  nameWithType: "IManagedIdentityApplication.acquireTokenForManagedIdentity(ManagedIdentityParameters parameters)"
+  summary: "Acquires tokens from the configured managed identity on an azure resource."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "instance of <xref uid=\"com.microsoft.aad.msal4j.ManagedIdentityParameters\" data-throw-if-not-resolved=\"false\" data-raw-source=\"ManagedIdentityParameters\"></xref>"
+    name: "parameters"
+    type: "<xref href=\"com.microsoft.aad.msal4j.ManagedIdentityParameters?alt=com.microsoft.aad.msal4j.ManagedIdentityParameters&text=ManagedIdentityParameters\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract CompletableFuture<IAuthenticationResult> acquireTokenForManagedIdentity(ManagedIdentityParameters parameters)"
+  exceptions:
+  - type: "<xref href=\"java.lang.Exception?alt=java.lang.Exception&text=Exception\" data-throw-if-not-resolved=\"False\" />"
+  desc: "Acquires tokens from the configured managed identity on an azure resource."
+  returns:
+    description: "<xref uid=\"java.util.concurrent.CompletableFuture\" data-throw-if-not-resolved=\"false\" data-raw-source=\"CompletableFuture\"></xref> containing an <xref uid=\"com.microsoft.aad.msal4j.IAuthenticationResult\" data-throw-if-not-resolved=\"false\" data-raw-source=\"IAuthenticationResult\"></xref>"
+    type: "<xref href=\"java.util.concurrent.CompletableFuture?alt=java.util.concurrent.CompletableFuture&text=CompletableFuture\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.aad.msal4j.IAuthenticationResult?alt=com.microsoft.aad.msal4j.IAuthenticationResult&text=IAuthenticationResult\" data-throw-if-not-resolved=\"False\" />&gt;"
+type: "interface"
+desc: "Interface representing a managed identity application. Managed identity applications are used to acquire a token for managed identity assigned to an azure resource such as Azure function, app service, virtual machine, etc. to acquire a token without using credentials. For details see https://aka.ms/msal4jclientapplications"
+implements:
+- "<xref href=\"com.microsoft.aad.msal4j.IApplicationBase?alt=com.microsoft.aad.msal4j.IApplicationBase&text=IApplicationBase\" data-throw-if-not-resolved=\"False\" />"
+metadata: {}
+package: "com.microsoft.aad.msal4j"
+artifact: com.microsoft.azure:msal4j:1.15.0

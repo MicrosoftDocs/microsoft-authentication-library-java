@@ -47,4 +47,4 @@ type: "class"
 desc: "Contains parameters used to request a Proof of Possession (PoP) token in supported flows"
 metadata: {}
 package: "com.microsoft.aad.msal4j"
-artifact: com.microsoft.azure:msal4j:1.14.2
+artifact: com.microsoft.azure:msal4j:1.15.0
