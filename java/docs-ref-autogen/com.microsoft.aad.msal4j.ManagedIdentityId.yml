@@ -1,0 +1,85 @@
+### YamlMime:JavaType
+uid: "com.microsoft.aad.msal4j.ManagedIdentityId"
+fullName: "com.microsoft.aad.msal4j.ManagedIdentityId"
+name: "ManagedIdentityId"
+nameWithType: "ManagedIdentityId"
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "<xref href=\"java.lang.Object?alt=java.lang.Object&text=Object\" data-throw-if-not-resolved=\"False\" />"
+  methodsRef:
+  - "<xref href=\"java.lang.Object.clone()?alt=java.lang.Object.clone&text=clone\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"java.lang.Object.equals(java.lang.Object)?alt=java.lang.Object.equals&text=equals\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"java.lang.Object.finalize()?alt=java.lang.Object.finalize&text=finalize\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"java.lang.Object.getClass()?alt=java.lang.Object.getClass&text=getClass\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"java.lang.Object.hashCode()?alt=java.lang.Object.hashCode&text=hashCode\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"java.lang.Object.notify()?alt=java.lang.Object.notify&text=notify\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"java.lang.Object.notifyAll()?alt=java.lang.Object.notifyAll&text=notifyAll\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"java.lang.Object.toString()?alt=java.lang.Object.toString&text=toString\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"java.lang.Object.wait()?alt=java.lang.Object.wait&text=wait\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"java.lang.Object.wait(long)?alt=java.lang.Object.wait&text=wait\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"java.lang.Object.wait(long,int)?alt=java.lang.Object.wait&text=wait\" data-throw-if-not-resolved=\"False\" />"
+syntax: "public class **ManagedIdentityId**"
+methods:
+- uid: "com.microsoft.aad.msal4j.ManagedIdentityId.getIdType()"
+  fullName: "com.microsoft.aad.msal4j.ManagedIdentityId.getIdType()"
+  name: "getIdType()"
+  nameWithType: "ManagedIdentityId.getIdType()"
+  syntax: "public ManagedIdentityIdType getIdType()"
+  returns:
+    type: "<xref href=\"com.microsoft.aad.msal4j.ManagedIdentityIdType?alt=com.microsoft.aad.msal4j.ManagedIdentityIdType&text=ManagedIdentityIdType\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.aad.msal4j.ManagedIdentityId.getUserAssignedId()"
+  fullName: "com.microsoft.aad.msal4j.ManagedIdentityId.getUserAssignedId()"
+  name: "getUserAssignedId()"
+  nameWithType: "ManagedIdentityId.getUserAssignedId()"
+  syntax: "public String getUserAssignedId()"
+  returns:
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.aad.msal4j.ManagedIdentityId.systemAssigned()"
+  fullName: "com.microsoft.aad.msal4j.ManagedIdentityId.systemAssigned()"
+  name: "systemAssigned()"
+  nameWithType: "ManagedIdentityId.systemAssigned()"
+  summary: "Create an instance of a system assigned managed identity."
+  modifiers:
+  - "static"
+  syntax: "public static ManagedIdentityId systemAssigned()"
+  desc: "Create an instance of a system assigned managed identity."
+  returns:
+    description: "Instance of ManagedIdentityId."
+    type: "<xref href=\"com.microsoft.aad.msal4j.ManagedIdentityId?alt=com.microsoft.aad.msal4j.ManagedIdentityId&text=ManagedIdentityId\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.aad.msal4j.ManagedIdentityId.userAssignedClientId(java.lang.String)"
+  fullName: "com.microsoft.aad.msal4j.ManagedIdentityId.userAssignedClientId(String clientId)"
+  name: "userAssignedClientId(String clientId)"
+  nameWithType: "ManagedIdentityId.userAssignedClientId(String clientId)"
+  summary: "Create an instance of Managed<wbr>Identity<wbr>Id for a user assigned managed identity from a client id."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "Client id of the user assigned managed identity assigned to azure resource."
+    name: "clientId"
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static ManagedIdentityId userAssignedClientId(String clientId)"
+  desc: "Create an instance of ManagedIdentityId for a user assigned managed identity from a client id."
+  returns:
+    description: "Instance of ManagedIdentityId"
+    type: "<xref href=\"com.microsoft.aad.msal4j.ManagedIdentityId?alt=com.microsoft.aad.msal4j.ManagedIdentityId&text=ManagedIdentityId\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.aad.msal4j.ManagedIdentityId.userAssignedResourceId(java.lang.String)"
+  fullName: "com.microsoft.aad.msal4j.ManagedIdentityId.userAssignedResourceId(String resourceId)"
+  name: "userAssignedResourceId(String resourceId)"
+  nameWithType: "ManagedIdentityId.userAssignedResourceId(String resourceId)"
+  summary: "Create an instance of Managed<wbr>Identity<wbr>Id for a user assigned managed identity from a resource id."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "Resource ID of the user assigned managed identity assigned to azure resource."
+    name: "resourceId"
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static ManagedIdentityId userAssignedResourceId(String resourceId)"
+  desc: "Create an instance of ManagedIdentityId for a user assigned managed identity from a resource id."
+  returns:
+    description: "Instance of ManagedIdentityId"
+    type: "<xref href=\"com.microsoft.aad.msal4j.ManagedIdentityId?alt=com.microsoft.aad.msal4j.ManagedIdentityId&text=ManagedIdentityId\" data-throw-if-not-resolved=\"False\" />"
+type: "class"
+metadata: {}
+package: "com.microsoft.aad.msal4j"
+artifact: com.microsoft.azure:msal4j:1.15.0

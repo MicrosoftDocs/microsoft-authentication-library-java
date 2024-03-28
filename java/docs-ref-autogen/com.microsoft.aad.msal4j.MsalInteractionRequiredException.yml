@@ -20,6 +20,7 @@ inheritedClassMethods:
   - "<xref href=\"com.microsoft.aad.msal4j.MsalServiceException.claims()?alt=com.microsoft.aad.msal4j.MsalServiceException.claims&text=claims\" data-throw-if-not-resolved=\"False\" />"
   - "<xref href=\"com.microsoft.aad.msal4j.MsalServiceException.correlationId()?alt=com.microsoft.aad.msal4j.MsalServiceException.correlationId&text=correlationId\" data-throw-if-not-resolved=\"False\" />"
   - "<xref href=\"com.microsoft.aad.msal4j.MsalServiceException.headers()?alt=com.microsoft.aad.msal4j.MsalServiceException.headers&text=headers\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.microsoft.aad.msal4j.MsalServiceException.managedIdentitySource()?alt=com.microsoft.aad.msal4j.MsalServiceException.managedIdentitySource&text=managedIdentitySource\" data-throw-if-not-resolved=\"False\" />"
   - "<xref href=\"com.microsoft.aad.msal4j.MsalServiceException.statusCode()?alt=com.microsoft.aad.msal4j.MsalServiceException.statusCode&text=statusCode\" data-throw-if-not-resolved=\"False\" />"
   - "<xref href=\"com.microsoft.aad.msal4j.MsalServiceException.statusMessage()?alt=com.microsoft.aad.msal4j.MsalServiceException.statusMessage&text=statusMessage\" data-throw-if-not-resolved=\"False\" />"
 - classRef: "<xref href=\"java.lang.Object?alt=java.lang.Object&text=Object\" data-throw-if-not-resolved=\"False\" />"
@@ -79,4 +80,4 @@ type: "class"
 desc: "This exception class is to inform developers that UI interaction is required for authentication to succeed."
 metadata: {}
 package: "com.microsoft.aad.msal4j"
-artifact: com.microsoft.azure:msal4j:1.14.2
+artifact: com.microsoft.azure:msal4j:1.15.0

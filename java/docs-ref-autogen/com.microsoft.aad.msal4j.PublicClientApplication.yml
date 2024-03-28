@@ -6,8 +6,18 @@ nameWithType: "PublicClientApplication"
 summary: "Class to be used to acquire tokens for public client applications (Desktop, Mobile)."
 inheritances:
 - "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.aad.msal4j.AbstractApplicationBase?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 - "<xref href=\"com.microsoft.aad.msal4j.AbstractClientApplicationBase?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedClassMethods:
+- classRef: "<xref href=\"com.microsoft.aad.msal4j.AbstractApplicationBase?alt=com.microsoft.aad.msal4j.AbstractApplicationBase&text=AbstractApplicationBase\" data-throw-if-not-resolved=\"False\" />"
+  methodsRef:
+  - "<xref href=\"com.microsoft.aad.msal4j.AbstractApplicationBase.connectTimeoutForDefaultHttpClient()?alt=com.microsoft.aad.msal4j.AbstractApplicationBase.connectTimeoutForDefaultHttpClient&text=connectTimeoutForDefaultHttpClient\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.microsoft.aad.msal4j.AbstractApplicationBase.correlationId()?alt=com.microsoft.aad.msal4j.AbstractApplicationBase.correlationId&text=correlationId\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.microsoft.aad.msal4j.AbstractApplicationBase.httpClient()?alt=com.microsoft.aad.msal4j.AbstractApplicationBase.httpClient&text=httpClient\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.microsoft.aad.msal4j.AbstractApplicationBase.logPii()?alt=com.microsoft.aad.msal4j.AbstractApplicationBase.logPii&text=logPii\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.microsoft.aad.msal4j.AbstractApplicationBase.proxy()?alt=com.microsoft.aad.msal4j.AbstractApplicationBase.proxy&text=proxy\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.microsoft.aad.msal4j.AbstractApplicationBase.readTimeoutForDefaultHttpClient()?alt=com.microsoft.aad.msal4j.AbstractApplicationBase.readTimeoutForDefaultHttpClient&text=readTimeoutForDefaultHttpClient\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.microsoft.aad.msal4j.AbstractApplicationBase.sslSocketFactory()?alt=com.microsoft.aad.msal4j.AbstractApplicationBase.sslSocketFactory&text=sslSocketFactory\" data-throw-if-not-resolved=\"False\" />"
 - classRef: "<xref href=\"com.microsoft.aad.msal4j.AbstractClientApplicationBase?alt=com.microsoft.aad.msal4j.AbstractClientApplicationBase&text=AbstractClientApplicationBase\" data-throw-if-not-resolved=\"False\" />"
   methodsRef:
   - "<xref href=\"com.microsoft.aad.msal4j.AbstractClientApplicationBase.aadAadInstanceDiscoveryResponse()?alt=com.microsoft.aad.msal4j.AbstractClientApplicationBase.aadAadInstanceDiscoveryResponse&text=aadAadInstanceDiscoveryResponse\" data-throw-if-not-resolved=\"False\" />"
@@ -22,16 +32,10 @@ inheritedClassMethods:
   - "<xref href=\"com.microsoft.aad.msal4j.AbstractClientApplicationBase.clientAuthentication()?alt=com.microsoft.aad.msal4j.AbstractClientApplicationBase.clientAuthentication&text=clientAuthentication\" data-throw-if-not-resolved=\"False\" />"
   - "<xref href=\"com.microsoft.aad.msal4j.AbstractClientApplicationBase.clientCapabilities()?alt=com.microsoft.aad.msal4j.AbstractClientApplicationBase.clientCapabilities&text=clientCapabilities\" data-throw-if-not-resolved=\"False\" />"
   - "<xref href=\"com.microsoft.aad.msal4j.AbstractClientApplicationBase.clientId()?alt=com.microsoft.aad.msal4j.AbstractClientApplicationBase.clientId&text=clientId\" data-throw-if-not-resolved=\"False\" />"
-  - "<xref href=\"com.microsoft.aad.msal4j.AbstractClientApplicationBase.connectTimeoutForDefaultHttpClient()?alt=com.microsoft.aad.msal4j.AbstractClientApplicationBase.connectTimeoutForDefaultHttpClient&text=connectTimeoutForDefaultHttpClient\" data-throw-if-not-resolved=\"False\" />"
-  - "<xref href=\"com.microsoft.aad.msal4j.AbstractClientApplicationBase.correlationId()?alt=com.microsoft.aad.msal4j.AbstractClientApplicationBase.correlationId&text=correlationId\" data-throw-if-not-resolved=\"False\" />"
   - "<xref href=\"com.microsoft.aad.msal4j.AbstractClientApplicationBase.getAccounts()?alt=com.microsoft.aad.msal4j.AbstractClientApplicationBase.getAccounts&text=getAccounts\" data-throw-if-not-resolved=\"False\" />"
   - "<xref href=\"com.microsoft.aad.msal4j.AbstractClientApplicationBase.getAuthorizationRequestUrl(com.microsoft.aad.msal4j.AuthorizationRequestUrlParameters)?alt=com.microsoft.aad.msal4j.AbstractClientApplicationBase.getAuthorizationRequestUrl&text=getAuthorizationRequestUrl\" data-throw-if-not-resolved=\"False\" />"
   - "<xref href=\"com.microsoft.aad.msal4j.AbstractClientApplicationBase.instanceDiscovery()?alt=com.microsoft.aad.msal4j.AbstractClientApplicationBase.instanceDiscovery&text=instanceDiscovery\" data-throw-if-not-resolved=\"False\" />"
-  - "<xref href=\"com.microsoft.aad.msal4j.AbstractClientApplicationBase.logPii()?alt=com.microsoft.aad.msal4j.AbstractClientApplicationBase.logPii&text=logPii\" data-throw-if-not-resolved=\"False\" />"
-  - "<xref href=\"com.microsoft.aad.msal4j.AbstractClientApplicationBase.proxy()?alt=com.microsoft.aad.msal4j.AbstractClientApplicationBase.proxy&text=proxy\" data-throw-if-not-resolved=\"False\" />"
-  - "<xref href=\"com.microsoft.aad.msal4j.AbstractClientApplicationBase.readTimeoutForDefaultHttpClient()?alt=com.microsoft.aad.msal4j.AbstractClientApplicationBase.readTimeoutForDefaultHttpClient&text=readTimeoutForDefaultHttpClient\" data-throw-if-not-resolved=\"False\" />"
   - "<xref href=\"com.microsoft.aad.msal4j.AbstractClientApplicationBase.removeAccount(com.microsoft.aad.msal4j.IAccount)?alt=com.microsoft.aad.msal4j.AbstractClientApplicationBase.removeAccount&text=removeAccount\" data-throw-if-not-resolved=\"False\" />"
-  - "<xref href=\"com.microsoft.aad.msal4j.AbstractClientApplicationBase.sslSocketFactory()?alt=com.microsoft.aad.msal4j.AbstractClientApplicationBase.sslSocketFactory&text=sslSocketFactory\" data-throw-if-not-resolved=\"False\" />"
   - "<xref href=\"com.microsoft.aad.msal4j.AbstractClientApplicationBase.tokenCache()?alt=com.microsoft.aad.msal4j.AbstractClientApplicationBase.tokenCache&text=tokenCache\" data-throw-if-not-resolved=\"False\" />"
   - "<xref href=\"com.microsoft.aad.msal4j.AbstractClientApplicationBase.validateAuthority()?alt=com.microsoft.aad.msal4j.AbstractClientApplicationBase.validateAuthority&text=validateAuthority\" data-throw-if-not-resolved=\"False\" />"
 - classRef: "<xref href=\"java.lang.Object?alt=java.lang.Object&text=Object\" data-throw-if-not-resolved=\"False\" />"
@@ -155,4 +159,4 @@ implements:
 - "<xref href=\"com.microsoft.aad.msal4j.IPublicClientApplication?alt=com.microsoft.aad.msal4j.IPublicClientApplication&text=IPublicClientApplication\" data-throw-if-not-resolved=\"False\" />"
 metadata: {}
 package: "com.microsoft.aad.msal4j"
-artifact: com.microsoft.azure:msal4j:1.14.2
+artifact: com.microsoft.azure:msal4j:1.15.0

@@ -82,4 +82,4 @@ type: "class"
 desc: "Options for using the default OS browser as a separate process to handle interactive authentication. MSAL will listen for the OS browser to finish authenticating, but it cannot close the browser. It can however response with a HTTP 200 OK message or a 302 Redirect, which can be configured here. For more details, see https://aka.ms/msal4j-interactive-request"
 metadata: {}
 package: "com.microsoft.aad.msal4j"
-artifact: com.microsoft.azure:msal4j:1.14.2
+artifact: com.microsoft.azure:msal4j:1.15.0
