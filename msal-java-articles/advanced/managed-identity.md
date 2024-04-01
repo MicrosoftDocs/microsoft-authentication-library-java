@@ -15,7 +15,7 @@ ms.topic: conceptual
 # Managed identity with MSAL Java
 
 >[!NOTE]
->This feature is available starting with [MSAL Java](https://github.com/AzureAD/microsoft-authentication-library-for-java/releases/tag/v1.13.10) version TBD
+>This feature is available starting with [MSAL Java](https://github.com/AzureAD/microsoft-authentication-library-for-java/releases/tag/v1.15.0) version 1.15.0
 
 A common challenge for developers is the management of secrets, credentials, certificates, and keys used to secure communication between services. [Managed identities](/entra/identity/managed-identities-azure-resources/overview) in Azure eliminate the need for developers to handle these credentials manually. MSAL Java supports acquiring tokens through the managed identity service when used with applications running inside Azure infrastructure, such as:
 
