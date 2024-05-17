@@ -28,7 +28,10 @@ Generally, the authority to use is `https://login.microsoftonline.com/tfp/{tenan
 
 ## Limitations of the username and password flow
 
-If you are using username and password flows with MSAL4J, also known as Resource Owner Password Credentials (ROPC), be aware of the following limitations:
+Microsoft recommends you do not use the Resource Owner Password Credentials (ROPC), also known as username and password flow. In most scenarios, more secure alternatives are available and recommended. This flow requires a very high degree of trust in the application, and carries risks that are not present in other flows. You should only use this flow when other more secure flows aren't viable. For more information about why you want to avoid using this grant, see [why Microsoft is working to make passwords a thing of the past](https://news.microsoft.com/features/whats-solution-growing-problem-passwords-says-microsoft/).
+
+
+If you're using username and password flows with MSAL4J, be aware of the following limitations:
 
 - The flow only works for local accounts, where you register with Azure AD B2C using an email or username. This flow does not work if federating to any of the identity providers supported by B2C (Facebook, Google, etc.).
 - Currently, there is no `id_token` returned from B2C when implementing the ROPC flow from MSAL. This means an that an account object cannot be created, so in the cache, there will be no account and no user. The [`acquireTokenSilently`](xref:com.microsoft.aad.msal4j.AbstractClientApplicationBase.acquireTokenSilently(com.microsoft.aad.msal4j.SilentParameters)) flow will not work in this scenario. However, ROPC does not show a UI, so there will no impact to the user experience.
