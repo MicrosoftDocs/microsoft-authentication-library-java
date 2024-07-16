@@ -38,9 +38,7 @@ The following sections provide more details about MSAL error logging for your ap
 
 ## MSAL for Java logging
 
-MSAL for Java allows you to use the logging library that you're already using with your app, as long as it's compatible with [Simple Logging Facade for Java (SLF4J)](https://www.slf4j.org/). MSAL for Java uses the SLF4J as a simple abstraction for various logging frameworks, such as [java.util.logging](https://docs.oracle.com/javase/7/docs/api/java/util/logging/package-summary.html), [Logback](https://logback.qos.ch/) and [Log4j](https://logging.apache.org/log4j/2.x/). SLF4J allows the user to plug in the desired logging framework at deployment time and automatically binds to Logback at deployment time. MSAL logs will be written to the console.
-
-This article shows how to enable MSAL4J logging using the logback framework in a Spring Boot web application. You can refer to the [code sample](https://github.com/Azure-Samples/ms-identity-java-webapp/tree/master/msal-java-webapp-sample) for reference.
+MSAL for Java allows you to use the logging library that you're already using with your app, as long as it's compatible with [Simple Logging Facade for Java (SLF4J)](https://www.slf4j.org/). MSAL for Java uses the SLF4J as a simple abstraction for various logging frameworks, such as [java.util.logging](https://docs.oracle.com/javase/7/docs/api/java/util/logging/package-summary.html), [Logback](https://logback.qos.ch/) and [Log4j](https://logging.apache.org/log4j/2.x/). SLF4J allows the user to plug in the desired logging framework at deployment time and automatically binds to Logback at deployment time. MSAL logs will be written to the console. This article shows how to enable MSAL4J logging using the logback framework in a Spring Boot web application.
 
 1. To implement logging, include the `logback` package in `pom.xml`.
 
