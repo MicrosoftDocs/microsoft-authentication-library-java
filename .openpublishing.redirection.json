@@ -1,0 +1,9 @@
+{
+  "redirections": [
+    {
+      "source_path_from_root": "/msal-java-articles/advanced/national-clouds.md",
+      "redirect_url": "/entra/identity-platform/authentication-national-cloud",
+      "redirect_document_id": false
+    }
+  ]
+}
