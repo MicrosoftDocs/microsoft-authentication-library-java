@@ -51,8 +51,6 @@
       href: advanced/msal-error-handling-java.md
     - name: ADFS Support
       href: advanced/support-for-adfs.md
-    - name: National Clouds
-      href: advanced/national-clouds.md
     - name: Telemetry
       href: advanced/telemetry.md
     - name: Configuring Http Client
