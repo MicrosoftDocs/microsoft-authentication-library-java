@@ -22,6 +22,22 @@ inheritedClassMethods:
   - "<xref href=\"java.lang.Object.wait(long,int)?alt=java.lang.Object.wait&text=wait\" data-throw-if-not-resolved=\"False\" />"
 syntax: "public class **AuthenticationResultMetadata**</br> implements <xref href=\"java.io.Serializable?alt=java.io.Serializable&text=Serializable\" data-throw-if-not-resolved=\"False\" />"
 methods:
+- uid: "com.microsoft.aad.msal4j.AuthenticationResultMetadata.builder()"
+  fullName: "com.microsoft.aad.msal4j.AuthenticationResultMetadata.builder()"
+  name: "builder()"
+  nameWithType: "AuthenticationResultMetadata.builder()"
+  modifiers:
+  - "static"
+  syntax: "public static AuthenticationResultMetadata.AuthenticationResultMetadataBuilder builder()"
+  returns:
+    type: "<xref href=\"com.microsoft.aad.msal4j.AuthenticationResultMetadata.AuthenticationResultMetadataBuilder?alt=com.microsoft.aad.msal4j.AuthenticationResultMetadata.AuthenticationResultMetadataBuilder&text=AuthenticationResultMetadataBuilder\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.aad.msal4j.AuthenticationResultMetadata.refreshOn()"
+  fullName: "com.microsoft.aad.msal4j.AuthenticationResultMetadata.refreshOn()"
+  name: "refreshOn()"
+  nameWithType: "AuthenticationResultMetadata.refreshOn()"
+  syntax: "public Long refreshOn()"
+  returns:
+    type: "<xref href=\"java.lang.Long?alt=java.lang.Long&text=Long\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.microsoft.aad.msal4j.AuthenticationResultMetadata.tokenSource()"
   fullName: "com.microsoft.aad.msal4j.AuthenticationResultMetadata.tokenSource()"
   name: "tokenSource()"
@@ -35,4 +51,4 @@ implements:
 - "<xref href=\"java.io.Serializable?alt=java.io.Serializable&text=Serializable\" data-throw-if-not-resolved=\"False\" />"
 metadata: {}
 package: "com.microsoft.aad.msal4j"
-artifact: com.microsoft.azure:msal4j:1.15.0
+artifact: com.microsoft.azure:msal4j:1.16.1

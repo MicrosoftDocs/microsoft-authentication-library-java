@@ -145,4 +145,4 @@ type: "class"
 desc: "Parameters for <xref uid=\"com.microsoft.aad.msal4j.AbstractClientApplicationBase.getAuthorizationRequestUrl(com.microsoft.aad.msal4j.AuthorizationRequestUrlParameters)\" data-throw-if-not-resolved=\"false\" data-raw-source=\"AbstractClientApplicationBase#getAuthorizationRequestUrl(AuthorizationRequestUrlParameters)\"></xref>"
 metadata: {}
 package: "com.microsoft.aad.msal4j"
-artifact: com.microsoft.azure:msal4j:1.15.0
+artifact: com.microsoft.azure:msal4j:1.16.1

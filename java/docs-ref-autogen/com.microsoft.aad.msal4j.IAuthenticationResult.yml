@@ -61,8 +61,8 @@ methods:
   name: "metadata()"
   nameWithType: "IAuthenticationResult.metadata()"
   modifiers:
-  - "abstract"
-  syntax: "public abstract AuthenticationResultMetadata metadata()"
+  - "default"
+  syntax: "public default AuthenticationResultMetadata metadata()"
   returns:
     description: "various metadata relating to this authentication result"
     type: "<xref href=\"com.microsoft.aad.msal4j.AuthenticationResultMetadata?alt=com.microsoft.aad.msal4j.AuthenticationResultMetadata&text=AuthenticationResultMetadata\" data-throw-if-not-resolved=\"False\" />"
@@ -92,4 +92,4 @@ implements:
 - "<xref href=\"java.io.Serializable?alt=java.io.Serializable&text=Serializable\" data-throw-if-not-resolved=\"False\" />"
 metadata: {}
 package: "com.microsoft.aad.msal4j"
-artifact: com.microsoft.azure:msal4j:1.15.0
+artifact: com.microsoft.azure:msal4j:1.16.1
