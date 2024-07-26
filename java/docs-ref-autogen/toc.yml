@@ -18,6 +18,8 @@
     name: "AuthenticationErrorMessage"
   - uid: "com.microsoft.aad.msal4j.AuthenticationResultMetadata"
     name: "AuthenticationResultMetadata"
+  - uid: "com.microsoft.aad.msal4j.AuthenticationResultMetadata.AuthenticationResultMetadataBuilder"
+    name: "AuthenticationResultMetadata.AuthenticationResultMetadataBuilder"
   - uid: "com.microsoft.aad.msal4j.AuthorizationCodeParameters"
     name: "AuthorizationCodeParameters"
   - uid: "com.microsoft.aad.msal4j.AuthorizationCodeParameters.AuthorizationCodeParametersBuilder"

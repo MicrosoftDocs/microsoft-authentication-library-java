@@ -76,4 +76,4 @@ type: "class"
 desc: "Exception type thrown when service returns throttling instruction: Retry-After header, 429 or 5xx statuses."
 metadata: {}
 package: "com.microsoft.aad.msal4j"
-artifact: com.microsoft.azure:msal4j:1.15.0
+artifact: com.microsoft.azure:msal4j:1.16.1

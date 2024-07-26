@@ -11,6 +11,7 @@ classes:
 - "com.microsoft.aad.msal4j.AuthenticationErrorCode"
 - "com.microsoft.aad.msal4j.AuthenticationErrorMessage"
 - "com.microsoft.aad.msal4j.AuthenticationResultMetadata"
+- "com.microsoft.aad.msal4j.AuthenticationResultMetadata.AuthenticationResultMetadataBuilder"
 - "com.microsoft.aad.msal4j.AuthorizationCodeParameters"
 - "com.microsoft.aad.msal4j.AuthorizationCodeParameters.AuthorizationCodeParametersBuilder"
 - "com.microsoft.aad.msal4j.AuthorizationRequestUrlParameters"
@@ -95,4 +96,4 @@ interfaces:
 - "com.microsoft.aad.msal4j.OpenBrowserAction"
 metadata: {}
 package: "com.microsoft.aad.msal4j"
-artifact: com.microsoft.azure:msal4j:1.15.0
+artifact: com.microsoft.azure:msal4j:1.16.1
