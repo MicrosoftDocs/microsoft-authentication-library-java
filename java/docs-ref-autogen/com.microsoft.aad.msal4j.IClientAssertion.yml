@@ -22,4 +22,4 @@ implements:
 - "<xref href=\"com.microsoft.aad.msal4j.IClientCredential?alt=com.microsoft.aad.msal4j.IClientCredential&text=IClientCredential\" data-throw-if-not-resolved=\"False\" />"
 metadata: {}
 package: "com.microsoft.aad.msal4j"
-artifact: com.microsoft.azure:msal4j:1.15.0
+artifact: com.microsoft.azure:msal4j:1.16.1
