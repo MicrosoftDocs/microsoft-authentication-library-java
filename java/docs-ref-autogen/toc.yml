@@ -114,6 +114,8 @@
     name: "ManagedIdentityParameters"
   - uid: "com.microsoft.aad.msal4j.ManagedIdentityParameters.ManagedIdentityParametersBuilder"
     name: "ManagedIdentityParameters.ManagedIdentityParametersBuilder"
+  - uid: "com.microsoft.aad.msal4j.ManagedIdentitySourceType"
+    name: "ManagedIdentitySourceType"
   - uid: "com.microsoft.aad.msal4j.MsalAzureSDKException"
     name: "MsalAzureSDKException"
   - uid: "com.microsoft.aad.msal4j.MsalClientException"

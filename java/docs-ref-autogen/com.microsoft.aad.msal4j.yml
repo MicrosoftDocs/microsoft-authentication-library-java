@@ -72,6 +72,7 @@ enums:
 - "com.microsoft.aad.msal4j.AzureCloudEndpoint"
 - "com.microsoft.aad.msal4j.HttpMethod"
 - "com.microsoft.aad.msal4j.InteractionRequiredExceptionReason"
+- "com.microsoft.aad.msal4j.ManagedIdentitySourceType"
 - "com.microsoft.aad.msal4j.Prompt"
 - "com.microsoft.aad.msal4j.ResponseMode"
 - "com.microsoft.aad.msal4j.TokenSource"
@@ -96,4 +97,4 @@ interfaces:
 - "com.microsoft.aad.msal4j.OpenBrowserAction"
 metadata: {}
 package: "com.microsoft.aad.msal4j"
-artifact: com.microsoft.azure:msal4j:1.16.1
+artifact: com.microsoft.azure:msal4j:1.16.2

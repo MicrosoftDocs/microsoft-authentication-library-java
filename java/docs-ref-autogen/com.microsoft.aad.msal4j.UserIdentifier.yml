@@ -50,4 +50,4 @@ type: "class"
 desc: "Used for populating the X-AnchorMailbox header, which is used in the cached credential service (CCS) routing"
 metadata: {}
 package: "com.microsoft.aad.msal4j"
-artifact: com.microsoft.azure:msal4j:1.16.1
+artifact: com.microsoft.azure:msal4j:1.16.2
