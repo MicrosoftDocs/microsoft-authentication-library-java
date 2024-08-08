@@ -7,7 +7,7 @@
                 "packageDownloadUrl": "https://repo1.maven.org/maven2",
                 "packageGroupId": "com.microsoft.azure",
                 "packageArtifactId": "msal4j",
-                "packageVersion": "1.16.1",
+                "packageVersion": "1.16.2",
                 "inputPath": [],
                 "excludePath": []
             }
