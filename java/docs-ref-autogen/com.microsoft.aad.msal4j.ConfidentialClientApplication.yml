@@ -141,4 +141,4 @@ implements:
 - "<xref href=\"com.microsoft.aad.msal4j.IConfidentialClientApplication?alt=com.microsoft.aad.msal4j.IConfidentialClientApplication&text=IConfidentialClientApplication\" data-throw-if-not-resolved=\"False\" />"
 metadata: {}
 package: "com.microsoft.aad.msal4j"
-artifact: com.microsoft.azure:msal4j:1.16.1
+artifact: com.microsoft.azure:msal4j:1.16.2

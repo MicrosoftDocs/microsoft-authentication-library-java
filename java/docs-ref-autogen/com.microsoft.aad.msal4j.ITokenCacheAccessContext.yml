@@ -50,4 +50,4 @@ type: "interface"
 desc: "Interface representing context in which the token cache is accessed\n\nFor more details, see https://aka.ms/msal4j-token-cache"
 metadata: {}
 package: "com.microsoft.aad.msal4j"
-artifact: com.microsoft.azure:msal4j:1.16.1
+artifact: com.microsoft.azure:msal4j:1.16.2
