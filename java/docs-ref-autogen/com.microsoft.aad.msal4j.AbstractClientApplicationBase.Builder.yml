@@ -254,6 +254,22 @@ methods:
   returns:
     description: "instance of the Builder on which method was called"
     type: "<xref href=\"T?alt=T&text=T\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.aad.msal4j.AbstractClientApplicationBase.Builder.oidcAuthority(java.lang.String)"
+  fullName: "com.microsoft.aad.msal4j.AbstractClientApplicationBase.Builder<T>.oidcAuthority(String val)"
+  name: "oidcAuthority(String val)"
+  nameWithType: "AbstractClientApplicationBase.Builder<T>.oidcAuthority(String val)"
+  summary: "Set a known authority corresponding to a generic Open<wbr>IdConnect Identity Provider."
+  parameters:
+  - description: "a string value of authority"
+    name: "val"
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public T oidcAuthority(String val)"
+  exceptions:
+  - type: "<xref href=\"java.net.MalformedURLException?alt=java.net.MalformedURLException&text=MalformedURLException\" data-throw-if-not-resolved=\"False\" />"
+  desc: "Set a known authority corresponding to a generic OpenIdConnect Identity Provider. MSAL will append \".well-known/openid-configuration\" to the authority to retrieve the OIDC metadata and determine the endpoints."
+  returns:
+    description: "instance of the Builder on which method was called"
+    type: "<xref href=\"T?alt=T&text=T\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.microsoft.aad.msal4j.AbstractClientApplicationBase.Builder.proxy(java.net.Proxy)"
   fullName: "com.microsoft.aad.msal4j.AbstractClientApplicationBase.Builder<T>.proxy(Proxy val)"
   name: "proxy(Proxy val)"
@@ -332,4 +348,4 @@ typeParameters:
 - name: "T"
 metadata: {}
 package: "com.microsoft.aad.msal4j"
-artifact: com.microsoft.azure:msal4j:1.16.2
+artifact: com.microsoft.azure:msal4j:1.17.1

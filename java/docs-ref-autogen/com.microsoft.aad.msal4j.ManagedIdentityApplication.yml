@@ -73,9 +73,7 @@ methods:
   fullName: "com.microsoft.aad.msal4j.ManagedIdentityApplication.getManagedIdentitySource()"
   name: "getManagedIdentitySource()"
   nameWithType: "ManagedIdentityApplication.getManagedIdentitySource()"
-  modifiers:
-  - "static"
-  syntax: "public static ManagedIdentitySourceType getManagedIdentitySource()"
+  syntax: "public ManagedIdentitySourceType getManagedIdentitySource()"
   returns:
     type: "<xref href=\"com.microsoft.aad.msal4j.ManagedIdentitySourceType?alt=com.microsoft.aad.msal4j.ManagedIdentitySourceType&text=ManagedIdentitySourceType\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.microsoft.aad.msal4j.ManagedIdentityApplication.getSharedTokenCache()"
@@ -93,4 +91,4 @@ implements:
 - "<xref href=\"com.microsoft.aad.msal4j.IManagedIdentityApplication?alt=com.microsoft.aad.msal4j.IManagedIdentityApplication&text=IManagedIdentityApplication\" data-throw-if-not-resolved=\"False\" />"
 metadata: {}
 package: "com.microsoft.aad.msal4j"
-artifact: com.microsoft.azure:msal4j:1.16.2
+artifact: com.microsoft.azure:msal4j:1.17.1

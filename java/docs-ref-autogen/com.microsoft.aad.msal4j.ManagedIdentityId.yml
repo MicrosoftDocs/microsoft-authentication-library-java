@@ -63,6 +63,22 @@ methods:
   returns:
     description: "Instance of ManagedIdentityId"
     type: "<xref href=\"com.microsoft.aad.msal4j.ManagedIdentityId?alt=com.microsoft.aad.msal4j.ManagedIdentityId&text=ManagedIdentityId\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.aad.msal4j.ManagedIdentityId.userAssignedObjectId(java.lang.String)"
+  fullName: "com.microsoft.aad.msal4j.ManagedIdentityId.userAssignedObjectId(String objectId)"
+  name: "userAssignedObjectId(String objectId)"
+  nameWithType: "ManagedIdentityId.userAssignedObjectId(String objectId)"
+  summary: "Create an instance of Managed<wbr>Identity<wbr>Id for a user assigned managed identity from an object id."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "Object ID of the user assigned managed identity assigned to azure resource."
+    name: "objectId"
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static ManagedIdentityId userAssignedObjectId(String objectId)"
+  desc: "Create an instance of ManagedIdentityId for a user assigned managed identity from an object id."
+  returns:
+    description: "Instance of ManagedIdentityId"
+    type: "<xref href=\"com.microsoft.aad.msal4j.ManagedIdentityId?alt=com.microsoft.aad.msal4j.ManagedIdentityId&text=ManagedIdentityId\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.microsoft.aad.msal4j.ManagedIdentityId.userAssignedResourceId(java.lang.String)"
   fullName: "com.microsoft.aad.msal4j.ManagedIdentityId.userAssignedResourceId(String resourceId)"
   name: "userAssignedResourceId(String resourceId)"
@@ -82,4 +98,4 @@ methods:
 type: "class"
 metadata: {}
 package: "com.microsoft.aad.msal4j"
-artifact: com.microsoft.azure:msal4j:1.16.2
+artifact: com.microsoft.azure:msal4j:1.17.1
