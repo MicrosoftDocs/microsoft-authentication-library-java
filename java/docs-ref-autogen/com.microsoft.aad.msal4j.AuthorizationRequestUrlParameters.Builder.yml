@@ -229,4 +229,4 @@ methods:
 type: "class"
 metadata: {}
 package: "com.microsoft.aad.msal4j"
-artifact: com.microsoft.azure:msal4j:1.16.2
+artifact: com.microsoft.azure:msal4j:1.17.1
