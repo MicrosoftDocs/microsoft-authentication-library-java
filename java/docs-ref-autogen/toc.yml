@@ -132,6 +132,8 @@
     name: "MsalThrottlingException"
   - uid: "com.microsoft.aad.msal4j.OSHelper"
     name: "OSHelper"
+  - uid: "com.microsoft.aad.msal4j.OidcAuthority"
+    name: "OidcAuthority"
   - uid: "com.microsoft.aad.msal4j.OnBehalfOfParameters"
     name: "OnBehalfOfParameters"
   - uid: "com.microsoft.aad.msal4j.OnBehalfOfParameters.OnBehalfOfParametersBuilder"

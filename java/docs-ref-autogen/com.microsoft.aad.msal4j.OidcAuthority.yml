@@ -1,11 +1,15 @@
 ### YamlMime:JavaType
-uid: "com.microsoft.aad.msal4j.AuthenticationErrorMessage"
-fullName: "com.microsoft.aad.msal4j.AuthenticationErrorMessage"
-name: "AuthenticationErrorMessage"
-nameWithType: "AuthenticationErrorMessage"
+uid: "com.microsoft.aad.msal4j.OidcAuthority"
+fullName: "com.microsoft.aad.msal4j.OidcAuthority"
+name: "OidcAuthority"
+nameWithType: "OidcAuthority"
 inheritances:
 - "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.aad.msal4j.Authority?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedClassMethods:
+- classRef: "<xref href=\"com.microsoft.aad.msal4j.Authority?alt=com.microsoft.aad.msal4j.Authority&text=Authority\" data-throw-if-not-resolved=\"False\" />"
+  methodsRef:
+  - "<xref href=\"com.microsoft.aad.msal4j.Authority.enforceTrailingSlash(java.lang.String)?alt=com.microsoft.aad.msal4j.Authority.enforceTrailingSlash&text=enforceTrailingSlash\" data-throw-if-not-resolved=\"False\" />"
 - classRef: "<xref href=\"java.lang.Object?alt=java.lang.Object&text=Object\" data-throw-if-not-resolved=\"False\" />"
   methodsRef:
   - "<xref href=\"java.lang.Object.clone()?alt=java.lang.Object.clone&text=clone\" data-throw-if-not-resolved=\"False\" />"
@@ -19,27 +23,7 @@ inheritedClassMethods:
   - "<xref href=\"java.lang.Object.wait()?alt=java.lang.Object.wait&text=wait\" data-throw-if-not-resolved=\"False\" />"
   - "<xref href=\"java.lang.Object.wait(long)?alt=java.lang.Object.wait&text=wait\" data-throw-if-not-resolved=\"False\" />"
   - "<xref href=\"java.lang.Object.wait(long,int)?alt=java.lang.Object.wait&text=wait\" data-throw-if-not-resolved=\"False\" />"
-syntax: "public class **AuthenticationErrorMessage**"
-constructors:
-- uid: "com.microsoft.aad.msal4j.AuthenticationErrorMessage.AuthenticationErrorMessage()"
-  fullName: "com.microsoft.aad.msal4j.AuthenticationErrorMessage.AuthenticationErrorMessage()"
-  name: "AuthenticationErrorMessage()"
-  nameWithType: "AuthenticationErrorMessage.AuthenticationErrorMessage()"
-  syntax: "public AuthenticationErrorMessage()"
-fields:
-- uid: "com.microsoft.aad.msal4j.AuthenticationErrorMessage.NO_TOKEN_IN_CACHE"
-  fullName: "com.microsoft.aad.msal4j.AuthenticationErrorMessage.NO_TOKEN_IN_CACHE"
-  name: "NO_TOKEN_IN_CACHE"
-  nameWithType: "AuthenticationErrorMessage.NO_TOKEN_IN_CACHE"
-  summary: "Token not found in the cache"
-  modifiers:
-  - "static"
-  - "final"
-  field:
-    value: "Token not found in the cache"
-    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public static final String NO_TOKEN_IN_CACHE"
-  desc: "Token not found in the cache"
+syntax: "public class **OidcAuthority**</br> extends <xref href=\"com.microsoft.aad.msal4j.Authority?alt=com.microsoft.aad.msal4j.Authority&text=Authority\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 metadata: {}
 package: "com.microsoft.aad.msal4j"
