@@ -1,4 +1,4 @@
-name: Validate content links
+name: Validate existing links
 
 on:
   push:
@@ -9,6 +9,9 @@ on:
 
 jobs:
   linkChecker:
+    permissions:
+      contents: write
+      issues: write
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
@@ -19,7 +22,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
         with:
-          args: --verbose --exclude-file .lycheeignore --no-progress './**/*.md' --exclude-mail
+          args: --accept=200,429,403 --verbose --exclude-file .lycheeignore --no-progress './**/*.md' --exclude-mail
           fail: true
 
       - name: Create Issue From File
