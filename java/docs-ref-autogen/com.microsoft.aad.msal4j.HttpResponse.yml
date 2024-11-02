@@ -96,4 +96,4 @@ implements:
 - "<xref href=\"com.microsoft.aad.msal4j.IHttpResponse?alt=com.microsoft.aad.msal4j.IHttpResponse&text=IHttpResponse\" data-throw-if-not-resolved=\"False\" />"
 metadata: {}
 package: "com.microsoft.aad.msal4j"
-artifact: com.microsoft.azure:msal4j:1.17.1
+artifact: com.microsoft.azure:msal4j:1.17.2
