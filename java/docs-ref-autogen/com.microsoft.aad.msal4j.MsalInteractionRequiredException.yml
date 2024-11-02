@@ -80,4 +80,4 @@ type: "class"
 desc: "This exception class is to inform developers that UI interaction is required for authentication to succeed."
 metadata: {}
 package: "com.microsoft.aad.msal4j"
-artifact: com.microsoft.azure:msal4j:1.17.1
+artifact: com.microsoft.azure:msal4j:1.17.2
