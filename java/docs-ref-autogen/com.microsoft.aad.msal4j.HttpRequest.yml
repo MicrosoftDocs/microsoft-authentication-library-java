@@ -62,6 +62,15 @@ methods:
   syntax: "public int hashCode()"
   returns:
     type: "<xref href=\"int?alt=int&text=int\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.aad.msal4j.HttpRequest.headers()"
+  fullName: "com.microsoft.aad.msal4j.HttpRequest.headers()"
+  name: "headers()"
+  nameWithType: "HttpRequest.headers()"
+  summary: "HTTP request headers"
+  syntax: "public Map<String,String> headers()"
+  desc: "HTTP request headers"
+  returns:
+    type: "<xref href=\"java.util.Map?alt=java.util.Map&text=Map\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />,<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.microsoft.aad.msal4j.HttpRequest.headerValue(java.lang.String)"
   fullName: "com.microsoft.aad.msal4j.HttpRequest.headerValue(String headerName)"
   name: "headerValue(String headerName)"
@@ -74,15 +83,6 @@ methods:
   returns:
     description: "Value of HTTP header"
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.microsoft.aad.msal4j.HttpRequest.headers()"
-  fullName: "com.microsoft.aad.msal4j.HttpRequest.headers()"
-  name: "headers()"
-  nameWithType: "HttpRequest.headers()"
-  summary: "HTTP request headers"
-  syntax: "public Map<String,String> headers()"
-  desc: "HTTP request headers"
-  returns:
-    type: "<xref href=\"java.util.Map?alt=java.util.Map&text=Map\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />,<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.microsoft.aad.msal4j.HttpRequest.httpMethod()"
   fullName: "com.microsoft.aad.msal4j.HttpRequest.httpMethod()"
   name: "httpMethod()"
