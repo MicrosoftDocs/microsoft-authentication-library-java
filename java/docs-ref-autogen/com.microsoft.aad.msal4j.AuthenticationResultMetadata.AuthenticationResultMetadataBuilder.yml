@@ -38,14 +38,6 @@ methods:
   syntax: "public AuthenticationResultMetadata.AuthenticationResultMetadataBuilder refreshOn(Long refreshOn)"
   returns:
     type: "<xref href=\"com.microsoft.aad.msal4j.AuthenticationResultMetadata.AuthenticationResultMetadataBuilder?alt=com.microsoft.aad.msal4j.AuthenticationResultMetadata.AuthenticationResultMetadataBuilder&text=AuthenticationResultMetadataBuilder\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.microsoft.aad.msal4j.AuthenticationResultMetadata.AuthenticationResultMetadataBuilder.toString()"
-  fullName: "com.microsoft.aad.msal4j.AuthenticationResultMetadata.AuthenticationResultMetadataBuilder.toString()"
-  name: "toString()"
-  nameWithType: "AuthenticationResultMetadata.AuthenticationResultMetadataBuilder.toString()"
-  overridden: "java.lang.Object.toString()"
-  syntax: "public String toString()"
-  returns:
-    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.microsoft.aad.msal4j.AuthenticationResultMetadata.AuthenticationResultMetadataBuilder.tokenSource(com.microsoft.aad.msal4j.TokenSource)"
   fullName: "com.microsoft.aad.msal4j.AuthenticationResultMetadata.AuthenticationResultMetadataBuilder.tokenSource(TokenSource tokenSource)"
   name: "tokenSource(TokenSource tokenSource)"
@@ -56,6 +48,14 @@ methods:
   syntax: "public AuthenticationResultMetadata.AuthenticationResultMetadataBuilder tokenSource(TokenSource tokenSource)"
   returns:
     type: "<xref href=\"com.microsoft.aad.msal4j.AuthenticationResultMetadata.AuthenticationResultMetadataBuilder?alt=com.microsoft.aad.msal4j.AuthenticationResultMetadata.AuthenticationResultMetadataBuilder&text=AuthenticationResultMetadataBuilder\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.aad.msal4j.AuthenticationResultMetadata.AuthenticationResultMetadataBuilder.toString()"
+  fullName: "com.microsoft.aad.msal4j.AuthenticationResultMetadata.AuthenticationResultMetadataBuilder.toString()"
+  name: "toString()"
+  nameWithType: "AuthenticationResultMetadata.AuthenticationResultMetadataBuilder.toString()"
+  overridden: "java.lang.Object.toString()"
+  syntax: "public String toString()"
+  returns:
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 metadata: {}
 package: "com.microsoft.aad.msal4j"
