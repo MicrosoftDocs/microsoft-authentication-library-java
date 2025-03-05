@@ -37,7 +37,7 @@ methods:
   fullName: "com.microsoft.aad.msal4j.IClientCertificate.publicCertificateHash()"
   name: "publicCertificateHash()"
   nameWithType: "IClientCertificate.publicCertificateHash()"
-  summary: "Base64 encoded hash of the the public certificate."
+  summary: "Base64 encoded SHA-1 hash of the public certificate."
   modifiers:
   - "abstract"
   syntax: "public abstract String publicCertificateHash()"
@@ -46,7 +46,24 @@ methods:
     type: "<xref href=\"java.security.cert.CertificateEncodingException?alt=java.security.cert.CertificateEncodingException&text=CertificateEncodingException\" data-throw-if-not-resolved=\"False\" />"
   - description: "if an encoding error occurs"
     type: "<xref href=\"java.security.NoSuchAlgorithmException?alt=java.security.NoSuchAlgorithmException&text=NoSuchAlgorithmException\" data-throw-if-not-resolved=\"False\" />"
-  desc: "Base64 encoded hash of the the public certificate."
+  desc: "Base64 encoded SHA-1 hash of the public certificate."
+  returns:
+    description: "base64 encoded string"
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.aad.msal4j.IClientCertificate.publicCertificateHash256()"
+  fullName: "com.microsoft.aad.msal4j.IClientCertificate.publicCertificateHash256()"
+  name: "publicCertificateHash256()"
+  nameWithType: "IClientCertificate.publicCertificateHash256()"
+  summary: "Base64 encoded SHA-256 hash of the public certificate."
+  modifiers:
+  - "default"
+  syntax: "public default String publicCertificateHash256()"
+  exceptions:
+  - description: "if an encoding error occurs"
+    type: "<xref href=\"java.security.cert.CertificateEncodingException?alt=java.security.cert.CertificateEncodingException&text=CertificateEncodingException\" data-throw-if-not-resolved=\"False\" />"
+  - description: "if an encoding error occurs"
+    type: "<xref href=\"java.security.NoSuchAlgorithmException?alt=java.security.NoSuchAlgorithmException&text=NoSuchAlgorithmException\" data-throw-if-not-resolved=\"False\" />"
+  desc: "Base64 encoded SHA-256 hash of the public certificate."
   returns:
     description: "base64 encoded string"
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
@@ -56,4 +73,4 @@ implements:
 - "<xref href=\"com.microsoft.aad.msal4j.IClientCredential?alt=com.microsoft.aad.msal4j.IClientCredential&text=IClientCredential\" data-throw-if-not-resolved=\"False\" />"
 metadata: {}
 package: "com.microsoft.aad.msal4j"
-artifact: com.microsoft.azure:msal4j:1.17.2
+artifact: com.microsoft.azure:msal4j:1.19.1

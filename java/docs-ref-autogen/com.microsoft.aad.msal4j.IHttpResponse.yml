@@ -40,4 +40,4 @@ type: "interface"
 desc: "HTTP response from execution of <xref uid=\"com.microsoft.aad.msal4j.HttpRequest\" data-throw-if-not-resolved=\"false\" data-raw-source=\"HttpRequest\"></xref> in <xref uid=\"com.microsoft.aad.msal4j.IHttpClient\" data-throw-if-not-resolved=\"false\" data-raw-source=\"IHttpClient\"></xref>"
 metadata: {}
 package: "com.microsoft.aad.msal4j"
-artifact: com.microsoft.azure:msal4j:1.17.2
+artifact: com.microsoft.azure:msal4j:1.19.1

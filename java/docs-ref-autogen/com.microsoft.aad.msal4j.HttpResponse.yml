@@ -57,7 +57,7 @@ methods:
   syntax: "public HttpResponse body(String body)"
   desc: "HTTP response body"
   returns:
-    description: "this"
+    description: "<code>this</code>."
     type: "<xref href=\"com.microsoft.aad.msal4j.HttpResponse?alt=com.microsoft.aad.msal4j.HttpResponse&text=HttpResponse\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.microsoft.aad.msal4j.HttpResponse.headers()"
   fullName: "com.microsoft.aad.msal4j.HttpResponse.headers()"
@@ -88,7 +88,7 @@ methods:
   syntax: "public HttpResponse statusCode(int statusCode)"
   desc: "HTTP response status code"
   returns:
-    description: "this"
+    description: "<code>this</code>."
     type: "<xref href=\"com.microsoft.aad.msal4j.HttpResponse?alt=com.microsoft.aad.msal4j.HttpResponse&text=HttpResponse\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 desc: "HTTP response"
@@ -96,4 +96,4 @@ implements:
 - "<xref href=\"com.microsoft.aad.msal4j.IHttpResponse?alt=com.microsoft.aad.msal4j.IHttpResponse&text=IHttpResponse\" data-throw-if-not-resolved=\"False\" />"
 metadata: {}
 package: "com.microsoft.aad.msal4j"
-artifact: com.microsoft.azure:msal4j:1.17.2
+artifact: com.microsoft.azure:msal4j:1.19.1

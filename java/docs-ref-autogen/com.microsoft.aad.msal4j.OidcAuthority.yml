@@ -27,4 +27,4 @@ syntax: "public class **OidcAuthority**</br> extends <xref href=\"com.microsoft.
 type: "class"
 metadata: {}
 package: "com.microsoft.aad.msal4j"
-artifact: com.microsoft.azure:msal4j:1.17.2
+artifact: com.microsoft.azure:msal4j:1.19.1

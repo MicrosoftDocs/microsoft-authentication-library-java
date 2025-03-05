@@ -71,6 +71,7 @@ classes:
 - "com.microsoft.aad.msal4j.UserNamePasswordParameters.UserNamePasswordParametersBuilder"
 enums:
 - "com.microsoft.aad.msal4j.AzureCloudEndpoint"
+- "com.microsoft.aad.msal4j.CacheRefreshReason"
 - "com.microsoft.aad.msal4j.HttpMethod"
 - "com.microsoft.aad.msal4j.InteractionRequiredExceptionReason"
 - "com.microsoft.aad.msal4j.ManagedIdentitySourceType"
@@ -98,4 +99,4 @@ interfaces:
 - "com.microsoft.aad.msal4j.OpenBrowserAction"
 metadata: {}
 package: "com.microsoft.aad.msal4j"
-artifact: com.microsoft.azure:msal4j:1.17.2
+artifact: com.microsoft.azure:msal4j:1.19.1

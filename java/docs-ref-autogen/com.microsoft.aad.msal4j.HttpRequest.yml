@@ -105,4 +105,4 @@ type: "class"
 desc: "Contains information about outgoing HTTP request. Should be adapted to HTTP request for HTTP client of choice"
 metadata: {}
 package: "com.microsoft.aad.msal4j"
-artifact: com.microsoft.azure:msal4j:1.17.2
+artifact: com.microsoft.azure:msal4j:1.19.1
