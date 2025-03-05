@@ -58,14 +58,6 @@ methods:
   syntax: "public TokenCacheAccessContext.TokenCacheAccessContextBuilder hasCacheChanged(boolean hasCacheChanged)"
   returns:
     type: "<xref href=\"com.microsoft.aad.msal4j.TokenCacheAccessContext.TokenCacheAccessContextBuilder?alt=com.microsoft.aad.msal4j.TokenCacheAccessContext.TokenCacheAccessContextBuilder&text=TokenCacheAccessContextBuilder\" data-throw-if-not-resolved=\"False\" />"
-- uid: "com.microsoft.aad.msal4j.TokenCacheAccessContext.TokenCacheAccessContextBuilder.toString()"
-  fullName: "com.microsoft.aad.msal4j.TokenCacheAccessContext.TokenCacheAccessContextBuilder.toString()"
-  name: "toString()"
-  nameWithType: "TokenCacheAccessContext.TokenCacheAccessContextBuilder.toString()"
-  overridden: "java.lang.Object.toString()"
-  syntax: "public String toString()"
-  returns:
-    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.microsoft.aad.msal4j.TokenCacheAccessContext.TokenCacheAccessContextBuilder.tokenCache(com.microsoft.aad.msal4j.ITokenCache)"
   fullName: "com.microsoft.aad.msal4j.TokenCacheAccessContext.TokenCacheAccessContextBuilder.tokenCache(ITokenCache tokenCache)"
   name: "tokenCache(ITokenCache tokenCache)"
@@ -76,6 +68,14 @@ methods:
   syntax: "public TokenCacheAccessContext.TokenCacheAccessContextBuilder tokenCache(ITokenCache tokenCache)"
   returns:
     type: "<xref href=\"com.microsoft.aad.msal4j.TokenCacheAccessContext.TokenCacheAccessContextBuilder?alt=com.microsoft.aad.msal4j.TokenCacheAccessContext.TokenCacheAccessContextBuilder&text=TokenCacheAccessContextBuilder\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.aad.msal4j.TokenCacheAccessContext.TokenCacheAccessContextBuilder.toString()"
+  fullName: "com.microsoft.aad.msal4j.TokenCacheAccessContext.TokenCacheAccessContextBuilder.toString()"
+  name: "toString()"
+  nameWithType: "TokenCacheAccessContext.TokenCacheAccessContextBuilder.toString()"
+  overridden: "java.lang.Object.toString()"
+  syntax: "public String toString()"
+  returns:
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 metadata: {}
 package: "com.microsoft.aad.msal4j"
