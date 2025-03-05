@@ -38,7 +38,7 @@ constructors:
   nameWithType: "AbstractClientApplicationBase.Builder<T>.Builder(String clientId)"
   summary: "Constructor to create instance of Builder of client application"
   parameters:
-  - description: "Client ID (Application ID) of the application as registered\n\n                 in the application registration portal (portal.azure.com)"
+  - description: "Client ID (Application ID) of the application as registered\n                 in the application registration portal (portal.azure.com)"
     name: "clientId"
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public Builder(String clientId)"
@@ -348,4 +348,4 @@ typeParameters:
 - name: "T"
 metadata: {}
 package: "com.microsoft.aad.msal4j"
-artifact: com.microsoft.azure:msal4j:1.17.2
+artifact: com.microsoft.azure:msal4j:1.19.1

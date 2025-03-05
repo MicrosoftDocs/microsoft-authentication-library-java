@@ -31,18 +31,31 @@ methods:
   syntax: "public static AuthenticationResultMetadata.AuthenticationResultMetadataBuilder builder()"
   returns:
     type: "<xref href=\"com.microsoft.aad.msal4j.AuthenticationResultMetadata.AuthenticationResultMetadataBuilder?alt=com.microsoft.aad.msal4j.AuthenticationResultMetadata.AuthenticationResultMetadataBuilder&text=AuthenticationResultMetadataBuilder\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.aad.msal4j.AuthenticationResultMetadata.cacheRefreshReason()"
+  fullName: "com.microsoft.aad.msal4j.AuthenticationResultMetadata.cacheRefreshReason()"
+  name: "cacheRefreshReason()"
+  nameWithType: "AuthenticationResultMetadata.cacheRefreshReason()"
+  summary: "Specifies the reason for refreshing the access token, see <xref uid=\"com.microsoft.aad.msal4j.CacheRefreshReason\" data-throw-if-not-resolved=\"false\" data-raw-source=\"CacheRefreshReason\"></xref> for possible values."
+  syntax: "public CacheRefreshReason cacheRefreshReason()"
+  desc: "Specifies the reason for refreshing the access token, see <xref uid=\"com.microsoft.aad.msal4j.CacheRefreshReason\" data-throw-if-not-resolved=\"false\" data-raw-source=\"CacheRefreshReason\"></xref> for possible values. Will be <xref uid=\"com.microsoft.aad.msal4j.CacheRefreshReason.NOT_APPLICABLE\" data-throw-if-not-resolved=\"false\" data-raw-source=\"CacheRefreshReason#NOT_APPLICABLE\"></xref> if the token was returned from the cache or if the API used to fetch the token does not attempt to read the cache."
+  returns:
+    type: "<xref href=\"com.microsoft.aad.msal4j.CacheRefreshReason?alt=com.microsoft.aad.msal4j.CacheRefreshReason&text=CacheRefreshReason\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.microsoft.aad.msal4j.AuthenticationResultMetadata.refreshOn()"
   fullName: "com.microsoft.aad.msal4j.AuthenticationResultMetadata.refreshOn()"
   name: "refreshOn()"
   nameWithType: "AuthenticationResultMetadata.refreshOn()"
+  summary: "When the token should be proactively refreshed."
   syntax: "public Long refreshOn()"
+  desc: "When the token should be proactively refreshed. May be null or 0 if proactive refresh is not used"
   returns:
     type: "<xref href=\"java.lang.Long?alt=java.lang.Long&text=Long\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.microsoft.aad.msal4j.AuthenticationResultMetadata.tokenSource()"
   fullName: "com.microsoft.aad.msal4j.AuthenticationResultMetadata.tokenSource()"
   name: "tokenSource()"
   nameWithType: "AuthenticationResultMetadata.tokenSource()"
+  summary: "The source of the tokens in the <xref uid=\"\" data-throw-if-not-resolved=\"false\" data-raw-source=\"AuthenticationResult\"></xref>, see <xref uid=\"com.microsoft.aad.msal4j.TokenSource\" data-throw-if-not-resolved=\"false\" data-raw-source=\"TokenSource\"></xref> for possible values"
   syntax: "public TokenSource tokenSource()"
+  desc: "The source of the tokens in the <xref uid=\"\" data-throw-if-not-resolved=\"false\" data-raw-source=\"AuthenticationResult\"></xref>, see <xref uid=\"com.microsoft.aad.msal4j.TokenSource\" data-throw-if-not-resolved=\"false\" data-raw-source=\"TokenSource\"></xref> for possible values"
   returns:
     type: "<xref href=\"com.microsoft.aad.msal4j.TokenSource?alt=com.microsoft.aad.msal4j.TokenSource&text=TokenSource\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
@@ -51,4 +64,4 @@ implements:
 - "<xref href=\"java.io.Serializable?alt=java.io.Serializable&text=Serializable\" data-throw-if-not-resolved=\"False\" />"
 metadata: {}
 package: "com.microsoft.aad.msal4j"
-artifact: com.microsoft.azure:msal4j:1.17.2
+artifact: com.microsoft.azure:msal4j:1.19.1

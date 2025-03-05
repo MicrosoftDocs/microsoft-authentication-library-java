@@ -67,4 +67,4 @@ methods:
 desc: "A list of possible sources for the tokens found in an <xref uid=\"com.microsoft.aad.msal4j.IAuthenticationResult\" data-throw-if-not-resolved=\"false\" data-raw-source=\"IAuthenticationResult\"></xref>"
 metadata: {}
 package: "com.microsoft.aad.msal4j"
-artifact: com.microsoft.azure:msal4j:1.17.2
+artifact: com.microsoft.azure:msal4j:1.19.1

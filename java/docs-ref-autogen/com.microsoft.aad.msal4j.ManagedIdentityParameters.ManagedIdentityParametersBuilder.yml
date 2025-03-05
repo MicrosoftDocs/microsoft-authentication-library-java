@@ -37,6 +37,7 @@ methods:
     type: "<xref href=\"boolean?alt=boolean&text=boolean\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public ManagedIdentityParameters.ManagedIdentityParametersBuilder forceRefresh(boolean forceRefresh)"
   returns:
+    description: "<code>this</code>."
     type: "<xref href=\"com.microsoft.aad.msal4j.ManagedIdentityParameters.ManagedIdentityParametersBuilder?alt=com.microsoft.aad.msal4j.ManagedIdentityParameters.ManagedIdentityParametersBuilder&text=ManagedIdentityParametersBuilder\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.microsoft.aad.msal4j.ManagedIdentityParameters.ManagedIdentityParametersBuilder.resource(java.lang.String)"
   fullName: "com.microsoft.aad.msal4j.ManagedIdentityParameters.ManagedIdentityParametersBuilder.resource(String resource)"
@@ -47,6 +48,7 @@ methods:
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public ManagedIdentityParameters.ManagedIdentityParametersBuilder resource(String resource)"
   returns:
+    description: "<code>this</code>."
     type: "<xref href=\"com.microsoft.aad.msal4j.ManagedIdentityParameters.ManagedIdentityParametersBuilder?alt=com.microsoft.aad.msal4j.ManagedIdentityParameters.ManagedIdentityParametersBuilder&text=ManagedIdentityParametersBuilder\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.microsoft.aad.msal4j.ManagedIdentityParameters.ManagedIdentityParametersBuilder.toString()"
   fullName: "com.microsoft.aad.msal4j.ManagedIdentityParameters.ManagedIdentityParametersBuilder.toString()"
@@ -59,4 +61,4 @@ methods:
 type: "class"
 metadata: {}
 package: "com.microsoft.aad.msal4j"
-artifact: com.microsoft.azure:msal4j:1.17.2
+artifact: com.microsoft.azure:msal4j:1.19.1
