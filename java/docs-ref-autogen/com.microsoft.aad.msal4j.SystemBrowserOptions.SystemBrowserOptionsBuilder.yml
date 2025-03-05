@@ -25,21 +25,27 @@ methods:
   fullName: "com.microsoft.aad.msal4j.SystemBrowserOptions.SystemBrowserOptionsBuilder.browserRedirectError(URI browserRedirectError)"
   name: "browserRedirectError(URI browserRedirectError)"
   nameWithType: "SystemBrowserOptions.SystemBrowserOptionsBuilder.browserRedirectError(URI browserRedirectError)"
+  summary: "When the the user finishes authenticating, but an error occurred, MSAL will redirect the browser to the given URI."
   parameters:
   - name: "browserRedirectError"
     type: "<xref href=\"java.net.URI?alt=java.net.URI&text=URI\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public SystemBrowserOptions.SystemBrowserOptionsBuilder browserRedirectError(URI browserRedirectError)"
+  desc: "When the the user finishes authenticating, but an error occurred, MSAL will redirect the browser to the given URI. Takes precedence over htmlMessageError"
   returns:
+    description: "<code>this</code>."
     type: "<xref href=\"com.microsoft.aad.msal4j.SystemBrowserOptions.SystemBrowserOptionsBuilder?alt=com.microsoft.aad.msal4j.SystemBrowserOptions.SystemBrowserOptionsBuilder&text=SystemBrowserOptionsBuilder\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.microsoft.aad.msal4j.SystemBrowserOptions.SystemBrowserOptionsBuilder.browserRedirectSuccess(java.net.URI)"
   fullName: "com.microsoft.aad.msal4j.SystemBrowserOptions.SystemBrowserOptionsBuilder.browserRedirectSuccess(URI browserRedirectSuccess)"
   name: "browserRedirectSuccess(URI browserRedirectSuccess)"
   nameWithType: "SystemBrowserOptions.SystemBrowserOptionsBuilder.browserRedirectSuccess(URI browserRedirectSuccess)"
+  summary: "When the user finishes authenticating, MSAL will redirect the browser to the given URI."
   parameters:
   - name: "browserRedirectSuccess"
     type: "<xref href=\"java.net.URI?alt=java.net.URI&text=URI\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public SystemBrowserOptions.SystemBrowserOptionsBuilder browserRedirectSuccess(URI browserRedirectSuccess)"
+  desc: "When the user finishes authenticating, MSAL will redirect the browser to the given URI. Takes precedence over htmlMessageSuccess"
   returns:
+    description: "<code>this</code>."
     type: "<xref href=\"com.microsoft.aad.msal4j.SystemBrowserOptions.SystemBrowserOptionsBuilder?alt=com.microsoft.aad.msal4j.SystemBrowserOptions.SystemBrowserOptionsBuilder&text=SystemBrowserOptionsBuilder\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.microsoft.aad.msal4j.SystemBrowserOptions.SystemBrowserOptionsBuilder.build()"
   fullName: "com.microsoft.aad.msal4j.SystemBrowserOptions.SystemBrowserOptionsBuilder.build()"
@@ -52,31 +58,40 @@ methods:
   fullName: "com.microsoft.aad.msal4j.SystemBrowserOptions.SystemBrowserOptionsBuilder.htmlMessageError(String htmlMessageError)"
   name: "htmlMessageError(String htmlMessageError)"
   nameWithType: "SystemBrowserOptions.SystemBrowserOptionsBuilder.htmlMessageError(String htmlMessageError)"
+  summary: "WHen the user finishes authenticating, but an error occurred, MSAL will respond with a Http 200 Ok message, which the browser will show to the user."
   parameters:
   - name: "htmlMessageError"
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public SystemBrowserOptions.SystemBrowserOptionsBuilder htmlMessageError(String htmlMessageError)"
+  desc: "WHen the user finishes authenticating, but an error occurred, MSAL will respond with a Http 200 Ok message, which the browser will show to the user."
   returns:
+    description: "<code>this</code>."
     type: "<xref href=\"com.microsoft.aad.msal4j.SystemBrowserOptions.SystemBrowserOptionsBuilder?alt=com.microsoft.aad.msal4j.SystemBrowserOptions.SystemBrowserOptionsBuilder&text=SystemBrowserOptionsBuilder\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.microsoft.aad.msal4j.SystemBrowserOptions.SystemBrowserOptionsBuilder.htmlMessageSuccess(java.lang.String)"
   fullName: "com.microsoft.aad.msal4j.SystemBrowserOptions.SystemBrowserOptionsBuilder.htmlMessageSuccess(String htmlMessageSuccess)"
   name: "htmlMessageSuccess(String htmlMessageSuccess)"
   nameWithType: "SystemBrowserOptions.SystemBrowserOptionsBuilder.htmlMessageSuccess(String htmlMessageSuccess)"
+  summary: "When the user finishes authenticating, MSAL will respond with a Http 200 OK message, which the browser will show to the user"
   parameters:
   - name: "htmlMessageSuccess"
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public SystemBrowserOptions.SystemBrowserOptionsBuilder htmlMessageSuccess(String htmlMessageSuccess)"
+  desc: "When the user finishes authenticating, MSAL will respond with a Http 200 OK message, which the browser will show to the user"
   returns:
+    description: "<code>this</code>."
     type: "<xref href=\"com.microsoft.aad.msal4j.SystemBrowserOptions.SystemBrowserOptionsBuilder?alt=com.microsoft.aad.msal4j.SystemBrowserOptions.SystemBrowserOptionsBuilder&text=SystemBrowserOptionsBuilder\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.microsoft.aad.msal4j.SystemBrowserOptions.SystemBrowserOptionsBuilder.openBrowserAction(com.microsoft.aad.msal4j.OpenBrowserAction)"
   fullName: "com.microsoft.aad.msal4j.SystemBrowserOptions.SystemBrowserOptionsBuilder.openBrowserAction(OpenBrowserAction openBrowserAction)"
   name: "openBrowserAction(OpenBrowserAction openBrowserAction)"
   nameWithType: "SystemBrowserOptions.SystemBrowserOptionsBuilder.openBrowserAction(OpenBrowserAction openBrowserAction)"
+  summary: "Allows developers to implement their own logic for starting a browser and navigating to a specific Uri."
   parameters:
   - name: "openBrowserAction"
     type: "<xref href=\"com.microsoft.aad.msal4j.OpenBrowserAction?alt=com.microsoft.aad.msal4j.OpenBrowserAction&text=OpenBrowserAction\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public SystemBrowserOptions.SystemBrowserOptionsBuilder openBrowserAction(OpenBrowserAction openBrowserAction)"
+  desc: "Allows developers to implement their own logic for starting a browser and navigating to a specific Uri. Msal will use this when opening the browser. If not set, the user configured browser will be used."
   returns:
+    description: "<code>this</code>."
     type: "<xref href=\"com.microsoft.aad.msal4j.SystemBrowserOptions.SystemBrowserOptionsBuilder?alt=com.microsoft.aad.msal4j.SystemBrowserOptions.SystemBrowserOptionsBuilder&text=SystemBrowserOptionsBuilder\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.microsoft.aad.msal4j.SystemBrowserOptions.SystemBrowserOptionsBuilder.toString()"
   fullName: "com.microsoft.aad.msal4j.SystemBrowserOptions.SystemBrowserOptionsBuilder.toString()"
@@ -89,4 +104,4 @@ methods:
 type: "class"
 metadata: {}
 package: "com.microsoft.aad.msal4j"
-artifact: com.microsoft.azure:msal4j:1.17.2
+artifact: com.microsoft.azure:msal4j:1.19.1

@@ -28,25 +28,44 @@ methods:
   syntax: "public AuthenticationResultMetadata build()"
   returns:
     type: "<xref href=\"com.microsoft.aad.msal4j.AuthenticationResultMetadata?alt=com.microsoft.aad.msal4j.AuthenticationResultMetadata&text=AuthenticationResultMetadata\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.aad.msal4j.AuthenticationResultMetadata.AuthenticationResultMetadataBuilder.cacheRefreshReason(com.microsoft.aad.msal4j.CacheRefreshReason)"
+  fullName: "com.microsoft.aad.msal4j.AuthenticationResultMetadata.AuthenticationResultMetadataBuilder.cacheRefreshReason(CacheRefreshReason cacheRefreshReason)"
+  name: "cacheRefreshReason(CacheRefreshReason cacheRefreshReason)"
+  nameWithType: "AuthenticationResultMetadata.AuthenticationResultMetadataBuilder.cacheRefreshReason(CacheRefreshReason cacheRefreshReason)"
+  summary: "Specifies the reason for refreshing the access token, see <xref uid=\"com.microsoft.aad.msal4j.CacheRefreshReason\" data-throw-if-not-resolved=\"false\" data-raw-source=\"CacheRefreshReason\"></xref> for possible values."
+  parameters:
+  - name: "cacheRefreshReason"
+    type: "<xref href=\"com.microsoft.aad.msal4j.CacheRefreshReason?alt=com.microsoft.aad.msal4j.CacheRefreshReason&text=CacheRefreshReason\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public AuthenticationResultMetadata.AuthenticationResultMetadataBuilder cacheRefreshReason(CacheRefreshReason cacheRefreshReason)"
+  desc: "Specifies the reason for refreshing the access token, see <xref uid=\"com.microsoft.aad.msal4j.CacheRefreshReason\" data-throw-if-not-resolved=\"false\" data-raw-source=\"CacheRefreshReason\"></xref> for possible values. Will be <xref uid=\"com.microsoft.aad.msal4j.CacheRefreshReason.NOT_APPLICABLE\" data-throw-if-not-resolved=\"false\" data-raw-source=\"CacheRefreshReason#NOT_APPLICABLE\"></xref> if the token was returned from the cache or if the API used to fetch the token does not attempt to read the cache."
+  returns:
+    description: "<code>this</code>."
+    type: "<xref href=\"com.microsoft.aad.msal4j.AuthenticationResultMetadata.AuthenticationResultMetadataBuilder?alt=com.microsoft.aad.msal4j.AuthenticationResultMetadata.AuthenticationResultMetadataBuilder&text=AuthenticationResultMetadataBuilder\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.microsoft.aad.msal4j.AuthenticationResultMetadata.AuthenticationResultMetadataBuilder.refreshOn(java.lang.Long)"
   fullName: "com.microsoft.aad.msal4j.AuthenticationResultMetadata.AuthenticationResultMetadataBuilder.refreshOn(Long refreshOn)"
   name: "refreshOn(Long refreshOn)"
   nameWithType: "AuthenticationResultMetadata.AuthenticationResultMetadataBuilder.refreshOn(Long refreshOn)"
+  summary: "When the token should be proactively refreshed."
   parameters:
   - name: "refreshOn"
     type: "<xref href=\"java.lang.Long?alt=java.lang.Long&text=Long\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public AuthenticationResultMetadata.AuthenticationResultMetadataBuilder refreshOn(Long refreshOn)"
+  desc: "When the token should be proactively refreshed. May be null or 0 if proactive refresh is not used"
   returns:
+    description: "<code>this</code>."
     type: "<xref href=\"com.microsoft.aad.msal4j.AuthenticationResultMetadata.AuthenticationResultMetadataBuilder?alt=com.microsoft.aad.msal4j.AuthenticationResultMetadata.AuthenticationResultMetadataBuilder&text=AuthenticationResultMetadataBuilder\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.microsoft.aad.msal4j.AuthenticationResultMetadata.AuthenticationResultMetadataBuilder.tokenSource(com.microsoft.aad.msal4j.TokenSource)"
   fullName: "com.microsoft.aad.msal4j.AuthenticationResultMetadata.AuthenticationResultMetadataBuilder.tokenSource(TokenSource tokenSource)"
   name: "tokenSource(TokenSource tokenSource)"
   nameWithType: "AuthenticationResultMetadata.AuthenticationResultMetadataBuilder.tokenSource(TokenSource tokenSource)"
+  summary: "The source of the tokens in the <xref uid=\"\" data-throw-if-not-resolved=\"false\" data-raw-source=\"AuthenticationResult\"></xref>, see <xref uid=\"com.microsoft.aad.msal4j.TokenSource\" data-throw-if-not-resolved=\"false\" data-raw-source=\"TokenSource\"></xref> for possible values"
   parameters:
   - name: "tokenSource"
     type: "<xref href=\"com.microsoft.aad.msal4j.TokenSource?alt=com.microsoft.aad.msal4j.TokenSource&text=TokenSource\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public AuthenticationResultMetadata.AuthenticationResultMetadataBuilder tokenSource(TokenSource tokenSource)"
+  desc: "The source of the tokens in the <xref uid=\"\" data-throw-if-not-resolved=\"false\" data-raw-source=\"AuthenticationResult\"></xref>, see <xref uid=\"com.microsoft.aad.msal4j.TokenSource\" data-throw-if-not-resolved=\"false\" data-raw-source=\"TokenSource\"></xref> for possible values"
   returns:
+    description: "<code>this</code>."
     type: "<xref href=\"com.microsoft.aad.msal4j.AuthenticationResultMetadata.AuthenticationResultMetadataBuilder?alt=com.microsoft.aad.msal4j.AuthenticationResultMetadata.AuthenticationResultMetadataBuilder&text=AuthenticationResultMetadataBuilder\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.microsoft.aad.msal4j.AuthenticationResultMetadata.AuthenticationResultMetadataBuilder.toString()"
   fullName: "com.microsoft.aad.msal4j.AuthenticationResultMetadata.AuthenticationResultMetadataBuilder.toString()"
@@ -59,4 +78,4 @@ methods:
 type: "class"
 metadata: {}
 package: "com.microsoft.aad.msal4j"
-artifact: com.microsoft.azure:msal4j:1.17.2
+artifact: com.microsoft.azure:msal4j:1.19.1
