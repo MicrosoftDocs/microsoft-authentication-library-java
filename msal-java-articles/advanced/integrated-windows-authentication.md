@@ -6,7 +6,7 @@ manager: CelesteDG
 
 ms.author: dmwendia
 ms.date: 01/27/2024
-ms.reviewer: dayodeji
+ms.reviewer:
 ms.service: msal
 ms.subservice: msal-java
 ms.topic: conceptual
