@@ -1,6 +1,15 @@
 ---
 title: Client credentials in MSAL Java
 description: "MSAL Java supports two types of client credentials - application secrets and certificates."
+author: Dickson-Mwendia
+manager: CelesteDG
+
+ms.author: dmwendia
+ms.date: 02/27/2024
+ms.reviewer:
+ms.service: msal
+ms.subservice: msal-java
+ms.topic: conceptual
 #Customer intent: 
 ---
 
