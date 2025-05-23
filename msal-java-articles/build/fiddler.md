@@ -10,7 +10,7 @@ ms.reviewer:
 ms.service: msal
 ms.subservice: msal-java
 ms.topic: conceptual
-
+#Customer intent: 
 ---
 
 # Using Fiddler with MSAL Java
