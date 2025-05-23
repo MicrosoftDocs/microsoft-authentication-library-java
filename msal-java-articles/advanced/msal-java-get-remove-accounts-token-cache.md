@@ -10,6 +10,7 @@ ms.reviewer:
 ms.service: msal
 ms.subservice: msal-java
 ms.topic: conceptual
+#Customer intent: 
 ---
 
 # Get and remove accounts from the token cache using MSAL for Java
