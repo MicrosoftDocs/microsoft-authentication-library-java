@@ -9,7 +9,7 @@ ms.reviewer:
 ms.service: msal
 ms.subservice: msal-java
 ms.topic: conceptual
-ms.custom: sfi-ropc-nochange
+#Customer intent: 
 ---
 
 # Using Fiddler with MSAL Java

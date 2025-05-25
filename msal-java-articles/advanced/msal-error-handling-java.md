@@ -10,6 +10,7 @@ ms.reviewer:
 ms.service: msal
 ms.subservice: msal-java
 ms.topic: conceptual
+#Customer intent: 
 ---
 
 # Handle errors and exceptions in MSAL for Java

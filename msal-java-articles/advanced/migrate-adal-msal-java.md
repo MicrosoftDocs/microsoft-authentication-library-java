@@ -10,6 +10,7 @@ ms.service: msal
 ms.subservice: msal-java
 ms.topic: conceptual
 ms.custom: sfi-ropc-nochange
+#Customer intent: 
 ---
 
 # ADAL to MSAL migration guide for Java
