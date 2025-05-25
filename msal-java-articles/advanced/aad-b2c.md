@@ -10,6 +10,7 @@ ms.reviewer:
 ms.service: msal
 ms.subservice: msal-java
 ms.topic: conceptual
+#Customer intent: 
 ---
 
 # Use MSAL4J to sign-in users with social identities

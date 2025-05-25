@@ -10,6 +10,7 @@ ms.reviewer:
 ms.service: msal
 ms.subservice: msal-java
 ms.topic: faq
+#Customer intent: 
 ---
 
 
