@@ -8,7 +8,7 @@ ms.date: 01/27/2024
 ms.reviewer: 
 ms.service: msal
 ms.subservice: msal-java
-ms.topic: conceptual
+ms.topic: upgrade-and-migration-article
 ms.custom: sfi-ropc-nochange
 #Customer intent: 
 ---
