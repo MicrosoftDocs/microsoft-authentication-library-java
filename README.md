@@ -9,7 +9,6 @@ This is the **documentation repository** for Microsoft Authentication Library (M
 | ✅ **SDK Repository**           | [`AzureAD/microsoft-authentication-library-for-java`](https://github.com/AzureAD/microsoft-authentication-library-for-java) |
 | ✅ **SDK Package**              | [`msal4j`](https://mvnrepository.com/artifact/com.microsoft.azure/msal4j) |
 | ✅ **SDK Documentation**        | [MSAL for Java on Microsoft Learn](https://learn.microsoft.com/entra/msal/java/) |
-| 🔒 **SDK Documentation CI Job** | [Azure Pipelines](https://apidrop.visualstudio.com/Content%20CI/_build?definitionId=5249) |
 
 ## Contributions
 
