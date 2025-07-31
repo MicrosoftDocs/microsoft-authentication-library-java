@@ -4,185 +4,371 @@
   items:
   - uid: com.microsoft.aad.msal4j.AbstractApplicationBase
     name: AbstractApplicationBase
+    no-loc:
+    - AbstractApplicationBase
   - uid: com.microsoft.aad.msal4j.AbstractApplicationBase.Builder
     name: AbstractApplicationBase.Builder
+    no-loc:
+    - AbstractApplicationBase.Builder
   - uid: com.microsoft.aad.msal4j.AbstractClientApplicationBase
     name: AbstractClientApplicationBase
+    no-loc:
+    - AbstractClientApplicationBase
   - uid: com.microsoft.aad.msal4j.AbstractClientApplicationBase.Builder
     name: AbstractClientApplicationBase.Builder
+    no-loc:
+    - AbstractClientApplicationBase.Builder
   - uid: com.microsoft.aad.msal4j.AppTokenProviderParameters
     name: AppTokenProviderParameters
+    no-loc:
+    - AppTokenProviderParameters
   - uid: com.microsoft.aad.msal4j.AuthenticationErrorCode
     name: AuthenticationErrorCode
+    no-loc:
+    - AuthenticationErrorCode
   - uid: com.microsoft.aad.msal4j.AuthenticationErrorMessage
     name: AuthenticationErrorMessage
+    no-loc:
+    - AuthenticationErrorMessage
   - uid: com.microsoft.aad.msal4j.AuthenticationResultMetadata
     name: AuthenticationResultMetadata
+    no-loc:
+    - AuthenticationResultMetadata
   - uid: com.microsoft.aad.msal4j.AuthenticationResultMetadata.AuthenticationResultMetadataBuilder
     name: AuthenticationResultMetadata.AuthenticationResultMetadataBuilder
+    no-loc:
+    - AuthenticationResultMetadata.AuthenticationResultMetadataBuilder
   - uid: com.microsoft.aad.msal4j.AuthorizationCodeParameters
     name: AuthorizationCodeParameters
+    no-loc:
+    - AuthorizationCodeParameters
   - uid: com.microsoft.aad.msal4j.AuthorizationCodeParameters.AuthorizationCodeParametersBuilder
     name: AuthorizationCodeParameters.AuthorizationCodeParametersBuilder
+    no-loc:
+    - AuthorizationCodeParameters.AuthorizationCodeParametersBuilder
   - uid: com.microsoft.aad.msal4j.AuthorizationRequestUrlParameters
     name: AuthorizationRequestUrlParameters
+    no-loc:
+    - AuthorizationRequestUrlParameters
   - uid: com.microsoft.aad.msal4j.AuthorizationRequestUrlParameters.Builder
     name: AuthorizationRequestUrlParameters.Builder
+    no-loc:
+    - AuthorizationRequestUrlParameters.Builder
   - uid: com.microsoft.aad.msal4j.AzureCloudEndpoint
     name: AzureCloudEndpoint
+    no-loc:
+    - AzureCloudEndpoint
   - uid: com.microsoft.aad.msal4j.CIAMAuthority
     name: CIAMAuthority
+    no-loc:
+    - CIAMAuthority
   - uid: com.microsoft.aad.msal4j.CacheRefreshReason
     name: CacheRefreshReason
+    no-loc:
+    - CacheRefreshReason
   - uid: com.microsoft.aad.msal4j.ClaimsRequest
     name: ClaimsRequest
+    no-loc:
+    - ClaimsRequest
   - uid: com.microsoft.aad.msal4j.ClientCredentialFactory
     name: ClientCredentialFactory
+    no-loc:
+    - ClientCredentialFactory
   - uid: com.microsoft.aad.msal4j.ClientCredentialParameters
     name: ClientCredentialParameters
+    no-loc:
+    - ClientCredentialParameters
   - uid: com.microsoft.aad.msal4j.ClientCredentialParameters.ClientCredentialParametersBuilder
     name: ClientCredentialParameters.ClientCredentialParametersBuilder
+    no-loc:
+    - ClientCredentialParameters.ClientCredentialParametersBuilder
   - uid: com.microsoft.aad.msal4j.ConfidentialClientApplication
     name: ConfidentialClientApplication
+    no-loc:
+    - ConfidentialClientApplication
   - uid: com.microsoft.aad.msal4j.ConfidentialClientApplication.Builder
     name: ConfidentialClientApplication.Builder
+    no-loc:
+    - ConfidentialClientApplication.Builder
   - uid: com.microsoft.aad.msal4j.CustomJWTAuthentication
     name: CustomJWTAuthentication
+    no-loc:
+    - CustomJWTAuthentication
   - uid: com.microsoft.aad.msal4j.DeviceCode
     name: DeviceCode
+    no-loc:
+    - DeviceCode
   - uid: com.microsoft.aad.msal4j.DeviceCodeFlowParameters
     name: DeviceCodeFlowParameters
+    no-loc:
+    - DeviceCodeFlowParameters
   - uid: com.microsoft.aad.msal4j.DeviceCodeFlowParameters.DeviceCodeFlowParametersBuilder
     name: DeviceCodeFlowParameters.DeviceCodeFlowParametersBuilder
+    no-loc:
+    - DeviceCodeFlowParameters.DeviceCodeFlowParametersBuilder
   - uid: com.microsoft.aad.msal4j.HttpMethod
     name: HttpMethod
+    no-loc:
+    - HttpMethod
   - uid: com.microsoft.aad.msal4j.HttpRequest
     name: HttpRequest
+    no-loc:
+    - HttpRequest
   - uid: com.microsoft.aad.msal4j.HttpResponse
     name: HttpResponse
+    no-loc:
+    - HttpResponse
   - uid: com.microsoft.aad.msal4j.IAccount
     name: IAccount
+    no-loc:
+    - IAccount
   - uid: com.microsoft.aad.msal4j.IAuthenticationResult
     name: IAuthenticationResult
+    no-loc:
+    - IAuthenticationResult
   - uid: com.microsoft.aad.msal4j.IBroker
     name: IBroker
+    no-loc:
+    - IBroker
   - uid: com.microsoft.aad.msal4j.IClientAssertion
     name: IClientAssertion
+    no-loc:
+    - IClientAssertion
   - uid: com.microsoft.aad.msal4j.IClientCertificate
     name: IClientCertificate
+    no-loc:
+    - IClientCertificate
   - uid: com.microsoft.aad.msal4j.IClientCredential
     name: IClientCredential
+    no-loc:
+    - IClientCredential
   - uid: com.microsoft.aad.msal4j.IClientSecret
     name: IClientSecret
+    no-loc:
+    - IClientSecret
   - uid: com.microsoft.aad.msal4j.IConfidentialClientApplication
     name: IConfidentialClientApplication
+    no-loc:
+    - IConfidentialClientApplication
   - uid: com.microsoft.aad.msal4j.IHttpClient
     name: IHttpClient
+    no-loc:
+    - IHttpClient
   - uid: com.microsoft.aad.msal4j.IHttpResponse
     name: IHttpResponse
+    no-loc:
+    - IHttpResponse
   - uid: com.microsoft.aad.msal4j.IManagedIdentityApplication
     name: IManagedIdentityApplication
+    no-loc:
+    - IManagedIdentityApplication
   - uid: com.microsoft.aad.msal4j.IPublicClientApplication
     name: IPublicClientApplication
+    no-loc:
+    - IPublicClientApplication
   - uid: com.microsoft.aad.msal4j.ITenantProfile
     name: ITenantProfile
+    no-loc:
+    - ITenantProfile
   - uid: com.microsoft.aad.msal4j.ITokenCache
     name: ITokenCache
+    no-loc:
+    - ITokenCache
   - uid: com.microsoft.aad.msal4j.ITokenCacheAccessAspect
     name: ITokenCacheAccessAspect
+    no-loc:
+    - ITokenCacheAccessAspect
   - uid: com.microsoft.aad.msal4j.ITokenCacheAccessContext
     name: ITokenCacheAccessContext
+    no-loc:
+    - ITokenCacheAccessContext
   - uid: com.microsoft.aad.msal4j.IUserAssertion
     name: IUserAssertion
+    no-loc:
+    - IUserAssertion
   - uid: com.microsoft.aad.msal4j.IntegratedWindowsAuthenticationParameters
     name: IntegratedWindowsAuthenticationParameters
+    no-loc:
+    - IntegratedWindowsAuthenticationParameters
   - uid: com.microsoft.aad.msal4j.IntegratedWindowsAuthenticationParameters.IntegratedWindowsAuthenticationParametersBuilder
     name: IntegratedWindowsAuthenticationParameters.IntegratedWindowsAuthenticationParametersBuilder
+    no-loc:
+    - IntegratedWindowsAuthenticationParameters.IntegratedWindowsAuthenticationParametersBuilder
   - uid: com.microsoft.aad.msal4j.InteractionRequiredExceptionReason
     name: InteractionRequiredExceptionReason
+    no-loc:
+    - InteractionRequiredExceptionReason
   - uid: com.microsoft.aad.msal4j.InteractiveRequestParameters
     name: InteractiveRequestParameters
+    no-loc:
+    - InteractiveRequestParameters
   - uid: com.microsoft.aad.msal4j.InteractiveRequestParameters.InteractiveRequestParametersBuilder
     name: InteractiveRequestParameters.InteractiveRequestParametersBuilder
+    no-loc:
+    - InteractiveRequestParameters.InteractiveRequestParametersBuilder
   - uid: com.microsoft.aad.msal4j.ManagedIdentityApplication
     name: ManagedIdentityApplication
+    no-loc:
+    - ManagedIdentityApplication
   - uid: com.microsoft.aad.msal4j.ManagedIdentityApplication.Builder
     name: ManagedIdentityApplication.Builder
+    no-loc:
+    - ManagedIdentityApplication.Builder
   - uid: com.microsoft.aad.msal4j.ManagedIdentityErrorResponse
     name: ManagedIdentityErrorResponse
+    no-loc:
+    - ManagedIdentityErrorResponse
   - uid: com.microsoft.aad.msal4j.ManagedIdentityId
     name: ManagedIdentityId
+    no-loc:
+    - ManagedIdentityId
   - uid: com.microsoft.aad.msal4j.ManagedIdentityParameters
     name: ManagedIdentityParameters
+    no-loc:
+    - ManagedIdentityParameters
   - uid: com.microsoft.aad.msal4j.ManagedIdentityParameters.ManagedIdentityParametersBuilder
     name: ManagedIdentityParameters.ManagedIdentityParametersBuilder
+    no-loc:
+    - ManagedIdentityParameters.ManagedIdentityParametersBuilder
   - uid: com.microsoft.aad.msal4j.ManagedIdentitySourceType
     name: ManagedIdentitySourceType
+    no-loc:
+    - ManagedIdentitySourceType
   - uid: com.microsoft.aad.msal4j.MsalAzureSDKException
     name: MsalAzureSDKException
+    no-loc:
+    - MsalAzureSDKException
   - uid: com.microsoft.aad.msal4j.MsalClientException
     name: MsalClientException
+    no-loc:
+    - MsalClientException
   - uid: com.microsoft.aad.msal4j.MsalError
     name: MsalError
+    no-loc:
+    - MsalError
   - uid: com.microsoft.aad.msal4j.MsalException
     name: MsalException
+    no-loc:
+    - MsalException
   - uid: com.microsoft.aad.msal4j.MsalInteractionRequiredException
     name: MsalInteractionRequiredException
+    no-loc:
+    - MsalInteractionRequiredException
   - uid: com.microsoft.aad.msal4j.MsalServiceException
     name: MsalServiceException
+    no-loc:
+    - MsalServiceException
   - uid: com.microsoft.aad.msal4j.MsalThrottlingException
     name: MsalThrottlingException
+    no-loc:
+    - MsalThrottlingException
   - uid: com.microsoft.aad.msal4j.OSHelper
     name: OSHelper
+    no-loc:
+    - OSHelper
   - uid: com.microsoft.aad.msal4j.OidcAuthority
     name: OidcAuthority
+    no-loc:
+    - OidcAuthority
   - uid: com.microsoft.aad.msal4j.OnBehalfOfParameters
     name: OnBehalfOfParameters
+    no-loc:
+    - OnBehalfOfParameters
   - uid: com.microsoft.aad.msal4j.OnBehalfOfParameters.OnBehalfOfParametersBuilder
     name: OnBehalfOfParameters.OnBehalfOfParametersBuilder
+    no-loc:
+    - OnBehalfOfParameters.OnBehalfOfParametersBuilder
   - uid: com.microsoft.aad.msal4j.OpenBrowserAction
     name: OpenBrowserAction
+    no-loc:
+    - OpenBrowserAction
   - uid: com.microsoft.aad.msal4j.PopParameters
     name: PopParameters
+    no-loc:
+    - PopParameters
   - uid: com.microsoft.aad.msal4j.Prompt
     name: Prompt
+    no-loc:
+    - Prompt
   - uid: com.microsoft.aad.msal4j.PublicClientApplication
     name: PublicClientApplication
+    no-loc:
+    - PublicClientApplication
   - uid: com.microsoft.aad.msal4j.PublicClientApplication.Builder
     name: PublicClientApplication.Builder
+    no-loc:
+    - PublicClientApplication.Builder
   - uid: com.microsoft.aad.msal4j.RefreshTokenParameters
     name: RefreshTokenParameters
+    no-loc:
+    - RefreshTokenParameters
   - uid: com.microsoft.aad.msal4j.RefreshTokenParameters.RefreshTokenParametersBuilder
     name: RefreshTokenParameters.RefreshTokenParametersBuilder
+    no-loc:
+    - RefreshTokenParameters.RefreshTokenParametersBuilder
   - uid: com.microsoft.aad.msal4j.RequestedClaim
     name: RequestedClaim
+    no-loc:
+    - RequestedClaim
   - uid: com.microsoft.aad.msal4j.RequestedClaimAdditionalInfo
     name: RequestedClaimAdditionalInfo
+    no-loc:
+    - RequestedClaimAdditionalInfo
   - uid: com.microsoft.aad.msal4j.ResponseMode
     name: ResponseMode
+    no-loc:
+    - ResponseMode
   - uid: com.microsoft.aad.msal4j.SilentParameters
     name: SilentParameters
+    no-loc:
+    - SilentParameters
   - uid: com.microsoft.aad.msal4j.SilentParameters.SilentParametersBuilder
     name: SilentParameters.SilentParametersBuilder
+    no-loc:
+    - SilentParameters.SilentParametersBuilder
   - uid: com.microsoft.aad.msal4j.SystemBrowserOptions
     name: SystemBrowserOptions
+    no-loc:
+    - SystemBrowserOptions
   - uid: com.microsoft.aad.msal4j.SystemBrowserOptions.SystemBrowserOptionsBuilder
     name: SystemBrowserOptions.SystemBrowserOptionsBuilder
+    no-loc:
+    - SystemBrowserOptions.SystemBrowserOptionsBuilder
   - uid: com.microsoft.aad.msal4j.TokenCache
     name: TokenCache
+    no-loc:
+    - TokenCache
   - uid: com.microsoft.aad.msal4j.TokenCacheAccessContext
     name: TokenCacheAccessContext
+    no-loc:
+    - TokenCacheAccessContext
   - uid: com.microsoft.aad.msal4j.TokenCacheAccessContext.TokenCacheAccessContextBuilder
     name: TokenCacheAccessContext.TokenCacheAccessContextBuilder
+    no-loc:
+    - TokenCacheAccessContext.TokenCacheAccessContextBuilder
   - uid: com.microsoft.aad.msal4j.TokenProviderResult
     name: TokenProviderResult
+    no-loc:
+    - TokenProviderResult
   - uid: com.microsoft.aad.msal4j.TokenSource
     name: TokenSource
+    no-loc:
+    - TokenSource
   - uid: com.microsoft.aad.msal4j.UserAssertion
     name: UserAssertion
+    no-loc:
+    - UserAssertion
   - uid: com.microsoft.aad.msal4j.UserIdentifier
     name: UserIdentifier
+    no-loc:
+    - UserIdentifier
   - uid: com.microsoft.aad.msal4j.UserNamePasswordParameters
     name: UserNamePasswordParameters
+    no-loc:
+    - UserNamePasswordParameters
   - uid: com.microsoft.aad.msal4j.UserNamePasswordParameters.UserNamePasswordParametersBuilder
     name: UserNamePasswordParameters.UserNamePasswordParametersBuilder
+    no-loc:
+    - UserNamePasswordParameters.UserNamePasswordParametersBuilder
+  no-loc:
+  - com.microsoft.aad.msal4j
