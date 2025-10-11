@@ -32,7 +32,7 @@ Follow the topics below for detailed explanation with MSAL4J code usage for each
 
 - Acquire tokens [interactively with system browser](./acquiring-tokens-interactively.md)
 - Acquire tokens by [authorization code](./acquiring-tokens-with-authorization-codes.md) after letting the user sign-in through the authorization request URL.
-- It's also possible (but not recommended) to get a token with a [username and password](/entra/identity-platform/scenario-desktop-acquire-token?tabs=java#username--password).
+- It's also possible to get a token with a [username and password](/entra/identity-platform/scenario-desktop-acquire-token?tabs=java#username--password).(This flow has been deprecated)
 - For applications running on Windows machines and joined to a domain or to Microsoft Entra ID, it is possible to acquire a token silently, leveraging [Integrated Windows Authentication (IWA)](../advanced/integrated-windows-authentication.md).
 - Finally, for applications running on devices which don't have a web browser, it's possible to acquire a token through the [device code flow](./device-code-flow.md), which provides the user with a URL and a code. The user goes to a web browser on another device, enters the code and signs-in, and then Microsoft Entra ID returns back a token to the browser-less device.
 
