@@ -8,7 +8,7 @@ ms.author: dmwendia
 ms.date: 03/27/2025
 ms.service: msal
 ms.subservice: msal-java
-ms.topic: article
+ms.topic: overview
 #Customer intent: 
 ---
 

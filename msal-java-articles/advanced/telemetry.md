@@ -9,7 +9,7 @@ ms.date: 02/27/2024
 ms.reviewer:
 ms.service: msal
 ms.subservice: msal-java
-ms.topic: article
+ms.topic: how-to
 #Customer intent: 
 ---
 
