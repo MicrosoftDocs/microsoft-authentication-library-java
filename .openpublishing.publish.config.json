@@ -43,13 +43,13 @@
       "locale": "en-us",
       "monikers": [],
       "moniker_ranges": [],
+      "xref_query_tags": [
+        "/java"
+      ],
       "open_to_public_contributors": true,
       "type_mapping": {
         "Conceptual": "Content"
       },
-      "xref_query_tags": [
-        "/java"
-      ],
       "build_entry_point": "docs",
       "template_folder": "_themes"
     }
@@ -57,6 +57,8 @@
   "notification_subscribers": [],
   "sync_notification_subscribers": [],
   "branches_to_filter": [],
+  "git_repository_url_open_to_public_contributors": "",
+  "git_repository_branch_open_to_public_contributors": "",
   "need_preview_pull_request": true,
   "dependent_repositories": [
     {
@@ -67,7 +69,11 @@
     }
   ],
   "branch_target_mapping": {},
+  "targets": {},
   "docs_build_engine": {},
+  "skip_source_output_uploading": false,
+  "contribution_branch_mappings": {},
+  "need_generate_pdf_url_template": true,
   "JoinTOCPlugin": [
     {
       "TopLevelTOC": "java/docs-ref-mapping/reference.yml",
@@ -77,8 +83,6 @@
       "ConceptualTOCUrl": "/entra/msal/java/toc.json"
     }
   ],
-  "skip_source_output_uploading": false,
-  "contribution_branch_mappings": {},
   "dependent_packages": [
     {
       "id": "Microsoft.OpenPublishing.CommonPlugins",
@@ -94,6 +98,5 @@
       "target_framework": "net45",
       "version": "latest"
     }
-  ],
-  "need_generate_pdf_url_template": true
+  ]
 }
