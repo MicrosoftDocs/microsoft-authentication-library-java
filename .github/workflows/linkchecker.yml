@@ -1,7 +1,10 @@
 name: Validate existing links
 
 on:
+  pull_request:
   push:
+    branches-ignore:
+      - live
   repository_dispatch:
   workflow_dispatch:
   schedule:
