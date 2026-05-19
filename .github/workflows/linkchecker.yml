@@ -1,7 +1,10 @@
 name: Validate existing links
 
 on:
+  pull_request:
   push:
+    branches-ignore:
+      - live
   repository_dispatch:
   workflow_dispatch:
   schedule:
@@ -16,13 +19,19 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
+      - name: Resolve root-relative links for checking
+        run: |
+          # Convert root-relative markdown links like [text](/path) to [text](https://learn.microsoft.com/path)
+          # so lychee can validate them. This only modifies the CI checkout copy.
+          find . -name '*.md' -exec sed -i -E 's|\]\(/|\](https://learn.microsoft.com/|g' {} +
+
       - name: Link Checker
         id: lychee
         uses: lycheeverse/lychee-action@master
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
         with:
-          args: --accept=200,429,403,502,503 --verbose --no-progress './**/*.md'
+          args: --config=.lychee.toml --accept=200,429,403,502,503 --verbose --no-progress './**/*.md'
           fail: true
 
       - name: Create Issue From File
