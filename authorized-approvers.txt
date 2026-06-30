@@ -17,10 +17,10 @@
 # /FOLDER/ @MicrosoftDocs/msecd-org OPTIONAL_APPROVERS
 
 # Any repo changes beyond docs require PM owner approval.
-*                         @localden @jmprieur
+* @localden @jmprieur
 
 # Conceptual and API content needs the review of the engineering team.
-# /msal-java-articles/*    @MicrosoftDocs/msecd-org @MicrosoftDocs/identity-sdk-cca-engineering-team
+/msal-java-articles/ @MicrosoftDocs/msecd-org @MicrosoftDocs/identity-sdk-cca-engineering-team
 
 # API documentation does not have code owners, but that is OK.
 # Anyone can create a PR to the `main` branch and we will review
